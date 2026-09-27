@@ -1,0 +1,12 @@
+........................................This plugin does not support propagateSizeHints()
+..This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+.......This plugin does not support propagateSizeHints()
+.This plugin does not support propagateSizeHints()
+.This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+.............
+----------------------------------------------------------------------
+Ran 64 tests in 0.283s
+
+OK

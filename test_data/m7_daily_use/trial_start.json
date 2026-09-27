@@ -1,0 +1,38 @@
+{
+  "status": "Day 1 in progress",
+  "proposed_day_1": "2026-09-22",
+  "earliest_day_7_if_uninterrupted": "2026-09-28",
+  "timezone": "Europe/Berlin",
+  "trial_started": true,
+  "day_1_result": "baseline workflow validation recorded \u2014 full daily report pending",
+  "acceptance_checks": [
+    "catalog opens and functions",
+    "reader opens, reads, navigates and closes",
+    "application closes cleanly",
+    "KDE RC1 launcher reopens after normal shutdown",
+    "previously imported data remains available",
+    "normal operation requires no manual Docker commands"
+  ],
+  "trial_rules": [
+    "no new features",
+    "no UI changes",
+    "no schema changes",
+    "only critical-defect fixes preventing normal use",
+    "any candidate-changing fix restarts seven consecutive days"
+  ],
+  "note": "Start authorized after RC1 acceptance. No completed trial day or PASS result is inferred.",
+  "day_1": "2026-09-22",
+  "acceptance_result": "all six checks confirmed by user",
+  "user_confirmation": "yes, day one can begin",
+  "candidate": {
+    "label": "rc1",
+    "archive_sha256": "cb8ba49f26f4301dd5f116ae4ef758547c329d164638cbe04ad298a274a13513",
+    "image": "sha256:da0d06cee1517cbbc0b0b8910c3303b6ad3b47377445a76e47994e977f885783",
+    "local_env_sha256": "54115b1f63ebc277c4b890d24a0203bff3c9fc21344860ac3b22453a0cc28375"
+  },
+  "gate_status": "CONDITIONALLY ACCEPTED",
+  "planned_tests": "all passed, confirmed by owner",
+  "subsequent_work_authorized": true,
+  "remaining_condition": "Complete seven-day normal-use observation; non-blocking for subsequent work",
+  "future_gate_policy": "Test-based acceptance; no mandatory elapsed-time requirement"
+}

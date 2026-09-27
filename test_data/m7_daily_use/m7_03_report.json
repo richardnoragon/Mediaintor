@@ -1,0 +1,76 @@
+{
+  "started": "20260922-120535",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M7-Testing/backups/manual-20260922-120535",
+  "restore": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M7-Testing/restores/manual-20260922-120535",
+  "image": "sha256:da0d06cee1517cbbc0b0b8910c3303b6ad3b47377445a76e47994e977f885783",
+  "artifact_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "checks": [
+    {
+      "test": "manual_backup_exact_library_home_and_sources",
+      "passed": true
+    },
+    {
+      "test": "restore_exact_before_open",
+      "passed": true
+    },
+    {
+      "test": "restored_catalog_settings_identity_and_integrity_usable",
+      "passed": true
+    },
+    {
+      "test": "preserved_recovery_and_pending_import_bulk_without_save",
+      "passed": true
+    },
+    {
+      "test": "fresh_container_rediscovers_recovery_and_journals_without_replay",
+      "passed": true
+    },
+    {
+      "test": "legacy_caches_quarantined_with_tracked_program_hashes_verified",
+      "passed": true
+    },
+    {
+      "test": "prior_build_installed_without_data_change",
+      "passed": true
+    },
+    {
+      "test": "upgrade_to_candidate_retains_all_data",
+      "passed": true
+    },
+    {
+      "test": "upgraded_state_usable",
+      "passed": true
+    },
+    {
+      "test": "uninstall_preserves_library_settings_history_recovery",
+      "passed": true
+    },
+    {
+      "test": "uninstall_removes_launcher",
+      "passed": true
+    },
+    {
+      "test": "reinstall_preserves_retained_bytes",
+      "passed": true
+    },
+    {
+      "test": "reinstalled_state_usable_and_not_resumed",
+      "passed": true
+    },
+    {
+      "test": "review_draft_explicit_save_resolves_recovery_and_tag_restored",
+      "passed": true
+    },
+    {
+      "test": "primary_backup_unchanged",
+      "passed": true
+    },
+    {
+      "test": "active_environment_unchanged",
+      "passed": true
+    }
+  ],
+  "trial_started": false,
+  "status": "passed",
+  "recovery_restore": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M7-Testing/restores/with-recovery-20260922-120535"
+}

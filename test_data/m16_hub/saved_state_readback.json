@@ -1,0 +1,11 @@
+{
+  "book_count": 104,
+  "appearance": {
+    "theme": "Dark",
+    "accent": "Green",
+    "size": "Default",
+    "density": "Normal"
+  },
+  "installed_files_verified": 54,
+  "build": "0.1.0a1-c663cfd06375b1f1"
+}

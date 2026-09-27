@@ -1,0 +1,2642 @@
+[
+  {
+    "gutenberg_id": "1342",
+    "title": "Pride and Prejudice",
+    "authors": [
+      "Austen, Jane"
+    ],
+    "genre": "Romance",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1342",
+    "formats": [
+      "epub",
+      "mobi"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1342.epub",
+        "sha256": "c25cf3d9ad4d41147ecc6947debcf981a961fd6b69a4219d9892af50b934c8bb",
+        "bytes": 558381,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1342.mobi",
+        "sha256": "abcf4c5bf198f014047a62f158bc39c9f0ba3998ae473829412bcbb47631065a",
+        "bytes": 540013,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 2
+  },
+  {
+    "gutenberg_id": "161",
+    "title": "Sense and Sensibility",
+    "authors": [
+      "Austen, Jane"
+    ],
+    "genre": "Romance",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/161",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg161.epub",
+        "sha256": "7b4473803a6b4a3b9c68a932d90fda7af0fa560a5ba70dbd0ee9998040f79c06",
+        "bytes": 408681,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 3
+  },
+  {
+    "gutenberg_id": "158",
+    "title": "Emma",
+    "authors": [
+      "Austen, Jane"
+    ],
+    "genre": "Romance",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/158",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg158.epub",
+        "sha256": "cf91a5c868e6acfc5342a29eba74e2cfbe84f868647b458c8c3b97e69427f2e0",
+        "bytes": 475305,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 4
+  },
+  {
+    "gutenberg_id": "105",
+    "title": "Persuasion",
+    "authors": [
+      "Austen, Jane"
+    ],
+    "genre": "Romance",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/105",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg105.epub",
+        "sha256": "d3b85407df4c9389cbb7b76c48c641772d41a693638443201b7807c5abdb2596",
+        "bytes": 329682,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 5
+  },
+  {
+    "gutenberg_id": "141",
+    "title": "Mansfield Park",
+    "authors": [
+      "Austen, Jane"
+    ],
+    "genre": "Romance",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/141",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg141.epub",
+        "sha256": "a30eda533ca0e738e7fb2031f1f0532bab327f7ff5ed8660347d8730d8a9f2db",
+        "bytes": 476976,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 6
+  },
+  {
+    "gutenberg_id": "121",
+    "title": "Northanger Abbey",
+    "authors": [
+      "Austen, Jane"
+    ],
+    "genre": "Romance",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/121",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg121.epub",
+        "sha256": "2466e3607f44698389143cad195b4705cafd67e2ad4033ce4cdbe592c92dad5a",
+        "bytes": 285996,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 7
+  },
+  {
+    "gutenberg_id": "1260",
+    "title": "Jane Eyre: An Autobiography",
+    "authors": [
+      "Brontë, Charlotte"
+    ],
+    "genre": "Gothic fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1260",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1260.epub",
+        "sha256": "afced5466c9c6eda02752dd38816fc212d2531e48981f6d00d69f261b475a1eb",
+        "bytes": 607173,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 8
+  },
+  {
+    "gutenberg_id": "768",
+    "title": "Wuthering Heights",
+    "authors": [
+      "Brontë, Emily"
+    ],
+    "genre": "Gothic fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/768",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg768.epub",
+        "sha256": "d70e520827466e041cbad0ce6673aa36af7b4ba68925366ad3dc6964e1ec4390",
+        "bytes": 434616,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 9
+  },
+  {
+    "gutenberg_id": "145",
+    "title": "Middlemarch",
+    "authors": [
+      "Eliot, George"
+    ],
+    "genre": "Literary fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/145",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg145.epub",
+        "sha256": "62fdc739ca6425c56ed081a71e32ab6395d6fee06c19a5345018edf124f8b04f",
+        "bytes": 904978,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 10
+  },
+  {
+    "gutenberg_id": "1400",
+    "title": "Great Expectations",
+    "authors": [
+      "Dickens, Charles"
+    ],
+    "genre": "Literary fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1400",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1400.epub",
+        "sha256": "b8c505e03004d7b070f51c787ba6633a04069e7b9c612495512310be951fd710",
+        "bytes": 553503,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 11
+  },
+  {
+    "gutenberg_id": "98",
+    "title": "A Tale of Two Cities",
+    "authors": [
+      "Dickens, Charles"
+    ],
+    "genre": "Historical fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/98",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg98.epub",
+        "sha256": "d424acbb08ea09d91c6bac54459bd302623c747d01540ee5027c356e8c46f7db",
+        "bytes": 486877,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 12
+  },
+  {
+    "gutenberg_id": "730",
+    "title": "Oliver Twist",
+    "authors": [
+      "Dickens, Charles"
+    ],
+    "genre": "Literary fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/730",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg730.epub",
+        "sha256": "c5b030816e6243bf8ac8a7ba71964a8a1028ba775fe976771798d8eabf708c00",
+        "bytes": 505331,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 13
+  },
+  {
+    "gutenberg_id": "766",
+    "title": "David Copperfield",
+    "authors": [
+      "Dickens, Charles"
+    ],
+    "genre": "Literary fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/766",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg766.epub",
+        "sha256": "7bb2c5b1183d3859edde00dba615cd2a072641bce45366b592dd8ad3bb02738d",
+        "bytes": 971995,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 14
+  },
+  {
+    "gutenberg_id": "1023",
+    "title": "Bleak House",
+    "authors": [
+      "Dickens, Charles"
+    ],
+    "genre": "Literary fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1023",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1023.epub",
+        "sha256": "77c65c361123d480977446cb3aca07d311c641537dd27cb422926005bc6f5a0e",
+        "bytes": 1001978,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 15
+  },
+  {
+    "gutenberg_id": "46",
+    "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+    "authors": [
+      "Dickens, Charles"
+    ],
+    "genre": "Fantasy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/46",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg46.epub",
+        "sha256": "d7afda6d8594e061fcf76a591cd3a96fae5b43ea55826a77b78ceacd38c629d7",
+        "bytes": 147940,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg46.pdf",
+        "sha256": "f8ebd0998f675fbe78104b0fd63907d0c6de0d9e7e00468113063cf0585656df",
+        "bytes": 566921,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 16
+  },
+  {
+    "gutenberg_id": "174",
+    "title": "The Picture of Dorian Gray",
+    "authors": [
+      "Wilde, Oscar"
+    ],
+    "genre": "Gothic fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/174",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg174.epub",
+        "sha256": "fb0835bd38db0549e167df68dae7bc5a8057c39170113bccb4436d7680f7580c",
+        "bytes": 459884,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 17
+  },
+  {
+    "gutenberg_id": "84",
+    "title": "Frankenstein; or, the modern prometheus",
+    "authors": [
+      "Shelley, Mary Wollstonecraft"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/84",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg84.epub",
+        "sha256": "f717864263e32de0228d50bc8425b9b11fa675b995ab5ec45fc11eaecb8a2325",
+        "bytes": 356059,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 18
+  },
+  {
+    "gutenberg_id": "345",
+    "title": "Dracula",
+    "authors": [
+      "Stoker, Bram"
+    ],
+    "genre": "Horror",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/345",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg345.epub",
+        "sha256": "52106950124a9b75a26308a73855e717f4546c95f331528449a49417a77d18f2",
+        "bytes": 433062,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 19
+  },
+  {
+    "gutenberg_id": "43",
+    "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+    "authors": [
+      "Stevenson, Robert Louis"
+    ],
+    "genre": "Gothic fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/43",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg43.epub",
+        "sha256": "fd748fa858f128838e19c68df3694e10e1327abd9e80a569393c86cef48bb21a",
+        "bytes": 142187,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg43.pdf",
+        "sha256": "c4965d101c3181726f1fcc6eda388d8c9c162097c98efdd7191ebbf035130887",
+        "bytes": 460975,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 20
+  },
+  {
+    "gutenberg_id": "209",
+    "title": "The Turn of the Screw",
+    "authors": [
+      "James, Henry"
+    ],
+    "genre": "Gothic fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/209",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg209.epub",
+        "sha256": "2052176de492bf2b84dee9a1a51f511f81d0f561c80504de4ff6efda9d1b19cc",
+        "bytes": 183533,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 21
+  },
+  {
+    "gutenberg_id": "1661",
+    "title": "The Adventures of Sherlock Holmes",
+    "authors": [
+      "Doyle, Arthur Conan"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1661",
+    "formats": [
+      "epub",
+      "mobi"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1661.epub",
+        "sha256": "209a8fd827fa88a11f04253d5af10d47967eaa1df3a5c74120ba9aa5e855bba6",
+        "bytes": 311344,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1661.mobi",
+        "sha256": "a0b3b63dc2b85a61ac34bb8f0fb83a8d259b1a760d05c94f1816fc7ad4367e5e",
+        "bytes": 433198,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 22
+  },
+  {
+    "gutenberg_id": "2852",
+    "title": "The Hound of the Baskervilles",
+    "authors": [
+      "Doyle, Arthur Conan"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2852",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2852.epub",
+        "sha256": "b8ab4fbaf420d428f4f73928a007efb8cc7b2ee7a3f7851ddaa80712863a851b",
+        "bytes": 227917,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 23
+  },
+  {
+    "gutenberg_id": "244",
+    "title": "A Study in Scarlet",
+    "authors": [
+      "Doyle, Arthur Conan"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/244",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg244.epub",
+        "sha256": "76df519d3ce04fb50e2d2502328c62decb945e7c20a99d8cbd69e97fe707b252",
+        "bytes": 191937,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 24
+  },
+  {
+    "gutenberg_id": "3289",
+    "title": "The Valley of Fear",
+    "authors": [
+      "Doyle, Arthur Conan"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/3289",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg3289.epub",
+        "sha256": "b1d50c0ca9f0b199b4eea5a5cacdca5534f460666aa448c496cf02879d1a9d4a",
+        "bytes": 221533,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 25
+  },
+  {
+    "gutenberg_id": "834",
+    "title": "The Memoirs of Sherlock Holmes",
+    "authors": [
+      "Doyle, Arthur Conan"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/834",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg834.epub",
+        "sha256": "4c51c033c82990e05fa42bfcb326dbb73bb756d26bcbeec8b1f8960c0505eae5",
+        "bytes": 290916,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 26
+  },
+  {
+    "gutenberg_id": "155",
+    "title": "The Moonstone",
+    "authors": [
+      "Collins, Wilkie"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/155",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg155.epub",
+        "sha256": "00b8bfacab2af36f165b023bc7409065d7f8ff7b8bacdd5759f41dc831a41370",
+        "bytes": 553361,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 27
+  },
+  {
+    "gutenberg_id": "583",
+    "title": "The Woman in White",
+    "authors": [
+      "Collins, Wilkie"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/583",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg583.epub",
+        "sha256": "ee19725d6902a9b3482afc3ff2d961b449481211ddb0b87a53c73e3ad9d07e5c",
+        "bytes": 715675,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 28
+  },
+  {
+    "gutenberg_id": "1719",
+    "title": "The Ballad of the White Horse",
+    "authors": [
+      "Chesterton, G. K. (Gilbert Keith)"
+    ],
+    "genre": "Epic poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1719",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1719.epub",
+        "sha256": "29cdae3914fcb6d8209565d17000f3f86262c94d2cce703550e370fbfbb2b6bd",
+        "bytes": 119462,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 29
+  },
+  {
+    "gutenberg_id": "204",
+    "title": "The innocence of Father Brown",
+    "authors": [
+      "Chesterton, G. K. (Gilbert Keith)"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/204",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg204.epub",
+        "sha256": "0161c96427fda6b732d7d5f6872fb556ddf3cec26d01a7b24b57dce9652d3b68",
+        "bytes": 257182,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 30
+  },
+  {
+    "gutenberg_id": "1150",
+    "title": "The Danish History, Books I-IX",
+    "authors": [
+      "Saxo, Grammaticus"
+    ],
+    "genre": "History",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1150",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1150.epub",
+        "sha256": "dbd786697c356ccd951d9891ef63fb40ce2d3356fcb0864f6d2297f7b2ee6672",
+        "bytes": 453654,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 31
+  },
+  {
+    "gutenberg_id": "35",
+    "title": "The Time Machine",
+    "authors": [
+      "Wells, H. G. (Herbert George)"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/35",
+    "formats": [
+      "epub",
+      "mobi",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg35.epub",
+        "sha256": "773dd70e5aa8067a5319b83c50015f9733838056e8bc72d9543566b62a288c4b",
+        "bytes": 162394,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg35.mobi",
+        "sha256": "fad96fa8e39dfc516242fe5a14067149f5dad1d9be8576341293ddc39a1b183c",
+        "bytes": 202313,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg35.pdf",
+        "sha256": "a84e15e8504e4e387201a811ddac994638da9ac538a36c1aaee35f90b0a31383",
+        "bytes": 568549,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 32
+  },
+  {
+    "gutenberg_id": "36",
+    "title": "The war of the worlds",
+    "authors": [
+      "Wells, H. G. (Herbert George)"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/36",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg36.epub",
+        "sha256": "44a32e45059f43a7cff4607d4a2f8e13926c7ddc4f94a4d591d22e5747fd3382",
+        "bytes": 241643,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 33
+  },
+  {
+    "gutenberg_id": "5230",
+    "title": "The Invisible Man: A Grotesque Romance",
+    "authors": [
+      "Wells, H. G. (Herbert George)"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/5230",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg5230.epub",
+        "sha256": "291f424f6145dc47af2346cf0e13ce5596937e6bbb1db1f0be458fff4b14e067",
+        "bytes": 214536,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 34
+  },
+  {
+    "gutenberg_id": "159",
+    "title": "The island of Doctor Moreau",
+    "authors": [
+      "Wells, H. G. (Herbert George)"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/159",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg159.epub",
+        "sha256": "81e80c6f03da5896ca49b691c6c1b734dacd1dd5b8bb4255cfd925ff8ed5cc0a",
+        "bytes": 200188,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 35
+  },
+  {
+    "gutenberg_id": "62",
+    "title": "A princess of Mars",
+    "authors": [
+      "Burroughs, Edgar Rice"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/62",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg62.epub",
+        "sha256": "a24507a85cb4ebc6e6418feb63f973faf9e579cace228b0bfd1740ece9a63a86",
+        "bytes": 249454,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 36
+  },
+  {
+    "gutenberg_id": "164",
+    "title": "Twenty Thousand Leagues under the Sea",
+    "authors": [
+      "Verne, Jules"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/164",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg164.epub",
+        "sha256": "03ef20fbce9f2487f1a70dec9486d2119e2574a128ee3350530469b869161546",
+        "bytes": 369649,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 37
+  },
+  {
+    "gutenberg_id": "201",
+    "title": "Flatland: A Romance of Many Dimensions",
+    "authors": [
+      "Abbott, Edwin Abbott"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/201",
+    "formats": [
+      "epub",
+      "mobi"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg201.epub",
+        "sha256": "0bb29cfada04c685703fc6d01afe13a15429647f58e5088f5f93606a125a72ae",
+        "bytes": 150032,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg201.mobi",
+        "sha256": "5b3b0d6d93c009a0d6025eff2ea7679f50cae45c955d0cd2ca76b25b457ec3c7",
+        "bytes": 236335,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 38
+  },
+  {
+    "gutenberg_id": "18857",
+    "title": "A Journey to the Centre of the Earth",
+    "authors": [
+      "Verne, Jules"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/18857",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg18857.epub",
+        "sha256": "66dc850905b7c4e7000b529c0a12e46851e45ef8dda41395f8803af96218c8dd",
+        "bytes": 281333,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 39
+  },
+  {
+    "gutenberg_id": "624",
+    "title": "Looking Backward, 2000 to 1887",
+    "authors": [
+      "Bellamy, Edward"
+    ],
+    "genre": "Science fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/624",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg624.epub",
+        "sha256": "593344b1807bd708c36e7d7475312d1757f9007a3cff27f3143126ba0c3431ed",
+        "bytes": 246345,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 40
+  },
+  {
+    "gutenberg_id": "123",
+    "title": "At the Earth's Core",
+    "authors": [
+      "Burroughs, Edgar Rice"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/123",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg123.epub",
+        "sha256": "0df7d557fce517a3d3fe06f32dcb68abbb613de0b22f90bab6f397f583a14c31",
+        "bytes": 189246,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 41
+  },
+  {
+    "gutenberg_id": "120",
+    "title": "Treasure Island",
+    "authors": [
+      "Stevenson, Robert Louis"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/120",
+    "formats": [
+      "epub",
+      "mobi"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg120.epub",
+        "sha256": "5f6027f3ca2597990d117c28e0acaf855daae8a3059b3088f727cbfc8a00fe67",
+        "bytes": 273475,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg120.mobi",
+        "sha256": "abc2784944d2846216f995cb6cfd6d08ecf7b8135e7f5f7b610d2bcc37dce2f3",
+        "bytes": 346974,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 42
+  },
+  {
+    "gutenberg_id": "1184",
+    "title": "The Count of Monte Cristo",
+    "authors": [
+      "Dumas, Alexandre",
+      "Maquet, Auguste"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1184",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1184.epub",
+        "sha256": "533d23f8b12e31c1349aa11174622efcdd816d4d93219d4bd506fe09b850e31b",
+        "bytes": 1292693,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 43
+  },
+  {
+    "gutenberg_id": "1257",
+    "title": "The three musketeers",
+    "authors": [
+      "Dumas, Alexandre",
+      "Maquet, Auguste"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1257",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1257.epub",
+        "sha256": "977c86c23586d15831fcd27d025053b7c67059912f5fc14b4af5831bdbe3f8ef",
+        "bytes": 678068,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 44
+  },
+  {
+    "gutenberg_id": "103",
+    "title": "Around the World in Eighty Days",
+    "authors": [
+      "Verne, Jules"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/103",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg103.epub",
+        "sha256": "0aebdffa244ace1362bdbf016bbf2769dc15afbc166fb11b2d450bfeadef5f5b",
+        "bytes": 268522,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 45
+  },
+  {
+    "gutenberg_id": "76",
+    "title": "Adventures of Huckleberry Finn",
+    "authors": [
+      "Twain, Mark"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/76",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg76.epub",
+        "sha256": "fb47de0fdb1fa9ad7ad68e6c586beeb07d8ea72082f833cf0aa8220153edc0bc",
+        "bytes": 346307,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 46
+  },
+  {
+    "gutenberg_id": "74",
+    "title": "The Adventures of Tom Sawyer, Complete",
+    "authors": [
+      "Twain, Mark"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/74",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg74.epub",
+        "sha256": "92a0e03b2335fa3a5088f966425caa90e788a483d32ce608429d232d0495472f",
+        "bytes": 287897,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 47
+  },
+  {
+    "gutenberg_id": "166",
+    "title": "Summer",
+    "authors": [
+      "Wharton, Edith"
+    ],
+    "genre": "Literary fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/166",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg166.epub",
+        "sha256": "15e651da1ca25c9dab8e7284d739593b7d857f594f30347719da072029a2647d",
+        "bytes": 205003,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 48
+  },
+  {
+    "gutenberg_id": "219",
+    "title": "Heart of Darkness",
+    "authors": [
+      "Conrad, Joseph"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/219",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg219.epub",
+        "sha256": "435ee5f44508f8fa49bf1928219607ceb7e83f595c489451bbb0b4cce73ea20f",
+        "bytes": 163211,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 49
+  },
+  {
+    "gutenberg_id": "215",
+    "title": "The call of the wild",
+    "authors": [
+      "London, Jack"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/215",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg215.epub",
+        "sha256": "1c62b4f4b217541c0ad71c7d840561325f1b93f766b195dfcfed04e61ce4c3a7",
+        "bytes": 156000,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 50
+  },
+  {
+    "gutenberg_id": "2097",
+    "title": "The Sign of the Four",
+    "authors": [
+      "Doyle, Arthur Conan"
+    ],
+    "genre": "Mystery",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2097",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2097.epub",
+        "sha256": "0ee225a9a3b5fbc25ca6de4074d13c59578c56d28a277280d96091bf64979f55",
+        "bytes": 187367,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 51
+  },
+  {
+    "gutenberg_id": "11",
+    "title": "Alice's Adventures in Wonderland",
+    "authors": [
+      "Carroll, Lewis"
+    ],
+    "genre": "Fantasy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/11",
+    "formats": [
+      "epub",
+      "mobi",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg11.epub",
+        "sha256": "d6524a6b578de2fe63f9cf6e8be010158560ca32f05157e4fa58e6f210707d08",
+        "bytes": 136519,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg11.mobi",
+        "sha256": "c6de8f83459904177eac2623aa653ef57483ed6968078c8fc3d3171f20e06408",
+        "bytes": 190274,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg11.pdf",
+        "sha256": "19e086297f6489aae515d860f34230b49fd7dd679e29966d375b49b0e085e8d8",
+        "bytes": 492578,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 52
+  },
+  {
+    "gutenberg_id": "12",
+    "title": "Through the Looking-Glass",
+    "authors": [
+      "Carroll, Lewis"
+    ],
+    "genre": "Fantasy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/12",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg12.epub",
+        "sha256": "38e55220522cb9ce9c6485d322501e791c3a991aaf1f387dcb091a440ba9d0b8",
+        "bytes": 143630,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 53
+  },
+  {
+    "gutenberg_id": "55",
+    "title": "The Wonderful Wizard of Oz",
+    "authors": [
+      "Baum, L. Frank (Lyman Frank)"
+    ],
+    "genre": "Fantasy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/55",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg55.epub",
+        "sha256": "08452e4a7d700e2ae9104534aa56eecfbc225740d034c033eae1ddfb6b217275",
+        "bytes": 181284,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 54
+  },
+  {
+    "gutenberg_id": "16",
+    "title": "Peter Pan: [Peter and Wendy]",
+    "authors": [
+      "Barrie, J. M. (James Matthew)"
+    ],
+    "genre": "Fantasy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/16",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg16.epub",
+        "sha256": "0fbec2722aec6e1b714b71e4591d59794b81894f968a008c9cfe53923932fbe6",
+        "bytes": 390213,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 55
+  },
+  {
+    "gutenberg_id": "113",
+    "title": "The Secret Garden",
+    "authors": [
+      "Burnett, Frances Hodgson"
+    ],
+    "genre": "Children's fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/113",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg113.epub",
+        "sha256": "c357d008f31bb8f84c96500d66cca391cf6da6ffbab9e7eb04df4697297f76fa",
+        "bytes": 270457,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 56
+  },
+  {
+    "gutenberg_id": "45",
+    "title": "Anne of Green Gables",
+    "authors": [
+      "Montgomery, L. M. (Lucy Maud)"
+    ],
+    "genre": "Children's fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/45",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg45.epub",
+        "sha256": "b86e9815aecad43c78460c298585002a5d6074ef93c1e130ed9ac16667f48447",
+        "bytes": 330396,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 57
+  },
+  {
+    "gutenberg_id": "514",
+    "title": "Little Women",
+    "authors": [
+      "Alcott, Louisa May"
+    ],
+    "genre": "Children's fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/514",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg514.epub",
+        "sha256": "895b61bcb7cb4bb78fd0e203daaf080451b5da7f72da0b5ba85939e8bd9145a9",
+        "bytes": 549228,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 58
+  },
+  {
+    "gutenberg_id": "996",
+    "title": "Don Quixote",
+    "authors": [
+      "Cervantes Saavedra, Miguel de"
+    ],
+    "genre": "Satire",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/996",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg996.epub",
+        "sha256": "dba65db312e53aebb10c911cb7dc801c2d856d0f75558de2f0093c4d09b3233a",
+        "bytes": 1193209,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 59
+  },
+  {
+    "gutenberg_id": "236",
+    "title": "The Jungle Book",
+    "authors": [
+      "Kipling, Rudyard"
+    ],
+    "genre": "Children's fiction",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/236",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg236.epub",
+        "sha256": "b54c0ebc400441378f0b265315c5e4b3ba46184dcab6ae25eaa46a9035fe9a2b",
+        "bytes": 182017,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 60
+  },
+  {
+    "gutenberg_id": "829",
+    "title": "Gulliver's Travels into Several Remote Nations of the World",
+    "authors": [
+      "Swift, Jonathan"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/829",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg829.epub",
+        "sha256": "96712a1b1f9001ea73c1b8df932b26d3c5b2d3342381e01b3087739feba2ae59",
+        "bytes": 357451,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 61
+  },
+  {
+    "gutenberg_id": "2591",
+    "title": "Grimms' Fairy Tales",
+    "authors": [
+      "Grimm, Jacob",
+      "Grimm, Wilhelm"
+    ],
+    "genre": "Folklore",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2591",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2591.epub",
+        "sha256": "c742eefae9154c58eed22f0649f63e01fb4a357d82b46477ab8018b2aa295ae8",
+        "bytes": 326290,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 62
+  },
+  {
+    "gutenberg_id": "21",
+    "title": "Three hundred Aesop’s fables Translated by George Fyler Townsend",
+    "authors": [
+      "Aesop"
+    ],
+    "genre": "Fables",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/21",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg21.epub",
+        "sha256": "44fde8e0b4ab8f29fd4cc448491e24ddf02d67fb537a21967760c7e2e98c3737",
+        "bytes": 401666,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 63
+  },
+  {
+    "gutenberg_id": "14916",
+    "title": "Fairy Tales Every Child Should Know",
+    "authors": [],
+    "genre": "Folklore",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/14916",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg14916.epub",
+        "sha256": "0a3dc89904e8787d34af1ae41147d1bb821b61b67ddd9ce72234057ecb67922b",
+        "bytes": 304966,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 64
+  },
+  {
+    "gutenberg_id": "1597",
+    "title": "Andersen's Fairy Tales",
+    "authors": [
+      "Andersen, H. C. (Hans Christian)"
+    ],
+    "genre": "Folklore",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1597",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1597.epub",
+        "sha256": "9b84445b65c6a9df117c69bcab11c5e3ec961c55010b3a5b5337760d6979b709",
+        "bytes": 217369,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 65
+  },
+  {
+    "gutenberg_id": "5314",
+    "title": "Household Tales by Brothers Grimm",
+    "authors": [
+      "Grimm, Jacob",
+      "Grimm, Wilhelm"
+    ],
+    "genre": "Folklore",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/5314",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg5314.epub",
+        "sha256": "cdc85408a933d4f85cc8c2b0a21cdb69f268ea724b64b32471781b4e338e0b05",
+        "bytes": 816022,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 66
+  },
+  {
+    "gutenberg_id": "1514",
+    "title": "A Midsummer Night's Dream",
+    "authors": [
+      "Shakespeare, William"
+    ],
+    "genre": "Drama",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1514",
+    "formats": [
+      "epub",
+      "mobi",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg1514.epub",
+        "sha256": "20fe871e13976677251130d0113f969aafc766be10f5298984d52417169e2dad",
+        "bytes": 187913,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1514.mobi",
+        "sha256": "fe11c4c29d055818f4d1dd5596f9f308d5d4523f3d9aa58134c038b40fe41706",
+        "bytes": 160257,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1514.pdf",
+        "sha256": "0453eb3d3e445722401915b7fe1c45336c408f94658993ecf00f39d54fb1ba0b",
+        "bytes": 442357,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 67
+  },
+  {
+    "gutenberg_id": "1513",
+    "title": "Romeo and Juliet",
+    "authors": [
+      "Shakespeare, William"
+    ],
+    "genre": "Drama",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1513",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1513.epub",
+        "sha256": "d8e2deda0fe5ed56e191680918a52b0b27dbb19c4d492800c6638cd97badf7c5",
+        "bytes": 199123,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 68
+  },
+  {
+    "gutenberg_id": "1524",
+    "title": "Hamlet",
+    "authors": [
+      "Shakespeare, William"
+    ],
+    "genre": "Drama",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1524",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1524.epub",
+        "sha256": "34eb9d6af18a80458553ce0fd12f86d8a3c7c3cc183ffb831a12747590ee4655",
+        "bytes": 213915,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 69
+  },
+  {
+    "gutenberg_id": "1533",
+    "title": "Macbeth",
+    "authors": [
+      "Shakespeare, William"
+    ],
+    "genre": "Drama",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1533",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1533.epub",
+        "sha256": "46b1aaf813c7ff4d88566cc85aab04dac7060265dbf5776d742d10d8cc8bea8b",
+        "bytes": 183069,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 70
+  },
+  {
+    "gutenberg_id": "1531",
+    "title": "Othello",
+    "authors": [
+      "Shakespeare, William"
+    ],
+    "genre": "Drama",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1531",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1531.epub",
+        "sha256": "027dd19539119ecbb349d7714baccfc0342f095403eadf927b9429e0b3c91aa7",
+        "bytes": 202242,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 71
+  },
+  {
+    "gutenberg_id": "844",
+    "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+    "authors": [
+      "Wilde, Oscar"
+    ],
+    "genre": "Drama",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/844",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg844.epub",
+        "sha256": "5013d7515d5b8b1a036279fcff3d7d2af2e1de26536028b7f72859335b308a24",
+        "bytes": 104216,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 72
+  },
+  {
+    "gutenberg_id": "2542",
+    "title": "A Doll's House : a play",
+    "authors": [
+      "Ibsen, Henrik"
+    ],
+    "genre": "Drama",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2542",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2542.epub",
+        "sha256": "dd5e6c08192e4d58d95b2e7013f3226acf29d3586f15990e7e788b6bfb7329c4",
+        "bytes": 163848,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 73
+  },
+  {
+    "gutenberg_id": "1041",
+    "title": "Shakespeare's Sonnets",
+    "authors": [
+      "Shakespeare, William"
+    ],
+    "genre": "Poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1041",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg1041.epub",
+        "sha256": "614527c950b443be990bef55d3ebb5e1644c45eea763980df82a9b22b9be671c",
+        "bytes": 223482,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1041.pdf",
+        "sha256": "c3e6b9453f96848284bc6b8d8f6c141f97b4a839e5b35a5475733f84f10d31c6",
+        "bytes": 625496,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 74
+  },
+  {
+    "gutenberg_id": "1322",
+    "title": "Leaves of Grass",
+    "authors": [
+      "Whitman, Walt"
+    ],
+    "genre": "Poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1322",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1322.epub",
+        "sha256": "eda80d46ea4f14a1779d01951179af93d250167e05c1e0a46a01859cda455085",
+        "bytes": 685211,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 75
+  },
+  {
+    "gutenberg_id": "20",
+    "title": "Paradise Lost",
+    "authors": [
+      "Milton, John"
+    ],
+    "genre": "Poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/20",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg20.epub",
+        "sha256": "78f76d5ea8cb2fdef02fd4627e859a08e3618c54e0a084dc290710c06c75797f",
+        "bytes": 397755,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 76
+  },
+  {
+    "gutenberg_id": "6130",
+    "title": "The Iliad",
+    "authors": [
+      "Homer"
+    ],
+    "genre": "Epic poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/6130",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg6130.epub",
+        "sha256": "f70083ecd8a174795f65a7098c4ae06a12163624089015b21a6debc182899c87",
+        "bytes": 782957,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 77
+  },
+  {
+    "gutenberg_id": "1727",
+    "title": "The Odyssey Rendered into English prose for the use of those who cannot read the original",
+    "authors": [
+      "Homer"
+    ],
+    "genre": "Epic poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1727",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1727.epub",
+        "sha256": "af9b1e35583d455b9ab81b379bdc150ae22f25c004c8c95b978d946b0dfd6fc8",
+        "bytes": 380350,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 78
+  },
+  {
+    "gutenberg_id": "16328",
+    "title": "Beowulf: An Anglo-Saxon Epic Poem",
+    "authors": [],
+    "genre": "Epic poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/16328",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg16328.epub",
+        "sha256": "b907e0a27ac5cf8278c03923cb98c95f62197184f0368bf81436e603accc78e4",
+        "bytes": 291758,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 79
+  },
+  {
+    "gutenberg_id": "14591",
+    "title": "Faust [part 1]. Translated Into English in the Original Metres",
+    "authors": [
+      "Goethe, Johann Wolfgang von"
+    ],
+    "genre": "Poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/14591",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg14591.epub",
+        "sha256": "56fe186e92b79e3724b39e0f3af006d1ddfb25786cc282b9ec68725116d77340",
+        "bytes": 254851,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 80
+  },
+  {
+    "gutenberg_id": "1065",
+    "title": "The Raven",
+    "authors": [
+      "Poe, Edgar Allan"
+    ],
+    "genre": "Poetry",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1065",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg1065.epub",
+        "sha256": "ae1c7d5448972ad5906f362433f408ba38254f8b366a9401e7e6aa815f9ff5f0",
+        "bytes": 72978,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1065.pdf",
+        "sha256": "784a555bd6da79dad57e884a9c2df5cbd80c25c9924c6b65a586edc3a439123d",
+        "bytes": 161513,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 81
+  },
+  {
+    "gutenberg_id": "1232",
+    "title": "The Prince",
+    "authors": [
+      "Machiavelli, Niccolò"
+    ],
+    "genre": "Political philosophy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1232",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1232.epub",
+        "sha256": "91b8f5c8af434ca258d933f7ab481d319091d8b61bb9ea3a165fe8ae77396576",
+        "bytes": 216866,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 82
+  },
+  {
+    "gutenberg_id": "1497",
+    "title": "The Republic",
+    "authors": [
+      "Plato"
+    ],
+    "genre": "Philosophy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1497",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1497.epub",
+        "sha256": "1c574f8a2d99adb24a44cab01f3972fa7751d2666349c99f71f655ed83816e8b",
+        "bytes": 523760,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 83
+  },
+  {
+    "gutenberg_id": "2680",
+    "title": "Meditations",
+    "authors": [
+      "Marcus Aurelius, Emperor of Rome"
+    ],
+    "genre": "Philosophy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2680",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2680.epub",
+        "sha256": "05cb8ac0629d2f72e1a4b594b069cf3776e53c4ca6948d8f7c8c92825f19832f",
+        "bytes": 305915,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 84
+  },
+  {
+    "gutenberg_id": "2701",
+    "title": "Moby Dick; Or, The Whale",
+    "authors": [
+      "Melville, Herman"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2701",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2701.epub",
+        "sha256": "81d6fa4e416843c2a5c1a85a21d2d437419db4d16b0db032e026f61410bd9aca",
+        "bytes": 726981,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 85
+  },
+  {
+    "gutenberg_id": "3207",
+    "title": "Leviathan",
+    "authors": [
+      "Hobbes, Thomas"
+    ],
+    "genre": "Philosophy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/3207",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg3207.epub",
+        "sha256": "2b877162e05bbbd587906b4932543f6232f7fa5e25dee7599cd100bef02a287b",
+        "bytes": 846590,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 86
+  },
+  {
+    "gutenberg_id": "3600",
+    "title": "Essays of Michel de Montaigne — Complete",
+    "authors": [
+      "Montaigne, Michel de"
+    ],
+    "genre": "Essays",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/3600",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg3600.epub",
+        "sha256": "d9930f782e6abc63841f8d4e28fc021ef29089ef713ff38582c8da614e0c0831",
+        "bytes": 1368037,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 87
+  },
+  {
+    "gutenberg_id": "1998",
+    "title": "Thus Spake Zarathustra: A Book for All and None",
+    "authors": [
+      "Nietzsche, Friedrich Wilhelm"
+    ],
+    "genre": "Philosophy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1998",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg1998.epub",
+        "sha256": "b0628bcf98871f745129452dcdd1c634f3394dc4f4fecff2eea9a30d84be7263",
+        "bytes": 520781,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 88
+  },
+  {
+    "gutenberg_id": "2814",
+    "title": "Dubliners",
+    "authors": [
+      "Joyce, James"
+    ],
+    "genre": "Short stories",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2814",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2814.epub",
+        "sha256": "7a93ba475e4ceb432798b75f6f94f5df1dba4214eef5acf455c3678e53277049",
+        "bytes": 234346,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 89
+  },
+  {
+    "gutenberg_id": "1656",
+    "title": "Apology",
+    "authors": [
+      "Plato"
+    ],
+    "genre": "Philosophy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1656",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg1656.epub",
+        "sha256": "8667553bb5b45a9cc78949854492fd8dc38dc518ea0ac787b746039f2b50ecb8",
+        "bytes": 91249,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1656.pdf",
+        "sha256": "235383ef59b03ba10d72648c92653f0babd8d68f2b2b0bbedf83ed53615f7b7b",
+        "bytes": 323074,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 90
+  },
+  {
+    "gutenberg_id": "1080",
+    "title": "A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+    "authors": [
+      "Swift, Jonathan"
+    ],
+    "genre": "Satire",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/1080",
+    "formats": [
+      "epub",
+      "mobi",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg1080.epub",
+        "sha256": "9f7cd01d9a45b0d812b31ca10ef7d01371b44ff9e6480ddb35cb12d248ea039a",
+        "bytes": 107314,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1080.mobi",
+        "sha256": "fe6e6ee54145cf189f1f76070b3fe2fc900f835fa7afabf3e238d278b4a7d970",
+        "bytes": 185888,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg1080.pdf",
+        "sha256": "29167e1f86e3ea57338357579a6734730b36b0e0a0e81f6e6be46b62935bc831",
+        "bytes": 207042,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 91
+  },
+  {
+    "gutenberg_id": "2009",
+    "title": "The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in the Struggle for Life, 6th Edition",
+    "authors": [
+      "Darwin, Charles"
+    ],
+    "genre": "Natural history",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2009",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2009.epub",
+        "sha256": "648d1f60f136627336daea5858b482e6655b8e09e5f3d74999a4f9cc22b85fad",
+        "bytes": 544861,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 92
+  },
+  {
+    "gutenberg_id": "944",
+    "title": "The Voyage of the Beagle",
+    "authors": [
+      "Darwin, Charles"
+    ],
+    "genre": "Travel",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/944",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg944.epub",
+        "sha256": "6f2d067fda22039798030b13664ccb2f2d150b95d909aeb69c2674e0b73a7985",
+        "bytes": 584847,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 93
+  },
+  {
+    "gutenberg_id": "205",
+    "title": "Walden, and On The Duty Of Civil Disobedience",
+    "authors": [
+      "Thoreau, Henry David"
+    ],
+    "genre": "Nature",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/205",
+    "formats": [
+      "epub",
+      "mobi"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg205.epub",
+        "sha256": "5084cf2d77e4664980dea01691452ff80c3c9263b809365e85486d0c5859e91c",
+        "bytes": 389119,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg205.mobi",
+        "sha256": "f4d886e7d36234c96df77fb1a3ed3c6887057288ecd81bddb0259d8cf1863795",
+        "bytes": 518056,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 94
+  },
+  {
+    "gutenberg_id": "20203",
+    "title": "Autobiography of Benjamin Franklin",
+    "authors": [
+      "Franklin, Benjamin"
+    ],
+    "genre": "Autobiography",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/20203",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg20203.epub",
+        "sha256": "2aaeef833fb0fba062ef8f30e71ab488dedb4e743a058593f921cc3789925d00",
+        "bytes": 216107,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 95
+  },
+  {
+    "gutenberg_id": "23",
+    "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "authors": [
+      "Douglass, Frederick"
+    ],
+    "genre": "Autobiography",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/23",
+    "formats": [
+      "epub",
+      "mobi",
+      "pdf"
+    ],
+    "pdf_converted": true,
+    "files": [
+      {
+        "name": "pg23.epub",
+        "sha256": "b8e297170df6bcae4c23a634b747f0e4754f449845ecf842abcd1ea4b1162448",
+        "bytes": 175561,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg23.mobi",
+        "sha256": "2de074d5731836c985a45a420fa7d98cb860948daecbb2e6c969eac699ffbce4",
+        "bytes": 389859,
+        "origin": "Project Gutenberg rsync mirror"
+      },
+      {
+        "name": "pg23.pdf",
+        "sha256": "af5b268866460de6eb7f168a19ce6fc0722e197e39ee0084c7e288efd0015ee3",
+        "bytes": 665601,
+        "origin": "Calibre conversion from downloaded EPUB"
+      }
+    ],
+    "calibre_id": 96
+  },
+  {
+    "gutenberg_id": "2020",
+    "title": "Tarzan the Terrible",
+    "authors": [
+      "Burroughs, Edgar Rice"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/2020",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg2020.epub",
+        "sha256": "b3e66bbfc63a01447c03631d132ed066eb2b49ba0d352d2c401eaed24ab8610b",
+        "bytes": 285375,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 97
+  },
+  {
+    "gutenberg_id": "521",
+    "title": "The Life and Adventures of Robinson Crusoe",
+    "authors": [
+      "Defoe, Daniel"
+    ],
+    "genre": "Adventure",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/521",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg521.epub",
+        "sha256": "683478673d6237609d0e499f2d795d6ef13f16ce41fd5dd04591714c49c708d0",
+        "bytes": 326171,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 98
+  },
+  {
+    "gutenberg_id": "10681",
+    "title": "Roget's Thesaurus of English Words and Phrases",
+    "authors": [
+      "Roget, Peter Mark"
+    ],
+    "genre": "Reference",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/10681",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg10681.epub",
+        "sha256": "655435c35752480a37066b731b674858c676982b0e9a04587a8f7653d4330549",
+        "bytes": 2108751,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 99
+  },
+  {
+    "gutenberg_id": "815",
+    "title": "Democracy in America — Volume 1",
+    "authors": [
+      "Tocqueville, Alexis de"
+    ],
+    "genre": "History",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/815",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg815.epub",
+        "sha256": "fc6a3e51545669a30894cddc402ba1b13eb28f5877e71696eb9ee315243b4deb",
+        "bytes": 541819,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 100
+  },
+  {
+    "gutenberg_id": "4363",
+    "title": "Beyond Good and Evil",
+    "authors": [
+      "Nietzsche, Friedrich Wilhelm"
+    ],
+    "genre": "Philosophy",
+    "rights": [
+      "Public domain in the USA."
+    ],
+    "source": "https://www.gutenberg.org/ebooks/4363",
+    "formats": [
+      "epub"
+    ],
+    "pdf_converted": false,
+    "files": [
+      {
+        "name": "pg4363.epub",
+        "sha256": "bb7c0261c3cdc1373397733c833f274ae17f8523a032369e5bfa99bc94848c68",
+        "bytes": 242221,
+        "origin": "Project Gutenberg rsync mirror"
+      }
+    ],
+    "calibre_id": 101
+  }
+]

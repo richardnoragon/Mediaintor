@@ -1,0 +1,19 @@
+{
+  "A01_library_selection_saved": true,
+  "load_seconds": 0.405,
+  "catalog_records": 101,
+  "format_paths": 121,
+  "covers_present": 101,
+  "A03_equivalent_views": true,
+  "A04_format_dispatch_checked": 121,
+  "A05_search_counts": {
+    "title": 1,
+    "author": 6,
+    "absent": 0
+  },
+  "A07_unknown_missing_cover_file": true,
+  "A08_unavailable_library_preserves_catalog": true,
+  "A02_A10_restart_settings_module_selection": true,
+  "A11_source_hashes_unchanged": true,
+  "status": "Automated catalog/UI checks passed; app-launched reader desktop/lifecycle checks pending"
+}

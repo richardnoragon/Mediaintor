@@ -1,0 +1,19 @@
+snapshot 3.0109996700193733
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+loaded/render 0.15637546699144877
+all 10000 UI median 0.02377586100192275
+generated 9632 UI median 0.022049512990633957
+specific 1 UI median 0.004727061997982673
+tag 247 UI median 0.008419605976087041
+tag_any 494 UI median 0.007847249493352138
+unknown 10000 UI median 0.02550601500843186
+This plugin does not support propagateSizeHints()
+advanced unread_series_cover 41 0.003089084493694827
+advanced missing_author_or_title 505 0.0030838999955449253
+advanced tags_all 35 0.0029631584911840037
+advanced tags_any 1627 0.003136487997835502
+advanced review 3092 0.0044347840012051165
+duplicates 100 180 search median 0.00430760599556379
+benchmark complete

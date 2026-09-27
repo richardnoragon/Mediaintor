@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-09-24T10:00:51.499450+00:00",
+  "build": "0.1.0a1-db6a7fb8885f9bd9",
+  "method": "Read-only inspection after owner normal shutdown; no running Docker containers",
+  "database_check": "ok",
+  "books": 104,
+  "local_discard_tag_saved": false,
+  "recovery_acceptance_tag_saved": true,
+  "recovery_states": {
+    "fd35c048-4292-42de-9269-4d316c6868e6": "recovered",
+    "b598c2bc-79cf-4ca4-9e71-e559a720e398": "recovered",
+    "fd6abc6f-a547-452e-b237-520f007ee245": "recovered",
+    "aadae5a0-27a2-4816-8ebc-5e10af97a50d": "discarded"
+  },
+  "persuasion_tags": [
+    "Romance",
+    "mediainator-test-100"
+  ],
+  "batches": {
+    "f0b3622c-38e4-49e8-96cd-91e8e8ff5e69": {
+      "states": [
+        "complete"
+      ],
+      "sha256": "406182d18c9816ae93e22294adfde9741365bbc7c145c882d222e8fdbaa6aad7"
+    },
+    "0decf0be-9421-4db6-83a4-43231ddc90fe": {
+      "states": [
+        "complete"
+      ],
+      "sha256": "ac59ae944912e260795fd896e213295389d8afbc4ea189ef27d59a14924af058"
+    }
+  },
+  "imported_epub_matches_original": true,
+  "source_sha256": "6672a7b1551f44ca45a44c1d45d674024c78585ec371cfa56ecf5a454ee50818",
+  "named_workspaces": [
+    "M11 Everyday"
+  ],
+  "startup": "last_session",
+  "last_session_selection": {
+    "library_uuid": "43d9a765-ab8c-49f1-878e-62fe98bedf24",
+    "book_uuid": "d145f3a1-2382-4fe7-bc40-26208145311c"
+  },
+  "reading_position": "epubcfi(/2/2/4/122/1:127)",
+  "m12_entries_unchanged": 770,
+  "gate": "M13-G CLOSED \u2014 owner final restart confirmation received"
+}

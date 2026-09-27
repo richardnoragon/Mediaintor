@@ -1,0 +1,21 @@
+[
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.mobi"
+    ],
+    "id": 2,
+    "identifiers": {
+      "gutenberg": "1342",
+      "uri": "http://www.gutenberg.org/1342"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Pride and Prejudice",
+    "uuid": "0dc7400a-06e5-409a-bb0e-b228a93fd4a4"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "library": "/tmp/calibre-ql_kyyid/mediainator-m4-faults-vt27i1cr/library",
+  "source_unchanged": true,
+  "checks": [
+    {
+      "test": "partial_series_commit_and_failed_number_observed",
+      "passed": true
+    },
+    {
+      "test": "own_partial_value_not_external_conflict",
+      "passed": true
+    },
+    {
+      "test": "retry_preserves_original_before",
+      "passed": true
+    },
+    {
+      "test": "revert_restores_original_coupled_values",
+      "passed": true
+    },
+    {
+      "test": "unacknowledged_commit_keeps_intent",
+      "passed": true
+    },
+    {
+      "test": "unacknowledged_commit_recovered",
+      "passed": true
+    },
+    {
+      "test": "library_identity_rejected",
+      "passed": true
+    },
+    {
+      "test": "library_lock_rejected",
+      "passed": true
+    }
+  ]
+}

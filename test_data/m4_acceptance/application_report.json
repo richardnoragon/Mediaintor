@@ -1,0 +1,107 @@
+{
+  "library": "/tmp/mediainator-m4-acceptance-fu4sqd8e/library",
+  "root": "/tmp/mediainator-m4-acceptance-fu4sqd8e",
+  "source_unchanged": true,
+  "checks": [
+    {
+      "test": "101_records_read",
+      "passed": true
+    },
+    {
+      "test": "four_book_add_verified",
+      "passed": true
+    },
+    {
+      "test": "revert_tag_only",
+      "passed": true
+    },
+    {
+      "test": "sequence_preserves_exclusion_gap",
+      "passed": true
+    },
+    {
+      "test": "clear_hides_orphan_index",
+      "passed": true
+    },
+    {
+      "test": "keep_without_series_defaults_one",
+      "passed": true
+    },
+    {
+      "test": "one_conflict_others_continue",
+      "passed": true
+    },
+    {
+      "test": "reviewed_conflict_retry",
+      "passed": true
+    },
+    {
+      "test": "revert_detects_later_edit",
+      "passed": true
+    },
+    {
+      "test": "revert_unaffected_continue",
+      "passed": true
+    },
+    {
+      "test": "stop_preserves_pending",
+      "passed": true
+    },
+    {
+      "test": "restart_no_auto_resume",
+      "passed": true
+    },
+    {
+      "test": "pending_retry_verified",
+      "passed": true
+    },
+    {
+      "test": "revert_stop_retains_pending",
+      "passed": true
+    },
+    {
+      "test": "revert_restart_retry",
+      "passed": true
+    },
+    {
+      "test": "lost_ack_reconciled",
+      "passed": true
+    },
+    {
+      "test": "exact_author_order_dedup",
+      "passed": true
+    },
+    {
+      "test": "all_format_contents_preserved",
+      "passed": true
+    },
+    {
+      "test": "all_book_identities_preserved",
+      "passed": true
+    },
+    {
+      "test": "remove_tags_verified",
+      "passed": true
+    },
+    {
+      "test": "explicit_history_deletion",
+      "passed": true
+    },
+    {
+      "test": "101_book_batch",
+      "passed": true
+    },
+    {
+      "test": "101_book_revert",
+      "passed": true
+    },
+    {
+      "test": "ui_preview_without_write",
+      "passed": true
+    },
+    {
+      "test": "ui_confirmation_and_exclusion",
+      "passed": true
+    }
+  ]
+}

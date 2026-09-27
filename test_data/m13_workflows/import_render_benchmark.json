@@ -1,0 +1,19 @@
+{
+  "installed_previous": {
+    "samples_seconds": [
+      0.49238575701019727,
+      0.49094963700918015,
+      0.4808889869891573
+    ],
+    "median_seconds": 0.49094963700918015
+  },
+  "new_source": {
+    "samples_seconds": [
+      0.29664624700671993,
+      0.30025986398686655,
+      0.29875056800665334
+    ],
+    "median_seconds": 0.29875056800665334
+  },
+  "scope": "Synthetic table rendering only: 500 rows, 104 destination records, 3 runs per version. Excludes filesystem discovery, snapshot and Calibre validation; not a KDE acceptance result."
+}

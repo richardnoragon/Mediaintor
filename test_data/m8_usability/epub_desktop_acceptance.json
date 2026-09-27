@@ -1,0 +1,13 @@
+{
+  "user_confirmation": "yes, i can confirm both one and two",
+  "epub_immediately_readable_and_first_arrow_navigates": true,
+  "epub_close_reopen_resumes_position": true,
+  "scope": "Owner-confirmed M8 EPUB scenario only; no focus fix implemented; MOBI/PDF and repeated launches pending",
+  "post_check_database": {
+    "last_read_annotations": 0,
+    "last_read_positions": 0
+  },
+  "viewer_annotation_directory_exists": true,
+  "viewer_annotation_file_count": 2,
+  "interpretation": "Resume confirmed by owner; database-only progress source is not established. Viewer files require mapping and inspection before selecting an adapter."
+}

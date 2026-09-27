@@ -1,0 +1,51 @@
+{
+  "status": "personal KDE acceptance complete",
+  "build": "0.1.0a1-a3a4679f39f4c255",
+  "checks": {
+    "catalog_reader": "passed \u2014 owner confirmation",
+    "last_session_restart": "passed \u2014 owner confirmation",
+    "named_startup": "passed \u2014 owner confirmation",
+    "named_management_capacity": "passed \u2014 owner confirmation",
+    "selection_shared_filters": "passed \u2014 owner confirmation",
+    "unsaved_edit_review": "passed \u2014 owner confirmation",
+    "busy_operations": "passed \u2014 owner confirmation",
+    "reader_independence": "passed \u2014 owner confirmation",
+    "kde_monitor_recovery": "passed \u2014 owner reports successful test and confirms docking station/display physically disconnected during testing",
+    "installed_workflow_regressions": "passed \u2014 owner confirms import/read, bulk tag/revert, recovery Save and retained history after restart"
+  },
+  "gate": "M10-G PASSED / CLOSED",
+  "owner_confirmation": "User: all three pass (catalog/reader, Last Session restart, named-workspace startup).",
+  "owner_confirmations": [
+    {
+      "response": "1) pass 2) pass 3) pass",
+      "checks": [
+        "named_management_capacity",
+        "selection_shared_filters",
+        "unsaved_edit_review"
+      ],
+      "context": "Guided checks include sixth-workspace Cancel/replacement, rename/overwrite/delete, hidden selection and Clear All, and Save/Discard/Cancel plus title cleanup."
+    },
+    {
+      "response": "all 3 tasks completed successfully",
+      "checks": [
+        "reader_independence",
+        "busy_operations"
+      ],
+      "monitor_report": "User reports third task successful; preceding third prompt asked second-monitor availability rather than giving a test procedure. Confirm disconnect/restore behavior before marking monitor recovery passed."
+    },
+    {
+      "response": "Second monitor through docking station; docking station and monitor disconnected during testing.",
+      "checks": [
+        "kde_monitor_recovery"
+      ],
+      "basis": "Clarification of preceding all-three-successful report."
+    },
+    {
+      "response": "1) pass 2) pass 3) pass",
+      "checks": [
+        "installed_workflow_regressions"
+      ],
+      "context": "Final prepared EPUB import/read; two-book tag batch and revert; Quick Start Guide recovery draft, explicit Save, restart and retained Activity/history."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "CLOSED \u2014 owner confirms workflow completed correctly",
+  "user_report": "i was not able to refresh and continue (3) after saving",
+  "observed_disposable_title": "M8 Renamed Time Machine",
+  "activity_save_result": "success; title saved; no errors or conflicts",
+  "controlled_reproduction": {
+    "fresh_copy": true,
+    "loaded_books": 101,
+    "save_verified": true,
+    "catalog_reloaded": true,
+    "loader_active": false,
+    "editor_dirty": false,
+    "reload_enabled": true,
+    "matching_books": 1
+  },
+  "limitations": [
+    "Sandbox attempt blocked by compatibility probe; normal-access reproduction passed",
+    "First reproduction renamed outside search criteria and editor closed; test inspection of deleted editor corrected"
+  ],
+  "gate": "M8-G remains open",
+  "resolution": "Owner confirmed save/refresh and subsequent reader workflow succeeded. No specific blocking defect or corrective application patch was established.",
+  "user_confirmation": "yes every thing performed correctly. hub and reader are now closed, by user"
+}

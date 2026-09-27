@@ -1,0 +1,14 @@
+{
+  "label": "rc1",
+  "archive": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M7-Testing/releases/mediainator-rc1.tar.gz",
+  "archive_sha256": "cb8ba49f26f4301dd5f116ae4ef758547c329d164638cbe04ad298a274a13513",
+  "image": "sha256:da0d06cee1517cbbc0b0b8910c3303b6ad3b47377445a76e47994e977f885783",
+  "files_manifest_sha256": "a0ac05492f45dea33dbe60109667074c77e77461155e0a53bdb2bd44feef639d",
+  "local_env_sha256": "54115b1f63ebc277c4b890d24a0203bff3c9fc21344860ac3b22453a0cc28375",
+  "qualified_checks": 18,
+  "git_tag": null,
+  "reason_no_git_tag": "Development workspace is not a Git repository",
+  "trial_started": false,
+  "published": false,
+  "desktop_entry": "/home/sproket01/.local/share/applications/mediainator-m7-docker.desktop"
+}

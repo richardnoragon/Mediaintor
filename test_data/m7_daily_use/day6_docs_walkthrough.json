@@ -1,0 +1,46 @@
+{
+  "task": "M7 Day 6 documentation walkthrough",
+  "date": "2026-09-22",
+  "timezone": "Europe/Berlin",
+  "candidate_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "note": "Focused evidence for the Day 6 task set; this does not advance the seven-day trial clock.",
+  "documentation_reviewed": [
+    "README.md",
+    "packaging/INSTALL.md",
+    "packaging/TROUBLESHOOTING.md",
+    "packaging/USER_GUIDE.md"
+  ],
+  "validation_command": "QT_QPA_PLATFORM=offscreen python3 -m unittest tests.test_help -v",
+  "validation_result": {
+    "passed": true,
+    "tests_run": 4,
+    "summary": "Offline help topics, search, reuse/close behavior and version/about text checks passed"
+  },
+  "doc_walkthrough_result": {
+    "missing_steps_found": false,
+    "notes": [
+      "Installation, upgrades and removal instructions are present and consistent with the per-user bundle flow.",
+      "User guide and troubleshooting topic routing is present in the help menu and F1 shortcut.",
+      "Redacted diagnostics export guidance and recheck prerequisites behavior are documented.",
+      "No external documentation updates were required beyond recording this walkthrough evidence."
+    ]
+  },
+  "checks": [
+    {
+      "name": "all_topics_offline_and_search_wraps",
+      "passed": true
+    },
+    {
+      "name": "missing_help_has_actionable_fallback",
+      "passed": true
+    },
+    {
+      "name": "help_reuse_and_hub_close",
+      "passed": true
+    },
+    {
+      "name": "about_matches_project_version",
+      "passed": true
+    }
+  ]
+}

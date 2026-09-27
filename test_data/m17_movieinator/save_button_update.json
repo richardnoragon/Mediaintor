@@ -1,0 +1,15 @@
+{
+  "build": "0.1.0a1-ee51058d31d22d87",
+  "backup": "test_data/m17_movieinator/backups/pre-0.1.0a1-ee51058d31d22d87",
+  "profile_files_verified": 9,
+  "catalog_readback": [
+    [
+      "Alien",
+      1979,
+      1,
+      8
+    ]
+  ],
+  "tests_passed": 12,
+  "status": "running; owner Save-button retest pending"
+}

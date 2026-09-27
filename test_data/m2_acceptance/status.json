@@ -1,0 +1,20 @@
+{
+  "M2": "complete for agreed scope",
+  "G2": "passed/closed for Calibre 9.2.1",
+  "tasks": {
+    "M2-01": "done",
+    "M2-02": "done",
+    "M2-03": "done",
+    "M2-04": "done",
+    "M2-05": "done",
+    "M2-06": "done",
+    "M2-07": "done"
+  },
+  "automated_tests": 41,
+  "adapter_checks": 16,
+  "application_checks": 17,
+  "original_library_unchanged": true,
+  "user_review_questions_pending": [],
+  "g2_evidence": "../m1_acceptance/desktop_confirmation.json",
+  "desktop_evidence": "desktop_confirmation.json"
+}

@@ -1,0 +1,30 @@
+Installed 0.1.0a1-b016b423b7099943 for the current user. Calibre remains separately managed.
+Installed 0.1.0a1-b016b423b7099943 for the current user. Calibre remains separately managed.
+{
+  "archive": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m18_m19_review/final_package/artifact/mediainator-0.1.0a1-ubuntu26.04-x86_64.tar.gz",
+  "sha256": "e4d70450526a654274e73c15151cca48355191cd2625a479a16d3402ae1cbceb",
+  "release": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m18_m19_review/final_package/installation/releases/0.1.0a1-b016b423b7099943",
+  "checks": [
+    {
+      "args": [
+        "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m18_m19_review/final_package/bin/mediainator",
+        "--package-smoke"
+      ],
+      "returncode": 0,
+      "output": "{\"version\": \"0.1.0a1\", \"Qt\": \"6.10.2\", \"application_imported\": true}\nThis plugin does not support propagateSizeHints()\nThis plugin does not support propagateSizeHints()\nThis plugin does not support propagateSizeHints()\n"
+    },
+    {
+      "args": [
+        "desktop-file-validate",
+        "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m18_m19_review/final_package/data/applications/mediainator.desktop"
+      ],
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "test": "installed M18/M19 tests",
+      "returncode": 0
+    }
+  ],
+  "isolation": "Real installer and runtime checks; integration_paths redirected to review folder. XDG directories isolated. Not a fresh OS or mount namespace."
+}

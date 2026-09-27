@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Alice's Adventures in Wonderland",
+    "format": "epub",
+    "file": "/tmp/mediainator-expanded-n2b0gj31/library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/Alice's Adventures in Wonderland - Carroll, Lewis.epub",
+    "pid": 54386,
+    "started": true,
+    "visual_confirmation": "passed: user confirmed open, readable, and page navigation works",
+    "page_navigation_confirmed": true
+  },
+  {
+    "title": "The Time Machine",
+    "format": "mobi",
+    "file": "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).mobi",
+    "pid": 54388,
+    "started": true,
+    "visual_confirmation": "passed: user confirmed open, readable, and page navigation works",
+    "page_navigation_confirmed": true
+  },
+  {
+    "title": "The Raven",
+    "format": "pdf",
+    "file": "/tmp/mediainator-expanded-n2b0gj31/library/Poe, Edgar Allan/The Raven (81)/The Raven - Poe, Edgar Allan.pdf",
+    "pid": 54390,
+    "started": true,
+    "visual_confirmation": "passed: user confirmed open, readable, and page navigation works",
+    "page_navigation_confirmed": true
+  }
+]

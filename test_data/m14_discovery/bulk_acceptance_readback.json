@@ -1,0 +1,26 @@
+{
+  "scope": "Read-only saved-data verification in M14 copied library only",
+  "tag": "M14 Bulk Acceptance",
+  "books": [
+    {
+      "id": 16,
+      "uuid": "b649898c-c972-4e92-8ebd-6e688ba59831",
+      "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "tags": [
+        "Fantasy",
+        "M14 Bulk Acceptance",
+        "mediainator-test-100"
+      ]
+    },
+    {
+      "id": 73,
+      "uuid": "95c8f41a-9e08-440b-a73f-38657cee1de2",
+      "title": "A Doll's House : a play",
+      "tags": [
+        "Drama",
+        "M14 Bulk Acceptance",
+        "mediainator-test-100"
+      ]
+    }
+  ]
+}

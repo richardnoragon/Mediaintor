@@ -1,0 +1,97 @@
+test_hub_close_reviews_unsaved_drafts (test_m19_paperinator.HubIntegrationTests.test_hub_close_reviews_unsaved_drafts) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_library_failure_is_recorded_and_retry_reloads (test_m19_paperinator.HubIntegrationTests.test_library_failure_is_recorded_and_retry_reloads) ... This plugin does not support propagateSizeHints()
+ok
+test_other_profile_gets_its_own_library (test_m19_paperinator.HubIntegrationTests.test_other_profile_gets_its_own_library) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_registry_launch_focus_close_and_profile_library (test_m19_paperinator.HubIntegrationTests.test_registry_launch_focus_close_and_profile_library) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_restart_reopen_and_workspace_snapshot (test_m19_paperinator.HubIntegrationTests.test_restart_reopen_and_workspace_snapshot) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_sample_hub_creates_nothing (test_m19_paperinator.HubIntegrationTests.test_sample_hub_creates_nothing) ... This plugin does not support propagateSizeHints()
+ok
+test_settings_validation (test_m19_paperinator.HubIntegrationTests.test_settings_validation) ... ok
+test_add_edit_validation_and_conflict (test_m19_paperinator.PaperTabTests.test_add_edit_validation_and_conflict) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+FAIL
+test_connections_dialog (test_m19_paperinator.PaperTabTests.test_connections_dialog) ... This plugin does not support propagateSizeHints()
+ok
+test_empty_library_starts_on_home_and_creates_profile_library (test_m19_paperinator.PaperTabTests.test_empty_library_starts_on_home_and_creates_profile_library) ... This plugin does not support propagateSizeHints()
+ok
+test_import_preview_requires_choice_and_groups_versions (test_m19_paperinator.PaperTabTests.test_import_preview_requires_choice_and_groups_versions) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+FAIL
+test_metadata_review_applies_checked_fields_only (test_m19_paperinator.PaperTabTests.test_metadata_review_applies_checked_fields_only) ... This plugin does not support propagateSizeHints()
+ok
+test_notes_links_navigation_and_markdown_export (test_m19_paperinator.PaperTabTests.test_notes_links_navigation_and_markdown_export) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+FAIL
+test_projects_organize_and_membership (test_m19_paperinator.PaperTabTests.test_projects_organize_and_membership) ... This plugin does not support propagateSizeHints()
+ok
+test_quick_states_apply_to_selection_and_stay_independent (test_m19_paperinator.PaperTabTests.test_quick_states_apply_to_selection_and_stay_independent) ... This plugin does not support propagateSizeHints()
+ok
+test_sample_mode_is_read_only (test_m19_paperinator.PaperTabTests.test_sample_mode_is_read_only) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_search_filters_saved_searches_and_document_text (test_m19_paperinator.PaperTabTests.test_search_filters_saved_searches_and_document_text) ... This plugin does not support propagateSizeHints()
+ok
+test_startup_view_preferences (test_m19_paperinator.PaperTabTests.test_startup_view_preferences) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_trash_restore_and_permanent_deletion (test_m19_paperinator.PaperTabTests.test_trash_restore_and_permanent_deletion) ... This plugin does not support propagateSizeHints()
+FAIL
+test_versions_files_open_and_locate (test_m19_paperinator.PaperTabTests.test_versions_files_open_and_locate) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+
+======================================================================
+FAIL: test_add_edit_validation_and_conflict (test_m19_paperinator.PaperTabTests.test_add_edit_validation_and_conflict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/tests/test_m19_paperinator.py", line 106, in test_add_edit_validation_and_conflict
+    self.assertTrue(editor.save_changes())
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_import_preview_requires_choice_and_groups_versions (test_m19_paperinator.PaperTabTests.test_import_preview_requires_choice_and_groups_versions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/tests/test_m19_paperinator.py", line 275, in test_import_preview_requires_choice_and_groups_versions
+    self.assertFalse(dialog.busy())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_notes_links_navigation_and_markdown_export (test_m19_paperinator.PaperTabTests.test_notes_links_navigation_and_markdown_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/tests/test_m19_paperinator.py", line 164, in test_notes_links_navigation_and_markdown_export
+    self.assertIn(f'paper:item/{item_id}', self.tab.note_view.toPlainText())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'paper:item/7f6b165a-fd9e-4c1b-b7d8-2f84f55b1ce3' not found in 'Key idea\nFinding\nSource paperBuilds on'
+
+======================================================================
+FAIL: test_trash_restore_and_permanent_deletion (test_m19_paperinator.PaperTabTests.test_trash_restore_and_permanent_deletion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/tests/test_m19_paperinator.py", line 258, in test_trash_restore_and_permanent_deletion
+    self.assertFalse(copy.exists()); self.assertTrue(original.exists())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 20 tests in 5.126s
+
+FAILED (failures=4)

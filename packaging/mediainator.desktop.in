@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Media-inator
+Comment=Media-inator Hub and Book-inator
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Categories=Office;Viewer;
+StartupNotify=true

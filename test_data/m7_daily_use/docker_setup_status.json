@@ -1,0 +1,39 @@
+{
+  "status": "M7-02 complete \u2014 automated and personal desktop acceptance passed",
+  "candidate": {
+    "version": "0.1.0a1",
+    "artifact": "artifacts/mediainator-0.1.0a1-ubuntu26.04-x86_64.tar.gz",
+    "artifact_sha256": "30e99d0e6b9659ef43785587a427e8ad05afdfbec81462503652a1a2ad967584",
+    "deployment": "installed and qualified \u2014 M7-02 complete",
+    "container_image_digest": "sha256:e78eae9c8a1eb83f2de04c42d5143cfed18663344365b2a4d7314a1c6222d9d4",
+    "trial_started": false,
+    "source_checkout_mounted": false,
+    "display_choice": "native KDE windows",
+    "launch_integration": "/home/sproket01/.local/share/applications/mediainator-m7-docker.desktop"
+  },
+  "checks": {
+    "compatibility": "calibre 9.2.1, calibredb 9.2.1, calibre-debug 9.2.1, ebook-viewer 9.2.1",
+    "qt_platform": "wayland",
+    "sqlite_write_lock": "passed",
+    "books": 101,
+    "library_integrity": "ok",
+    "snapshot": "passed",
+    "calibre_adapter_write_readback_restore": "passed on throwaway copy",
+    "reader_visual_acceptance": "passed \u2014 user confirmed EPUB/MOBI/PDF reading and navigation"
+  },
+  "isolated_mounts_verified": true,
+  "runtime_network": "none",
+  "readonly_image": true,
+  "container_user": "1000:1000",
+  "desktop_entry_validated": true,
+  "trial_started": false,
+  "personal_acceptance": {
+    "response": "i confirm all three",
+    "checks": [
+      "101-book native KDE catalog and compatibility display",
+      "EPUB/MOBI/PDF reading/navigation; closing reader retains Hub",
+      "KDE menu relaunch retains List view"
+    ]
+  },
+  "historical_note": "M7-02 acceptance of the original build. M7-03 installs the corrected helper-cache candidate; see m7_03_report.json and cache_fix_promotion.json."
+}

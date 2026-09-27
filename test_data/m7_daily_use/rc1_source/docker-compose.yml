@@ -1,0 +1,48 @@
+name: ${COMPOSE_PROJECT_NAME:-mediainator-rc1}
+x-common: &common
+  image: sha256:da0d06cee1517cbbc0b0b8910c3303b6ad3b47377445a76e47994e977f885783
+  pull_policy: never
+  init: true
+  user: "${APP_UID:?Run configure}:${APP_GID:?Run configure}"
+  network_mode: none
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  restart: "no"
+  tmpfs:
+    - /tmp:rw,nosuid,nodev,mode=1777
+    - /tmp/runtime:rw,nosuid,nodev,mode=700,uid=${APP_UID},gid=${APP_GID}
+  volumes:
+    - type: bind
+      source: ${STATE_ROOT:?Run configure}/home
+      target: /home/mediainator
+      bind: {create_host_path: false}
+    - type: bind
+      source: ${STATE_ROOT}/library
+      target: /data/library
+      bind: {create_host_path: false}
+    - type: bind
+      source: ${STATE_ROOT}/import-sources
+      target: /data/import-sources
+      bind: {create_host_path: false}
+    - type: bind
+      source: ${WAYLAND_SOCKET:?Run configure}
+      target: /tmp/runtime/wayland-0
+      read_only: true
+      bind: {create_host_path: false}
+    - type: bind
+      source: ./runtime.py
+      target: /opt/rc1/runtime.py
+      read_only: true
+      bind: {create_host_path: false}
+services:
+  init:
+    <<: *common
+    entrypoint: [/usr/bin/python3, -I, -B, /opt/rc1/runtime.py]
+    command: [init]
+  hub:
+    <<: *common
+    depends_on:
+      init: {condition: service_completed_successfully}
+    command: [run]
+    stop_grace_period: 60s

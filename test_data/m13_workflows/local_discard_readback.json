@@ -1,0 +1,8 @@
+{
+  "test_tag_saved": false,
+  "recovery_states": [
+    "unresolved"
+  ],
+  "owner_observation": "Discard local edits closed the editor; Hub remained open with pending recovery banner",
+  "gate": "M13-G OPEN"
+}

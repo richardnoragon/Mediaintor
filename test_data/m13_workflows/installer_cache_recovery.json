@@ -1,0 +1,6 @@
+{
+  "reason": "Benchmark import generated untracked bytecode in prior installed release; package source hashes unchanged.",
+  "preserved_file": "../Mediaintor-M13-Development/backups/pre-0.1.0a1-ffbaa166eaebf2fe/benchmark-cache/import_dialog.cpython-314.pyc",
+  "sha256": "529ddf74f90d9a70ba4de252e671d52c20bd6796c18694cc622b584c6be72127",
+  "integrity_checks_unchanged": true
+}

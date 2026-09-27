@@ -1,0 +1,87 @@
+{
+  "calibre_version": "9.2.1",
+  "scope": "Disposable API and parser probes; no production progress adapter or GUI rename acceptance",
+  "checks": [
+    {
+      "name": "UTC timestamps select latest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Calibre string ordering differs from chronological offset ordering",
+      "passed": true,
+      "detail": "Normalize offsets for cross-format selection; do not reuse lexical ordering."
+    },
+    {
+      "name": "Equivalent instants form a tie",
+      "passed": true,
+      "detail": "No unique latest format established."
+    },
+    {
+      "name": "Malformed timestamp can outrank valid timestamp in Calibre merge",
+      "passed": true,
+      "detail": "Validate timestamps independently."
+    },
+    {
+      "name": "Parser rejects truncated",
+      "passed": true,
+      "detail": "JSONDecodeError"
+    },
+    {
+      "name": "Parser rejects invalid_utf8",
+      "passed": true,
+      "detail": "UnicodeDecodeError"
+    },
+    {
+      "name": "JSON parsing alone accepts wrong_shape",
+      "passed": true,
+      "detail": "Adapter needs structure and position validation."
+    },
+    {
+      "name": "JSON parsing alone accepts missing_fields",
+      "passed": true,
+      "detail": "Adapter needs structure and position validation."
+    },
+    {
+      "name": "Persistent application store resumes after real rename and restart",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Production handoff survives real Calibre rename",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Calibre title save changes format path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Rename preserves book UUID and ebook bytes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Path-keyed viewer sidecar does not follow rename",
+      "passed": true,
+      "detail": "Sidecar fixture: no automatic migration by metadata API."
+    },
+    {
+      "name": "Library annotation API omits last-read records",
+      "passed": true,
+      "detail": "Calibre annot_db_data supports bookmark/highlight identities, not last-read; database is not a resume fallback."
+    },
+    {
+      "name": "Missing sidecar is distinguishable from corrupt file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Read-only failed parsing preserves corrupt bytes",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "passed": 16
+}

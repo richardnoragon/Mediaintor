@@ -1,0 +1,13 @@
+{
+  "status": "M5-07 complete; desktop acceptance confirmed",
+  "activity_history": "user confirmed: all checks pass",
+  "recovery_review_save": "user confirmed: review and Save work",
+  "discard_delete": "user confirmed: review, discard and cancel-delete work",
+  "emergency_close_restart": "User confirmed successful close and recovery discovery in startup summary/Activity after restart, without automatically opening the editor or applying the cover. Launcher close exit code 0 verified.",
+  "kde_host_logout": "user accepts isolated real KWin evidence as sufficient; host logout not required",
+  "gate": "M5-G PASSED / CLOSED",
+  "close_lifecycle_issue": "Fixed; 147 tests and repeated KWin checks pass. User confirmed corrected desktop close; launcher exited 0.",
+  "emergency_close": "User confirmed Hub closed successfully; launcher process exit code 0 verified.",
+  "milestone": "M5 COMPLETE",
+  "closure": "Final evidence review completed at user request; all 11 criteria passed. See gate_review.md."
+}

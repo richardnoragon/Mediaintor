@@ -1,0 +1,18 @@
+{
+  "M3": "COMPLETE for agreed scope",
+  "M3-G": "PASSED / CLOSED",
+  "unit_tests": 50,
+  "application_checks": 23,
+  "catalog_checks": 5,
+  "source_unchanged": true,
+  "tasks": {
+    "M3-01": "done",
+    "M3-02": "done",
+    "M3-03": "done",
+    "M3-04": "done",
+    "M3-05": "done",
+    "M3-06": "done",
+    "M3-07": "done"
+  },
+  "desktop_evidence": "desktop_confirmation.json"
+}

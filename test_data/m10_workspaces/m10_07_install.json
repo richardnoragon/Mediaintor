@@ -1,0 +1,15 @@
+{
+  "status": "installed; personal KDE acceptance pending",
+  "build": "0.1.0a1-a3a4679f39f4c255",
+  "sha256": "edc96793ca09a37db7a15bbd1036db96f2c771cff43b16563796590a8805b1f4",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M10-Development/backups/pre-m10-a3a4679f39f4c255",
+  "retained_files_verified": 443,
+  "inventory_check": "M10 workspace candidate verified: 0.1.0a1-a3a4679f39f4c255\n",
+  "package_smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "installer_output": "Installed 0.1.0a1-a3a4679f39f4c255 for the current user. Calibre remains separately managed.\n",
+  "scope": "M10 only; RC1/M9 not mounted or modified"
+}

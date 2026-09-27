@@ -1,0 +1,42 @@
+{
+  "status": "passed \u2014 personal desktop acceptance complete 2026-09-22",
+  "previous_installed_session_exit": {
+    "pid": 122273,
+    "returncode": 0
+  },
+  "checks": {
+    "catalog_help_and_readers": "passed \u2014 user confirmed 2026-09-22",
+    "diagnostic_preview_cancel_export": "passed \u2014 user confirmed 2026-09-22",
+    "recovery_review_explicit_save": "passed \u2014 user confirmed 2026-09-22",
+    "view_preference_after_restart": "passed \u2014 user confirmed Grid, retained Activity and no automatic recovery/resumption"
+  },
+  "note": "Personal confirmations complete. M6-G passed / closed after final evidence review 2026-09-22; nothing published.",
+  "user_confirmation": {
+    "date": "2026-09-22",
+    "response": "all four pass",
+    "scope": [
+      "catalog/help/version",
+      "EPUB/MOBI/PDF reading and navigation",
+      "redacted diagnostics cancel/export",
+      "recovery draft and explicit Save"
+    ]
+  },
+  "restart_preparation": {
+    "date": "2026-09-22",
+    "user_confirmed": "Selected Grid; reader and Hub closed",
+    "saved_view": "Grid",
+    "exit": {
+      "pid": 122739,
+      "returncode": 0
+    },
+    "visual_restart_confirmation": {
+      "date": "2026-09-22",
+      "response": "all three pass",
+      "scope": [
+        "Grid view restored",
+        "Activity history retained",
+        "no recovery editor or automatic pending-work resumption"
+      ]
+    }
+  }
+}

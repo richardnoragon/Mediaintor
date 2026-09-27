@@ -1,0 +1,114 @@
+{
+  "status": "automated promotion and isolated restore/fallback verified; personal KDE acceptance pending",
+  "root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday",
+  "source": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M10-Development",
+  "build": "0.1.0a1-a3a4679f39f4c255",
+  "sha256": "edc96793ca09a37db7a15bbd1036db96f2c771cff43b16563796590a8805b1f4",
+  "source_backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday/backups/m10-promotion-source",
+  "installed_backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday/backups/m11-installed",
+  "launcher": "/home/sproket01/.local/share/applications/mediainator-m11-everyday.desktop",
+  "compose_project": "mediainator-m11",
+  "installation": "Installed 0.1.0a1-a3a4679f39f4c255 for the current user. Calibre remains separately managed.\n",
+  "inventory": "M11 workspace candidate verified: 0.1.0a1-a3a4679f39f4c255\n",
+  "smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "functional": {
+    "build": "0.1.0a1-a3a4679f39f4c255",
+    "library_uuid": "43d9a765-ab8c-49f1-878e-62fe98bedf24",
+    "profile_id": "e132b321-130e-4597-b2b5-cefac6e185aa",
+    "device_id": "9525569b-9ce1-4f49-be0a-9344a8cdcff2",
+    "books": 101,
+    "formats": 121,
+    "covers": 101,
+    "named_workspaces": 0,
+    "startup": "last_session",
+    "valid_resume_records": 3,
+    "import_batches": 0,
+    "bulk_batches": 0,
+    "activity_records": 1,
+    "recovery_records": 1,
+    "unresolved_recovery": 1,
+    "identity_references_valid": true,
+    "sqlite_integrity": "ok",
+    "cleanup_review": {
+      "books": [],
+      "tags": [
+        "mediainator-test-100"
+      ],
+      "workspaces": [],
+      "policy": "Candidates only; retain every item until specifically approved."
+    }
+  },
+  "restored": {
+    "build": "0.1.0a1-a3a4679f39f4c255",
+    "library_uuid": "43d9a765-ab8c-49f1-878e-62fe98bedf24",
+    "profile_id": "e132b321-130e-4597-b2b5-cefac6e185aa",
+    "device_id": "9525569b-9ce1-4f49-be0a-9344a8cdcff2",
+    "books": 101,
+    "formats": 121,
+    "covers": 101,
+    "named_workspaces": 0,
+    "startup": "last_session",
+    "valid_resume_records": 3,
+    "import_batches": 0,
+    "bulk_batches": 0,
+    "activity_records": 1,
+    "recovery_records": 1,
+    "unresolved_recovery": 1,
+    "identity_references_valid": true,
+    "sqlite_integrity": "ok",
+    "cleanup_review": {
+      "books": [],
+      "tags": [
+        "mediainator-test-100"
+      ],
+      "workspaces": [],
+      "policy": "Candidates only; retain every item until specifically approved."
+    }
+  },
+  "fallback": {
+    "build": "0.1.0a1-a3a4679f39f4c255",
+    "library_uuid": "43d9a765-ab8c-49f1-878e-62fe98bedf24",
+    "profile_id": "e132b321-130e-4597-b2b5-cefac6e185aa",
+    "device_id": "9525569b-9ce1-4f49-be0a-9344a8cdcff2",
+    "books": 101,
+    "formats": 121,
+    "covers": 101,
+    "named_workspaces": 0,
+    "startup": "last_session",
+    "valid_resume_records": 3,
+    "import_batches": 0,
+    "bulk_batches": 0,
+    "activity_records": 1,
+    "recovery_records": 1,
+    "unresolved_recovery": 1,
+    "identity_references_valid": true,
+    "sqlite_integrity": "ok",
+    "cleanup_review": {
+      "books": [],
+      "tags": [
+        "mediainator-test-100"
+      ],
+      "workspaces": [],
+      "policy": "Candidates only; retain every item until specifically approved."
+    }
+  },
+  "restored_smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "fallback_smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "source_unchanged": true,
+  "everyday_data_unchanged_during_rollback": true,
+  "user_state_byte_identical": true,
+  "cleanup": "No deletion; all candidates retained",
+  "rollback_scope": "Snapshot fallback to identical accepted package, isolated restored current-state return; no in-place downgrade"
+}

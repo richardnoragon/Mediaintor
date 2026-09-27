@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "test": "clean_user_install",
+      "passed": true
+    },
+    {
+      "test": "installed_hub_offscreen_smoke_without_checkout",
+      "passed": true
+    },
+    {
+      "test": "desktop_entry_valid",
+      "passed": true
+    },
+    {
+      "test": "same_artifact_reinstall",
+      "passed": true
+    },
+    {
+      "test": "uninstall_retains_data",
+      "passed": true
+    },
+    {
+      "test": "reinstall_retains_data",
+      "passed": true
+    },
+    {
+      "test": "installed_label_and_manifest_build",
+      "passed": true
+    },
+    {
+      "test": "installed_targeted_tests_107",
+      "passed": true
+    },
+    {
+      "test": "checkout_and_original_library_not_mounted",
+      "passed": true
+    }
+  ],
+  "runtime": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "artifact": "mediainator-0.1.0a1-ubuntu26.04-x86_64.tar.gz",
+  "sha256": "46f36fd9e8d8022c2e503beb04f14bd47a293c42b221e7cdd5258ac7d579c5ce",
+  "fixture": "/tmp/mediainator-m14-package-qyzzmrws",
+  "isolation": "private mount/user/network namespace; host /usr and /etc read-only; clean user; no project or original home mounted",
+  "limitations": "Not a freshly installed OS; uses host system packages. Personal KDE acceptance remains M14-08. Installed tests use temporary sample data; no accepted library is mounted."
+}

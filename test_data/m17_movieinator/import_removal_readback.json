@@ -1,0 +1,23 @@
+{
+  "build": "0.1.0a1-ee51058d31d22d87",
+  "movies": [
+    [
+      "Alien",
+      1979
+    ]
+  ],
+  "editions": [
+    [
+      "Digital (MKV SD)"
+    ],
+    [
+      "Digital (MP4 SD)"
+    ]
+  ],
+  "catalog_file_copies": 2,
+  "source_files_unchanged": [
+    "Alien (1979).mp4",
+    "Alien (1979).mkv",
+    "M17 Test Movie (2026).mp4"
+  ]
+}

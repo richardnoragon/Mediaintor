@@ -1,0 +1,74 @@
+{
+  "root": "/tmp/mediainator-m2-desktop-teeu1ud_",
+  "library": "/tmp/mediainator-m2-desktop-teeu1ud_/library",
+  "checks": [
+    {
+      "test": "101_catalog",
+      "passed": true
+    },
+    {
+      "test": "title_search",
+      "passed": true
+    },
+    {
+      "test": "multi_format_group",
+      "passed": true
+    },
+    {
+      "test": "editor_read",
+      "passed": true
+    },
+    {
+      "test": "draft_dirty",
+      "passed": true
+    },
+    {
+      "test": "cancel_hub_close",
+      "passed": true
+    },
+    {
+      "test": "save_actual_editor",
+      "passed": true
+    },
+    {
+      "test": "path_refresh",
+      "passed": true
+    },
+    {
+      "test": "clear_editor_save",
+      "passed": true
+    },
+    {
+      "test": "hidden_index",
+      "passed": true
+    },
+    {
+      "test": "dirty_external_refresh_deferred",
+      "passed": true
+    },
+    {
+      "test": "conflict_cancel_keeps_draft",
+      "passed": true
+    },
+    {
+      "test": "discard_reads_external",
+      "passed": true
+    },
+    {
+      "test": "editor_cover_removal",
+      "passed": true
+    },
+    {
+      "test": "editor_cover_replacement",
+      "passed": true
+    },
+    {
+      "test": "untouched_html",
+      "passed": true
+    },
+    {
+      "test": "original_library_unchanged",
+      "passed": true
+    }
+  ]
+}

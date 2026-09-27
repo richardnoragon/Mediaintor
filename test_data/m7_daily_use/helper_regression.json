@@ -1,0 +1,12 @@
+{
+  "test": "HelperInstallIntegrityTests.test_helper_imports_preserve_release_inventory",
+  "passed": true,
+  "helper_cases": [
+    "calibre_metadata_helper.py",
+    "calibre_import_helper.py"
+  ],
+  "existing_suite": {
+    "tests": 177,
+    "passed": true
+  }
+}

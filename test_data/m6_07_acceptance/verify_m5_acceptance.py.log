@@ -1,0 +1,26 @@
+all_101_books_load True
+metadata_and_all_format_paths True
+all_covers_resolve True
+epub_mobi_pdf_grouped_on_one_book True
+title_search_includes_multiformat_book True
+author_search_includes_book True
+list_count_matches_grid True
+unknown_reading_status True
+This plugin does not support propagateSizeHints()
+single_metadata_save True
+single_metadata_restore True
+Bulk preview status: Review every included book, including selections hidden by catalog filters. {'pending': 4}
+bulk_preview_is_explicit True
+bulk_four_book_save True
+bulk_revert_verified True
+import_preview_missing_metadata_warning True
+copy_only_import_and_review_flag True
+review_state_survives_history_cleanup True
+recovery_seed_does_not_write True
+fresh_process_recovery_discovery True
+startup_attention_counts_no_double_total True
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+scale_full_history_1000_operations True
+scale_distinct_attention_and_latest_actual_failure True
+This plugin does not support propagateSizeHints()

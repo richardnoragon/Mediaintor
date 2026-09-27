@@ -1,0 +1,126 @@
+[
+  {
+    "test": "fresh_101_book_copy",
+    "passed": true
+  },
+  {
+    "test": "save_retry_failure_keeps_committed_title",
+    "passed": true
+  },
+  {
+    "test": "only_unsaved_fields_captured",
+    "passed": true
+  },
+  {
+    "test": "durable_readback_and_discovery",
+    "passed": true
+  },
+  {
+    "test": "close_continuation_requires_requested_close_and_same_revision",
+    "passed": true
+  },
+  {
+    "test": "restart_discovery_does_not_write",
+    "passed": true
+  },
+  {
+    "test": "external_change_requires_review",
+    "passed": true
+  },
+  {
+    "test": "keep_current_choice",
+    "passed": true
+  },
+  {
+    "test": "reconstructed_draft_preserves_unrelated_values",
+    "passed": true
+  },
+  {
+    "test": "explicit_recovery_save_verified",
+    "passed": true
+  },
+  {
+    "test": "cover_bytes_and_html_roundtrip",
+    "passed": true
+  },
+  {
+    "test": "multiple_copies_remain_discoverable",
+    "passed": true
+  },
+  {
+    "test": "save_revalidates_changes_after_recovery_review",
+    "passed": true
+  },
+  {
+    "test": "already_committed_recovery_is_noop",
+    "passed": true
+  },
+  {
+    "test": "failed_replace_preserves_existing_copy",
+    "passed": true
+  },
+  {
+    "test": "failed_destination_blocks_close",
+    "passed": true
+  },
+  {
+    "test": "alternate_location_registered_and_verified",
+    "passed": true
+  },
+  {
+    "test": "registration_failure_not_success",
+    "passed": true
+  },
+  {
+    "test": "corrupt_copy_preserved_and_rejected",
+    "passed": true
+  },
+  {
+    "test": "reject_wrong_profile",
+    "passed": true
+  },
+  {
+    "test": "reject_wrong_device",
+    "passed": true
+  },
+  {
+    "test": "reject_wrong_library",
+    "passed": true
+  },
+  {
+    "test": "reject_wrong_book",
+    "passed": true
+  },
+  {
+    "test": "unknown_schema_preserved",
+    "passed": true
+  },
+  {
+    "test": "dismiss_preserves_pending_payload",
+    "passed": true
+  },
+  {
+    "test": "unresolved_delete_blocked",
+    "passed": true
+  },
+  {
+    "test": "review_required_before_discard",
+    "passed": true
+  },
+  {
+    "test": "separate_discard_then_delete",
+    "passed": true
+  },
+  {
+    "test": "review_status_can_be_detached_before_history_deletion",
+    "passed": true
+  },
+  {
+    "test": "existing_bulk_delete_guard",
+    "passed": true
+  },
+  {
+    "test": "all_ebook_contents_preserved",
+    "passed": true
+  }
+]

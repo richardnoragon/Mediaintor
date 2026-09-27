@@ -1,0 +1,43 @@
+{
+  "build": "0.1.0a1-ee51058d31d22d87",
+  "status": "OPEN: desktop testing ongoing",
+  "automated": {
+    "core_tests": 16,
+    "hub_integration_tests": 10,
+    "result": "PASS"
+  },
+  "desktop_checks": [
+    "Movie tab opens with empty catalog and enabled Add/Import",
+    "Alien (1979) saved",
+    "Watched and 8/10 survive reload",
+    "partial and empty-result search; Clear All preserves personal state",
+    "unsaved editor Cancel retains draft",
+    "Discard retains saved Alien title and personal state",
+    "List view displays Watched; owner requests Rating column",
+    "Rating column visible and updates immediately",
+    "Repeat launch focuses existing Movie tab",
+    "Close/reopen preserves movie, personal status and List view",
+    "Edition add/edit/remove and cancel",
+    "Physical copy add/location change/remove and cancel",
+    "Watched filter and Clear All",
+    "Invalid year feedback and valid director edit verified after Save-button fix",
+    "Director search and genre filters",
+    "Movie removal Cancel preserves data; removal deletes only selected test movie",
+    "Hub close Cancel preserves draft; Save closes normally; saved note read back as unsaved test",
+    "Save-on-shutdown note visible after restart",
+    "Import preview groups Alien editions and matches existing movie",
+    "Import creates two movies; Alien metadata and personal status retained",
+    "Repeat scan excludes three catalogued files",
+    "Haruna launches MKV and MP4 test clips; owner confirms MP4 plays first",
+    "Removing imported M17 Test Movie leaves Alien and two editions; all three source file hashes unchanged",
+    "Reimport preview offers only removed test movie; closing preview leaves only Alien",
+    "Reload retains both digital editions, Watched and 8/10",
+    "M17 application-menu launcher restarts isolated catalog with editions and personal state intact",
+    "Book-inator and Movie-inator coexist in separate tabs; closing Book leaves Movie usable",
+    "Closing and reopening Movie-inator restores exactly one tab and unchanged catalog",
+    "Light and Dark appearance: search placeholder, list and Edit details readable and usable",
+    "Normal shutdown and restart restore Dark appearance, one Movie tab, both Alien editions, Watched and 8/10"
+  ],
+  "scope": "Isolated development testing only; packaged installation verification and full regression pending",
+  "pending_update": null
+}

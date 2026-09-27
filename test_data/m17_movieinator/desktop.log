@@ -1,0 +1,20 @@
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed
+kf.config.core: Access to "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m17_movieinator/releases/0.1.0a1-ee51058d31d22d87/mediainator.desktop.in" denied, not owned by root and executable flag not set.
+kf.config.core: Access to "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m17_movieinator/releases/0.1.0a1-ee51058d31d22d87/mediainator.desktop.in" denied, not owned by root and executable flag not set.
+kf.config.core: Access to "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m17_movieinator/releases/0.1.0a1-ee51058d31d22d87/mediainator.desktop.in" denied, not owned by root and executable flag not set.
+kf.config.core: Access to "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m17_movieinator/releases/0.1.0a1-ee51058d31d22d87/mediainator.desktop.in" denied, not owned by root and executable flag not set.
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed
+QObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed

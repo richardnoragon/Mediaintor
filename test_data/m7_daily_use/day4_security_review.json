@@ -1,0 +1,71 @@
+{
+  "task": "M7 Day 4 local security review",
+  "date": "2026-09-22",
+  "timezone": "Europe/Berlin",
+  "candidate_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "note": "Focused evidence for the Day 4 task set; this does not advance the seven-day trial clock.",
+  "evidence": [
+    "test_data/m7_daily_use/docker_setup_status.json",
+    "tests/test_diagnostics.py",
+    "tests/test_compatibility.py"
+  ],
+  "validation_command": "QT_QPA_PLATFORM=offscreen python3 -m unittest tests.test_diagnostics tests.test_compatibility -v",
+  "validation_result": {
+    "passed": true,
+    "tests_run": 17,
+    "summary": "Diagnostics redaction, bounded exports, atomic writes, version gating, loader blocking and no-resume checks passed"
+  },
+  "container_posture": {
+    "container_user": "1000:1000",
+    "isolated_mounts_verified": true,
+    "runtime_network": "none",
+    "readonly_image": true,
+    "desktop_entry_validated": true
+  },
+  "checks": [
+    {
+      "name": "arbitrary_values_and_nested_data_never_exported",
+      "passed": true
+    },
+    {
+      "name": "exception_messages_locals_paths_and_chains_excluded",
+      "passed": true
+    },
+    {
+      "name": "only_safe_app_frames_survive",
+      "passed": true
+    },
+    {
+      "name": "bounded_session_log_and_fixed_messages",
+      "passed": true
+    },
+    {
+      "name": "exact_calibre_versions_only",
+      "passed": true
+    },
+    {
+      "name": "atomic_permissions_and_failed_replace_preserves_original",
+      "passed": true
+    },
+    {
+      "name": "preview_cancel_failure_retry_and_freeze",
+      "passed": true
+    },
+    {
+      "name": "boundaries_block_before_library_or_process",
+      "passed": true
+    },
+    {
+      "name": "helper_guard_before_database_import",
+      "passed": true
+    },
+    {
+      "name": "first_run_block_and_recheck_do_not_resume_work",
+      "passed": true
+    },
+    {
+      "name": "loader_blocks_without_starting_process",
+      "passed": true
+    }
+  ]
+}

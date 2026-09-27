@@ -1,0 +1,11 @@
+{
+  "build": "0.1.0a1-a3a4679f39f4c255",
+  "backup": "../Mediaintor-M10-Development/backups/pre-final-workflows-a3a4679f39f4c255",
+  "import_source": "/data/import-sources/M10 Final Acceptance.epub",
+  "source_sha256": "ed687297d8d9f7d1618dd93de64dcadcdc09e60a7ef462d188bb47fa0baa5828",
+  "recovery_book": "Quick Start Guide",
+  "recovery_id": "fd35c048-4292-42de-9269-4d316c6868e6",
+  "recovery_tag": "M10 Recovery Acceptance",
+  "library_database_unchanged": true,
+  "desktop_acceptance": "passed \u2014 see m10_07_desktop.json"
+}

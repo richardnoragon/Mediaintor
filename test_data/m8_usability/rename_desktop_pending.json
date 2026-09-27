@@ -1,0 +1,14 @@
+{
+  "root": "/tmp/m8-rename-desktop-b3zsdf3w",
+  "config": "/tmp/m8-rename-desktop-b3zsdf3w/config",
+  "file": "/tmp/m8-rename-desktop-b3zsdf3w/library/Wells, H. G. (Herbert George)/M8 Rename Continuity Desktop Test (32)/M8 Rename Continuity Desktop Test - Wells, H. G. (Herbert George).epub",
+  "args": [
+    "--open-at",
+    "epubcfi(/4/2/4/12/1:7)"
+  ],
+  "expected_position": "epubcfi(/4/2/4/12/1:7)",
+  "status": "SUPERSEDED by owner-confirmed integrated Hub rename/resume acceptance",
+  "standalone_desktop_result": "No separate unambiguous owner confirmation recorded for this earlier fixture",
+  "replacement_evidence": "integrated_desktop_pending.json",
+  "note": "Do not treat this as a newly executed standalone test. The later integrated scenario covers editor save, refresh, renamed EPUB resume and navigation."
+}

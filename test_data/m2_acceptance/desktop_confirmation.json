@@ -1,0 +1,11 @@
+{
+  "status": "accepted",
+  "source": "User confirmation in this conversation",
+  "user_statement": "Everything is ok. please mark thie milestone and gateway as complteted.",
+  "accepted_review_groups": [
+    "metadata persistence and series behaviour",
+    "editor controls, covers and tag validation",
+    "Save / Discard / Cancel"
+  ],
+  "scope": "Final desktop sign-off for agreed M2, alongside recorded automated evidence; no new test run implied"
+}

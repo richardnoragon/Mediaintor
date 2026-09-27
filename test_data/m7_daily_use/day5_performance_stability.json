@@ -1,0 +1,65 @@
+{
+  "task": "M7 Day 5 performance and stability",
+  "date": "2026-09-22",
+  "timezone": "Europe/Berlin",
+  "candidate_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "note": "Focused evidence for the Day 5 task set; this does not advance the seven-day trial clock.",
+  "validation_command": "PYTHONPATH=tests QT_QPA_PLATFORM=offscreen /usr/bin/time -v python3 -m unittest tests.test_foundation tests.test_activity_recovery tests.test_m1_workflow -v",
+  "validation_result": {
+    "passed": true,
+    "tests_run": 35,
+    "summary": "Normal reading/catalog workflow, recovery, restart and reader-close stability checks passed"
+  },
+  "resource_observations": {
+    "user_time_seconds": 0.33,
+    "system_time_seconds": 0.05,
+    "cpu_percent": 81,
+    "wall_clock_seconds": 0.47,
+    "maximum_resident_set_kib": 90776,
+    "major_page_faults": 0,
+    "minor_page_faults": 11450,
+    "voluntary_context_switches": 821,
+    "involuntary_context_switches": 78,
+    "swaps": 0,
+    "file_system_inputs": 0,
+    "file_system_outputs": 0
+  },
+  "checks": [
+    {
+      "name": "settings_roundtrip_preserves_identity",
+      "passed": true
+    },
+    {
+      "name": "shared_views_search_and_restart",
+      "passed": true
+    },
+    {
+      "name": "restart_marks_running_without_execution",
+      "passed": true
+    },
+    {
+      "name": "recovery_persists_only_pending_and_readback",
+      "passed": true
+    },
+    {
+      "name": "recovery_review_preserves_unrelated_changes_and_requires_choices",
+      "passed": true
+    },
+    {
+      "name": "failed_load_retains_catalog_and_recovery",
+      "passed": true
+    },
+    {
+      "name": "external_reader_is_not_attached_or_closed_by_launch",
+      "passed": true
+    },
+    {
+      "name": "reader_exit_alone_does_not_close_hub",
+      "passed": true
+    },
+    {
+      "name": "window_close_reader_choice_finishes_hub_close",
+      "passed": true
+    }
+  ]
+}

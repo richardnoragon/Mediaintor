@@ -1,0 +1,1283 @@
+{
+  "root": "/tmp/mediainator-m3-app-iv6dqzx6",
+  "library": "/tmp/mediainator-m3-app-iv6dqzx6/library",
+  "journal": "/tmp/mediainator-m3-app-iv6dqzx6/journals/7049e74689c368135e01/3e870354-1bee-4eb8-9678-1095912f6099.json",
+  "preview": {
+    "library_uuid": "43d9a765-ab8c-49f1-878e-62fe98bedf24",
+    "items": [
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/different-content-same-metadata.epub",
+        "state": "pending",
+        "operation_uuid": "dccd3ca5-07e8-4d20-94fd-0ef33ef1ff5a",
+        "action": "new",
+        "destination": null,
+        "warning": "Similar existing title: choose an action.",
+        "hash": "c4edf481857780ba5aee9f9fb1a99b573fbc2a85ef19645aa245627d4804adcf",
+        "format": "EPUB",
+        "title": "The Time Machine",
+        "authors": [
+          "H. G. Wells"
+        ],
+        "missing": [],
+        "similar": [
+          32
+        ]
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/missing-both.epub",
+        "state": "pending",
+        "operation_uuid": "4a05ad3f-b28f-4abb-a521-504a87e72c67",
+        "action": "new",
+        "destination": null,
+        "warning": "Missing metadata: title, authors",
+        "hash": "0b0aed4e7f47bd996fb8df8b52c60c32ed48993871ab0d4b3afdbc8ff722346a",
+        "format": "EPUB",
+        "title": "missing-both",
+        "authors": [
+          "Unknown"
+        ],
+        "missing": [
+          "title",
+          "authors"
+        ],
+        "similar": []
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/missing-author.epub",
+        "state": "pending",
+        "operation_uuid": "e53e124d-8bbe-40ab-82cc-978518bf4e59",
+        "action": "new",
+        "destination": null,
+        "warning": "Similar existing title: choose an action.; Missing metadata: authors",
+        "hash": "83b4e42ea7c791727faaeeaf63aa4c5b21760c9c13d8033225a5774abe9e1154",
+        "format": "EPUB",
+        "title": "The Time Machine",
+        "authors": [
+          "Unknown"
+        ],
+        "missing": [
+          "authors"
+        ],
+        "similar": [
+          32
+        ]
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/missing-title.epub",
+        "state": "pending",
+        "operation_uuid": "bf66d44a-532c-4d0c-a3db-19ba9d03ab8d",
+        "action": "new",
+        "destination": null,
+        "warning": "Missing metadata: title",
+        "hash": "664308aa1e146e415f0847a53b1f5b43a21e597d0902a877d8f00fd564f2e3cc",
+        "format": "EPUB",
+        "title": "missing-title",
+        "authors": [
+          "H. G. Wells"
+        ],
+        "missing": [
+          "title"
+        ],
+        "similar": []
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/invalid.epub",
+        "state": "invalid",
+        "operation_uuid": "288d44e3-e907-4eeb-b6f8-34e0aafaa538",
+        "action": "new",
+        "destination": null,
+        "warning": "File is not a zip file"
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/unsupported.txt",
+        "state": "invalid",
+        "operation_uuid": "3d076fbe-53a6-4e26-bdac-62bb47dc1c52",
+        "action": "new",
+        "destination": null,
+        "warning": "Unsupported format; select EPUB, MOBI or PDF."
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.pdf",
+        "state": "duplicate",
+        "operation_uuid": "b12229e1-492c-49bf-8cec-5934f6ba4859",
+        "action": "new",
+        "destination": null,
+        "warning": "Identical file contents: skipped.",
+        "hash": "a84e15e8504e4e387201a811ddac994638da9ac538a36c1aaee35f90b0a31383",
+        "format": "PDF",
+        "title": "The Time Machine",
+        "authors": [
+          "H. G. Wells"
+        ],
+        "missing": []
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.mobi",
+        "state": "duplicate",
+        "operation_uuid": "198f7bf1-69b2-4418-9f32-113e0df42388",
+        "action": "new",
+        "destination": null,
+        "warning": "Identical file contents: skipped.",
+        "hash": "fad96fa8e39dfc516242fe5a14067149f5dad1d9be8576341293ddc39a1b183c",
+        "format": "MOBI",
+        "title": "The Time Machine",
+        "authors": [
+          "H. G. Wells"
+        ],
+        "missing": []
+      },
+      {
+        "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.epub",
+        "state": "duplicate",
+        "operation_uuid": "d94e16a5-820f-45ea-8f7c-fee2fb41aeab",
+        "action": "new",
+        "destination": null,
+        "warning": "Identical file contents: skipped.",
+        "hash": "773dd70e5aa8067a5319b83c50015f9733838056e8bc72d9543566b62a288c4b",
+        "format": "EPUB",
+        "title": "The Time Machine",
+        "authors": [
+          "H. G. Wells"
+        ],
+        "missing": []
+      }
+    ],
+    "records": [
+      {
+        "id": 1,
+        "uuid": "d145f3a1-2382-4fe7-bc40-26208145311c",
+        "title": "Quick Start Guide",
+        "authors": [
+          "John Schember"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 2,
+        "uuid": "0dc7400a-06e5-409a-bb0e-b228a93fd4a4",
+        "title": "Pride and Prejudice",
+        "authors": [
+          "Austen, Jane"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI"
+        ]
+      },
+      {
+        "id": 3,
+        "uuid": "f6aef0b9-b3e8-4b9f-91e2-029b8bf7da64",
+        "title": "Sense and Sensibility",
+        "authors": [
+          "Austen, Jane"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 4,
+        "uuid": "445bcbfe-9f94-48c5-860c-ecf12cefbf1a",
+        "title": "Emma",
+        "authors": [
+          "Austen, Jane"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 5,
+        "uuid": "614bea93-58b0-4033-9909-26191216bef8",
+        "title": "Persuasion",
+        "authors": [
+          "Austen, Jane"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 6,
+        "uuid": "7c0477e5-d2e9-4e00-b7e3-5ea3c080b596",
+        "title": "Mansfield Park",
+        "authors": [
+          "Austen, Jane"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 7,
+        "uuid": "9835869e-e72f-446a-b7f1-70735214263c",
+        "title": "Northanger Abbey",
+        "authors": [
+          "Austen, Jane"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 8,
+        "uuid": "66e73b3b-1abd-47df-be56-526bc15e3394",
+        "title": "Jane Eyre: An Autobiography",
+        "authors": [
+          "Bront\u00eb, Charlotte"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 9,
+        "uuid": "a1f3569c-27fc-4e44-afbb-ea0eea44f26e",
+        "title": "Wuthering Heights",
+        "authors": [
+          "Bront\u00eb, Emily"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 10,
+        "uuid": "91b736bb-a1d2-4d2c-80b9-624eace44d92",
+        "title": "Middlemarch",
+        "authors": [
+          "Eliot, George"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 11,
+        "uuid": "82a4f9b8-fc9e-4655-b223-95fdfa06da99",
+        "title": "Great Expectations",
+        "authors": [
+          "Dickens, Charles"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 12,
+        "uuid": "b7c6186f-5fab-4c7f-9b70-cb2dbf9a0af6",
+        "title": "A Tale of Two Cities",
+        "authors": [
+          "Dickens, Charles"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 13,
+        "uuid": "47780d86-3cd3-4f11-b2af-825886d03190",
+        "title": "Oliver Twist",
+        "authors": [
+          "Dickens, Charles"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 14,
+        "uuid": "6a9190d1-74b4-4517-927d-4eb115f5ec94",
+        "title": "David Copperfield",
+        "authors": [
+          "Dickens, Charles"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 15,
+        "uuid": "11d635e0-b7ae-42ec-aa2d-2f941909a239",
+        "title": "Bleak House",
+        "authors": [
+          "Dickens, Charles"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 16,
+        "uuid": "b649898c-c972-4e92-8ebd-6e688ba59831",
+        "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+        "authors": [
+          "Dickens, Charles"
+        ],
+        "formats": [
+          "EPUB",
+          "PDF"
+        ]
+      },
+      {
+        "id": 17,
+        "uuid": "627308be-d502-4528-9912-e948ac3fae63",
+        "title": "The Picture of Dorian Gray",
+        "authors": [
+          "Wilde, Oscar"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 18,
+        "uuid": "35a83aa2-ad39-44bb-9220-627ad1acba95",
+        "title": "Frankenstein; or, the modern prometheus",
+        "authors": [
+          "Shelley, Mary Wollstonecraft"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 19,
+        "uuid": "f58f824d-8b99-490d-a85d-be748175d59d",
+        "title": "Dracula",
+        "authors": [
+          "Stoker, Bram"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 20,
+        "uuid": "cb79d94a-58a2-41c9-b9d3-5e23f6c521c4",
+        "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+        "authors": [
+          "Stevenson, Robert Louis"
+        ],
+        "formats": [
+          "EPUB",
+          "PDF"
+        ]
+      },
+      {
+        "id": 21,
+        "uuid": "33f350d8-142c-4ad3-b29b-903888f13768",
+        "title": "The Turn of the Screw",
+        "authors": [
+          "James, Henry"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 22,
+        "uuid": "27921d41-230c-4230-a9e6-ed13ae15372c",
+        "title": "The Adventures of Sherlock Holmes",
+        "authors": [
+          "Doyle, Arthur Conan"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI"
+        ]
+      },
+      {
+        "id": 23,
+        "uuid": "6c9dbdd2-8bd6-443c-b7e8-51e849376d95",
+        "title": "The Hound of the Baskervilles",
+        "authors": [
+          "Doyle, Arthur Conan"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 24,
+        "uuid": "8c49b4cf-d7e2-4751-9e42-452bfb115fe9",
+        "title": "A Study in Scarlet",
+        "authors": [
+          "Doyle, Arthur Conan"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 25,
+        "uuid": "44d51d12-6879-46ae-a32d-cff946bdcb51",
+        "title": "The Valley of Fear",
+        "authors": [
+          "Doyle, Arthur Conan"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 26,
+        "uuid": "7e237af7-0bb9-44eb-9c48-f008652c72a1",
+        "title": "The Memoirs of Sherlock Holmes",
+        "authors": [
+          "Doyle, Arthur Conan"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 27,
+        "uuid": "cd35a782-0047-4d86-bbaa-c568b25268e8",
+        "title": "The Moonstone",
+        "authors": [
+          "Collins, Wilkie"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 28,
+        "uuid": "a3ea4752-e616-49cd-867e-2b8fb8aa0703",
+        "title": "The Woman in White",
+        "authors": [
+          "Collins, Wilkie"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 29,
+        "uuid": "af6d1c2f-5e5b-4e0c-b35c-0f3809c07eea",
+        "title": "The Ballad of the White Horse",
+        "authors": [
+          "Chesterton, G. K. (Gilbert Keith)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 30,
+        "uuid": "c3152ca5-838d-4f21-aae2-c436aa34d51f",
+        "title": "The innocence of Father Brown",
+        "authors": [
+          "Chesterton, G. K. (Gilbert Keith)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 31,
+        "uuid": "0c03eb1e-258b-4b03-a629-ba64072daa8f",
+        "title": "The Danish History, Books I-IX",
+        "authors": [
+          "Saxo, Grammaticus"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 32,
+        "uuid": "5f5f1561-2e75-46d2-975c-9ecc77c52c07",
+        "title": "The Time Machine",
+        "authors": [
+          "Wells, H. G. (Herbert George)"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI",
+          "PDF"
+        ]
+      },
+      {
+        "id": 33,
+        "uuid": "5463ee63-ad29-4f35-99ec-c0e50a21503e",
+        "title": "The war of the worlds",
+        "authors": [
+          "Wells, H. G. (Herbert George)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 34,
+        "uuid": "77df1283-0a04-4cfa-92b0-20efb3aac2a8",
+        "title": "The Invisible Man: A Grotesque Romance",
+        "authors": [
+          "Wells, H. G. (Herbert George)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 35,
+        "uuid": "5e6cf74b-f31b-4a6a-a6d8-32c6b5ef52aa",
+        "title": "The island of Doctor Moreau",
+        "authors": [
+          "Wells, H. G. (Herbert George)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 36,
+        "uuid": "9872c218-d4f1-4d1b-a3a3-a57ce8543e44",
+        "title": "A princess of Mars",
+        "authors": [
+          "Burroughs, Edgar Rice"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 37,
+        "uuid": "3e3d0a8b-3d4f-4bd9-afc7-b81e0e52722e",
+        "title": "Twenty Thousand Leagues under the Sea",
+        "authors": [
+          "Verne, Jules"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 38,
+        "uuid": "ecb1c4f2-d534-4c47-9b57-6533cacc2299",
+        "title": "Flatland: A Romance of Many Dimensions",
+        "authors": [
+          "Abbott, Edwin Abbott"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI"
+        ]
+      },
+      {
+        "id": 39,
+        "uuid": "7c884df4-ebf7-4ca2-81c1-15dd90b32c38",
+        "title": "A Journey to the Centre of the Earth",
+        "authors": [
+          "Verne, Jules"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 40,
+        "uuid": "97a8a4ec-a962-4b26-8264-83622db97f7b",
+        "title": "Looking Backward, 2000 to 1887",
+        "authors": [
+          "Bellamy, Edward"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 41,
+        "uuid": "a00369d4-a412-453f-a8dc-b68ffcfc3fbb",
+        "title": "At the Earth's Core",
+        "authors": [
+          "Burroughs, Edgar Rice"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 42,
+        "uuid": "0b0060b8-8eaf-44f9-8c5e-9f0f665ac938",
+        "title": "Treasure Island",
+        "authors": [
+          "Stevenson, Robert Louis"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI"
+        ]
+      },
+      {
+        "id": 43,
+        "uuid": "f794bf77-7e41-4fd7-a95a-02098788f9df",
+        "title": "The Count of Monte Cristo",
+        "authors": [
+          "Dumas, Alexandre",
+          "Maquet, Auguste"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 44,
+        "uuid": "111a9342-591a-4c36-8565-55d95939b6f5",
+        "title": "The three musketeers",
+        "authors": [
+          "Dumas, Alexandre",
+          "Maquet, Auguste"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 45,
+        "uuid": "f84f59fb-6b11-452e-9b67-8662b9efc160",
+        "title": "Around the World in Eighty Days",
+        "authors": [
+          "Verne, Jules"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 46,
+        "uuid": "95c8042e-1d3e-41fb-aa06-bba593f25da3",
+        "title": "Adventures of Huckleberry Finn",
+        "authors": [
+          "Twain, Mark"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 47,
+        "uuid": "52afe504-08ab-4c26-af80-1dfe699cf522",
+        "title": "The Adventures of Tom Sawyer, Complete",
+        "authors": [
+          "Twain, Mark"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 48,
+        "uuid": "413a1bca-98eb-424f-a89b-e4bc8cb53114",
+        "title": "Summer",
+        "authors": [
+          "Wharton, Edith"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 49,
+        "uuid": "8a92002b-63c6-4270-ada4-fbe912ccbe93",
+        "title": "Heart of Darkness",
+        "authors": [
+          "Conrad, Joseph"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 50,
+        "uuid": "843d43ec-4522-4c9b-a4f1-2401b2e4a6af",
+        "title": "The call of the wild",
+        "authors": [
+          "London, Jack"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 51,
+        "uuid": "c2d605ab-1095-46f7-ac55-e5ad16afeb36",
+        "title": "The Sign of the Four",
+        "authors": [
+          "Doyle, Arthur Conan"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 52,
+        "uuid": "f2f4aab6-4ac0-47d7-8689-4dbe1dd376d1",
+        "title": "Alice's Adventures in Wonderland",
+        "authors": [
+          "Carroll, Lewis"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI",
+          "PDF"
+        ]
+      },
+      {
+        "id": 53,
+        "uuid": "53a3fd8e-a94f-43cc-975b-1a4730659833",
+        "title": "Through the Looking-Glass",
+        "authors": [
+          "Carroll, Lewis"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 54,
+        "uuid": "064302b9-1a02-4b34-846c-018f6be8e59f",
+        "title": "The Wonderful Wizard of Oz",
+        "authors": [
+          "Baum, L. Frank (Lyman Frank)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 55,
+        "uuid": "b1988ad9-0bc2-4644-ad56-2b662c2780d8",
+        "title": "Peter Pan: [Peter and Wendy]",
+        "authors": [
+          "Barrie, J. M. (James Matthew)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 56,
+        "uuid": "05219c08-6791-4065-9c75-7e53f4aa48e6",
+        "title": "The Secret Garden",
+        "authors": [
+          "Burnett, Frances Hodgson"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 57,
+        "uuid": "7e95e400-5e77-4345-8cbb-a9e380bbac20",
+        "title": "Anne of Green Gables",
+        "authors": [
+          "Montgomery, L. M. (Lucy Maud)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 58,
+        "uuid": "f7cbd573-04ce-46c7-9b3e-5c6d264d3514",
+        "title": "Little Women",
+        "authors": [
+          "Alcott, Louisa May"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 59,
+        "uuid": "400bf215-5906-4647-b49a-c59b6652a9b5",
+        "title": "Don Quixote",
+        "authors": [
+          "Cervantes Saavedra, Miguel de"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 60,
+        "uuid": "21d47f6c-c0c5-45d3-a024-a299750eafa9",
+        "title": "The Jungle Book",
+        "authors": [
+          "Kipling, Rudyard"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 61,
+        "uuid": "72f167b1-4282-43dc-a46e-85a5f463ac7e",
+        "title": "Gulliver's Travels into Several Remote Nations of the World",
+        "authors": [
+          "Swift, Jonathan"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 62,
+        "uuid": "8648188e-553f-4f46-8f2b-d90f97b0d755",
+        "title": "Grimms' Fairy Tales",
+        "authors": [
+          "Grimm, Jacob",
+          "Grimm, Wilhelm"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 63,
+        "uuid": "a62dce8a-5e51-4165-a899-3d83ae4f44fc",
+        "title": "Three hundred Aesop\u2019s fables Translated by George Fyler Townsend",
+        "authors": [
+          "Aesop"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 64,
+        "uuid": "38c84d1c-bfd9-4034-997d-3dd8e6636552",
+        "title": "Fairy Tales Every Child Should Know",
+        "authors": [
+          "Anonymous"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 65,
+        "uuid": "2336cf13-dcff-4536-a888-ea34948af3fa",
+        "title": "Andersen's Fairy Tales",
+        "authors": [
+          "Andersen, H. C. (Hans Christian)"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 66,
+        "uuid": "b755ef1f-2080-4a83-9b01-f215beb4b11f",
+        "title": "Household Tales by Brothers Grimm",
+        "authors": [
+          "Grimm, Jacob",
+          "Grimm, Wilhelm"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 67,
+        "uuid": "fb052d0f-9df3-497c-92f3-bdb1399f1729",
+        "title": "A Midsummer Night's Dream",
+        "authors": [
+          "Shakespeare, William"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI",
+          "PDF"
+        ]
+      },
+      {
+        "id": 68,
+        "uuid": "0a846dbb-e3f0-4135-9ce1-758ad205e758",
+        "title": "Romeo and Juliet",
+        "authors": [
+          "Shakespeare, William"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 69,
+        "uuid": "faa9fbd1-7ad3-4fde-b0c7-3bb9f3bd9a32",
+        "title": "Hamlet",
+        "authors": [
+          "Shakespeare, William"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 70,
+        "uuid": "d022a011-7222-406a-928e-2ba526928bdb",
+        "title": "Macbeth",
+        "authors": [
+          "Shakespeare, William"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 71,
+        "uuid": "d7bb3f67-90b8-4785-babb-d872d886d814",
+        "title": "Othello",
+        "authors": [
+          "Shakespeare, William"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 72,
+        "uuid": "b7833df5-6afc-44c1-afdd-fab1bcf3f660",
+        "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+        "authors": [
+          "Wilde, Oscar"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 73,
+        "uuid": "95c8f41a-9e08-440b-a73f-38657cee1de2",
+        "title": "A Doll's House : a play",
+        "authors": [
+          "Ibsen, Henrik"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 74,
+        "uuid": "5cfeb051-cfad-436c-806f-fe0d99f3aeeb",
+        "title": "Shakespeare's Sonnets",
+        "authors": [
+          "Shakespeare, William"
+        ],
+        "formats": [
+          "EPUB",
+          "PDF"
+        ]
+      },
+      {
+        "id": 75,
+        "uuid": "f417c050-7d2c-4271-84a3-241290dfa0a8",
+        "title": "Leaves of Grass",
+        "authors": [
+          "Whitman, Walt"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 76,
+        "uuid": "b4bc3276-2f3a-4014-ab26-26da894512f2",
+        "title": "Paradise Lost",
+        "authors": [
+          "Milton, John"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 77,
+        "uuid": "b4cd8bcd-c7f2-4614-8dc6-3cb9c9696c5f",
+        "title": "The Iliad",
+        "authors": [
+          "Homer"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 78,
+        "uuid": "12ec0dde-3f2c-497f-ab58-6a05291af60e",
+        "title": "The Odyssey Rendered into English prose for the use of those who cannot read the original",
+        "authors": [
+          "Homer"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 79,
+        "uuid": "907cd920-47e2-4e55-b0cb-5a79b4f1ff16",
+        "title": "Beowulf: An Anglo-Saxon Epic Poem",
+        "authors": [
+          "Anonymous"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 80,
+        "uuid": "556d4ad9-e645-434a-a1a6-52f94684cd62",
+        "title": "Faust [part 1]. Translated Into English in the Original Metres",
+        "authors": [
+          "Goethe, Johann Wolfgang von"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 81,
+        "uuid": "24bfdefc-5f88-4cf5-af5d-a09ce292c26a",
+        "title": "The Raven",
+        "authors": [
+          "Poe, Edgar Allan"
+        ],
+        "formats": [
+          "EPUB",
+          "PDF"
+        ]
+      },
+      {
+        "id": 82,
+        "uuid": "1cab78a9-fd7f-4d77-9c78-fa3310545757",
+        "title": "The Prince",
+        "authors": [
+          "Machiavelli, Niccol\u00f2"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 83,
+        "uuid": "c0c739c3-418e-4a04-8919-b3e0876d18d8",
+        "title": "The Republic",
+        "authors": [
+          "Plato"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 84,
+        "uuid": "92c0337d-343f-4832-aebb-a0ed6adb8000",
+        "title": "Meditations",
+        "authors": [
+          "Marcus Aurelius, Emperor of Rome"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 85,
+        "uuid": "261e4710-621e-4053-a580-f6684b111999",
+        "title": "Moby Dick; Or, The Whale",
+        "authors": [
+          "Melville, Herman"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 86,
+        "uuid": "f0ec379c-e5c0-41f5-bc9f-33cf99d25157",
+        "title": "Leviathan",
+        "authors": [
+          "Hobbes, Thomas"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 87,
+        "uuid": "55c67095-7c1a-4265-9c08-1bb6f585a939",
+        "title": "Essays of Michel de Montaigne \u2014 Complete",
+        "authors": [
+          "Montaigne, Michel de"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 88,
+        "uuid": "9abc2bc5-34dc-4c44-bb9c-a1c57d908985",
+        "title": "Thus Spake Zarathustra: A Book for All and None",
+        "authors": [
+          "Nietzsche, Friedrich Wilhelm"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 89,
+        "uuid": "89c0f43d-e7e5-4c7a-973d-91fc3b8e8f45",
+        "title": "Dubliners",
+        "authors": [
+          "Joyce, James"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 90,
+        "uuid": "a866d376-2e46-4ae4-9293-4e23ab71938e",
+        "title": "Apology",
+        "authors": [
+          "Plato"
+        ],
+        "formats": [
+          "EPUB",
+          "PDF"
+        ]
+      },
+      {
+        "id": 91,
+        "uuid": "ac39824c-7cb5-4e75-8570-a55cd08d8dbf",
+        "title": "A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+        "authors": [
+          "Swift, Jonathan"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI",
+          "PDF"
+        ]
+      },
+      {
+        "id": 92,
+        "uuid": "87936240-1f36-4800-a359-264a9b4f685f",
+        "title": "The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in the Struggle for Life, 6th Edition",
+        "authors": [
+          "Darwin, Charles"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 93,
+        "uuid": "73bf7a90-65b9-4340-825c-e77328732975",
+        "title": "The Voyage of the Beagle",
+        "authors": [
+          "Darwin, Charles"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 94,
+        "uuid": "bc8132de-9a34-4986-986c-52a60bfad857",
+        "title": "Walden, and On The Duty Of Civil Disobedience",
+        "authors": [
+          "Thoreau, Henry David"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI"
+        ]
+      },
+      {
+        "id": 95,
+        "uuid": "662d2e66-f5a5-444a-ba50-ad33fe18dccd",
+        "title": "Autobiography of Benjamin Franklin",
+        "authors": [
+          "Franklin, Benjamin"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 96,
+        "uuid": "134da659-c847-4f9a-886b-2723740237a0",
+        "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+        "authors": [
+          "Douglass, Frederick"
+        ],
+        "formats": [
+          "EPUB",
+          "MOBI",
+          "PDF"
+        ]
+      },
+      {
+        "id": 97,
+        "uuid": "dfd2a020-7c30-48cd-b587-c60ad54854e8",
+        "title": "Tarzan the Terrible",
+        "authors": [
+          "Burroughs, Edgar Rice"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 98,
+        "uuid": "c576a5cb-7b88-4bf8-935f-2184eada2df7",
+        "title": "The Life and Adventures of Robinson Crusoe",
+        "authors": [
+          "Defoe, Daniel"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 99,
+        "uuid": "33132c7e-787f-4f6c-876d-e94873e52163",
+        "title": "Roget's Thesaurus of English Words and Phrases",
+        "authors": [
+          "Roget, Peter Mark"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 100,
+        "uuid": "ec194f6d-7fcb-423c-a652-43d38c248800",
+        "title": "Democracy in America \u2014 Volume 1",
+        "authors": [
+          "Tocqueville, Alexis de"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      },
+      {
+        "id": 101,
+        "uuid": "92be54f6-783b-4b86-9974-7369fa16e983",
+        "title": "Beyond Good and Evil",
+        "authors": [
+          "Nietzsche, Friedrich Wilhelm"
+        ],
+        "formats": [
+          "EPUB"
+        ]
+      }
+    ]
+  }
+}

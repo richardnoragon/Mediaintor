@@ -1,0 +1,95 @@
+{
+  "module_root": "/tmp/mediainator-m6-acceptance-0bwfno8b/user/.local/share/mediainator-install/releases/0.1.0a1-4a98f3fa61165790",
+  "root": "/tmp/mediainator-application-acceptance-4z3wax4y",
+  "library": "/tmp/mediainator-application-acceptance-4z3wax4y/library",
+  "seed_unchanged": true,
+  "checks": [
+    {
+      "test": "all_101_books_load",
+      "passed": true,
+      "count": 101
+    },
+    {
+      "test": "metadata_and_all_format_paths",
+      "passed": true
+    },
+    {
+      "test": "all_covers_resolve",
+      "passed": true
+    },
+    {
+      "test": "epub_mobi_pdf_grouped_on_one_book",
+      "passed": true
+    },
+    {
+      "test": "title_search_includes_multiformat_book",
+      "passed": true
+    },
+    {
+      "test": "author_search_includes_book",
+      "passed": true
+    },
+    {
+      "test": "list_count_matches_grid",
+      "passed": true
+    },
+    {
+      "test": "unknown_reading_status",
+      "passed": true
+    },
+    {
+      "test": "single_metadata_save",
+      "passed": true
+    },
+    {
+      "test": "single_metadata_restore",
+      "passed": true
+    },
+    {
+      "test": "bulk_preview_is_explicit",
+      "passed": true
+    },
+    {
+      "test": "bulk_four_book_save",
+      "passed": true
+    },
+    {
+      "test": "bulk_revert_verified",
+      "passed": true
+    },
+    {
+      "test": "import_preview_missing_metadata_warning",
+      "passed": true
+    },
+    {
+      "test": "copy_only_import_and_review_flag",
+      "passed": true
+    },
+    {
+      "test": "review_state_survives_history_cleanup",
+      "passed": true
+    },
+    {
+      "test": "recovery_seed_does_not_write",
+      "passed": true
+    },
+    {
+      "test": "fresh_process_recovery_discovery",
+      "passed": true
+    },
+    {
+      "test": "startup_attention_counts_no_double_total",
+      "passed": true
+    },
+    {
+      "test": "scale_full_history_1000_operations",
+      "passed": true,
+      "seconds": 0.029
+    },
+    {
+      "test": "scale_distinct_attention_and_latest_actual_failure",
+      "passed": true
+    }
+  ],
+  "desktop_confirmation": "pending"
+}

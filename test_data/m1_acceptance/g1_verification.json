@@ -1,0 +1,11 @@
+{
+  "busy_refresh_rejected_before_copy": true,
+  "external_reader_launch_rejected": true,
+  "external_process_untouched": true,
+  "retry_after_busy_passed": true,
+  "source_unchanged": true,
+  "original_paths_resolved": true,
+  "calibre_queried_private_copy": true,
+  "missing_library_reported": true,
+  "status": "PASS for accepted M1 exclusive-access policy; no concurrent-write guarantee"
+}

@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "test": "clean_user_install",
+      "passed": true
+    },
+    {
+      "test": "installed_hub_offscreen_smoke_without_checkout",
+      "passed": true
+    },
+    {
+      "test": "desktop_entry_valid",
+      "passed": true
+    },
+    {
+      "test": "same_artifact_reinstall",
+      "passed": true
+    },
+    {
+      "test": "uninstall_retains_data",
+      "passed": true
+    },
+    {
+      "test": "reinstall_retains_data",
+      "passed": true
+    },
+    {
+      "test": "checkout_and_original_library_not_mounted",
+      "passed": true
+    }
+  ],
+  "runtime": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "artifact": "mediainator-0.1.0a1-ubuntu26.04-x86_64.tar.gz",
+  "sha256": "0c0ae7e07e5f39cb85de5ca1774faa76754358e2cee9ec4086e748fe792ae337",
+  "fixture": "/tmp/mediainator-m6-package-gliyihjv",
+  "isolation": "private mount/user/network namespace; host /usr and /etc read-only; clean user; no project or original home mounted",
+  "limitations": "Not a freshly installed OS; uses host system packages. KDE menu interaction and populated-state upgrade remain M6-06/07."
+}

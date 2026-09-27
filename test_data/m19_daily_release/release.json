@@ -1,0 +1,12 @@
+{
+  "build": "0.1.0a1-b016b423b7099943",
+  "image": "sha256:cfed0acf7ab782b4c686687a020faf9a40c6d1c53cf2a7a9ceffe870c3a3c9a5",
+  "docker_archive_sha256": "931626e8dd514fbc886485b02fd3309ce4b052125314451b457c5778e76950b2",
+  "source_tests_passed": 388,
+  "installed_container_tests_passed": 93,
+  "m16_original_data_unchanged": true,
+  "cloned_files": 1351,
+  "acceptance_data_included": false,
+  "daily_root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M19-Everyday",
+  "git_commit": "Initial master integration; identify via git log"
+}

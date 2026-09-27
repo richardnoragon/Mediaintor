@@ -1,0 +1,61 @@
+{
+  "task": "M7 Day 7 final workflows and evidence review",
+  "date": "2026-09-22",
+  "timezone": "Europe/Berlin",
+  "candidate_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "note": "Focused evidence for the Day 7 task set; this does not by itself complete the seven-day calendar requirement.",
+  "review_scope": [
+    "Day 1 baseline validation",
+    "Day 2 startup/persistence focus",
+    "Day 3 restore/upgrade focus",
+    "Day 4 security review",
+    "Day 5 performance/stability",
+    "Day 6 documentation walkthrough"
+  ],
+  "validation_command": "PYTHONPATH=tests QT_QPA_PLATFORM=offscreen python3 -m unittest tests.test_foundation tests.test_activity_recovery tests.test_m1_workflow tests.test_help -v",
+  "validation_result": {
+    "passed": true,
+    "tests_run": 39,
+    "summary": "Main workflows, recovery, restart, reader-close behavior and offline help/documentation checks passed"
+  },
+  "artifact_identity": {
+    "archive_sha256_expected": "cb8ba49f26f4301dd5f116ae4ef758547c329d164638cbe04ad298a274a13513",
+    "archive_sha256_verified": "cb8ba49f26f4301dd5f116ae4ef758547c329d164638cbe04ad298a274a13513",
+    "image_digest_expected": "sha256:da0d06cee1517cbbc0b0b8910c3303b6ad3b47377445a76e47994e977f885783"
+  },
+  "review_result": {
+    "daily_records_reviewed": 6,
+    "daily_records_complete_for_task_tracking": true,
+    "candidate_changed": false,
+    "package_changed": false,
+    "image_changed": false,
+    "missing_steps_found": false,
+    "limitations_reviewed": true
+  },
+  "checks": [
+    {
+      "name": "settings_roundtrip_preserves_identity",
+      "passed": true
+    },
+    {
+      "name": "shared_views_search_and_restart",
+      "passed": true
+    },
+    {
+      "name": "recovery_review_preserves_unrelated_changes_and_requires_choices",
+      "passed": true
+    },
+    {
+      "name": "help_reuse_and_hub_close",
+      "passed": true
+    },
+    {
+      "name": "about_matches_project_version",
+      "passed": true
+    },
+    {
+      "name": "archive_sha256_verified",
+      "passed": true
+    }
+  ]
+}

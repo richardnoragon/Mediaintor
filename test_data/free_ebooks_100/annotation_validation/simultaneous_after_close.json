@@ -1,0 +1,119 @@
+{
+  "label": "simultaneous_after_close",
+  "local": {
+    "epub": [
+      {
+        "file": "6ad194a2e984155395e0ce995912f948e2c17e2a4a19cd64697bccc538d8d327.json",
+        "annotations": [
+          {
+            "title": "TEST-SIMULTANEOUS",
+            "pos_type": "epubcfi",
+            "pos": "epubcfi(/6/2/4/2[pgepubid00003]/30/1:719)",
+            "timestamp": "2026-09-20T15:56:41.078364+00:00",
+            "type": "bookmark"
+          },
+          {
+            "pos": "epubcfi(/6/2/4/2[pgepubid00003]/30/1:719)",
+            "pos_type": "epubcfi",
+            "timestamp": "2026-09-20T16:02:09.803415+00:00",
+            "type": "last-read"
+          }
+        ]
+      }
+    ],
+    "mobi": [
+      {
+        "file": "ddc43a5bf2c6fcc8521fcbd10a7ab19e4790e746db7437830ba097580f92f462.json",
+        "annotations": [
+          {
+            "title": "TEST-SIMULTANEOUS",
+            "pos_type": "epubcfi",
+            "pos": "epubcfi(/4/2/4/300/1:612)",
+            "timestamp": "2026-09-20T15:57:14.630096+00:00",
+            "type": "bookmark"
+          },
+          {
+            "pos": "epubcfi(/4/2/4/300/1:612)",
+            "pos_type": "epubcfi",
+            "timestamp": "2026-09-20T16:02:10.024447+00:00",
+            "type": "last-read"
+          }
+        ]
+      }
+    ],
+    "pdf": [
+      {
+        "file": "621379dc2e8b7e28804b694e081721c2931ca5cb3123a57c2a1099131ce49732.json",
+        "annotations": [
+          {
+            "title": "TEST-SIMULTANEOUS",
+            "pos_type": "epubcfi",
+            "pos": "epubcfi(/2/2/4/180[page_12]/1:32)",
+            "timestamp": "2026-09-20T15:56:19.975221+00:00",
+            "type": "bookmark"
+          },
+          {
+            "pos": "epubcfi(/2/2/4/180[page_12]/1:32)",
+            "pos_type": "epubcfi",
+            "timestamp": "2026-09-20T16:02:10.225706+00:00",
+            "type": "last-read"
+          }
+        ]
+      }
+    ]
+  },
+  "errors": {
+    "epub": {
+      "busy_errors": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/usr/lib/calibre/calibre/gui2/viewer/annotations.py\", line 86, in run\n    save_annotations(annotations_list, annotations_path_key, bld, pathtoebook, in_book_file, sync_annots_user, x['calibre_data'])\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/gui2/viewer/annotations.py\", line 59, in save_annotations\n    save_annotations_list_to_library(bld, annotations_list, sync_annots_user, calibre_data=calibre_data)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/gui2/viewer/integration.py\", line 107, in save_annotations_list_to_library\n    save_annotations_list_to_cursor(conn.cursor(), alist, sync_annots_user, book_library_details['book_id'], book_library_details['fmt'])\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/backend.py\", line 361, in save_annotations_list_to_cursor\n    save_annotations_for_book(cursor, book_id, book_fmt, alist)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/backend.py\", line 341, in save_annotations_for_book\n    cursor.execute('INSERT OR IGNORE INTO annotations_dirtied (book) VALUES (?)', (book_id,))\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"src/cursor.c\", line 172, in resetcursor\napsw.BusyError: BusyError: database is locked\n"
+    },
+    "mobi": {
+      "busy_errors": 0,
+      "stderr": ""
+    },
+    "pdf": {
+      "busy_errors": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/usr/lib/calibre/calibre/gui2/viewer/annotations.py\", line 86, in run\n    save_annotations(annotations_list, annotations_path_key, bld, pathtoebook, in_book_file, sync_annots_user, x['calibre_data'])\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/gui2/viewer/annotations.py\", line 59, in save_annotations\n    save_annotations_list_to_library(bld, annotations_list, sync_annots_user, calibre_data=calibre_data)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/gui2/viewer/integration.py\", line 107, in save_annotations_list_to_library\n    save_annotations_list_to_cursor(conn.cursor(), alist, sync_annots_user, book_library_details['book_id'], book_library_details['fmt'])\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/backend.py\", line 361, in save_annotations_list_to_cursor\n    save_annotations_for_book(cursor, book_id, book_fmt, alist)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/backend.py\", line 341, in save_annotations_for_book\n    cursor.execute('INSERT OR IGNORE INTO annotations_dirtied (book) VALUES (?)', (book_id,))\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"src/cursor.c\", line 172, in resetcursor\napsw.BusyError: BusyError: database is locked\njs: Request Autofill.enable failed. {\"code\":-32601,\"message\":\"'Autofill.enable' wasn't found\"}\n[54390:54390:0920/175544.372763:ERROR:CONSOLE(1)] \"Request Autofill.enable failed. {\"code\":-32601,\"message\":\"'Autofill.enable' wasn't found\"}\", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)\njs: Request Autofill.setAddresses failed. {\"code\":-32601,\"message\":\"'Autofill.setAddresses' wasn't found\"}\n[54390:54390:0920/175544.372933:ERROR:CONSOLE(1)] \"Request Autofill.setAddresses failed. {\"code\":-32601,\"message\":\"'Autofill.setAddresses' wasn't found\"}\", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of KIO::Worker::unnamed\nQObject::disconnect: wildcard call disconnects from destroyed signal of QNativeSocketEngine::unnamed\n"
+    }
+  },
+  "library_annotations": [
+    {
+      "book": 52,
+      "format": "EPUB",
+      "type": "bookmark",
+      "data": {
+        "title": "TEST-SIMULTANEOUS",
+        "pos_type": "epubcfi",
+        "pos": "epubcfi(/6/2/4/2[pgepubid00003]/30/1:719)",
+        "timestamp": "2026-09-20T15:56:41.078364+00:00",
+        "type": "bookmark"
+      }
+    },
+    {
+      "book": 32,
+      "format": "MOBI",
+      "type": "bookmark",
+      "data": {
+        "title": "TEST-SIMULTANEOUS",
+        "pos_type": "epubcfi",
+        "pos": "epubcfi(/4/2/4/300/1:612)",
+        "timestamp": "2026-09-20T15:57:14.630096+00:00",
+        "type": "bookmark"
+      }
+    },
+    {
+      "book": 81,
+      "format": "PDF",
+      "type": "bookmark",
+      "data": {
+        "title": "TEST-SIMULTANEOUS",
+        "pos_type": "epubcfi",
+        "pos": "epubcfi(/2/2/4/180[page_12]/1:32)",
+        "timestamp": "2026-09-20T15:56:19.975221+00:00",
+        "type": "bookmark"
+      }
+    }
+  ],
+  "integrity": "ok",
+  "source_unchanged": true
+}

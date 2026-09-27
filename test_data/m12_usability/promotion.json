@@ -1,0 +1,23 @@
+{
+  "status": "promoted for personal everyday use; next launch uses everyday label",
+  "build": "0.1.0a1-f59e8af9b043f304",
+  "launcher_name": "Media-inator Everyday (M12)",
+  "desktop_file": "/home/sproket01/.local/share/applications/mediainator-m12-test.desktop",
+  "installation_root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M12-Test",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M12-Test/backups/pre-everyday-promotion",
+  "retained_files_verified": 769,
+  "changes": [
+    "deployment display label",
+    "existing KDE menu entry display name"
+  ],
+  "unchanged": [
+    "accepted package",
+    "all active user data",
+    "M11",
+    "RC1",
+    "M9",
+    "M10"
+  ],
+  "publication": false,
+  "directory_note": "Historical M12-Test directory and desktop filename retained to avoid moving existing data or creating a second instance."
+}

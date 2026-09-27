@@ -1,0 +1,19 @@
+{
+  "status": "isolated baseline copied and verified; M13 application changes not installed",
+  "root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M13-Development",
+  "source": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M12-Test",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M13-Development/backups/m12-source",
+  "launcher": "/home/sproket01/.local/share/applications/mediainator-m13-development.desktop",
+  "compose_project": "mediainator-m13",
+  "baseline_build": "0.1.0a1-f59e8af9b043f304",
+  "source_unchanged": true,
+  "copy_matches_source": true,
+  "writable_mounts_independent": true,
+  "files_verified": 770,
+  "installed_inventory": "M13 baseline candidate verified: 0.1.0a1-f59e8af9b043f304\n",
+  "smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  }
+}

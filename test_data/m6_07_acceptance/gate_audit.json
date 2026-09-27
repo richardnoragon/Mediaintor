@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-22",
+  "artifact_sha256": "30e99d0e6b9659ef43785587a427e8ad05afdfbec81462503652a1a2ad967584",
+  "checks": [
+    {
+      "test": "current_sources_reproduce_accepted_artifact",
+      "passed": true
+    },
+    {
+      "test": "m6_03_compatibility_all_checks_pass",
+      "passed": true
+    },
+    {
+      "test": "m6_04_help_all_checks_pass",
+      "passed": true
+    },
+    {
+      "test": "m6_05_diagnostics_all_checks_pass",
+      "passed": true
+    },
+    {
+      "test": "m6_06_installation_all_checks_pass",
+      "passed": true
+    },
+    {
+      "test": "application_report.json_all_checks_pass",
+      "passed": true
+    },
+    {
+      "test": "kde_report.json_all_checks_pass",
+      "passed": true
+    },
+    {
+      "test": "accepted_installed_artifact_identity",
+      "passed": true
+    },
+    {
+      "test": "upgrade_qualification_artifact_identity",
+      "passed": true
+    },
+    {
+      "test": "application_modules_unchanged_since_m6_05_qualification",
+      "passed": true
+    },
+    {
+      "test": "personal_confirmation_complete",
+      "passed": true
+    }
+  ],
+  "publication": false
+}

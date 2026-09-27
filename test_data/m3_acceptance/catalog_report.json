@@ -1,0 +1,25 @@
+{
+  "root": "/tmp/mediainator-m3-catalog-u8tlj226",
+  "checks": [
+    {
+      "test": "101_to_102_catalog_refresh",
+      "passed": true
+    },
+    {
+      "test": "needs_review_list",
+      "passed": true
+    },
+    {
+      "test": "independent_initial_status",
+      "passed": true
+    },
+    {
+      "test": "save_does_not_clear_review",
+      "passed": true
+    },
+    {
+      "test": "explicit_mark_reviewed",
+      "passed": true
+    }
+  ]
+}

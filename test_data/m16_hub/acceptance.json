@@ -1,0 +1,16 @@
+{
+  "gate": "PASSED",
+  "build": "0.1.0a1-c663cfd06375b1f1",
+  "reported_open_issues": [],
+  "evidence": [
+    "desktop_acceptance.json",
+    "placeholder_contrast_tests.log",
+    "polish_package_verification.json",
+    "regression.log",
+    "saved_state_readback.json"
+  ],
+  "source_regression_tests": 266,
+  "final_installed_tests": 122,
+  "scope": "M16 personal Everyday acceptance; owner requests promotion. System accent changes require restart as documented.",
+  "seven_day_observation": "retired by owner"
+}

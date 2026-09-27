@@ -1,0 +1,38 @@
+{
+  "temporary_root": "/tmp/mediainator-expanded-n2b0gj31",
+  "records": 101,
+  "load_seconds": 0.298,
+  "formats": {
+    ".epub": 101,
+    ".mobi": 10,
+    ".pdf": 10
+  },
+  "valid_covers": 101,
+  "missing_cover_ids": [],
+  "imported_metadata_and_120_hashes_match": true,
+  "multi_format_records": 15,
+  "three_format_records": 5,
+  "queries": [
+    {
+      "query": "title:\"Pride and Prejudice\"",
+      "matches": 1,
+      "seconds": 0.288,
+      "passed": true
+    },
+    {
+      "query": "authors:\"Austen\"",
+      "matches": 6,
+      "seconds": 0.289,
+      "passed": true
+    },
+    {
+      "query": "title:\"zzzz_mediainator_no_such_book_987654\"",
+      "matches": 0,
+      "seconds": 0.29,
+      "passed": true
+    }
+  ],
+  "integrity": "ok",
+  "source_files_unchanged": true,
+  "copy_files_unchanged_by_queries": true
+}

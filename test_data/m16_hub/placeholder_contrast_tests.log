@@ -1,0 +1,15 @@
+test_failed_reset_and_cancel (test_m16_hub.M16Tests.test_failed_reset_and_cancel) ... ok
+test_failure_rollback_and_retry_preserves_other_changes (test_m16_hub.M16Tests.test_failure_rollback_and_retry_preserves_other_changes) ... ok
+test_legacy_and_invalid_settings_preserved (test_m16_hub.M16Tests.test_legacy_and_invalid_settings_preserved) ... ok
+test_palette_combinations (test_m16_hub.M16Tests.test_palette_combinations) ... ok
+test_registry_and_hub_settings_without_bookinator (test_m16_hub.M16Tests.test_registry_and_hub_settings_without_bookinator) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+ok
+test_sizes_not_cumulative_and_reset_preserves_identity (test_m16_hub.M16Tests.test_sizes_not_cumulative_and_reset_preserves_identity) ... ok
+test_existing_and_new_fields_follow_theme_with_readable_placeholder (test_m16_hub.PlaceholderContrastTests.test_existing_and_new_fields_follow_theme_with_readable_placeholder) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.109s
+
+OK

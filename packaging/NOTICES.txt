@@ -1,0 +1,9 @@
+Media-inator personal-use preview. No project redistribution license has yet
+been established. This bundle does not grant permission for public distribution.
+The application retains its existing version; this is not a 1.0 release.
+
+Python, PyQt6, SIP, Qt, KDE and Calibre are external system prerequisites.
+No copies of their binaries are bundled. Their licenses and copyright notices
+remain in the installed Ubuntu packages, including /usr/share/doc/<package>/copyright.
+Any later public distribution must review the project license and dependency
+license obligations. The included simple book icon was created for this package.

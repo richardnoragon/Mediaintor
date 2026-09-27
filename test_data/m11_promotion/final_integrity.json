@@ -1,0 +1,19 @@
+{
+  "build": "0.1.0a1-a3a4679f39f4c255",
+  "archive_sha256": "edc96793ca09a37db7a15bbd1036db96f2c771cff43b16563796590a8805b1f4",
+  "package_inventory_valid": true,
+  "books": 102,
+  "named_workspace_persisted": true,
+  "import_epub_persisted": true,
+  "import_source_unchanged": true,
+  "metadata_tag_verified_on": "The Time Machine",
+  "bulk_batch": "f6c4e359-326d-4332-854d-04cc03c23717",
+  "revert_batch": "93f2e553-1df3-4704-94a5-d83d4f1ad086",
+  "bulk_revert_complete": true,
+  "original_tags_restored": true,
+  "recovery_state": "recovered",
+  "recovery_tag_persisted": true,
+  "unresolved_recovery": 0,
+  "m10_source_files_match_promotion_backup": true,
+  "scope": "Read-only final checks while Hub may remain open; backup/restore evidence comes from earlier closed snapshots"
+}

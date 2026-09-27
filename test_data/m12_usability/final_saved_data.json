@@ -1,0 +1,31 @@
+{
+  "books": 103,
+  "persuasion_tags": [
+    "Romance",
+    "mediainator-test-100"
+  ],
+  "recovery_tag_saved": true,
+  "import_uuid": "ff4f3e08-6a1c-491f-b632-7202f3f10a1f",
+  "imported_file_exists": true,
+  "source_sha256": "67fea5c518c4dcd519c58d4b6a05834328aabf3fce666dce04ce10e0d9f697b6",
+  "import_journal_verified": true,
+  "8ba72817": "complete",
+  "fe0da942": "complete",
+  "recovery_state": "recovered",
+  "workspace_and_last_selection_retained": true,
+  "imported_book_position_retained": true,
+  "m11_baseline_files_checked": 622,
+  "m11_changed_files": [],
+  "archive_sha256": "21af3e215de06a32d1088ad6a980f189407af99b5dcbce3074d081448aad458b",
+  "installed_release": "0.1.0a1-f59e8af9b043f304",
+  "checked_at": "2026-09-23T16:04:37.637764+00:00",
+  "status": "passed",
+  "method": "Read-only SQLite transaction and JSON/file readback after owner restart; no application data modified.",
+  "installed_manifest_files_verified": 44,
+  "prior_focus_build_unchanged_components": [
+    "mediainator/recovery_actions.py",
+    "mediainator/editor.py",
+    "mediainator/window.py",
+    "mediainator/feedback.py"
+  ]
+}

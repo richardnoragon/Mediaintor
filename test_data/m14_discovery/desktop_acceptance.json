@@ -1,0 +1,135 @@
+{
+  "build": "0.1.0a1-9cf2b6503ae20a40",
+  "gate": "PASSED",
+  "checks": {
+    "opening_and_workbench": {
+      "status": "passed",
+      "evidence": "Owner confirms correct build and usable Find / review table."
+    },
+    "keyboard_and_sizing": {
+      "status": "passed",
+      "passed": [
+        "Tab and Shift+Tab navigation through buttons and fields",
+        "ordinary window resizing keeps controls accessible with table scrolling"
+      ],
+      "remaining": [],
+      "evidence": "Owner explicitly confirms navigation through buttons and fields using Tab and Shift+Tab. Owner confirms correct resizing behavior; screenshots show enlarged and reduced workbench with search fields and bottom buttons accessible and table scrollbars available."
+    },
+    "saved_searches": {
+      "status": "passed",
+      "passed": [
+        "update selected definition",
+        "restore saved search",
+        "persistence after normal Hub restart",
+        "create named search on 10000-book library",
+        "rename",
+        "delete without changing books"
+      ],
+      "evidence": "Owner confirmed update/restore and restart persistence; screenshot shows saved search M14 Acceptance, with text Quick Start guide and 1 of 104 books: Quick Start Guide. Owner confirms create and rename on scale fixture; screenshot shows M14 Scale Renamed, query M14 Fixture 09999, and 1 of 10000 books with the matching title. Owner confirms deletion of M14 Scale Renamed; screenshots show Unsaved search, then an empty text filter and 10000 of 10000 books. Saved-search deletion preserves the library.",
+      "remaining": []
+    },
+    "review_workbench": {
+      "status": "passed",
+      "passed": [
+        "manual Needs Review flag",
+        "flagged book included in review queue",
+        "Mark reviewed clears manual flag and removes complete book from filtered queue",
+        "factual missing-field reasons remain after acknowledgment",
+        "missing-series option expands review queue",
+        "missing-series preference persistence",
+        "multiple and hidden selections"
+      ],
+      "evidence": "Owner confirms; paired screenshots show Quick Start Guide with Manually flagged and queue enabled, then 0 of 104 books after Mark reviewed. Hidden selection remains explicitly reported. Owner subsequently confirms M13 Final Acceptance remains in the three-book review queue with Missing title after Mark reviewed removes only its Import warning: title; screenshot corroborates. Owner confirms missing-series option expands queue from 3 to 100 of 104 books, and remains checked after normal Hub restart; screenshots corroborate. After restart Needs Review queue is unchecked and all 104 books are visible, as expected for a new unsaved search. Owner confirms selecting A Christmas Carol and A Doll\u2019s House, then filtering Christmas Carol, leaves 1 visible result and 2 selected including hidden selections; screenshot corroborates. Missing-series preference returned to off.",
+      "remaining": []
+    },
+    "bulk_integration": {
+      "status": "passed",
+      "passed": [
+        "both selected books handed from workbench to bulk editor, including hidden selection",
+        "two-book Add Tags preview",
+        "explicit confirmation completes 2 books, 0 failed, 0 pending",
+        "read-only saved-data verification confirms temporary tag on exactly the intended two books",
+        "guarded revert preview and explicit confirmation complete both books",
+        "read-only saved-data verification confirms original tags restored, temporary tag absent, 104 books retained"
+      ],
+      "remaining": [],
+      "evidence": "Owner screenshots and bulk_acceptance_readback.json; owner screenshot shows revert 02d0d5ad of original 098c978e, 2 completed / 0 failed / 0 pending; bulk_revert_readback.json verifies saved results Owner confirms Close bulk editor closes the window; ambiguous neighboring Close batch preview control logged separately as deferred M14-UI-01."
+    },
+    "scale_and_duplicates": {
+      "status": "passed",
+      "passed": [
+        "104-book library explicit duplicate scan completes with clear result",
+        "fresh scan after catalog invalidation succeeds",
+        "10000-book library loads with activity indicator",
+        "specific-title search returns one result within roughly one second",
+        "Tag 03 AND Group 3 returns 35 books",
+        "Tag 03 OR Group 3 returns 1627 books quickly",
+        "10000-book duplicate scan returns 100 exact and 240 potential groups with 0 errors; results persist through unchanged refresh for more than one minute",
+        "owner cancellation during 10000-book scan: Cancelled \u2014 incomplete; 0 exact groups, 240 potential groups, 0 errors, no books changed",
+        "owner reports responsive windows during requested scan/search interaction on build 9cf2b6503ae20a40; correct single search result and completed 100 exact / 240 potential / 0 errors scan shown",
+        "owner confirms visible scan activity bar"
+      ],
+      "evidence": "Owner screenshot shows Scan complete. 0 identical-content groups; 0 potential title/author groups; 0 errors. No books changed. Owner confirms large-library loading, responsive live text search, and combined tag filters. Screenshots show 10000 loaded, M14 Fixture 09999 as one result, 35 matches for all, and 1627 for any. Subsequent large-fixture desktop scan results disappeared after unchanged periodic catalog refresh. Tested fix prepared; installation and owner retest pending. Fixed build 0.1.0a1-e9f972a567136e89 installed and owner retest passed: expected groups visible for more than one minute without disappearing. Owner confirms cancellation; screenshot explicitly reports Cancelled \u2014 incomplete, 0 identical-content groups, 240 potential title/author groups, 0 errors, no books changed. Incomplete exact results are not treated as a completed zero-match scan. Owner reports windows remain responsive during requested scan/search interaction. Screenshot shows M14 Fixture 09999 as 1 of 10000 books alongside completed scan with 100 exact groups, 240 potential groups, 0 errors and no books changed on build 9cf2b6503ae20a40. Screenshot itself is after completion; responsiveness evidence is owner observation. Owner explicitly noticed the activity bar; changing progress text was not separately confirmed.",
+      "remaining": []
+    },
+    "final_restart": {
+      "status": "passed",
+      "evidence": "Owner confirms normal close/reopen restores /data/library with 104 of 104 books and no recovery warnings. Screenshot shows M14 Development build 0.1.0a1-e9f972a567136e89, Workspace restored, 0 selected and all catalog filters clear. Final persisted-state readback remains separate."
+    },
+    "live_text_search": {
+      "status": "passed",
+      "evidence": "Owner confirms search results update while typing; screenshot shows correct single book."
+    },
+    "duplicate_refresh_fix": {
+      "status": "passed",
+      "source_tests": 257,
+      "installed_tests": 109,
+      "retained_files_verified": 488,
+      "evidence": "installed_duplicate_refresh.json; duplicate_refresh_scale.json; owner screenshot confirms build e9f972a567136e89, 100 identical-content groups, 240 potential title/author groups, 0 errors, no books changed; owner explicitly confirms results remained visible for more than one minute."
+    },
+    "duplicate_restart_after_cancel": {
+      "status": "passed",
+      "evidence": "Owner confirms another explicit Scan library completes normally after cancellation and the intervening blocked request. Screenshot shows 100 identical-content groups, 240 potential title/author groups, 0 errors, no books changed. M14-DUP-02 subsequently resolved and owner accepted on 9cf2b6503ae20a40."
+    },
+    "scale_review_responsiveness": {
+      "status": "passed",
+      "evidence": "Owner reports much quicker than one second, almost instantaneous, when enabling Needs Review queue on the 10000-book fixture. Screenshot shows 2683 of 10000 books, missing-series preference off, and visible Missing cover / Missing author reasons. Timing is owner-observed, not instrumented."
+    },
+    "return_to_regular_library": {
+      "status": "passed",
+      "evidence": "Owner confirms choosing /data/library after scale testing; screenshot shows M14 Development build e9f972a567136e89, 104 of 104 books, 0 selected and no active filters. Owner reports loading took less than one second; timing is observational. Final owner confirmation and screenshot on build 9cf2b6503ae20a40 show 104 of 104 books, 0 selected, after closing review windows and returning from scale fixture."
+    },
+    "waiting_feedback_fix": {
+      "status": "passed",
+      "build": "0.1.0a1-9cf2b6503ae20a40",
+      "source_tests": 258,
+      "installed_tests": 110,
+      "evidence": "wait_feedback_package_verification.json; wait_feedback_full_regression.log; installed_wait_feedback.json; owner explicitly confirms new Library loading \u2014 no new scan has started\u2026 notice appears briefly, old waiting text does not appear, refresh clears quickly and scanning becomes available.",
+      "retained_files_verified": 490
+    },
+    "persisted_state_readback": {
+      "status": "passed",
+      "evidence": "final_saved_state_readback.json; 104 books, no temporary tag associations, scale search deleted, saved regular search retained, review preference off."
+    },
+    "post_fix_regular_duplicate_scan": {
+      "status": "passed",
+      "build": "0.1.0a1-9cf2b6503ae20a40",
+      "evidence": "Owner confirms and screenshot shows Scan complete, 0 identical-content groups, 0 potential title/author groups, 0 errors, no books changed on regular 104-book library."
+    }
+  },
+  "updated_utc": "2026-09-24T20:43:30.206826+00:00",
+  "deferred_usability_issues": [
+    {
+      "id": "M14-UI-01",
+      "status": "open",
+      "summary": "Ambiguous bulk-editor close controls and Preview cancelled wording after completed work",
+      "owner_direction": "address later"
+    }
+  ],
+  "gate_review": {
+    "result": "M14-01 through M14-08 complete; M14-G passed",
+    "build": "0.1.0a1-9cf2b6503ae20a40",
+    "promotion": "M14 promoted to Everyday after owner authorization; M13 retained as stopped Rollback. See promotion.json.",
+    "deferred": "M14-UI-01 stays open by explicit owner direction; M7 historical observation unchanged."
+  }
+}

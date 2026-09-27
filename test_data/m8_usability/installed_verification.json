@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "clean_isolated_install",
+    "installed_launcher_smoke",
+    "installed_modules_only_no_checkout",
+    "installed_catalog_parser_real_101_book_listing_with_series",
+    "reopened_saved_tag_filters_panel_and_matching_results",
+    "installed_nonempty_search_and_filter_restart",
+    "clear_all_persisted_across_restart",
+    "installed_desktop_entry_valid"
+  ],
+  "build": "0.1.0a1-184039712b870efd",
+  "restored_match_count": 2,
+  "smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "artifact": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/dist/m8/mediainator-0.1.0a1-ubuntu26.04-x86_64.tar.gz",
+  "sha256": "a649ebab6fe334929cc2e42e15ab998710cf5bdcc776d24242de4bccd3d96b14",
+  "isolated_home": "/tmp/m8-installed-user-14a59y3_",
+  "isolation": "private mount/user/network namespace; checkout and host home absent",
+  "limitations": "Automated offscreen installed-package checks; not personal KDE menu acceptance. Uses host system dependencies, not a clean OS."
+}

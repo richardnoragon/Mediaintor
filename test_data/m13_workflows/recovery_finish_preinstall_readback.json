@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-09-24T09:17:40.329755+00:00",
+  "method": "Read-only SQLite transaction while awaiting normal shutdown; not final quiet-state acceptance",
+  "books": 104,
+  "database_check": "ok",
+  "recovery_acceptance_tag_saved": true,
+  "local_discard_tag_saved": false,
+  "recovery_indices": [
+    {
+      "path": "home/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/index.json",
+      "data": {
+        "schema": 1,
+        "owner": {
+          "profile_id": "e132b321-130e-4597-b2b5-cefac6e185aa",
+          "device_id": "9525569b-9ce1-4f49-be0a-9344a8cdcff2"
+        },
+        "records": {
+          "fd35c048-4292-42de-9269-4d316c6868e6": {
+            "path": "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/fd35c048-4292-42de-9269-4d316c6868e6.1.json",
+            "revision": 1,
+            "state": "recovered",
+            "generations": [
+              "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/fd35c048-4292-42de-9269-4d316c6868e6.1.json"
+            ]
+          },
+          "b598c2bc-79cf-4ca4-9e71-e559a720e398": {
+            "path": "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/b598c2bc-79cf-4ca4-9e71-e559a720e398.1.json",
+            "revision": 1,
+            "state": "recovered",
+            "generations": [
+              "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/b598c2bc-79cf-4ca4-9e71-e559a720e398.1.json"
+            ]
+          },
+          "fd6abc6f-a547-452e-b237-520f007ee245": {
+            "path": "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/fd6abc6f-a547-452e-b237-520f007ee245.1.json",
+            "revision": 1,
+            "state": "recovered",
+            "generations": [
+              "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/fd6abc6f-a547-452e-b237-520f007ee245.1.json"
+            ]
+          },
+          "aadae5a0-27a2-4816-8ebc-5e10af97a50d": {
+            "path": "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/aadae5a0-27a2-4816-8ebc-5e10af97a50d.1.json",
+            "revision": 1,
+            "state": "unresolved",
+            "generations": [
+              "/home/mediainator/.local/share/Media-inator/Media-inator/Recovery/Single Book Edits/646e0f7ee8cb78c1664a0ed1476bfde15b27c2004d6e6ced5e8777014157963c/aadae5a0-27a2-4816-8ebc-5e10af97a50d.1.json"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "gate": "M13-G OPEN"
+}

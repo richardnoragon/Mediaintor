@@ -1,0 +1,99 @@
+{
+  "root": "/tmp/mediainator-m3-acceptance-mj9hz0dv",
+  "library": "/tmp/mediainator-m3-acceptance-mj9hz0dv/library",
+  "checks": [
+    {
+      "test": "preview_no_write",
+      "passed": true
+    },
+    {
+      "test": "epub_import",
+      "passed": true
+    },
+    {
+      "test": "mobi_explicit_similar_choice",
+      "passed": true
+    },
+    {
+      "test": "mobi_attachment",
+      "passed": true
+    },
+    {
+      "test": "pdf_explicit_similar_choice",
+      "passed": true
+    },
+    {
+      "test": "pdf_attachment",
+      "passed": true
+    },
+    {
+      "test": "duplicates_skipped",
+      "passed": true
+    },
+    {
+      "test": "invalid_isolated",
+      "passed": true
+    },
+    {
+      "test": "fallback_flag",
+      "passed": true
+    },
+    {
+      "test": "stale_source_refused",
+      "passed": true
+    },
+    {
+      "test": "retry_requires_confirmation",
+      "passed": true
+    },
+    {
+      "test": "retry_reuses_journal",
+      "passed": true
+    },
+    {
+      "test": "stop_after_current",
+      "passed": true
+    },
+    {
+      "test": "restart_no_automatic_resume",
+      "passed": true
+    },
+    {
+      "test": "restart_retry",
+      "passed": true
+    },
+    {
+      "test": "commit_without_ack_reconciled",
+      "passed": true
+    },
+    {
+      "test": "post_retry_duplicate",
+      "passed": true
+    },
+    {
+      "test": "discard_keeps_completed",
+      "passed": true
+    },
+    {
+      "test": "library_changed_requires_review",
+      "passed": true
+    },
+    {
+      "test": "fresh_preview_after_external_change",
+      "passed": true
+    },
+    {
+      "test": "partial_record_requires_repreview",
+      "passed": true
+    },
+    {
+      "test": "partial_record_repaired_same_uuid",
+      "passed": true
+    },
+    {
+      "test": "source_and_fixtures_unchanged",
+      "passed": true
+    }
+  ],
+  "source_unchanged": true
+}

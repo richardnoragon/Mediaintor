@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-09-23T18:51:56.815884+00:00",
+  "method": "Read-only SQLite transaction and journal/file inspection after owner restart. M13 still running; repeat retained-data checks during quiet upgrade.",
+  "books": 104,
+  "database_check": "ok",
+  "persuasion_tags": [
+    "mediainator-test-100",
+    "Romance"
+  ],
+  "recovery_tag_saved": true,
+  "import_uuid": "8a1b2b40-b333-473b-ad17-3b90fcf219b3",
+  "import_source_hash_matches": true,
+  "imported_epub_matches_source": true,
+  "import_journal_verified": true,
+  "batches": {
+    "f0b3622c-38e4-49e8-96cd-91e8e8ff5e69": {
+      "original": null,
+      "states": [
+        "complete"
+      ],
+      "sha256": "406182d18c9816ae93e22294adfde9741365bbc7c145c882d222e8fdbaa6aad7"
+    },
+    "0decf0be-9421-4db6-83a4-43231ddc90fe": {
+      "original": "f0b3622c-38e4-49e8-96cd-91e8e8ff5e69",
+      "states": [
+        "complete"
+      ],
+      "sha256": "ac59ae944912e260795fd896e213295389d8afbc4ea189ef27d59a14924af058"
+    }
+  },
+  "named_workspaces": [
+    "M11 Everyday"
+  ],
+  "startup": "last_session",
+  "last_session_book_retained": true,
+  "reading_position_retained": true,
+  "recovery_states": [
+    "recovered"
+  ],
+  "m12_entries_checked": 770,
+  "m12_changed_or_missing": [],
+  "m12_extra_entries": [],
+  "gate": "M13-G OPEN; fixed candidate requires installation and affected KDE acceptance"
+}

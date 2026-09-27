@@ -1,0 +1,8 @@
+{
+  "root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M16-Development",
+  "source_backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M15-Development/backups/pre-m15-everyday-promotion",
+  "baseline_build": "0.1.0a1-47d071de892ca535",
+  "writable_mounts_independent": true,
+  "m15_untouched": true,
+  "started": false
+}

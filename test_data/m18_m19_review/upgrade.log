@@ -1,0 +1,7 @@
+Installed 0.1.0a1-f66559012d82aa9f for the current user. Calibre remains separately managed.
+Installed 0.1.0a1-b016b423b7099943 for the current user. Calibre remains separately managed.
+Installed 0.1.0a1-f66559012d82aa9f for the current user. Calibre remains separately managed.
+Installed 0.1.0a1-b016b423b7099943 for the current user. Calibre remains separately managed.
+Uninstalled program files; all application data retained.
+Installed 0.1.0a1-b016b423b7099943 for the current user. Calibre remains separately managed.
+['install prior preserves populated data bytes', 'upgrade candidate preserves populated data bytes', 'rollback prior preserves populated data bytes', 'upgrade again preserves populated data bytes', 'uninstall preserves populated data', 'reinstall preserves populated data']

@@ -1,0 +1,13 @@
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+{
+  "status": "passed",
+  "completion": "Scan complete. 100 identical-content groups; 240 potential title/author groups; 0 errors. No books changed.",
+  "visible_rows": 685,
+  "checks": [
+    "coherent unchanged 10000-book snapshot refresh 1 preserves scan result",
+    "coherent unchanged 10000-book snapshot refresh 2 preserves scan result"
+  ],
+  "scope": "Installed candidate; pinned Calibre, immutable real fixture; no synthetic reading/review overlays"
+}

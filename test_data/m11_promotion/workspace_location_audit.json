@@ -1,0 +1,58 @@
+[
+  {
+    "path": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M10-Development/active/home/.config/Media-inator/Media-inator/workspaces.json",
+    "revision": 4,
+    "names": [],
+    "saved_at": "2026-09-22T16:23:51.303905+00:00",
+    "import_json_files_including_state": 1,
+    "bulk_json_files": 0
+  },
+  {
+    "path": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M10-Development/backups/pre-final-workflows-a3a4679f39f4c255/data/home/.config/Media-inator/Media-inator/workspaces.json",
+    "revision": 2,
+    "names": [],
+    "saved_at": "2026-09-22T15:19:04.358425+00:00",
+    "import_json_files_including_state": 1,
+    "bulk_json_files": 0
+  },
+  {
+    "path": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday/fallback-validation/home/.config/Media-inator/Media-inator/workspaces.json",
+    "revision": 4,
+    "names": [],
+    "saved_at": "2026-09-22T16:23:51.303905+00:00",
+    "import_json_files_including_state": 1,
+    "bulk_json_files": 0
+  },
+  {
+    "path": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday/restore-validation/home/.config/Media-inator/Media-inator/workspaces.json",
+    "revision": 4,
+    "names": [],
+    "saved_at": "2026-09-22T16:23:51.303905+00:00",
+    "import_json_files_including_state": 1,
+    "bulk_json_files": 0
+  },
+  {
+    "path": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday/active/home/.config/Media-inator/Media-inator/workspaces.json",
+    "revision": 4,
+    "names": [],
+    "saved_at": "2026-09-22T16:23:51.303905+00:00",
+    "import_json_files_including_state": 1,
+    "bulk_json_files": 0
+  },
+  {
+    "path": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday/backups/m11-installed/data/home/.config/Media-inator/Media-inator/workspaces.json",
+    "revision": 4,
+    "names": [],
+    "saved_at": "2026-09-22T16:23:51.303905+00:00",
+    "import_json_files_including_state": 1,
+    "bulk_json_files": 0
+  },
+  {
+    "path": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday/backups/m10-promotion-source/data/home/.config/Media-inator/Media-inator/workspaces.json",
+    "revision": 4,
+    "names": [],
+    "saved_at": "2026-09-22T16:23:51.303905+00:00",
+    "import_json_files_including_state": 1,
+    "bulk_json_files": 0
+  }
+]

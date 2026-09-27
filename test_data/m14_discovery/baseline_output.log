@@ -1,0 +1,11 @@
+snapshot 3.162377504981123
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+loaded/render 2.194801395002287
+all 10000 UI median 1.8630856274976395
+generated 9632 UI median 1.7893298439885257
+specific 1 UI median 0.004817039502086118
+tag 247 UI median 0.06357944350747857
+tag_any 494 UI median 0.09006873999896925
+unknown 10000 UI median 1.84113885750412
+benchmark complete

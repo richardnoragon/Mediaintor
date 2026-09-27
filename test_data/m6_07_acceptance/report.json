@@ -1,0 +1,26 @@
+{
+  "artifact_sha256": "30e99d0e6b9659ef43785587a427e8ad05afdfbec81462503652a1a2ad967584",
+  "root": "/tmp/mediainator-m6-acceptance-0bwfno8b",
+  "home": "/tmp/mediainator-m6-acceptance-0bwfno8b/user",
+  "release": "/tmp/mediainator-m6-acceptance-0bwfno8b/user/.local/share/mediainator-install/releases/0.1.0a1-4a98f3fa61165790",
+  "original_library_used": false,
+  "published": false,
+  "desktop_acceptance": "passed \u2014 user confirmed initial checks and restart checks 2026-09-22",
+  "checks": [
+    {
+      "test": "verify_m5_acceptance.py",
+      "passed": true
+    },
+    {
+      "test": "verify_m5_kde.py",
+      "passed": true
+    }
+  ],
+  "fixture": "/tmp/mediainator-application-acceptance-4z3wax4y",
+  "launcher": "/tmp/mediainator-m6-acceptance-0bwfno8b/user/.local/bin/mediainator",
+  "desktop_entry": "/tmp/mediainator-m6-acceptance-0bwfno8b/user/data/applications/mediainator.desktop",
+  "m6_07": "complete",
+  "m6_gate": "passed / closed \u2014 2026-09-22",
+  "milestone": "M6 complete",
+  "gate_review": "gate_review.md"
+}

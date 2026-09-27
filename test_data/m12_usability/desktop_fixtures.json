@@ -1,0 +1,12 @@
+{
+  "build": "0.1.0a1-16e57f586750466b",
+  "import_source": "/data/import-sources/M12 Final Acceptance.epub",
+  "source_sha256": "67fea5c518c4dcd519c58d4b6a05834328aabf3fce666dce04ce10e0d9f697b6",
+  "recovery_book": "Quick Start Guide",
+  "recovery_book_uuid": "d145f3a1-2382-4fe7-bc40-26208145311c",
+  "recovery_id": "b598c2bc-79cf-4ca4-9e71-e559a720e398",
+  "recovery_tag": "M12 Recovery Acceptance",
+  "library_database_unchanged": true,
+  "recovery": "Synthetic unsaved tag only; not applied to library",
+  "desktop_acceptance": "pending"
+}

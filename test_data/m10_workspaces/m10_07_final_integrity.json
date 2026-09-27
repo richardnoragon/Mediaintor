@@ -1,0 +1,8 @@
+{
+  "candidate": "0.1.0a1-a3a4679f39f4c255",
+  "archive_sha256": "edc96793ca09a37db7a15bbd1036db96f2c771cff43b16563796590a8805b1f4",
+  "archive_manifest_valid": true,
+  "installed_inventory_valid": true,
+  "application_source_matches_candidate": true,
+  "scope": "Read-only artifact/source/installed inventory review; no library or settings writes"
+}

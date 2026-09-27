@@ -1,0 +1,36 @@
+{
+  "artifact_sha256": "02065a7cda245fab0936aa25ce60b5a4953272efe07bef397c997a47f9b6cabb",
+  "root": "/tmp/mediainator-m6-help-usgzwos7",
+  "checks": [
+    {
+      "test": "installed_docs_resolve_without_checkout",
+      "passed": true
+    },
+    {
+      "test": "offline_topic_User guide",
+      "passed": true
+    },
+    {
+      "test": "offline_topic_Installation and upgrades",
+      "passed": true
+    },
+    {
+      "test": "offline_topic_Troubleshooting",
+      "passed": true
+    },
+    {
+      "test": "installed_about_version",
+      "passed": true
+    },
+    {
+      "test": "installed_help_search",
+      "passed": true
+    },
+    {
+      "test": "help_closes_with_hub",
+      "passed": true
+    }
+  ],
+  "library_access": false,
+  "desktop_acceptance": "pending M6-07; automated offscreen rendering only"
+}

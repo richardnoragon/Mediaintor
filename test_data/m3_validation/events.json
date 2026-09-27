@@ -1,0 +1,51 @@
+[
+  {
+    "action": "add_books",
+    "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.epub",
+    "title": "The Time Machine",
+    "id": 1,
+    "uuid": "f34ec563-2378-4138-abd4-b31712e6de38"
+  },
+  {
+    "action": "add_books",
+    "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.mobi",
+    "title": "The Time Machine",
+    "id": 2,
+    "uuid": "405f9bc5-25cd-4851-9916-f296aad9c35a"
+  },
+  {
+    "action": "add_books",
+    "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.pdf",
+    "title": "The Time Machine",
+    "id": 3,
+    "uuid": "6507f7e5-44ed-4103-b8cf-fde0a284a9ae"
+  },
+  {
+    "action": "add_books",
+    "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/different-content-same-metadata.epub",
+    "title": "The Time Machine",
+    "id": 102,
+    "uuid": "68fadf97-8d2c-44c5-b4fe-44b4152acd25"
+  },
+  {
+    "action": "add_books",
+    "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.epub",
+    "title": "Explicit attachment target",
+    "id": 102,
+    "uuid": "84b1ffc8-881f-4555-b92c-32ac6dcca93a"
+  },
+  {
+    "action": "add_books",
+    "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.epub",
+    "title": "Race target",
+    "id": 103,
+    "uuid": "800f8594-15c7-4cdc-b583-5ac41738ba47"
+  },
+  {
+    "action": "add_books",
+    "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/different-content-same-metadata.epub",
+    "title": "Recovery completed item",
+    "id": 102,
+    "uuid": "4dedc91e-ce95-4289-b1b0-2752426aee96"
+  }
+]

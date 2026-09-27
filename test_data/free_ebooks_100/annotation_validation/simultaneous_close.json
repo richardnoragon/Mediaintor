@@ -1,0 +1,14 @@
+[
+  {
+    "format": "epub",
+    "handled_close_exited": true
+  },
+  {
+    "format": "mobi",
+    "handled_close_exited": true
+  },
+  {
+    "format": "pdf",
+    "handled_close_exited": true
+  }
+]

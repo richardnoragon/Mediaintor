@@ -1,0 +1,15 @@
+{
+  "status": "installed; personal KDE acceptance pending",
+  "build": "0.1.0a1-254fe2288bf7b39a",
+  "sha256": "e799506e5f2127b03063d8b6b8358b7802fa71ad38928f00eea70543c106ca4a",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M12-Test/backups/pre-focus-254fe2288bf7b39a",
+  "retained_files_verified": 459,
+  "inventory_check": "M12 workspace candidate verified: 0.1.0a1-254fe2288bf7b39a\n",
+  "package_smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "installer_output": "Installed 0.1.0a1-254fe2288bf7b39a for the current user. Calibre remains separately managed.\n",
+  "scope": "M12 only; RC1/M9/M10/M11 not mounted or modified"
+}

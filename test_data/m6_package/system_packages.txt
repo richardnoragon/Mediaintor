@@ -1,0 +1,8 @@
+libqt6core6t64	6.10.2+dfsg-7
+libqt6gui6	6.10.2+dfsg-7
+libqt6widgets6	6.10.2+dfsg-7
+python3	3.14.3-0ubuntu2
+python3-pyqt6	6.10.2-2build5
+python3-pyqt6.sip	13.11.0-1build1
+qt6-qpa-plugins	6.10.2+dfsg-7
+qt6-wayland	6.10.2-4

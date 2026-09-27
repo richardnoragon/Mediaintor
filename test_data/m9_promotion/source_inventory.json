@@ -1,0 +1,14 @@
+{
+  "status": "source selected; consistent M9 snapshot and migration not yet performed",
+  "library_source": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M8-Development/active/library",
+  "user_state_source": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M8-Development/active/home",
+  "validation": {
+    "sqlite_quick_check": "ok",
+    "book_count": 101,
+    "format_count": 121,
+    "missing_format_paths": 0,
+    "library_uuid": "43d9a765-ab8c-49f1-878e-62fe98bedf24"
+  },
+  "scope": "Dedicated test/validation environment; no NAS access or real-library promotion",
+  "limits": "Read-only suitability inventory, not a consistent backup or exhaustive ebook readability test. Close writers before copying. Installed Acceptance records excluded."
+}

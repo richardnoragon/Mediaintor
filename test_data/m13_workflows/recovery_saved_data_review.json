@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-09-23T17:38:02.359325+00:00",
+  "method": "Read-only SQLite transaction and journal reads; application left running. Intermediate evidence, not final restart acceptance.",
+  "book": "Quick Start Guide",
+  "tags": [
+    "Changed after batch",
+    "M10 Recovery Acceptance",
+    "M12 Recovery Acceptance",
+    "M13 Recovery Acceptance",
+    "M4 lost ack",
+    "M4 UI"
+  ],
+  "recovery_tag_saved": true,
+  "recovery_states": [
+    "recovered"
+  ],
+  "activity": [
+    {
+      "key": "fd6abc6f-a547-452e-b237-520f007ee245",
+      "operation": "Single-book recovery",
+      "pending": false,
+      "recovery": false,
+      "attempts": [
+        {
+          "id": "fcd5af98-2d70-407d-b324-9dc437f34307",
+          "time": null,
+          "outcome": "success",
+          "details": {
+            "revision": 1,
+            "fields": [
+              "tags"
+            ]
+          },
+          "legacy": true
+        },
+        {
+          "id": "85b0dcfb-495e-4821-bbf0-7ac1a7c55604",
+          "time": "2026-09-23T17:33:08.040036+00:00",
+          "outcome": "success",
+          "details": {
+            "message": "Recovery recovered",
+            "revision": 1
+          },
+          "legacy": false
+        }
+      ]
+    },
+    {
+      "key": "m13-final-acceptance",
+      "operation": "Single-book metadata saves",
+      "pending": false,
+      "recovery": false,
+      "attempts": [
+        {
+          "id": "8cbc5424-a761-43e5-a9a2-987d3fbef821",
+          "time": "2026-09-23T17:33:08.028438+00:00",
+          "outcome": "success",
+          "details": {
+            "fields": [
+              "tags"
+            ],
+            "saved": [
+              "tags"
+            ],
+            "errors": {},
+            "conflicts": [],
+            "draft_revision": 2
+          },
+          "legacy": false,
+          "started": "2026-09-23T17:33:07.545509+00:00"
+        }
+      ]
+    }
+  ],
+  "book_count": 103,
+  "sqlite_quick_check": [
+    [
+      "ok"
+    ]
+  ],
+  "import_source_hash_matches": true,
+  "m12_baseline_entries": 770,
+  "m12_changed_or_missing": [],
+  "m12_extra_entries": [],
+  "gate": "M13-G OPEN"
+}

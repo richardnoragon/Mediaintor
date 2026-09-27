@@ -1,0 +1,15 @@
+{
+  "root": "/tmp/m8-integrated-5yder2qk",
+  "library": "/tmp/m8-integrated-5yder2qk/library",
+  "status": "PASSED \u2014 owner-confirmed integrated desktop acceptance",
+  "user_confirmation": "yes every thing performed correctly. hub and reader are now closed, by user",
+  "checks": {
+    "progress_display": true,
+    "metadata_save_and_refresh": true,
+    "renamed_epub_resumes_and_navigates": true,
+    "hub_and_reader_closed_by_owner": true
+  },
+  "scope": "Integrated disposable progress/rename scenario only; not full M8-G acceptance",
+  "execution_context": "Disposable copied library and isolated settings, launched with workspace development code through a temporary acceptance launcher; not an upgraded installed package",
+  "gate_note": "Owner-confirmed scenario remains passed. Packaged installation parity is not established by this source-run fixture; search/filter restart confirmation is still pending."
+}

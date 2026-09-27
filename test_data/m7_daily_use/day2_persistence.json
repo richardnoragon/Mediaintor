@@ -1,0 +1,39 @@
+{
+  "task": "M7 Day 2 container startup and persistence focus",
+  "date": "2026-09-22",
+  "timezone": "Europe/Berlin",
+  "candidate_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "note": "Focused evidence for the Day 2 task set; this does not advance the seven-day trial clock.",
+  "validation_command": "QT_QPA_PLATFORM=offscreen python3 -m unittest tests.test_foundation tests.test_integration -v",
+  "validation_result": {
+    "passed": true,
+    "tests_run": 12,
+    "summary": "Restart, persistence, reader launch and library identity checks passed"
+  },
+  "checks": [
+    {
+      "name": "settings_roundtrip_preserves_identity",
+      "passed": true
+    },
+    {
+      "name": "module_close_is_saved_but_hub_close_preserves_selection",
+      "passed": true
+    },
+    {
+      "name": "shared_views_search_and_restart",
+      "passed": true
+    },
+    {
+      "name": "missing_file_does_not_launch",
+      "passed": true
+    },
+    {
+      "name": "saved_ownership_blocks_second_reader_and_reused_pid_does_not",
+      "passed": true
+    },
+    {
+      "name": "launch_records_profile_and_detaches",
+      "passed": true
+    }
+  ]
+}

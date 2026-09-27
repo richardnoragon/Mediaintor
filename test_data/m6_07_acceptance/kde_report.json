@@ -1,0 +1,44 @@
+{
+  "module_root": "/tmp/mediainator-m6-acceptance-0bwfno8b/user/.local/share/mediainator-install/releases/0.1.0a1-4a98f3fa61165790",
+  "kind": "isolated real KWin Wayland window-close protocol, not host logout",
+  "checks": [
+    {
+      "scenario": "cancel",
+      "root": "/tmp/mediainator-m5-kde-a9p0ggvb",
+      "returncode": 0,
+      "output": "dbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.0' (uid=1000 pid=121802 comm=\"/usr/bin/kwin_wayland --virtual --no-lockscreen --\" label=\"unconfined\")\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.1' (uid=1000 pid=121805 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activating service name='org.freedesktop.portal.Documents' requested by ':1.1' (uid=1000 pid=121805 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'\n\n(/usr/libexec/xdg-desktop-portal:121805): xdg-desktop-portal-WARNING **: 22:42:48.932: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.1' (uid=1000 pid=121805 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\n\n(xdg-desktop-portal-gtk:121828): Gtk-WARNING **: 22:42:48.940: cannot open display: :0\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activated service 'org.freedesktop.impl.portal.desktop.gtk' failed: Process org.freedesktop.impl.portal.desktop.gtk exited with status 1\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.kde' requested by ':1.1' (uid=1000 pid=121805 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.desktop.kde'\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.1' (uid=1000 pid=121805 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\n\n(xdg-desktop-portal-gtk:121845): Gtk-WARNING **: 22:42:48.997: cannot open display: :0\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activated service 'org.freedesktop.impl.portal.desktop.gtk' failed: Process org.freedesktop.impl.portal.desktop.gtk exited with status 1\n\n(/usr/libexec/xdg-desktop-portal:121805): xdg-desktop-portal-WARNING **: 22:42:48.999: Failed to create settings proxy: Error calling StartServiceByName for org.freedesktop.impl.portal.desktop.gtk: Process org.freedesktop.impl.portal.desktop.gtk exited with status 1\n\n(/usr/libexec/xdg-desktop-portal:121805): xdg-desktop-portal-WARNING **: 22:42:49.005: Failed to connect to PipeWire: Couldn't connect to PipeWire\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.kwallet' requested by ':1.1' (uid=1000 pid=121805 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\nkf.wallet.ksecretd: Lacking a socket, pipe: 0 env: 0\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.desktop.kwallet'\ndbus-daemon[121800]: [session uid=1000 pid=121800 pidfd=5] Successfully activated service 'org.freedesktop.portal.Desktop'\n",
+      "passed": true,
+      "platform": "wayland",
+      "close_events": [
+        false
+      ],
+      "commit_signals": 0,
+      "clicked": [
+        "&Cancel"
+      ],
+      "protected": false,
+      "hub_visible": true,
+      "no_duplicate_save_prompt": true,
+      "kwin_waited_while_cancelled": true
+    },
+    {
+      "scenario": "preserve",
+      "root": "/tmp/mediainator-m5-kde-2zeviio2",
+      "returncode": 0,
+      "output": "dbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.0' (uid=1000 pid=121916 comm=\"/usr/bin/kwin_wayland --virtual --no-lockscreen --\" label=\"unconfined\")\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.1' (uid=1000 pid=121919 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activating service name='org.freedesktop.portal.Documents' requested by ':1.1' (uid=1000 pid=121919 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'\n\n(/usr/libexec/xdg-desktop-portal:121919): xdg-desktop-portal-WARNING **: 22:42:53.592: Choosing gtk.portal for org.freedesktop.impl.portal.Lockdown as a last-resort fallback\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.1' (uid=1000 pid=121919 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\n\n(xdg-desktop-portal-gtk:121942): Gtk-WARNING **: 22:42:53.600: cannot open display: :0\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activated service 'org.freedesktop.impl.portal.desktop.gtk' failed: Process org.freedesktop.impl.portal.desktop.gtk exited with status 1\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.kde' requested by ':1.1' (uid=1000 pid=121919 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.desktop.kde'\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.1' (uid=1000 pid=121919 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\n\n(xdg-desktop-portal-gtk:121958): Gtk-WARNING **: 22:42:53.661: cannot open display: :0\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activated service 'org.freedesktop.impl.portal.desktop.gtk' failed: Process org.freedesktop.impl.portal.desktop.gtk exited with status 1\n\n(/usr/libexec/xdg-desktop-portal:121919): xdg-desktop-portal-WARNING **: 22:42:53.663: Failed to create settings proxy: Error calling StartServiceByName for org.freedesktop.impl.portal.desktop.gtk: Process org.freedesktop.impl.portal.desktop.gtk exited with status 1\n\n(/usr/libexec/xdg-desktop-portal:121919): xdg-desktop-portal-WARNING **: 22:42:53.668: Failed to connect to PipeWire: Couldn't connect to PipeWire\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Activating service name='org.freedesktop.impl.portal.desktop.kwallet' requested by ':1.1' (uid=1000 pid=121919 comm=\"/usr/libexec/xdg-desktop-portal\" label=\"unconfined\")\nkf.wallet.ksecretd: Lacking a socket, pipe: 0 env: 0\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.desktop.kwallet'\ndbus-daemon[121912]: [session uid=1000 pid=121912 pidfd=5] Successfully activated service 'org.freedesktop.portal.Desktop'\n",
+      "passed": true,
+      "platform": "wayland",
+      "close_events": [
+        true
+      ],
+      "commit_signals": 0,
+      "clicked": [
+        "&Save",
+        "Retry Save"
+      ],
+      "protected": true,
+      "hub_visible": false,
+      "no_duplicate_save_prompt": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# M13 personal KDE acceptance — PASSED
+
+Use **Media-inator M13 Development**, build `0.1.0a1-db6a7fb8885f9bd9`. M13 only; keep everyday M12 unchanged. Follow one window/action at a time with screenshots where uncertain.
+
+1. **Recovery/action labels:** View recovery list → select actual Single-book recovery record → Open selected record → Open recovery draft. Editor must appear on first click with M13 Recovery Acceptance unsaved. Save metadata explicitly; check named book/fields, resolved Activity state, and Close editor/Close details/Close history scopes. Local discard must not silently delete durable recovery.
+2. **Bulk tabs and target:** Select only Persuasion in catalog. In New Bulk Edit add temporary tag M13 Revert Check; preview and Confirm bulk changes. Check correct phase/title/counts. Open Batch History: new batch selected with correct affected book. Preview revert of selected batch, cancel once without writes, then preview/confirm. New revert record selected; original/revert navigation changes neither library nor original outcome. Final tag absent. Preview locks target; completed result does not say preview required.
+3. **Import/help:** Choose ebook files; paste/browse to `/data/import-sources/M13 Final Acceptance.epub`. Preview then confirm. Check phase transitions, original-file retention, Close imports scope and readable EPUB with page navigation. Reader controls/close leave Hub open. Record actual picker behavior and any keyboard/focus problem.
+4. **Workspace and layout:** Verify specific workspace actions/startup-choice label. Save/restore a temporary M13 workspace; named-workspace delete requires confirmation and affects only that snapshot. Check long-label fit, keyboard focus and both bulk tabs at normal KDE window sizes.
+5. **Restart:** Close normally and reopen via M13 launcher. Confirm library/import/search/reading/workspace state and history retained. Agent verifies saved journals, recovered draft state, absence of temporary reverted tag, file hashes and M12 isolation.
+
+No minimum duration. M13-G CLOSED after owner results and final evidence review on 2026-09-24; see final_acceptance.md. No acceptance implied by fixture creation or automated tests.

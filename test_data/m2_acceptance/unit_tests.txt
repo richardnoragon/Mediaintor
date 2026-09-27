@@ -1,0 +1,53 @@
+test_bad_settings_are_not_overwritten (test_foundation.FoundationTests.test_bad_settings_are_not_overwritten) ... ok
+test_failed_atomic_open_preserves_previous_settings (test_foundation.FoundationTests.test_failed_atomic_open_preserves_previous_settings) ... ok
+test_literal_search_title_author_and_empty (test_foundation.FoundationTests.test_literal_search_title_author_and_empty) ... ok
+test_module_close_is_saved_but_hub_close_preserves_selection (test_foundation.FoundationTests.test_module_close_is_saved_but_hub_close_preserves_selection) ... ok
+test_settings_roundtrip_preserves_identity (test_foundation.FoundationTests.test_settings_roundtrip_preserves_identity) ... ok
+test_shared_views_search_and_restart (test_foundation.FoundationTests.test_shared_views_search_and_restart) ... ok
+test_failed_response_is_not_empty_catalog (test_integration.IntegrationTests.test_failed_response_is_not_empty_catalog) ... ok
+test_grouping_missing_paths_and_escape (test_integration.IntegrationTests.test_grouping_missing_paths_and_escape) ... ok
+test_launch_records_profile_and_detaches (test_integration.IntegrationTests.test_launch_records_profile_and_detaches) ... ok
+test_missing_file_does_not_launch (test_integration.IntegrationTests.test_missing_file_does_not_launch) ... ok
+test_saved_ownership_blocks_second_reader_and_reused_pid_does_not (test_integration.IntegrationTests.test_saved_ownership_blocks_second_reader_and_reused_pid_does_not) ... ok
+test_unmarked_library_and_symlink_are_rejected (test_integration.IntegrationTests.test_unmarked_library_and_symlink_are_rejected) ... ok
+test_cancel_reader_close_keeps_module_and_ownership (test_m1_workflow.WorkflowTests.test_cancel_reader_close_keeps_module_and_ownership) ... ok
+test_external_reader_is_not_attached_or_closed_by_launch (test_m1_workflow.WorkflowTests.test_external_reader_is_not_attached_or_closed_by_launch) ... ok
+test_failed_load_retains_catalog_and_recovery (test_m1_workflow.WorkflowTests.test_failed_load_retains_catalog_and_recovery) ... ok
+test_first_selection_remembered_and_module_restored (test_m1_workflow.WorkflowTests.test_first_selection_remembered_and_module_restored) ... ok
+test_leave_open_closes_module_without_signalling_reader (test_m1_workflow.WorkflowTests.test_leave_open_closes_module_without_signalling_reader) ... ok
+test_reader_exit_alone_does_not_close_hub (test_m1_workflow.WorkflowTests.test_reader_exit_alone_does_not_close_hub) ... This plugin does not support propagateSizeHints()
+ok
+test_snapshot_cancel_leaves_source_intact (test_m1_workflow.WorkflowTests.test_snapshot_cancel_leaves_source_intact) ... ok
+test_window_close_reader_choice_finishes_hub_close (test_m1_workflow.WorkflowTests.test_window_close_reader_choice_finishes_hub_close) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_authors_reorder (test_metadata.MetadataTests.test_authors_reorder) ... ok
+test_busy_operation_prevents_exit (test_metadata.MetadataTests.test_busy_operation_prevents_exit) ... ok
+test_cancel_exit_preserves_draft (test_metadata.MetadataTests.test_cancel_exit_preserves_draft) ... ok
+test_clean_refresh_and_busy_access (test_metadata.MetadataTests.test_clean_refresh_and_busy_access) ... ok
+test_clean_review_never_prompts (test_metadata.MetadataTests.test_clean_review_never_prompts) ... ok
+test_clear_series_and_new_default (test_metadata.MetadataTests.test_clear_series_and_new_default) ... ok
+test_combined_exit_cancel_preserves_everything (test_metadata.MetadataTests.test_combined_exit_cancel_preserves_everything) ... This plugin does not support propagateSizeHints()
+ok
+test_combined_exit_discard_leave_reader (test_metadata.MetadataTests.test_combined_exit_discard_leave_reader) ... This plugin does not support propagateSizeHints()
+ok
+test_conflict_dialog_global_choices_and_cancel (test_metadata.MetadataTests.test_conflict_dialog_global_choices_and_cancel) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_description_formatting_marks_dirty (test_metadata.MetadataTests.test_description_formatting_marks_dirty) ... ok
+test_dirty_refresh_defers_and_reports_detected_change (test_metadata.MetadataTests.test_dirty_refresh_defers_and_reports_detected_change) ... ok
+test_failed_result_preserves_draft (test_metadata.MetadataTests.test_failed_result_preserves_draft) ... ok
+test_invalid_tags_prevent_any_save_call (test_metadata.MetadataTests.test_invalid_tags_prevent_any_save_call) ... ok
+test_partial_save_retains_only_failed_fields (test_metadata.MetadataTests.test_partial_save_retains_only_failed_fields) ... ok
+test_tag_order_ignored_author_order_significant (test_metadata.MetadataTests.test_tag_order_ignored_author_order_significant) ... ok
+test_tag_validation_and_finite_numbers (test_metadata.MetadataTests.test_tag_validation_and_finite_numbers) ... ok
+test_three_way_conflict_and_convergence (test_metadata.MetadataTests.test_three_way_conflict_and_convergence) ... ok
+test_untouched_html_draft_exact (test_metadata.MetadataTests.test_untouched_html_draft_exact) ... ok
+test_changed_source_rejects_snapshot (test_snapshot.SnapshotTests.test_changed_source_rejects_snapshot) ... ok
+test_source_is_unchanged_and_copy_is_independent (test_snapshot.SnapshotTests.test_source_is_unchanged_and_copy_is_independent) ... ok
+test_symlink_and_missing_database_are_rejected (test_snapshot.SnapshotTests.test_symlink_and_missing_database_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.220s
+
+OK

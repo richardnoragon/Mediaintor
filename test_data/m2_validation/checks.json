@@ -1,0 +1,93 @@
+[
+  {
+    "test": "title_author_paths",
+    "passed": true,
+    "old_paths": [
+      "/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).epub",
+      "/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).mobi",
+      "/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).pdf"
+    ],
+    "new_paths": [
+      "/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.epub",
+      "/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.mobi",
+      "/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.pdf"
+    ],
+    "authors": "Validation Author & Second Author",
+    "identity_and_format_bytes_preserved": true
+  },
+  {
+    "test": "seven_fields_roundtrip",
+    "passed": true,
+    "comments_readback": "<p>M2 <strong>description</strong> &amp; notes.</p>",
+    "cover_reencoded": true,
+    "unedited_fields_preserved": true
+  },
+  {
+    "test": "partial_across_commands",
+    "passed": true,
+    "failed_exit": 1,
+    "successful_title_and_tags_retained": true,
+    "failed_index_unchanged": true
+  },
+  {
+    "test": "combined_parse_failure",
+    "exit_code": 1,
+    "title_changed": false,
+    "stderr": "rser))\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 40, in run_cmd\n    ret = m.main(opts, args, dbctx)\n  File \"/usr/lib/calibre/calibre/db/cli/cmd_set_metadata.py\", line 166, in main\n    val = field_from_string(field, val, fields[field])\n  File \"/usr/lib/calibre/calibre/ebooks/metadata/book/base.py\", line 864, in field_from_string\n    val = int(raw) if dt == 'int' else float(raw)\n                                       ~~~~~^^^^^\nValueError: could not convert string to float: 'invalid'\n"
+  },
+  {
+    "test": "missing_cover",
+    "exit_code": 0,
+    "title_changed": true,
+    "cover_changed": false,
+    "cover_bytes": 657,
+    "cover_decodable": true,
+    "stderr": ""
+  },
+  {
+    "test": "invalid_cover",
+    "exit_code": 1,
+    "title_changed": true,
+    "cover_changed": true,
+    "cover_bytes": 0,
+    "cover_decodable": false,
+    "stderr": "   return func(*args, **kwargs)\n  File \"/usr/lib/calibre/calibre/db/cache.py\", line 2063, in set_metadata\n    self._set_cover({book_id: cdata})\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/cache.py\", line 1986, in set_cover\n    self.backend.set_cover(book_id, path, data)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/backend.py\", line 1850, in set_cover\n    save_cover_data_to(data, path)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/utils/img.py\", line 309, in save_cover_data_to\n    f.write(image_to_data(img, compression_quality, fmt, compression_quality // 10) if changed else data)\n            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/utils/img.py\", line 212, in image_to_data\n    raise ValueError('Failed to export image as ' + fmt + ' with error: ' + w.errorString())\nValueError: Failed to export image as JPEG with error: Image is empty\n"
+  },
+  {
+    "test": "cover_retry_with_valid_image",
+    "passed": true,
+    "cover_decodable": true
+  },
+  {
+    "test": "clear_series",
+    "exit_code": 0,
+    "series": null,
+    "index": 2.5
+  },
+  {
+    "test": "index_without_series",
+    "exit_code": 0,
+    "series": null,
+    "index": 2.5
+  },
+  {
+    "test": "pre_save_three_way_conflict",
+    "passed": true,
+    "conflicts": [
+      "tags"
+    ],
+    "external_unedited_publisher_preserved": true,
+    "chosen_external_tags_preserved": true
+  },
+  {
+    "test": "retry_revalidation",
+    "passed": true,
+    "new_conflicting_field": "comments",
+    "no_retry_write_sent": true
+  },
+  {
+    "test": "discard_remaining_draft",
+    "passed": true,
+    "committed_values_preserved": true
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "resolved by explicit owner baseline choice; historical discrepancy not reconstructed",
+  "observed": {
+    "books": 101,
+    "named_workspaces": 0,
+    "import_batches": 0,
+    "bulk_batches": 0,
+    "unresolved_recovery": 1
+  },
+  "source": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M10-Development",
+  "copy_matches_source": true,
+  "launcher_and_stopped_container_mounts": "Inspected; point to the expected M10 active home and library",
+  "question": "Use the preserved current M11 copy as baseline and repeat affected desktop checks, or provide another source location?",
+  "action": "Use preserved M11 baseline, retain all records, repeat affected checks and verify persisted results before gate closure.",
+  "investigation": {
+    "scope": "Known Mediaintor sibling installations/backups and normal-user Media-inator configuration/data locations",
+    "workspace_result": "Only M10/M11 source and backup copies contain workspaces.json; all have zero named workspaces.",
+    "library_result": "No M9/M10/Externally changed title matches found in readable known libraries. Deliberately damaged RC1 qualification database reported separately, not part of source.",
+    "import_result": "One imports/state.json review-state file exists; it is not an import batch journal.",
+    "recovery_result": "Unresolved fd35c048-4292-42de-9269-4d316c6868e6 is the deliberately seeded M10 final-acceptance draft.",
+    "limits": "Cannot establish whether earlier manual checks occurred elsewhere or data was subsequently reset; no missing history reconstructed.",
+    "copy_result": "Promotion source and M11 are byte-identical for user data; no evidence of migration loss."
+  },
+  "owner_decision": "1 keep the current backed-up M11 copy",
+  "current_window_finding": {
+    "evidence": "User screenshot lacks Workspaces and newer search controls; Docker reports only mediainator-rc1-hub-1 running, mediainator-m11-hub-1 stopped.",
+    "conclusion": "Current attempted workspace test was looking at RC1, not the M11 candidate.",
+    "limit": "This identifies the current window; it does not prove where every earlier acceptance check occurred.",
+    "action": "Open M11 explicitly and repeat workspace test; retain RC1 unchanged."
+  }
+}

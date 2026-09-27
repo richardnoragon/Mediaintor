@@ -1,0 +1,27 @@
+{
+  "user_confirmation": "yes, ican confirm one, two and three",
+  "checks": {
+    "mobi_pdf_immediate_readability_first_arrow": true,
+    "mobi_pdf_close_reopen_resume": true,
+    "epub_prior_position_retained_after_other_formats": true
+  },
+  "evidence_type": "owner desktop confirmation",
+  "read_only_followup": {
+    "library_last_read_annotations": 0,
+    "library_last_read_positions": 0,
+    "viewer_annotation_files": 3,
+    "time_machine_epub_mobi_pdf_path_hash_matches": true,
+    "annotation_fields": [
+      "pos",
+      "pos_type",
+      "timestamp",
+      "type"
+    ],
+    "percentage_observed": false
+  },
+  "limits": [
+    "No percentage or reading-status field found in inspected records",
+    "No focus defect reproduced in confirmed scenarios; no fix implemented",
+    "Path-keyed viewer records need relocation handling before adapter implementation"
+  ]
+}

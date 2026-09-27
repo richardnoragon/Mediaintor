@@ -1,0 +1,12 @@
+{
+  "reproduced": true,
+  "error": "Current metadata could not be read; recovery was retained.",
+  "refresh_started_by_editor_finished": true,
+  "initial_metadata_loads": 1,
+  "total_loads_after_retry": 2,
+  "retry_after_refresh_opens_preserved_draft": true,
+  "payload_unchanged": true,
+  "recovery_remains_unresolved_until_explicit_save": true,
+  "scope": "Real Hub/Bookinator/MetadataEditor/ActivityController and recovery store; fake catalog loader and metadata-read boundary. Temporary sample data only; no Calibre, Docker or accepted installation accessed.",
+  "limitation": "Reproduces a sufficient cause consistent with M11 symptoms; does not retrospectively prove the exact timing of the original desktop failure."
+}

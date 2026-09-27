@@ -1,0 +1,21 @@
+{
+  "status": "accepted",
+  "source": "User answers to all three M3 desktop-review questions",
+  "preview_and_import": {
+    "passed": true,
+    "answer": "Yes, all checks pass"
+  },
+  "metadata_completeness_and_review": {
+    "passed": true,
+    "answer": "Yes, both statuses work correctly"
+  },
+  "three_format_reading": {
+    "passed": true,
+    "formats": [
+      "EPUB",
+      "MOBI",
+      "PDF"
+    ],
+    "answer": "All three formats work"
+  }
+}

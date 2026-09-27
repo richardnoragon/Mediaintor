@@ -1,0 +1,12 @@
+{
+  "build": "0.1.0a1-911ac9451958810d",
+  "import_source": "/data/import-sources/M13 Final Acceptance.epub",
+  "source_sha256": "6672a7b1551f44ca45a44c1d45d674024c78585ec371cfa56ecf5a454ee50818",
+  "recovery_book": "Quick Start Guide",
+  "recovery_book_uuid": "d145f3a1-2382-4fe7-bc40-26208145311c",
+  "recovery_id": "fd6abc6f-a547-452e-b237-520f007ee245",
+  "recovery_tag": "M13 Recovery Acceptance",
+  "library_database_unchanged": true,
+  "recovery": "Synthetic unsaved tag only; not applied to library",
+  "desktop_acceptance": "pending"
+}

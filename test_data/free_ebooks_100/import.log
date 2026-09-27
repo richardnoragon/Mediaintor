@@ -1,0 +1,3574 @@
+COMMAND ('list', '--for-machine', '--fields', 'title,authors,formats,identifiers,tags')
+[
+  {
+    "authors": "John Schember",
+    "formats": [
+      "/home/sproket01/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub"
+    ],
+    "id": 1,
+    "identifiers": {},
+    "tags": [],
+    "title": "Quick Start Guide"
+  }
+]
+COMMAND ('add', '--duplicates', '--title', 'Pride and Prejudice', '--authors', 'Austen, Jane', '--tags', 'Romance,mediainator-test-100', '--identifier', 'gutenberg:1342', '--languages', 'en', '/tmp/mediainator-100-books/staged/1342/pg1342.epub')
+Added book ids: 2
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add_format', '--dont-replace', '2', '/tmp/mediainator-100-books/staged/1342/pg1342.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Sense and Sensibility', '--authors', 'Austen, Jane', '--tags', 'Romance,mediainator-test-100', '--identifier', 'gutenberg:161', '--languages', 'en', '/tmp/mediainator-100-books/staged/161/pg161.epub')
+Added book ids: 3
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-65832gk2/a3vbb73d/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Emma', '--authors', 'Austen, Jane', '--tags', 'Romance,mediainator-test-100', '--identifier', 'gutenberg:158', '--languages', 'en', '/tmp/mediainator-100-books/staged/158/pg158.epub')
+Added book ids: 4
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Persuasion', '--authors', 'Austen, Jane', '--tags', 'Romance,mediainator-test-100', '--identifier', 'gutenberg:105', '--languages', 'en', '/tmp/mediainator-100-books/staged/105/pg105.epub')
+Added book ids: 5
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-p1cs_v5z/abt9i966/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Mansfield Park', '--authors', 'Austen, Jane', '--tags', 'Romance,mediainator-test-100', '--identifier', 'gutenberg:141', '--languages', 'en', '/tmp/mediainator-100-books/staged/141/pg141.epub')
+Added book ids: 6
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-ahvs90nj/nl87epw_/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Northanger Abbey', '--authors', 'Austen, Jane', '--tags', 'Romance,mediainator-test-100', '--identifier', 'gutenberg:121', '--languages', 'en', '/tmp/mediainator-100-books/staged/121/pg121.epub')
+Added book ids: 7
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-7vrfvs4v/c_q49plw/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Jane Eyre: An Autobiography', '--authors', 'Brontë, Charlotte', '--tags', 'Gothic fiction,mediainator-test-100', '--identifier', 'gutenberg:1260', '--languages', 'en', '/tmp/mediainator-100-books/staged/1260/pg1260.epub')
+Added book ids: 8
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-wh0pnn5s/9rkg5998/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Wuthering Heights', '--authors', 'Brontë, Emily', '--tags', 'Gothic fiction,mediainator-test-100', '--identifier', 'gutenberg:768', '--languages', 'en', '/tmp/mediainator-100-books/staged/768/pg768.epub')
+Added book ids: 9
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-01zostm_/3iv4u1vw/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Middlemarch', '--authors', 'Eliot, George', '--tags', 'Literary fiction,mediainator-test-100', '--identifier', 'gutenberg:145', '--languages', 'en', '/tmp/mediainator-100-books/staged/145/pg145.epub')
+Added book ids: 10
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-osu5uz20/r3kvk03v/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Great Expectations', '--authors', 'Dickens, Charles', '--tags', 'Literary fiction,mediainator-test-100', '--identifier', 'gutenberg:1400', '--languages', 'en', '/tmp/mediainator-100-books/staged/1400/pg1400.epub')
+Added book ids: 11
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-7ppu3d2j/ktj0a6k1/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'A Tale of Two Cities', '--authors', 'Dickens, Charles', '--tags', 'Historical fiction,mediainator-test-100', '--identifier', 'gutenberg:98', '--languages', 'en', '/tmp/mediainator-100-books/staged/98/pg98.epub')
+Added book ids: 12
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-3gxvf_jw/tdoi3nrv/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Oliver Twist', '--authors', 'Dickens, Charles', '--tags', 'Literary fiction,mediainator-test-100', '--identifier', 'gutenberg:730', '--languages', 'en', '/tmp/mediainator-100-books/staged/730/pg730.epub')
+Added book ids: 13
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-5zmg9aps/rm488qpq/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'David Copperfield', '--authors', 'Dickens, Charles', '--tags', 'Literary fiction,mediainator-test-100', '--identifier', 'gutenberg:766', '--languages', 'en', '/tmp/mediainator-100-books/staged/766/pg766.epub')
+Added book ids: 14
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-r2craxr5/dto1_ul0/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Bleak House', '--authors', 'Dickens, Charles', '--tags', 'Literary fiction,mediainator-test-100', '--identifier', 'gutenberg:1023', '--languages', 'en', '/tmp/mediainator-100-books/staged/1023/pg1023.epub')
+Added book ids: 15
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-pfx9w6vf/w8dsr02y/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'A Christmas Carol in Prose; Being a Ghost Story of Christmas', '--authors', 'Dickens, Charles', '--tags', 'Fantasy,mediainator-test-100', '--identifier', 'gutenberg:46', '--languages', 'en', '/tmp/mediainator-100-books/staged/46/pg46.epub')
+Added book ids: 16
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-ijosiqd2/qzb4c5bp/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '16', '/tmp/mediainator-100-books/staged/46/pg46.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The Picture of Dorian Gray', '--authors', 'Wilde, Oscar', '--tags', 'Gothic fiction,mediainator-test-100', '--identifier', 'gutenberg:174', '--languages', 'en', '/tmp/mediainator-100-books/staged/174/pg174.epub')
+Added book ids: 17
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-xp1xj7x6/dihk8_8j/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Frankenstein; or, the modern prometheus', '--authors', 'Shelley, Mary Wollstonecraft', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:84', '--languages', 'en', '/tmp/mediainator-100-books/staged/84/pg84.epub')
+Added book ids: 18
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-mtm5bcdy/_16ioe3d/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Dracula', '--authors', 'Stoker, Bram', '--tags', 'Horror,mediainator-test-100', '--identifier', 'gutenberg:345', '--languages', 'en', '/tmp/mediainator-100-books/staged/345/pg345.epub')
+Added book ids: 19
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-kftn31dt/z72059ty/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The strange case of Dr. Jekyll and Mr. Hyde', '--authors', 'Stevenson, Robert Louis', '--tags', 'Gothic fiction,mediainator-test-100', '--identifier', 'gutenberg:43', '--languages', 'en', '/tmp/mediainator-100-books/staged/43/pg43.epub')
+Added book ids: 20
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-np4iuxra/ug6otkps/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '20', '/tmp/mediainator-100-books/staged/43/pg43.pdf')
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-14hi6oj2/itt4abzz/book.pdf'
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-14hi6oj2/itt4abzz/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Turn of the Screw', '--authors', 'James, Henry', '--tags', 'Gothic fiction,mediainator-test-100', '--identifier', 'gutenberg:209', '--languages', 'en', '/tmp/mediainator-100-books/staged/209/pg209.epub')
+Added book ids: 21
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 163, in count_book
+    pages = server.count_pages(fmt_file)
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 238, in count_pages
+    self.ensure_worker()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 225, in ensure_worker
+    self.worker = start_pipe_worker(cmd, pass_fds=(write_pipe.fileno(),), stdout=subprocess.DEVNULL)
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/simple_worker.py", line 140, in start_pipe_worker
+    args = {'stdout':subprocess.PIPE, 'stdin':subprocess.PIPE, 'env':w.env, 'close_fds': True}
+                                                                     ^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/launch.py", line 121, in env
+    td = as_hex_unicode(msgpack_dumps(base_dir()))
+                                      ~~~~~~~~^^
+  File "/usr/lib/calibre/calibre/ptempfile.py", line 87, in base_dir
+    remove_folder_atexit(_base_dir)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/safe_atexit.py", line 31, in wrapper
+    return f(*a, **kw)
+  File "/usr/lib/calibre/calibre/utils/safe_atexit.py", line 37, in remove_folder_atexit
+    _send_command(RMTREE_ACTION, os.path.abspath(path))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/safe_atexit.py", line 89, in _send_command
+    worker.stdin.write(json.dumps({'action': action, 'payload': payload}).encode('utf-8'))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: write to closed file
+
+COMMAND ('add', '--duplicates', '--title', 'The Adventures of Sherlock Holmes', '--authors', 'Doyle, Arthur Conan', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:1661', '--languages', 'en', '/tmp/mediainator-100-books/staged/1661/pg1661.epub')
+Added book ids: 22
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-3r3eg5xd/g5c4a6l_/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '22', '/tmp/mediainator-100-books/staged/1661/pg1661.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The Hound of the Baskervilles', '--authors', 'Doyle, Arthur Conan', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:2852', '--languages', 'en', '/tmp/mediainator-100-books/staged/2852/pg2852.epub')
+Added book ids: 23
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-3fw3e05j/4dpp_182/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'A Study in Scarlet', '--authors', 'Doyle, Arthur Conan', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:244', '--languages', 'en', '/tmp/mediainator-100-books/staged/244/pg244.epub')
+Added book ids: 24
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-88ldz2ks/6_uqn7zd/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Valley of Fear', '--authors', 'Doyle, Arthur Conan', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:3289', '--languages', 'en', '/tmp/mediainator-100-books/staged/3289/pg3289.epub')
+Added book ids: 25
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-yeyp7ghc/4p0m4mfl/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Memoirs of Sherlock Holmes', '--authors', 'Doyle, Arthur Conan', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:834', '--languages', 'en', '/tmp/mediainator-100-books/staged/834/pg834.epub')
+Added book ids: 26
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-om783gne/s39z89_6/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Moonstone', '--authors', 'Collins, Wilkie', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:155', '--languages', 'en', '/tmp/mediainator-100-books/staged/155/pg155.epub')
+Added book ids: 27
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-ngal3z5c/6hi65t6m/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Woman in White', '--authors', 'Collins, Wilkie', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:583', '--languages', 'en', '/tmp/mediainator-100-books/staged/583/pg583.epub')
+Added book ids: 28
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-22qpii4z/8qmyvw1b/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Ballad of the White Horse', '--authors', 'Chesterton, G. K. (Gilbert Keith)', '--tags', 'Epic poetry,mediainator-test-100', '--identifier', 'gutenberg:1719', '--languages', 'en', '/tmp/mediainator-100-books/staged/1719/pg1719.epub')
+Added book ids: 29
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-azv7mc6f/slw68nxt/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The innocence of Father Brown', '--authors', 'Chesterton, G. K. (Gilbert Keith)', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:204', '--languages', 'en', '/tmp/mediainator-100-books/staged/204/pg204.epub')
+Added book ids: 30
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-r_cjhegu/5zg8ilhc/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Danish History, Books I-IX', '--authors', 'Saxo, Grammaticus', '--tags', 'History,mediainator-test-100', '--identifier', 'gutenberg:1150', '--languages', 'en', '/tmp/mediainator-100-books/staged/1150/pg1150.epub')
+Added book ids: 31
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-4fa5k07w/04liz7gj/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Time Machine', '--authors', 'Wells, H. G. (Herbert George)', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:35', '--languages', 'en', '/tmp/mediainator-100-books/staged/35/pg35.epub')
+Added book ids: 32
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-xxken6cc/czlssipg/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '32', '/tmp/mediainator-100-books/staged/35/pg35.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add_format', '--dont-replace', '32', '/tmp/mediainator-100-books/staged/35/pg35.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The war of the worlds', '--authors', 'Wells, H. G. (Herbert George)', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:36', '--languages', 'en', '/tmp/mediainator-100-books/staged/36/pg36.epub')
+Added book ids: 33
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-x4n_0l1z/677bo1nc/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Invisible Man: A Grotesque Romance', '--authors', 'Wells, H. G. (Herbert George)', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:5230', '--languages', 'en', '/tmp/mediainator-100-books/staged/5230/pg5230.epub')
+Added book ids: 34
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-z404ke6v/22d5b4da/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The island of Doctor Moreau', '--authors', 'Wells, H. G. (Herbert George)', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:159', '--languages', 'en', '/tmp/mediainator-100-books/staged/159/pg159.epub')
+Added book ids: 35
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-0ktphugx/7ppjpa78/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'A princess of Mars', '--authors', 'Burroughs, Edgar Rice', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:62', '--languages', 'en', '/tmp/mediainator-100-books/staged/62/pg62.epub')
+Added book ids: 36
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-c02apjnf/pr6vtzli/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Twenty Thousand Leagues under the Sea', '--authors', 'Verne, Jules', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:164', '--languages', 'en', '/tmp/mediainator-100-books/staged/164/pg164.epub')
+Added book ids: 37
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-fcrmj11k/o0dwp7cb/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Flatland: A Romance of Many Dimensions', '--authors', 'Abbott, Edwin Abbott', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:201', '--languages', 'en', '/tmp/mediainator-100-books/staged/201/pg201.epub')
+Added book ids: 38
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-xwxt8nl0/e086c_j9/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '38', '/tmp/mediainator-100-books/staged/201/pg201.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'A Journey to the Centre of the Earth', '--authors', 'Verne, Jules', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:18857', '--languages', 'en', '/tmp/mediainator-100-books/staged/18857/pg18857.epub')
+Added book ids: 39
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-hzq0m2tf/ge5t99ua/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Looking Backward, 2000 to 1887', '--authors', 'Bellamy, Edward', '--tags', 'Science fiction,mediainator-test-100', '--identifier', 'gutenberg:624', '--languages', 'en', '/tmp/mediainator-100-books/staged/624/pg624.epub')
+Added book ids: 40
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-p1vd7_cv/fiohl2k1/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "At the Earth's Core", '--authors', 'Burroughs, Edgar Rice', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:123', '--languages', 'en', '/tmp/mediainator-100-books/staged/123/pg123.epub')
+Added book ids: 41
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-gt3nidau/w8wx0e8m/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Treasure Island', '--authors', 'Stevenson, Robert Louis', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:120', '--languages', 'en', '/tmp/mediainator-100-books/staged/120/pg120.epub')
+Added book ids: 42
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add_format', '--dont-replace', '42', '/tmp/mediainator-100-books/staged/120/pg120.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The Count of Monte Cristo', '--authors', 'Dumas, Alexandre & Maquet, Auguste', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:1184', '--languages', 'en', '/tmp/mediainator-100-books/staged/1184/pg1184.epub')
+Added book ids: 43
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-zj9s7bsx/lsi1km8i/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The three musketeers', '--authors', 'Dumas, Alexandre & Maquet, Auguste', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:1257', '--languages', 'en', '/tmp/mediainator-100-books/staged/1257/pg1257.epub')
+Added book ids: 44
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-9gibc5x8/73etkxbx/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Around the World in Eighty Days', '--authors', 'Verne, Jules', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:103', '--languages', 'en', '/tmp/mediainator-100-books/staged/103/pg103.epub')
+Added book ids: 45
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-n6phgtp0/9be252ku/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Adventures of Huckleberry Finn', '--authors', 'Twain, Mark', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:76', '--languages', 'en', '/tmp/mediainator-100-books/staged/76/pg76.epub')
+Added book ids: 46
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-jpaxuvmo/4yz_yol0/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Adventures of Tom Sawyer, Complete', '--authors', 'Twain, Mark', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:74', '--languages', 'en', '/tmp/mediainator-100-books/staged/74/pg74.epub')
+Added book ids: 47
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-e_an1g7n/i3kjswcd/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Summer', '--authors', 'Wharton, Edith', '--tags', 'Literary fiction,mediainator-test-100', '--identifier', 'gutenberg:166', '--languages', 'en', '/tmp/mediainator-100-books/staged/166/pg166.epub')
+Added book ids: 48
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-fep9qve9/fg_r77nt/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Heart of Darkness', '--authors', 'Conrad, Joseph', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:219', '--languages', 'en', '/tmp/mediainator-100-books/staged/219/pg219.epub')
+Added book ids: 49
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The call of the wild', '--authors', 'London, Jack', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:215', '--languages', 'en', '/tmp/mediainator-100-books/staged/215/pg215.epub')
+Added book ids: 50
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-cnvcswlq/onh32dfc/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Sign of the Four', '--authors', 'Doyle, Arthur Conan', '--tags', 'Mystery,mediainator-test-100', '--identifier', 'gutenberg:2097', '--languages', 'en', '/tmp/mediainator-100-books/staged/2097/pg2097.epub')
+Added book ids: 51
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-qgthx8wi/6x1z46c3/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "Alice's Adventures in Wonderland", '--authors', 'Carroll, Lewis', '--tags', 'Fantasy,mediainator-test-100', '--identifier', 'gutenberg:11', '--languages', 'en', '/tmp/mediainator-100-books/staged/11/pg11.epub')
+Added book ids: 52
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-a97ispk6/x1zrquws/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '52', '/tmp/mediainator-100-books/staged/11/pg11.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add_format', '--dont-replace', '52', '/tmp/mediainator-100-books/staged/11/pg11.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Through the Looking-Glass', '--authors', 'Carroll, Lewis', '--tags', 'Fantasy,mediainator-test-100', '--identifier', 'gutenberg:12', '--languages', 'en', '/tmp/mediainator-100-books/staged/12/pg12.epub')
+Added book ids: 53
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-tnxa7ony/p3udbq05/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Wonderful Wizard of Oz', '--authors', 'Baum, L. Frank (Lyman Frank)', '--tags', 'Fantasy,mediainator-test-100', '--identifier', 'gutenberg:55', '--languages', 'en', '/tmp/mediainator-100-books/staged/55/pg55.epub')
+Added book ids: 54
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-sr3vyf8j/brn8i1lf/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Peter Pan: [Peter and Wendy]', '--authors', 'Barrie, J. M. (James Matthew)', '--tags', 'Fantasy,mediainator-test-100', '--identifier', 'gutenberg:16', '--languages', 'en', '/tmp/mediainator-100-books/staged/16/pg16.epub')
+Added book ids: 55
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-r5xwsqzm/ztvdo42q/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Secret Garden', '--authors', 'Burnett, Frances Hodgson', '--tags', "Children's fiction,mediainator-test-100", '--identifier', 'gutenberg:113', '--languages', 'en', '/tmp/mediainator-100-books/staged/113/pg113.epub')
+Added book ids: 56
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-x9akmnnw/mj25aime/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Anne of Green Gables', '--authors', 'Montgomery, L. M. (Lucy Maud)', '--tags', "Children's fiction,mediainator-test-100", '--identifier', 'gutenberg:45', '--languages', 'en', '/tmp/mediainator-100-books/staged/45/pg45.epub')
+Added book ids: 57
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-1ycz8gx9/98gzjgw4/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Little Women', '--authors', 'Alcott, Louisa May', '--tags', "Children's fiction,mediainator-test-100", '--identifier', 'gutenberg:514', '--languages', 'en', '/tmp/mediainator-100-books/staged/514/pg514.epub')
+Added book ids: 58
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-pymm9_sh/n7dmol2j/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Don Quixote', '--authors', 'Cervantes Saavedra, Miguel de', '--tags', 'Satire,mediainator-test-100', '--identifier', 'gutenberg:996', '--languages', 'en', '/tmp/mediainator-100-books/staged/996/pg996.epub')
+Added book ids: 59
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-vup4eob6/hqsgnlkw/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Jungle Book', '--authors', 'Kipling, Rudyard', '--tags', "Children's fiction,mediainator-test-100", '--identifier', 'gutenberg:236', '--languages', 'en', '/tmp/mediainator-100-books/staged/236/pg236.epub')
+Added book ids: 60
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-wzyf2muv/pfucqc3p/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "Gulliver's Travels into Several Remote Nations of the World", '--authors', 'Swift, Jonathan', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:829', '--languages', 'en', '/tmp/mediainator-100-books/staged/829/pg829.epub')
+Added book ids: 61
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-22x0qbfq/ugj6y2zf/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "Grimms' Fairy Tales", '--authors', 'Grimm, Jacob & Grimm, Wilhelm', '--tags', 'Folklore,mediainator-test-100', '--identifier', 'gutenberg:2591', '--languages', 'en', '/tmp/mediainator-100-books/staged/2591/pg2591.epub')
+Added book ids: 62
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-z3k43411/gwfzoqm1/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Three hundred Aesop’s fables Translated by George Fyler Townsend', '--authors', 'Aesop', '--tags', 'Fables,mediainator-test-100', '--identifier', 'gutenberg:21', '--languages', 'en', '/tmp/mediainator-100-books/staged/21/pg21.epub')
+Added book ids: 63
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-sqa66yfg/4_1a5m7n/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Fairy Tales Every Child Should Know', '--authors', 'Anonymous', '--tags', 'Folklore,mediainator-test-100', '--identifier', 'gutenberg:14916', '--languages', 'en', '/tmp/mediainator-100-books/staged/14916/pg14916.epub')
+Added book ids: 64
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-29neildu/8fczpz22/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "Andersen's Fairy Tales", '--authors', 'Andersen, H. C. (Hans Christian)', '--tags', 'Folklore,mediainator-test-100', '--identifier', 'gutenberg:1597', '--languages', 'en', '/tmp/mediainator-100-books/staged/1597/pg1597.epub')
+Added book ids: 65
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Household Tales by Brothers Grimm', '--authors', 'Grimm, Jacob & Grimm, Wilhelm', '--tags', 'Folklore,mediainator-test-100', '--identifier', 'gutenberg:5314', '--languages', 'en', '/tmp/mediainator-100-books/staged/5314/pg5314.epub')
+Added book ids: 66
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-ub_bvzek/8g_iye7u/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "A Midsummer Night's Dream", '--authors', 'Shakespeare, William', '--tags', 'Drama,mediainator-test-100', '--identifier', 'gutenberg:1514', '--languages', 'en', '/tmp/mediainator-100-books/staged/1514/pg1514.epub')
+Added book ids: 67
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-x70mil54/awxq0p_f/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '67', '/tmp/mediainator-100-books/staged/1514/pg1514.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add_format', '--dont-replace', '67', '/tmp/mediainator-100-books/staged/1514/pg1514.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Romeo and Juliet', '--authors', 'Shakespeare, William', '--tags', 'Drama,mediainator-test-100', '--identifier', 'gutenberg:1513', '--languages', 'en', '/tmp/mediainator-100-books/staged/1513/pg1513.epub')
+Added book ids: 68
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-r33nkln7/cazapibn/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Hamlet', '--authors', 'Shakespeare, William', '--tags', 'Drama,mediainator-test-100', '--identifier', 'gutenberg:1524', '--languages', 'en', '/tmp/mediainator-100-books/staged/1524/pg1524.epub')
+Added book ids: 69
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-8y6y7xzq/gx_02kib/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Macbeth', '--authors', 'Shakespeare, William', '--tags', 'Drama,mediainator-test-100', '--identifier', 'gutenberg:1533', '--languages', 'en', '/tmp/mediainator-100-books/staged/1533/pg1533.epub')
+Added book ids: 70
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-18ulqkff/h5oqi9gh/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Othello', '--authors', 'Shakespeare, William', '--tags', 'Drama,mediainator-test-100', '--identifier', 'gutenberg:1531', '--languages', 'en', '/tmp/mediainator-100-books/staged/1531/pg1531.epub')
+Added book ids: 71
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The Importance of Being Earnest: A Trivial Comedy for Serious People', '--authors', 'Wilde, Oscar', '--tags', 'Drama,mediainator-test-100', '--identifier', 'gutenberg:844', '--languages', 'en', '/tmp/mediainator-100-books/staged/844/pg844.epub')
+Added book ids: 72
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-5fjpeuya/dbwrjtaf/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "A Doll's House : a play", '--authors', 'Ibsen, Henrik', '--tags', 'Drama,mediainator-test-100', '--identifier', 'gutenberg:2542', '--languages', 'en', '/tmp/mediainator-100-books/staged/2542/pg2542.epub')
+Added book ids: 73
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', "Shakespeare's Sonnets", '--authors', 'Shakespeare, William', '--tags', 'Poetry,mediainator-test-100', '--identifier', 'gutenberg:1041', '--languages', 'en', '/tmp/mediainator-100-books/staged/1041/pg1041.epub')
+Added book ids: 74
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-t7sjx8qp/rlhqecew/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '74', '/tmp/mediainator-100-books/staged/1041/pg1041.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Leaves of Grass', '--authors', 'Whitman, Walt', '--tags', 'Poetry,mediainator-test-100', '--identifier', 'gutenberg:1322', '--languages', 'en', '/tmp/mediainator-100-books/staged/1322/pg1322.epub')
+Added book ids: 75
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-j3e5sttw/tfo8zm0w/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Paradise Lost', '--authors', 'Milton, John', '--tags', 'Poetry,mediainator-test-100', '--identifier', 'gutenberg:20', '--languages', 'en', '/tmp/mediainator-100-books/staged/20/pg20.epub')
+Added book ids: 76
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-sv3dkzk5/up_yawad/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Iliad', '--authors', 'Homer', '--tags', 'Epic poetry,mediainator-test-100', '--identifier', 'gutenberg:6130', '--languages', 'en', '/tmp/mediainator-100-books/staged/6130/pg6130.epub')
+Added book ids: 77
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-pukj1d4u/3kjwamkq/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Odyssey Rendered into English prose for the use of those who cannot read the original', '--authors', 'Homer', '--tags', 'Epic poetry,mediainator-test-100', '--identifier', 'gutenberg:1727', '--languages', 'en', '/tmp/mediainator-100-books/staged/1727/pg1727.epub')
+Added book ids: 78
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-xcgiau_1/4zjasyqb/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Beowulf: An Anglo-Saxon Epic Poem', '--authors', 'Anonymous', '--tags', 'Epic poetry,mediainator-test-100', '--identifier', 'gutenberg:16328', '--languages', 'en', '/tmp/mediainator-100-books/staged/16328/pg16328.epub')
+Added book ids: 79
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Faust [part 1]. Translated Into English in the Original Metres', '--authors', 'Goethe, Johann Wolfgang von', '--tags', 'Poetry,mediainator-test-100', '--identifier', 'gutenberg:14591', '--languages', 'en', '/tmp/mediainator-100-books/staged/14591/pg14591.epub')
+Added book ids: 80
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-vf48e7wk/0ir72m4g/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Raven', '--authors', 'Poe, Edgar Allan', '--tags', 'Poetry,mediainator-test-100', '--identifier', 'gutenberg:1065', '--languages', 'en', '/tmp/mediainator-100-books/staged/1065/pg1065.epub')
+Added book ids: 81
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-qdyjc5us/i0lhjiwa/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '81', '/tmp/mediainator-100-books/staged/1065/pg1065.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The Prince', '--authors', 'Machiavelli, Niccolò', '--tags', 'Political philosophy,mediainator-test-100', '--identifier', 'gutenberg:1232', '--languages', 'en', '/tmp/mediainator-100-books/staged/1232/pg1232.epub')
+Added book ids: 82
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-uvcr_636/e2pyub27/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Republic', '--authors', 'Plato', '--tags', 'Philosophy,mediainator-test-100', '--identifier', 'gutenberg:1497', '--languages', 'en', '/tmp/mediainator-100-books/staged/1497/pg1497.epub')
+Added book ids: 83
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-gqowy9j2/dsdlvoo8/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Meditations', '--authors', 'Marcus Aurelius, Emperor of Rome', '--tags', 'Philosophy,mediainator-test-100', '--identifier', 'gutenberg:2680', '--languages', 'en', '/tmp/mediainator-100-books/staged/2680/pg2680.epub')
+Added book ids: 84
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-6nyhn15o/bt_a8p13/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Moby Dick; Or, The Whale', '--authors', 'Melville, Herman', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:2701', '--languages', 'en', '/tmp/mediainator-100-books/staged/2701/pg2701.epub')
+Added book ids: 85
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-r4560739/rejn2r2t/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Leviathan', '--authors', 'Hobbes, Thomas', '--tags', 'Philosophy,mediainator-test-100', '--identifier', 'gutenberg:3207', '--languages', 'en', '/tmp/mediainator-100-books/staged/3207/pg3207.epub')
+Added book ids: 86
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-8sfw5nad/e0iga1xf/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Essays of Michel de Montaigne — Complete', '--authors', 'Montaigne, Michel de', '--tags', 'Essays,mediainator-test-100', '--identifier', 'gutenberg:3600', '--languages', 'en', '/tmp/mediainator-100-books/staged/3600/pg3600.epub')
+Added book ids: 87
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-rmud0e33/l2xwyyjr/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Thus Spake Zarathustra: A Book for All and None', '--authors', 'Nietzsche, Friedrich Wilhelm', '--tags', 'Philosophy,mediainator-test-100', '--identifier', 'gutenberg:1998', '--languages', 'en', '/tmp/mediainator-100-books/staged/1998/pg1998.epub')
+Added book ids: 88
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-mwq0iob4/ez063ygq/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Dubliners', '--authors', 'Joyce, James', '--tags', 'Short stories,mediainator-test-100', '--identifier', 'gutenberg:2814', '--languages', 'en', '/tmp/mediainator-100-books/staged/2814/pg2814.epub')
+Added book ids: 89
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-3610i0et/8grpf164/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Apology', '--authors', 'Plato', '--tags', 'Philosophy,mediainator-test-100', '--identifier', 'gutenberg:1656', '--languages', 'en', '/tmp/mediainator-100-books/staged/1656/pg1656.epub')
+Added book ids: 90
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-mfpvwigs/ksmx2lii/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '90', '/tmp/mediainator-100-books/staged/1656/pg1656.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick', '--authors', 'Swift, Jonathan', '--tags', 'Satire,mediainator-test-100', '--identifier', 'gutenberg:1080', '--languages', 'en', '/tmp/mediainator-100-books/staged/1080/pg1080.epub')
+Added book ids: 91
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-sxur216r/2ufhnble/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '91', '/tmp/mediainator-100-books/staged/1080/pg1080.mobi')
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-kxmtiztg/0joti3vv/book.epub'
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-kxmtiztg/0joti3vv/book.mobi'
+
+COMMAND ('add_format', '--dont-replace', '91', '/tmp/mediainator-100-books/staged/1080/pg1080.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in the Struggle for Life, 6th Edition', '--authors', 'Darwin, Charles', '--tags', 'Natural history,mediainator-test-100', '--identifier', 'gutenberg:2009', '--languages', 'en', '/tmp/mediainator-100-books/staged/2009/pg2009.epub')
+Added book ids: 92
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-fsi1f16p/atn62y9u/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Voyage of the Beagle', '--authors', 'Darwin, Charles', '--tags', 'Travel,mediainator-test-100', '--identifier', 'gutenberg:944', '--languages', 'en', '/tmp/mediainator-100-books/staged/944/pg944.epub')
+Added book ids: 93
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-2ig1ji_a/xxlbstxl/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Walden, and On The Duty Of Civil Disobedience', '--authors', 'Thoreau, Henry David', '--tags', 'Nature,mediainator-test-100', '--identifier', 'gutenberg:205', '--languages', 'en', '/tmp/mediainator-100-books/staged/205/pg205.epub')
+Added book ids: 94
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-s4ur0o84/e2aycgd8/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '94', '/tmp/mediainator-100-books/staged/205/pg205.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Autobiography of Benjamin Franklin', '--authors', 'Franklin, Benjamin', '--tags', 'Autobiography,mediainator-test-100', '--identifier', 'gutenberg:20203', '--languages', 'en', '/tmp/mediainator-100-books/staged/20203/pg20203.epub')
+Added book ids: 95
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Narrative of the Life of Frederick Douglass, an American Slave', '--authors', 'Douglass, Frederick', '--tags', 'Autobiography,mediainator-test-100', '--identifier', 'gutenberg:23', '--languages', 'en', '/tmp/mediainator-100-books/staged/23/pg23.epub')
+Added book ids: 96
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-v86lp3q3/goc3zh50/book.epub'
+
+COMMAND ('add_format', '--dont-replace', '96', '/tmp/mediainator-100-books/staged/23/pg23.mobi')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add_format', '--dont-replace', '96', '/tmp/mediainator-100-books/staged/23/pg23.pdf')
+Traceback (most recent call last):
+  File "/usr/bin/calibre-parallel", line 21, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/calibre/calibre/utils/ipc/worker.py", line 194, in main
+    exec(sys.argv[-1])
+    ~~~~^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 276, in worker_main
+    serve_requests(pipe)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/calibre/calibre/library/page_count.py", line 267, in serve_requests
+    eintr_retry_call(pipe.send, result)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/utils/ipc/__init__.py", line 20, in eintr_retry_call
+    return func(*args, **kwargs)
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 213, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 445, in _send_bytes
+    self._send(header + buf)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/multiprocessing/connection.py", line 401, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+COMMAND ('add', '--duplicates', '--title', 'Tarzan the Terrible', '--authors', 'Burroughs, Edgar Rice', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:2020', '--languages', 'en', '/tmp/mediainator-100-books/staged/2020/pg2020.epub')
+Added book ids: 97
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-hfds1shy/x247ldaa/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'The Life and Adventures of Robinson Crusoe', '--authors', 'Defoe, Daniel', '--tags', 'Adventure,mediainator-test-100', '--identifier', 'gutenberg:521', '--languages', 'en', '/tmp/mediainator-100-books/staged/521/pg521.epub')
+Added book ids: 98
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-ebtun5d5/o70t5ofx/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', "Roget's Thesaurus of English Words and Phrases", '--authors', 'Roget, Peter Mark', '--tags', 'Reference,mediainator-test-100', '--identifier', 'gutenberg:10681', '--languages', 'en', '/tmp/mediainator-100-books/staged/10681/pg10681.epub')
+Added book ids: 99
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-2otjec02/3swhdq9t/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Democracy in America — Volume 1', '--authors', 'Tocqueville, Alexis de', '--tags', 'History,mediainator-test-100', '--identifier', 'gutenberg:815', '--languages', 'en', '/tmp/mediainator-100-books/staged/815/pg815.epub')
+Added book ids: 100
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 155, in count_book
+    fmt_size = os.path.getsize(fmt_file)
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-0swwklsr/wtw8h1_m/book.epub'
+
+COMMAND ('add', '--duplicates', '--title', 'Beyond Good and Evil', '--authors', 'Nietzsche, Friedrich Wilhelm', '--tags', 'Philosophy,mediainator-test-100', '--identifier', 'gutenberg:4363', '--languages', 'en', '/tmp/mediainator-100-books/staged/4363/pg4363.epub')
+Added book ids: 101
+Traceback (most recent call last):
+  File "/usr/lib/calibre/calibre/db/page_count.py", line 153, in count_book
+    db.copy_format_to(book_id, fmt, fmt_file)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/cache.py", line 89, in call_func_with_lock
+    return func(*args, **kwargs)
+  File "/usr/lib/calibre/calibre/db/cache.py", line 1343, in copy_format_to
+    return self.backend.copy_format_to(book_id, fmt, name, path, dest,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                           use_hardlink=use_hardlink, report_file_size=report_file_size)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/calibre/calibre/db/backend.py", line 1899, in copy_format_to
+    shutil.copyfile(path, make_long_path_useable(dest))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/shutil.py", line 315, in copyfile
+    with open(dst, 'wb') as fdst:
+         ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/calibre-qfaklr10/oj0g05xk/book.epub'
+
+COMMAND ('list', '--for-machine', '--fields', 'title,authors,formats,identifiers,tags')
+[
+  {
+    "authors": "John Schember",
+    "formats": [
+      "/home/sproket01/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub"
+    ],
+    "id": 1,
+    "identifiers": {},
+    "tags": [],
+    "title": "Quick Start Guide"
+  },
+  {
+    "authors": "Austen, Jane",
+    "formats": [
+      "/home/sproket01/Calibre Library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.epub",
+      "/home/sproket01/Calibre Library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.mobi"
+    ],
+    "id": 2,
+    "identifiers": {
+      "gutenberg": "1342",
+      "uri": "http://www.gutenberg.org/1342"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Pride and Prejudice"
+  },
+  {
+    "authors": "Austen, Jane",
+    "formats": [
+      "/home/sproket01/Calibre Library/Austen, Jane/Sense and Sensibility (3)/Sense and Sensibility - Austen, Jane.epub"
+    ],
+    "id": 3,
+    "identifiers": {
+      "gutenberg": "161",
+      "uri": "http://www.gutenberg.org/161"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Sense and Sensibility"
+  },
+  {
+    "authors": "Austen, Jane",
+    "formats": [
+      "/home/sproket01/Calibre Library/Austen, Jane/Emma (4)/Emma - Austen, Jane.epub"
+    ],
+    "id": 4,
+    "identifiers": {
+      "gutenberg": "158",
+      "uri": "http://www.gutenberg.org/158"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Emma"
+  },
+  {
+    "authors": "Austen, Jane",
+    "formats": [
+      "/home/sproket01/Calibre Library/Austen, Jane/Persuasion (5)/Persuasion - Austen, Jane.epub"
+    ],
+    "id": 5,
+    "identifiers": {
+      "gutenberg": "105",
+      "uri": "http://www.gutenberg.org/105"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Persuasion"
+  },
+  {
+    "authors": "Austen, Jane",
+    "formats": [
+      "/home/sproket01/Calibre Library/Austen, Jane/Mansfield Park (6)/Mansfield Park - Austen, Jane.epub"
+    ],
+    "id": 6,
+    "identifiers": {
+      "gutenberg": "141",
+      "uri": "http://www.gutenberg.org/141"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Mansfield Park"
+  },
+  {
+    "authors": "Austen, Jane",
+    "formats": [
+      "/home/sproket01/Calibre Library/Austen, Jane/Northanger Abbey (7)/Northanger Abbey - Austen, Jane.epub"
+    ],
+    "id": 7,
+    "identifiers": {
+      "gutenberg": "121",
+      "uri": "http://www.gutenberg.org/121"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Northanger Abbey"
+  },
+  {
+    "authors": "Bront\u00eb, Charlotte",
+    "formats": [
+      "/home/sproket01/Calibre Library/Bronte, Charlotte/Jane Eyre_ An Autobiography (8)/Jane Eyre_ An Autobiography - Bronte, Charlotte.epub"
+    ],
+    "id": 8,
+    "identifiers": {
+      "gutenberg": "1260",
+      "uri": "http://www.gutenberg.org/1260"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Jane Eyre: An Autobiography"
+  },
+  {
+    "authors": "Bront\u00eb, Emily",
+    "formats": [
+      "/home/sproket01/Calibre Library/Bronte, Emily/Wuthering Heights (9)/Wuthering Heights - Bronte, Emily.epub"
+    ],
+    "id": 9,
+    "identifiers": {
+      "gutenberg": "768",
+      "uri": "http://www.gutenberg.org/768"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Wuthering Heights"
+  },
+  {
+    "authors": "Eliot, George",
+    "formats": [
+      "/home/sproket01/Calibre Library/Eliot, George/Middlemarch (10)/Middlemarch - Eliot, George.epub"
+    ],
+    "id": 10,
+    "identifiers": {
+      "gutenberg": "145",
+      "uri": "http://www.gutenberg.org/145"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Middlemarch"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dickens, Charles/Great Expectations (11)/Great Expectations - Dickens, Charles.epub"
+    ],
+    "id": 11,
+    "identifiers": {
+      "gutenberg": "1400",
+      "uri": "http://www.gutenberg.org/1400"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Great Expectations"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dickens, Charles/A Tale of Two Cities (12)/A Tale of Two Cities - Dickens, Charles.epub"
+    ],
+    "id": 12,
+    "identifiers": {
+      "gutenberg": "98",
+      "uri": "http://www.gutenberg.org/98"
+    },
+    "tags": [
+      "Historical fiction",
+      "mediainator-test-100"
+    ],
+    "title": "A Tale of Two Cities"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dickens, Charles/Oliver Twist (13)/Oliver Twist - Dickens, Charles.epub"
+    ],
+    "id": 13,
+    "identifiers": {
+      "gutenberg": "730",
+      "uri": "http://www.gutenberg.org/730"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Oliver Twist"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dickens, Charles/David Copperfield (14)/David Copperfield - Dickens, Charles.epub"
+    ],
+    "id": 14,
+    "identifiers": {
+      "gutenberg": "766",
+      "uri": "http://www.gutenberg.org/766"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "David Copperfield"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dickens, Charles/Bleak House (15)/Bleak House - Dickens, Charles.epub"
+    ],
+    "id": 15,
+    "identifiers": {
+      "gutenberg": "1023",
+      "uri": "http://www.gutenberg.org/1023"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Bleak House"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dickens, Charles/A Christmas Carol in Prose; Being a Ghost Story of Christmas (16)/A Christmas Carol in Prose; Being a Ghost - Dickens, Charles.epub",
+      "/home/sproket01/Calibre Library/Dickens, Charles/A Christmas Carol in Prose; Being a Ghost Story of Christmas (16)/A Christmas Carol in Prose; Being a Ghost - Dickens, Charles.pdf"
+    ],
+    "id": 16,
+    "identifiers": {
+      "gutenberg": "46",
+      "uri": "http://www.gutenberg.org/46"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas"
+  },
+  {
+    "authors": "Wilde, Oscar",
+    "formats": [
+      "/home/sproket01/Calibre Library/Wilde, Oscar/The Picture of Dorian Gray (17)/The Picture of Dorian Gray - Wilde, Oscar.epub"
+    ],
+    "id": 17,
+    "identifiers": {
+      "gutenberg": "174",
+      "uri": "http://www.gutenberg.org/174"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Picture of Dorian Gray"
+  },
+  {
+    "authors": "Shelley, Mary Wollstonecraft",
+    "formats": [
+      "/home/sproket01/Calibre Library/Shelley, Mary Wollstonecraft/Frankenstein; or, the modern prometheus (18)/Frankenstein; or, the modern prometheus - Shelley, Mary Wollstonecraft.epub"
+    ],
+    "id": 18,
+    "identifiers": {
+      "gutenberg": "84",
+      "uri": "http://www.gutenberg.org/84"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Frankenstein; or, the modern prometheus"
+  },
+  {
+    "authors": "Stoker, Bram",
+    "formats": [
+      "/home/sproket01/Calibre Library/Stoker, Bram/Dracula (19)/Dracula - Stoker, Bram.epub"
+    ],
+    "id": 19,
+    "identifiers": {
+      "gutenberg": "345",
+      "uri": "http://www.gutenberg.org/345"
+    },
+    "tags": [
+      "Horror",
+      "mediainator-test-100"
+    ],
+    "title": "Dracula"
+  },
+  {
+    "authors": "Stevenson, Robert Louis",
+    "formats": [
+      "/home/sproket01/Calibre Library/Stevenson, Robert Louis/The strange case of Dr. Jekyll and Mr. Hyde (20)/The strange case of Dr. Jekyll and Mr. Hyd - Stevenson, Robert Louis.epub",
+      "/home/sproket01/Calibre Library/Stevenson, Robert Louis/The strange case of Dr. Jekyll and Mr. Hyde (20)/The strange case of Dr. Jekyll and Mr. Hyd - Stevenson, Robert Louis.pdf"
+    ],
+    "id": 20,
+    "identifiers": {
+      "gutenberg": "43",
+      "uri": "http://www.gutenberg.org/43"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The strange case of Dr. Jekyll and Mr. Hyde"
+  },
+  {
+    "authors": "James, Henry",
+    "formats": [
+      "/home/sproket01/Calibre Library/James, Henry/The Turn of the Screw (21)/The Turn of the Screw - James, Henry.epub"
+    ],
+    "id": 21,
+    "identifiers": {
+      "gutenberg": "209",
+      "uri": "http://www.gutenberg.org/209"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Turn of the Screw"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Doyle, Arthur Conan/The Adventures of Sherlock Holmes (22)/The Adventures of Sherlock Holmes - Doyle, Arthur Conan.epub",
+      "/home/sproket01/Calibre Library/Doyle, Arthur Conan/The Adventures of Sherlock Holmes (22)/The Adventures of Sherlock Holmes - Doyle, Arthur Conan.mobi"
+    ],
+    "id": 22,
+    "identifiers": {
+      "gutenberg": "1661",
+      "uri": "http://www.gutenberg.org/1661"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Adventures of Sherlock Holmes"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Doyle, Arthur Conan/The Hound of the Baskervilles (23)/The Hound of the Baskervilles - Doyle, Arthur Conan.epub"
+    ],
+    "id": 23,
+    "identifiers": {
+      "gutenberg": "2852",
+      "uri": "http://www.gutenberg.org/2852"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Hound of the Baskervilles"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Doyle, Arthur Conan/A Study in Scarlet (24)/A Study in Scarlet - Doyle, Arthur Conan.epub"
+    ],
+    "id": 24,
+    "identifiers": {
+      "gutenberg": "244",
+      "uri": "http://www.gutenberg.org/244"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "A Study in Scarlet"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Doyle, Arthur Conan/The Valley of Fear (25)/The Valley of Fear - Doyle, Arthur Conan.epub"
+    ],
+    "id": 25,
+    "identifiers": {
+      "gutenberg": "3289",
+      "uri": "http://www.gutenberg.org/3289"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Valley of Fear"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Doyle, Arthur Conan/The Memoirs of Sherlock Holmes (26)/The Memoirs of Sherlock Holmes - Doyle, Arthur Conan.epub"
+    ],
+    "id": 26,
+    "identifiers": {
+      "gutenberg": "834",
+      "uri": "http://www.gutenberg.org/834"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Memoirs of Sherlock Holmes"
+  },
+  {
+    "authors": "Collins, Wilkie",
+    "formats": [
+      "/home/sproket01/Calibre Library/Collins, Wilkie/The Moonstone (27)/The Moonstone - Collins, Wilkie.epub"
+    ],
+    "id": 27,
+    "identifiers": {
+      "gutenberg": "155",
+      "uri": "http://www.gutenberg.org/155"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Moonstone"
+  },
+  {
+    "authors": "Collins, Wilkie",
+    "formats": [
+      "/home/sproket01/Calibre Library/Collins, Wilkie/The Woman in White (28)/The Woman in White - Collins, Wilkie.epub"
+    ],
+    "id": 28,
+    "identifiers": {
+      "gutenberg": "583",
+      "uri": "http://www.gutenberg.org/583"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Woman in White"
+  },
+  {
+    "authors": "Chesterton, G. K. (Gilbert Keith)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Chesterton, G. K. (Gilbert Keith)/The Ballad of the White Horse (29)/The Ballad of the White Horse - Chesterton, G. K. (Gilbert Keith).epub"
+    ],
+    "id": 29,
+    "identifiers": {
+      "gutenberg": "1719",
+      "uri": "http://www.gutenberg.org/1719"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Ballad of the White Horse"
+  },
+  {
+    "authors": "Chesterton, G. K. (Gilbert Keith)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Chesterton, G. K. (Gilbert Keith)/The innocence of Father Brown (30)/The innocence of Father Brown - Chesterton, G. K. (Gilbert Keith).epub"
+    ],
+    "id": 30,
+    "identifiers": {
+      "gutenberg": "204",
+      "uri": "http://www.gutenberg.org/204"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The innocence of Father Brown"
+  },
+  {
+    "authors": "Saxo, Grammaticus",
+    "formats": [
+      "/home/sproket01/Calibre Library/Saxo, Grammaticus/The Danish History, Books I-IX (31)/The Danish History, Books I-IX - Saxo, Grammaticus.epub"
+    ],
+    "id": 31,
+    "identifiers": {
+      "gutenberg": "1150",
+      "uri": "http://www.gutenberg.org/1150"
+    },
+    "tags": [
+      "History",
+      "mediainator-test-100"
+    ],
+    "title": "The Danish History, Books I-IX"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).epub",
+      "/home/sproket01/Calibre Library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).mobi",
+      "/home/sproket01/Calibre Library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).pdf"
+    ],
+    "id": 32,
+    "identifiers": {
+      "gutenberg": "35",
+      "uri": "http://www.gutenberg.org/35"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Time Machine"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Wells, H. G. (Herbert George)/The war of the worlds (33)/The war of the worlds - Wells, H. G. (Herbert George).epub"
+    ],
+    "id": 33,
+    "identifiers": {
+      "gutenberg": "36",
+      "uri": "http://www.gutenberg.org/36"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The war of the worlds"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Wells, H. G. (Herbert George)/The Invisible Man_ A Grotesque Romance (34)/The Invisible Man_ A Grotesque Romance - Wells, H. G. (Herbert George).epub"
+    ],
+    "id": 34,
+    "identifiers": {
+      "gutenberg": "5230",
+      "uri": "http://www.gutenberg.org/5230"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Invisible Man: A Grotesque Romance"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Wells, H. G. (Herbert George)/The island of Doctor Moreau (35)/The island of Doctor Moreau - Wells, H. G. (Herbert George).epub"
+    ],
+    "id": 35,
+    "identifiers": {
+      "gutenberg": "159",
+      "uri": "http://www.gutenberg.org/159"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The island of Doctor Moreau"
+  },
+  {
+    "authors": "Burroughs, Edgar Rice",
+    "formats": [
+      "/home/sproket01/Calibre Library/Burroughs, Edgar Rice/A princess of Mars (36)/A princess of Mars - Burroughs, Edgar Rice.epub"
+    ],
+    "id": 36,
+    "identifiers": {
+      "gutenberg": "62",
+      "uri": "http://www.gutenberg.org/62"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "A princess of Mars"
+  },
+  {
+    "authors": "Verne, Jules",
+    "formats": [
+      "/home/sproket01/Calibre Library/Verne, Jules/Twenty Thousand Leagues under the Sea (37)/Twenty Thousand Leagues under the Sea - Verne, Jules.epub"
+    ],
+    "id": 37,
+    "identifiers": {
+      "gutenberg": "164",
+      "uri": "http://www.gutenberg.org/164"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Twenty Thousand Leagues under the Sea"
+  },
+  {
+    "authors": "Abbott, Edwin Abbott",
+    "formats": [
+      "/home/sproket01/Calibre Library/Abbott, Edwin Abbott/Flatland_ A Romance of Many Dimensions (38)/Flatland_ A Romance of Many Dimensions - Abbott, Edwin Abbott.epub",
+      "/home/sproket01/Calibre Library/Abbott, Edwin Abbott/Flatland_ A Romance of Many Dimensions (38)/Flatland_ A Romance of Many Dimensions - Abbott, Edwin Abbott.mobi"
+    ],
+    "id": 38,
+    "identifiers": {
+      "gutenberg": "201",
+      "uri": "http://www.gutenberg.org/201"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Flatland: A Romance of Many Dimensions"
+  },
+  {
+    "authors": "Verne, Jules",
+    "formats": [
+      "/home/sproket01/Calibre Library/Verne, Jules/A Journey to the Centre of the Earth (39)/A Journey to the Centre of the Earth - Verne, Jules.epub"
+    ],
+    "id": 39,
+    "identifiers": {
+      "gutenberg": "18857",
+      "uri": "http://www.gutenberg.org/18857"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "A Journey to the Centre of the Earth"
+  },
+  {
+    "authors": "Bellamy, Edward",
+    "formats": [
+      "/home/sproket01/Calibre Library/Bellamy, Edward/Looking Backward, 2000 to 1887 (40)/Looking Backward, 2000 to 1887 - Bellamy, Edward.epub"
+    ],
+    "id": 40,
+    "identifiers": {
+      "gutenberg": "624",
+      "uri": "http://www.gutenberg.org/624"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Looking Backward, 2000 to 1887"
+  },
+  {
+    "authors": "Burroughs, Edgar Rice",
+    "formats": [
+      "/home/sproket01/Calibre Library/Burroughs, Edgar Rice/At the Earth's Core (41)/At the Earth's Core - Burroughs, Edgar Rice.epub"
+    ],
+    "id": 41,
+    "identifiers": {
+      "gutenberg": "123",
+      "uri": "http://www.gutenberg.org/123"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "At the Earth's Core"
+  },
+  {
+    "authors": "Stevenson, Robert Louis",
+    "formats": [
+      "/home/sproket01/Calibre Library/Stevenson, Robert Louis/Treasure Island (42)/Treasure Island - Stevenson, Robert Louis.epub",
+      "/home/sproket01/Calibre Library/Stevenson, Robert Louis/Treasure Island (42)/Treasure Island - Stevenson, Robert Louis.mobi"
+    ],
+    "id": 42,
+    "identifiers": {
+      "gutenberg": "120",
+      "uri": "http://www.gutenberg.org/120"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Treasure Island"
+  },
+  {
+    "authors": "Dumas, Alexandre & Maquet, Auguste",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dumas, Alexandre/The Count of Monte Cristo (43)/The Count of Monte Cristo - Dumas, Alexandre.epub"
+    ],
+    "id": 43,
+    "identifiers": {
+      "gutenberg": "1184",
+      "uri": "http://www.gutenberg.org/1184"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The Count of Monte Cristo"
+  },
+  {
+    "authors": "Dumas, Alexandre & Maquet, Auguste",
+    "formats": [
+      "/home/sproket01/Calibre Library/Dumas, Alexandre/The three musketeers (44)/The three musketeers - Dumas, Alexandre.epub"
+    ],
+    "id": 44,
+    "identifiers": {
+      "gutenberg": "1257",
+      "uri": "http://www.gutenberg.org/1257"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The three musketeers"
+  },
+  {
+    "authors": "Verne, Jules",
+    "formats": [
+      "/home/sproket01/Calibre Library/Verne, Jules/Around the World in Eighty Days (45)/Around the World in Eighty Days - Verne, Jules.epub"
+    ],
+    "id": 45,
+    "identifiers": {
+      "gutenberg": "103",
+      "uri": "http://www.gutenberg.org/103"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Around the World in Eighty Days"
+  },
+  {
+    "authors": "Twain, Mark",
+    "formats": [
+      "/home/sproket01/Calibre Library/Twain, Mark/Adventures of Huckleberry Finn (46)/Adventures of Huckleberry Finn - Twain, Mark.epub"
+    ],
+    "id": 46,
+    "identifiers": {
+      "gutenberg": "76",
+      "uri": "http://www.gutenberg.org/76"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Adventures of Huckleberry Finn"
+  },
+  {
+    "authors": "Twain, Mark",
+    "formats": [
+      "/home/sproket01/Calibre Library/Twain, Mark/The Adventures of Tom Sawyer, Complete (47)/The Adventures of Tom Sawyer, Complete - Twain, Mark.epub"
+    ],
+    "id": 47,
+    "identifiers": {
+      "gutenberg": "74",
+      "uri": "http://www.gutenberg.org/74"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The Adventures of Tom Sawyer, Complete"
+  },
+  {
+    "authors": "Wharton, Edith",
+    "formats": [
+      "/home/sproket01/Calibre Library/Wharton, Edith/Summer (48)/Summer - Wharton, Edith.epub"
+    ],
+    "id": 48,
+    "identifiers": {
+      "gutenberg": "166",
+      "uri": "http://www.gutenberg.org/166"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Summer"
+  },
+  {
+    "authors": "Conrad, Joseph",
+    "formats": [
+      "/home/sproket01/Calibre Library/Conrad, Joseph/Heart of Darkness (49)/Heart of Darkness - Conrad, Joseph.epub"
+    ],
+    "id": 49,
+    "identifiers": {
+      "gutenberg": "219",
+      "uri": "http://www.gutenberg.org/219"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Heart of Darkness"
+  },
+  {
+    "authors": "London, Jack",
+    "formats": [
+      "/home/sproket01/Calibre Library/London, Jack/The call of the wild (50)/The call of the wild - London, Jack.epub"
+    ],
+    "id": 50,
+    "identifiers": {
+      "gutenberg": "215",
+      "uri": "http://www.gutenberg.org/215"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The call of the wild"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Doyle, Arthur Conan/The Sign of the Four (51)/The Sign of the Four - Doyle, Arthur Conan.epub"
+    ],
+    "id": 51,
+    "identifiers": {
+      "gutenberg": "2097",
+      "uri": "http://www.gutenberg.org/2097"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Sign of the Four"
+  },
+  {
+    "authors": "Carroll, Lewis",
+    "formats": [
+      "/home/sproket01/Calibre Library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/Alice's Adventures in Wonderland - Carroll, Lewis.epub",
+      "/home/sproket01/Calibre Library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/Alice's Adventures in Wonderland - Carroll, Lewis.mobi",
+      "/home/sproket01/Calibre Library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/Alice's Adventures in Wonderland - Carroll, Lewis.pdf"
+    ],
+    "id": 52,
+    "identifiers": {
+      "gutenberg": "11",
+      "uri": "http://www.gutenberg.org/11"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "Alice's Adventures in Wonderland"
+  },
+  {
+    "authors": "Carroll, Lewis",
+    "formats": [
+      "/home/sproket01/Calibre Library/Carroll, Lewis/Through the Looking-Glass (53)/Through the Looking-Glass - Carroll, Lewis.epub"
+    ],
+    "id": 53,
+    "identifiers": {
+      "gutenberg": "12",
+      "uri": "http://www.gutenberg.org/12"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "Through the Looking-Glass"
+  },
+  {
+    "authors": "Baum, L. Frank (Lyman Frank)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Baum, L. Frank (Lyman Frank)/The Wonderful Wizard of Oz (54)/The Wonderful Wizard of Oz - Baum, L. Frank (Lyman Frank).epub"
+    ],
+    "id": 54,
+    "identifiers": {
+      "gutenberg": "55",
+      "uri": "http://www.gutenberg.org/55"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "The Wonderful Wizard of Oz"
+  },
+  {
+    "authors": "Barrie, J. M. (James Matthew)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Barrie, J. M. (James Matthew)/Peter Pan_ [Peter and Wendy] (55)/Peter Pan_ [Peter and Wendy] - Barrie, J. M. (James Matthew).epub"
+    ],
+    "id": 55,
+    "identifiers": {
+      "gutenberg": "16",
+      "uri": "http://www.gutenberg.org/16"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "Peter Pan: [Peter and Wendy]"
+  },
+  {
+    "authors": "Burnett, Frances Hodgson",
+    "formats": [
+      "/home/sproket01/Calibre Library/Burnett, Frances Hodgson/The Secret Garden (56)/The Secret Garden - Burnett, Frances Hodgson.epub"
+    ],
+    "id": 56,
+    "identifiers": {
+      "gutenberg": "113",
+      "uri": "http://www.gutenberg.org/113"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Secret Garden"
+  },
+  {
+    "authors": "Montgomery, L. M. (Lucy Maud)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Montgomery, L. M. (Lucy Maud)/Anne of Green Gables (57)/Anne of Green Gables - Montgomery, L. M. (Lucy Maud).epub"
+    ],
+    "id": 57,
+    "identifiers": {
+      "gutenberg": "45",
+      "uri": "http://www.gutenberg.org/45"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Anne of Green Gables"
+  },
+  {
+    "authors": "Alcott, Louisa May",
+    "formats": [
+      "/home/sproket01/Calibre Library/Alcott, Louisa May/Little Women (58)/Little Women - Alcott, Louisa May.epub"
+    ],
+    "id": 58,
+    "identifiers": {
+      "gutenberg": "514",
+      "uri": "http://www.gutenberg.org/514"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Little Women"
+  },
+  {
+    "authors": "Cervantes Saavedra, Miguel de",
+    "formats": [
+      "/home/sproket01/Calibre Library/Cervantes Saavedra, Miguel de/Don Quixote (59)/Don Quixote - Cervantes Saavedra, Miguel de.epub"
+    ],
+    "id": 59,
+    "identifiers": {
+      "gutenberg": "996",
+      "uri": "http://www.gutenberg.org/996"
+    },
+    "tags": [
+      "Satire",
+      "mediainator-test-100"
+    ],
+    "title": "Don Quixote"
+  },
+  {
+    "authors": "Kipling, Rudyard",
+    "formats": [
+      "/home/sproket01/Calibre Library/Kipling, Rudyard/The Jungle Book (60)/The Jungle Book - Kipling, Rudyard.epub"
+    ],
+    "id": 60,
+    "identifiers": {
+      "gutenberg": "236",
+      "uri": "http://www.gutenberg.org/236"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Jungle Book"
+  },
+  {
+    "authors": "Swift, Jonathan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Swift, Jonathan/Gulliver's Travels into Several Remote Nations of the World (61)/Gulliver's Travels into Several Remote Nat - Swift, Jonathan.epub"
+    ],
+    "id": 61,
+    "identifiers": {
+      "gutenberg": "829",
+      "uri": "http://www.gutenberg.org/829"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Gulliver's Travels into Several Remote Nations of the World"
+  },
+  {
+    "authors": "Grimm, Jacob & Grimm, Wilhelm",
+    "formats": [
+      "/home/sproket01/Calibre Library/Grimm, Jacob/Grimms' Fairy Tales (62)/Grimms' Fairy Tales - Grimm, Jacob.epub"
+    ],
+    "id": 62,
+    "identifiers": {
+      "gutenberg": "2591",
+      "uri": "http://www.gutenberg.org/2591"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Grimms' Fairy Tales"
+  },
+  {
+    "authors": "Aesop",
+    "formats": [
+      "/home/sproket01/Calibre Library/Aesop/Three hundred Aesop's fables Translated by George Fyler Townsend (63)/Three hundred Aesop's fables Translated by - Aesop.epub"
+    ],
+    "id": 63,
+    "identifiers": {
+      "gutenberg": "21",
+      "uri": "http://www.gutenberg.org/21"
+    },
+    "tags": [
+      "Fables",
+      "mediainator-test-100"
+    ],
+    "title": "Three hundred Aesop\u2019s fables Translated by George Fyler Townsend"
+  },
+  {
+    "authors": "Anonymous",
+    "formats": [
+      "/home/sproket01/Calibre Library/Anonymous/Fairy Tales Every Child Should Know (64)/Fairy Tales Every Child Should Know - Anonymous.epub"
+    ],
+    "id": 64,
+    "identifiers": {
+      "gutenberg": "14916",
+      "uri": "http://www.gutenberg.org/14916"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Fairy Tales Every Child Should Know"
+  },
+  {
+    "authors": "Andersen, H. C. (Hans Christian)",
+    "formats": [
+      "/home/sproket01/Calibre Library/Andersen, H. C. (Hans Christian)/Andersen's Fairy Tales (65)/Andersen's Fairy Tales - Andersen, H. C. (Hans Christian).epub"
+    ],
+    "id": 65,
+    "identifiers": {
+      "gutenberg": "1597",
+      "uri": "http://www.gutenberg.org/1597"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Andersen's Fairy Tales"
+  },
+  {
+    "authors": "Grimm, Jacob & Grimm, Wilhelm",
+    "formats": [
+      "/home/sproket01/Calibre Library/Grimm, Jacob/Household Tales by Brothers Grimm (66)/Household Tales by Brothers Grimm - Grimm, Jacob.epub"
+    ],
+    "id": 66,
+    "identifiers": {
+      "gutenberg": "5314",
+      "uri": "http://www.gutenberg.org/5314"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Household Tales by Brothers Grimm"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "formats": [
+      "/home/sproket01/Calibre Library/Shakespeare, William/A Midsummer Night's Dream (67)/A Midsummer Night's Dream - Shakespeare, William.epub",
+      "/home/sproket01/Calibre Library/Shakespeare, William/A Midsummer Night's Dream (67)/A Midsummer Night's Dream - Shakespeare, William.mobi",
+      "/home/sproket01/Calibre Library/Shakespeare, William/A Midsummer Night's Dream (67)/A Midsummer Night's Dream - Shakespeare, William.pdf"
+    ],
+    "id": 67,
+    "identifiers": {
+      "gutenberg": "1514",
+      "uri": "http://www.gutenberg.org/1514"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "A Midsummer Night's Dream"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "formats": [
+      "/home/sproket01/Calibre Library/Shakespeare, William/Romeo and Juliet (68)/Romeo and Juliet - Shakespeare, William.epub"
+    ],
+    "id": 68,
+    "identifiers": {
+      "gutenberg": "1513",
+      "uri": "http://www.gutenberg.org/1513"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Romeo and Juliet"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "formats": [
+      "/home/sproket01/Calibre Library/Shakespeare, William/Hamlet (69)/Hamlet - Shakespeare, William.epub"
+    ],
+    "id": 69,
+    "identifiers": {
+      "gutenberg": "1524",
+      "uri": "http://www.gutenberg.org/1524"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Hamlet"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "formats": [
+      "/home/sproket01/Calibre Library/Shakespeare, William/Macbeth (70)/Macbeth - Shakespeare, William.epub"
+    ],
+    "id": 70,
+    "identifiers": {
+      "gutenberg": "1533",
+      "uri": "http://www.gutenberg.org/1533"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Macbeth"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "formats": [
+      "/home/sproket01/Calibre Library/Shakespeare, William/Othello (71)/Othello - Shakespeare, William.epub"
+    ],
+    "id": 71,
+    "identifiers": {
+      "gutenberg": "1531",
+      "uri": "http://www.gutenberg.org/1531"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Othello"
+  },
+  {
+    "authors": "Wilde, Oscar",
+    "formats": [
+      "/home/sproket01/Calibre Library/Wilde, Oscar/The Importance of Being Earnest_ A Trivial Comedy for Serious People (72)/The Importance of Being Earnest_ A Trivial - Wilde, Oscar.epub"
+    ],
+    "id": 72,
+    "identifiers": {
+      "gutenberg": "844",
+      "uri": "http://www.gutenberg.org/844"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People"
+  },
+  {
+    "authors": "Ibsen, Henrik",
+    "formats": [
+      "/home/sproket01/Calibre Library/Ibsen, Henrik/A Doll's House _ a play (73)/A Doll's House _ a play - Ibsen, Henrik.epub"
+    ],
+    "id": 73,
+    "identifiers": {
+      "gutenberg": "2542",
+      "uri": "http://www.gutenberg.org/2542"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "A Doll's House : a play"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "formats": [
+      "/home/sproket01/Calibre Library/Shakespeare, William/Shakespeare's Sonnets (74)/Shakespeare's Sonnets - Shakespeare, William.epub",
+      "/home/sproket01/Calibre Library/Shakespeare, William/Shakespeare's Sonnets (74)/Shakespeare's Sonnets - Shakespeare, William.pdf"
+    ],
+    "id": 74,
+    "identifiers": {
+      "gutenberg": "1041",
+      "uri": "http://www.gutenberg.org/1041"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Shakespeare's Sonnets"
+  },
+  {
+    "authors": "Whitman, Walt",
+    "formats": [
+      "/home/sproket01/Calibre Library/Whitman, Walt/Leaves of Grass (75)/Leaves of Grass - Whitman, Walt.epub"
+    ],
+    "id": 75,
+    "identifiers": {
+      "gutenberg": "1322",
+      "uri": "http://www.gutenberg.org/1322"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Leaves of Grass"
+  },
+  {
+    "authors": "Milton, John",
+    "formats": [
+      "/home/sproket01/Calibre Library/Milton, John/Paradise Lost (76)/Paradise Lost - Milton, John.epub"
+    ],
+    "id": 76,
+    "identifiers": {
+      "gutenberg": "20",
+      "uri": "http://www.gutenberg.org/20"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Paradise Lost"
+  },
+  {
+    "authors": "Homer",
+    "formats": [
+      "/home/sproket01/Calibre Library/Homer/The Iliad (77)/The Iliad - Homer.epub"
+    ],
+    "id": 77,
+    "identifiers": {
+      "gutenberg": "6130",
+      "uri": "http://www.gutenberg.org/6130"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Iliad"
+  },
+  {
+    "authors": "Homer",
+    "formats": [
+      "/home/sproket01/Calibre Library/Homer/The Odyssey Rendered into English prose for the use of those who cannot read the original (78)/The Odyssey Rendered into English prose fo - Homer.epub"
+    ],
+    "id": 78,
+    "identifiers": {
+      "gutenberg": "1727",
+      "uri": "http://www.gutenberg.org/1727"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Odyssey Rendered into English prose for the use of those who cannot read the original"
+  },
+  {
+    "authors": "Anonymous",
+    "formats": [
+      "/home/sproket01/Calibre Library/Anonymous/Beowulf_ An Anglo-Saxon Epic Poem (79)/Beowulf_ An Anglo-Saxon Epic Poem - Anonymous.epub"
+    ],
+    "id": 79,
+    "identifiers": {
+      "gutenberg": "16328",
+      "uri": "http://www.gutenberg.org/16328"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Beowulf: An Anglo-Saxon Epic Poem"
+  },
+  {
+    "authors": "Goethe, Johann Wolfgang von",
+    "formats": [
+      "/home/sproket01/Calibre Library/Goethe, Johann Wolfgang von/Faust [part 1]. Translated Into English in the Original Metres (80)/Faust [part 1]. Translated Into English in - Goethe, Johann Wolfgang von.epub"
+    ],
+    "id": 80,
+    "identifiers": {
+      "gutenberg": "14591",
+      "uri": "http://www.gutenberg.org/14591"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Faust [part 1]. Translated Into English in the Original Metres"
+  },
+  {
+    "authors": "Poe, Edgar Allan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Poe, Edgar Allan/The Raven (81)/The Raven - Poe, Edgar Allan.epub",
+      "/home/sproket01/Calibre Library/Poe, Edgar Allan/The Raven (81)/The Raven - Poe, Edgar Allan.pdf"
+    ],
+    "id": 81,
+    "identifiers": {
+      "gutenberg": "1065",
+      "uri": "http://www.gutenberg.org/1065"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Raven"
+  },
+  {
+    "authors": "Machiavelli, Niccol\u00f2",
+    "formats": [
+      "/home/sproket01/Calibre Library/Machiavelli, Niccolo/The Prince (82)/The Prince - Machiavelli, Niccolo.epub"
+    ],
+    "id": 82,
+    "identifiers": {
+      "gutenberg": "1232",
+      "uri": "http://www.gutenberg.org/1232"
+    },
+    "tags": [
+      "Political philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "The Prince"
+  },
+  {
+    "authors": "Plato",
+    "formats": [
+      "/home/sproket01/Calibre Library/Plato/The Republic (83)/The Republic - Plato.epub"
+    ],
+    "id": 83,
+    "identifiers": {
+      "gutenberg": "1497",
+      "uri": "http://www.gutenberg.org/1497"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "The Republic"
+  },
+  {
+    "authors": "Marcus Aurelius, Emperor of Rome",
+    "formats": [
+      "/home/sproket01/Calibre Library/Marcus Aurelius, Emperor of Rome/Meditations (84)/Meditations - Marcus Aurelius, Emperor of Rome.epub"
+    ],
+    "id": 84,
+    "identifiers": {
+      "gutenberg": "2680",
+      "uri": "http://www.gutenberg.org/2680"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Meditations"
+  },
+  {
+    "authors": "Melville, Herman",
+    "formats": [
+      "/home/sproket01/Calibre Library/Melville, Herman/Moby Dick; Or, The Whale (85)/Moby Dick; Or, The Whale - Melville, Herman.epub"
+    ],
+    "id": 85,
+    "identifiers": {
+      "gutenberg": "2701",
+      "uri": "http://www.gutenberg.org/2701"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Moby Dick; Or, The Whale"
+  },
+  {
+    "authors": "Hobbes, Thomas",
+    "formats": [
+      "/home/sproket01/Calibre Library/Hobbes, Thomas/Leviathan (86)/Leviathan - Hobbes, Thomas.epub"
+    ],
+    "id": 86,
+    "identifiers": {
+      "gutenberg": "3207",
+      "uri": "http://www.gutenberg.org/3207"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Leviathan"
+  },
+  {
+    "authors": "Montaigne, Michel de",
+    "formats": [
+      "/home/sproket01/Calibre Library/Montaigne, Michel de/Essays of Michel de Montaigne -- Complete (87)/Essays of Michel de Montaigne -- Complete - Montaigne, Michel de.epub"
+    ],
+    "id": 87,
+    "identifiers": {
+      "gutenberg": "3600",
+      "uri": "http://www.gutenberg.org/3600"
+    },
+    "tags": [
+      "Essays",
+      "mediainator-test-100"
+    ],
+    "title": "Essays of Michel de Montaigne \u2014 Complete"
+  },
+  {
+    "authors": "Nietzsche, Friedrich Wilhelm",
+    "formats": [
+      "/home/sproket01/Calibre Library/Nietzsche, Friedrich Wilhelm/Thus Spake Zarathustra_ A Book for All and None (88)/Thus Spake Zarathustra_ A Book for All and - Nietzsche, Friedrich Wilhelm.epub"
+    ],
+    "id": 88,
+    "identifiers": {
+      "gutenberg": "1998",
+      "uri": "http://www.gutenberg.org/1998"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Thus Spake Zarathustra: A Book for All and None"
+  },
+  {
+    "authors": "Joyce, James",
+    "formats": [
+      "/home/sproket01/Calibre Library/Joyce, James/Dubliners (89)/Dubliners - Joyce, James.epub"
+    ],
+    "id": 89,
+    "identifiers": {
+      "gutenberg": "2814",
+      "uri": "http://www.gutenberg.org/2814"
+    },
+    "tags": [
+      "Short stories",
+      "mediainator-test-100"
+    ],
+    "title": "Dubliners"
+  },
+  {
+    "authors": "Plato",
+    "formats": [
+      "/home/sproket01/Calibre Library/Plato/Apology (90)/Apology - Plato.epub",
+      "/home/sproket01/Calibre Library/Plato/Apology (90)/Apology - Plato.pdf"
+    ],
+    "id": 90,
+    "identifiers": {
+      "gutenberg": "1656",
+      "uri": "http://www.gutenberg.org/1656"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Apology"
+  },
+  {
+    "authors": "Swift, Jonathan",
+    "formats": [
+      "/home/sproket01/Calibre Library/Swift, Jonathan/A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on (91)/A Modest Proposal For preventing the child - Swift, Jonathan.epub",
+      "/home/sproket01/Calibre Library/Swift, Jonathan/A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on (91)/A Modest Proposal For preventing the child - Swift, Jonathan.mobi",
+      "/home/sproket01/Calibre Library/Swift, Jonathan/A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on (91)/A Modest Proposal For preventing the child - Swift, Jonathan.pdf"
+    ],
+    "id": 91,
+    "identifiers": {
+      "gutenberg": "1080",
+      "uri": "http://www.gutenberg.org/1080"
+    },
+    "tags": [
+      "Satire",
+      "mediainator-test-100"
+    ],
+    "title": "A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick"
+  },
+  {
+    "authors": "Darwin, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Darwin, Charles/The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in th (92)/The Origin of Species by Means of Natural - Darwin, Charles.epub"
+    ],
+    "id": 92,
+    "identifiers": {
+      "gutenberg": "2009",
+      "uri": "http://www.gutenberg.org/2009"
+    },
+    "tags": [
+      "Natural history",
+      "mediainator-test-100"
+    ],
+    "title": "The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in the Struggle for Life, 6th Edition"
+  },
+  {
+    "authors": "Darwin, Charles",
+    "formats": [
+      "/home/sproket01/Calibre Library/Darwin, Charles/The Voyage of the Beagle (93)/The Voyage of the Beagle - Darwin, Charles.epub"
+    ],
+    "id": 93,
+    "identifiers": {
+      "gutenberg": "944",
+      "uri": "http://www.gutenberg.org/944"
+    },
+    "tags": [
+      "Travel",
+      "mediainator-test-100"
+    ],
+    "title": "The Voyage of the Beagle"
+  },
+  {
+    "authors": "Thoreau, Henry David",
+    "formats": [
+      "/home/sproket01/Calibre Library/Thoreau, Henry David/Walden, and On The Duty Of Civil Disobedience (94)/Walden, and On The Duty Of Civil Disobedie - Thoreau, Henry David.epub",
+      "/home/sproket01/Calibre Library/Thoreau, Henry David/Walden, and On The Duty Of Civil Disobedience (94)/Walden, and On The Duty Of Civil Disobedie - Thoreau, Henry David.mobi"
+    ],
+    "id": 94,
+    "identifiers": {
+      "gutenberg": "205",
+      "uri": "http://www.gutenberg.org/205"
+    },
+    "tags": [
+      "Nature",
+      "mediainator-test-100"
+    ],
+    "title": "Walden, and On The Duty Of Civil Disobedience"
+  },
+  {
+    "authors": "Franklin, Benjamin",
+    "formats": [
+      "/home/sproket01/Calibre Library/Franklin, Benjamin/Autobiography of Benjamin Franklin (95)/Autobiography of Benjamin Franklin - Franklin, Benjamin.epub"
+    ],
+    "id": 95,
+    "identifiers": {
+      "gutenberg": "20203",
+      "uri": "http://www.gutenberg.org/20203"
+    },
+    "tags": [
+      "Autobiography",
+      "mediainator-test-100"
+    ],
+    "title": "Autobiography of Benjamin Franklin"
+  },
+  {
+    "authors": "Douglass, Frederick",
+    "formats": [
+      "/home/sproket01/Calibre Library/Douglass, Frederick/Narrative of the Life of Frederick Douglass, an American Slave (96)/Narrative of the Life of Frederick Douglas - Douglass, Frederick.epub",
+      "/home/sproket01/Calibre Library/Douglass, Frederick/Narrative of the Life of Frederick Douglass, an American Slave (96)/Narrative of the Life of Frederick Douglas - Douglass, Frederick.mobi",
+      "/home/sproket01/Calibre Library/Douglass, Frederick/Narrative of the Life of Frederick Douglass, an American Slave (96)/Narrative of the Life of Frederick Douglas - Douglass, Frederick.pdf"
+    ],
+    "id": 96,
+    "identifiers": {
+      "gutenberg": "23",
+      "uri": "http://www.gutenberg.org/23"
+    },
+    "tags": [
+      "Autobiography",
+      "mediainator-test-100"
+    ],
+    "title": "Narrative of the Life of Frederick Douglass, an American Slave"
+  },
+  {
+    "authors": "Burroughs, Edgar Rice",
+    "formats": [
+      "/home/sproket01/Calibre Library/Burroughs, Edgar Rice/Tarzan the Terrible (97)/Tarzan the Terrible - Burroughs, Edgar Rice.epub"
+    ],
+    "id": 97,
+    "identifiers": {
+      "gutenberg": "2020",
+      "uri": "http://www.gutenberg.org/2020"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Tarzan the Terrible"
+  },
+  {
+    "authors": "Defoe, Daniel",
+    "formats": [
+      "/home/sproket01/Calibre Library/Defoe, Daniel/The Life and Adventures of Robinson Crusoe (98)/The Life and Adventures of Robinson Crusoe - Defoe, Daniel.epub"
+    ],
+    "id": 98,
+    "identifiers": {
+      "gutenberg": "521",
+      "uri": "http://www.gutenberg.org/521"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The Life and Adventures of Robinson Crusoe"
+  },
+  {
+    "authors": "Roget, Peter Mark",
+    "formats": [
+      "/home/sproket01/Calibre Library/Roget, Peter Mark/Roget's Thesaurus of English Words and Phrases (99)/Roget's Thesaurus of English Words and Phr - Roget, Peter Mark.epub"
+    ],
+    "id": 99,
+    "identifiers": {
+      "gutenberg": "10681",
+      "uri": "http://www.gutenberg.org/10681"
+    },
+    "tags": [
+      "Reference",
+      "mediainator-test-100"
+    ],
+    "title": "Roget's Thesaurus of English Words and Phrases"
+  },
+  {
+    "authors": "Tocqueville, Alexis de",
+    "formats": [
+      "/home/sproket01/Calibre Library/Tocqueville, Alexis de/Democracy in America -- Volume 1 (100)/Democracy in America -- Volume 1 - Tocqueville, Alexis de.epub"
+    ],
+    "id": 100,
+    "identifiers": {
+      "gutenberg": "815",
+      "uri": "http://www.gutenberg.org/815"
+    },
+    "tags": [
+      "History",
+      "mediainator-test-100"
+    ],
+    "title": "Democracy in America \u2014 Volume 1"
+  },
+  {
+    "authors": "Nietzsche, Friedrich Wilhelm",
+    "formats": [
+      "/home/sproket01/Calibre Library/Nietzsche, Friedrich Wilhelm/Beyond Good and Evil (101)/Beyond Good and Evil - Nietzsche, Friedrich Wilhelm.epub"
+    ],
+    "id": 101,
+    "identifiers": {
+      "gutenberg": "4363",
+      "uri": "http://www.gutenberg.org/4363"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Beyond Good and Evil"
+  }
+]

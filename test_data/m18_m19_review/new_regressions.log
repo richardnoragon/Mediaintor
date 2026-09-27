@@ -1,0 +1,22 @@
+test_cancelled_copy_keeps_original_and_leaves_no_staging (test_m19_review_fixes.ReviewFixes.test_cancelled_copy_keeps_original_and_leaves_no_staging) ... ok
+test_combined_cancel_preserves_all_drafts (test_m19_review_fixes.ReviewFixes.test_combined_cancel_preserves_all_drafts) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_embedded_tags_win_over_conflicting_paths (test_m19_review_fixes.ReviewFixes.test_embedded_tags_win_over_conflicting_paths) ... ok
+test_foreign_recovery_preserves_staging_and_catalog (test_m19_review_fixes.ReviewFixes.test_foreign_recovery_preserves_staging_and_catalog) ... ok
+test_import_copy_runs_off_ui_thread_and_remains_responsive (test_m19_review_fixes.ReviewFixes.test_import_copy_runs_off_ui_thread_and_remains_responsive) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+ok
+test_recovery_defers_live_file_operation (test_m19_review_fixes.ReviewFixes.test_recovery_defers_live_file_operation) ... ok
+test_suite_cancel_preserves_music_and_paper (test_m19_review_fixes.ReviewFixes.test_suite_cancel_preserves_music_and_paper) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.506s
+
+OK

@@ -1,0 +1,33 @@
+{
+  "status": "M14 promoted for everyday use; M13 retained as stopped rollback",
+  "build": "0.1.0a1-9cf2b6503ae20a40",
+  "installations": [
+    {
+      "installation": "M14",
+      "label": "M14 Everyday",
+      "launcher": "Media-inator Everyday (M14)",
+      "desktop_file": "/home/sproket01/.local/share/applications/mediainator-m14-development.desktop",
+      "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M14-Development/backups/pre-m14-everyday-promotion",
+      "active_files_unchanged": 1133
+    },
+    {
+      "installation": "M13",
+      "label": "M13 Rollback",
+      "launcher": "Media-inator M13 Rollback",
+      "desktop_file": "/home/sproket01/.local/share/applications/mediainator-m13-development.desktop",
+      "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M13-Development/backups/pre-m14-everyday-promotion",
+      "active_files_unchanged": 966
+    }
+  ],
+  "changes": [
+    "deployment display labels",
+    "existing desktop display names"
+  ],
+  "publication": false,
+  "data_migration": false,
+  "m12_and_m11_unchanged": true,
+  "runtime_verification": {
+    "m14": "running with M14 Everyday label",
+    "m13": "stopped"
+  }
+}

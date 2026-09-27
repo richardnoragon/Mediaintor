@@ -1,0 +1,15 @@
+{
+  "status": "PASSED \u2014 owner confirmed all three M9 desktop checks",
+  "launcher": "Media-inator M9 Validation",
+  "import_fixture": "/data/import-sources/M9 Acceptance Import.epub",
+  "fixture_sha256": "67c34f1cb1083c9d32912b4d14192c3a72283e6316303385aea8bcbc3145f9a8",
+  "note": "New fixture deliberately added only to M9 import-sources after automated retention checks; no source library or existing book changed",
+  "user_confirmation": "yes, ll three M9 desktop checks passed",
+  "checks": {
+    "three_format_reading_resume": true,
+    "metadata_save_and_test_import": true,
+    "kde_restart_preserves_settings_edits_import_and_activity": true,
+    "no_automatic_task_resumption": true
+  },
+  "gate": "M9-G PASSED / CLOSED"
+}

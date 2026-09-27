@@ -1,0 +1,22 @@
+{
+  "format_launches": {
+    "book": "The Time Machine",
+    "formats": [
+      "EPUB",
+      "MOBI",
+      "PDF"
+    ],
+    "readable": true,
+    "page_navigation": true,
+    "source": "User confirmation through acceptance question",
+    "workflow": "Opened through hub one at a time"
+  },
+  "hub_close_choices": {
+    "status": "passed: user confirmed both results",
+    "cancel_keeps_hub_and_reader_open": true,
+    "close_reader_closes_reader_and_hub": true,
+    "earlier_discrepancy": "Resolved: user had closed the reader window itself; leaving the hub open was expected",
+    "application_fix_required": false
+  },
+  "milestone_status": "M1 complete for accepted scope"
+}

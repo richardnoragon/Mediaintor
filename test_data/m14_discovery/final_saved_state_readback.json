@@ -1,0 +1,15 @@
+{
+  "book_count": 104,
+  "temporary_tag_associations": 0,
+  "scale_saved_searches": 0,
+  "regular_saved_searches": [
+    "M14 Acceptance,",
+    "Quick Start Guide"
+  ],
+  "manual_flags": {},
+  "missing_series": false,
+  "bulk_item_states": {
+    "complete": 12
+  },
+  "scope": "Read-only M14 persisted state; existing searches retained, including earlier Quick Start Guide search whose query is M14 Acceptance,."
+}

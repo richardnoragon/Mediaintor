@@ -1,0 +1,15 @@
+{
+  "build": "0.1.0a1-ee51058d31d22d87",
+  "movies": [
+    [
+      "Alien",
+      1979,
+      "[\"Ridley Scott\"]",
+      "[\"horror\", \"Science fiction\"]",
+      "unsaved test",
+      1,
+      8
+    ]
+  ],
+  "status": "Save-on-shutdown persisted lowercase note as entered; app reopened"
+}

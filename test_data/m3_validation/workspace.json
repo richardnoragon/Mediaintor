@@ -1,0 +1,22 @@
+{
+  "status": "M3-02 capability/protocol checks complete; M3-G open",
+  "root": "/tmp/mediainator-m3-validation-puabdpci",
+  "source_library": "/home/sproket01/Calibre Library",
+  "source_unchanged": true,
+  "baseline": "/tmp/mediainator-m3-validation-puabdpci/baseline",
+  "book_count": 101,
+  "reference_book": {
+    "id": 32,
+    "uuid": "5f5f1561-2e75-46d2-975c-9ecc77c52c07",
+    "title": "The Time Machine"
+  },
+  "libraries": {
+    "imports": "/tmp/mediainator-m3-validation-puabdpci/imports/library",
+    "attachments": "/tmp/mediainator-m3-validation-puabdpci/attachments/library",
+    "recovery": "/tmp/mediainator-m3-validation-puabdpci/recovery/library"
+  },
+  "fixtures": "/tmp/mediainator-m3-validation-puabdpci/fixtures",
+  "copies_verified_against_baseline": true,
+  "gate": "M3-G OPEN / NOT RUN",
+  "latest_run": "/tmp/mediainator-m3-validation-puabdpci/run-0ocys463"
+}

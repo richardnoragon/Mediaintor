@@ -1,0 +1,58 @@
+[
+  {
+    "test": "real_editor_loads_library_identity",
+    "passed": true
+  },
+  {
+    "test": "real_metadata_save",
+    "passed": true
+  },
+  {
+    "test": "save_attempt_owned_and_verified",
+    "passed": true
+  },
+  {
+    "test": "production_recovery_contains_only_pending_tags",
+    "passed": true
+  },
+  {
+    "test": "recovery_restart_discovers_without_write",
+    "passed": true
+  },
+  {
+    "test": "production_recovery_requires_conflict_choice",
+    "passed": true
+  },
+  {
+    "test": "review_does_not_write",
+    "passed": true
+  },
+  {
+    "test": "explicit_reviewed_save",
+    "passed": true
+  },
+  {
+    "test": "real_bulk_activity",
+    "passed": true
+  },
+  {
+    "test": "real_revert_activity_with_lineage",
+    "passed": true
+  },
+  {
+    "test": "real_import_activity",
+    "passed": true
+  },
+  {
+    "test": "real_import_review_status_survives_history_deletion",
+    "passed": true
+  },
+  {
+    "test": "mark_reviewed_persists_without_import_journal",
+    "passed": true
+  },
+  {
+    "test": "activity_backend_no_storage_errors",
+    "passed": true
+  }
+]

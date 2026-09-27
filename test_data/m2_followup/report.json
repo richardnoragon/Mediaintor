@@ -1,0 +1,90 @@
+{
+  "temporary_root": "/tmp/calibre-9l3_hayt/mediainator-m2-followup-3x1tgrjo",
+  "source_library_unchanged": true,
+  "checks": [
+    {
+      "test": "literal_series_removal",
+      "requirement_passed": false,
+      "series": null,
+      "index": 1.0,
+      "raw_stored_index": 1.0,
+      "schema": [
+        [
+          5,
+          "series_index",
+          "REAL",
+          1,
+          "1.0",
+          0
+        ]
+      ]
+    },
+    {
+      "test": "explicit_new_series_default",
+      "passed": true
+    },
+    {
+      "test": "list_roundtrip",
+      "passed": false,
+      "authors": [
+        "Asimov, Isaac",
+        "Silverberg, Robert"
+      ],
+      "tags": [
+        "Science; Fiction",
+        "Classic",
+        "Space Opera"
+      ]
+    },
+    {
+      "test": "author_reorder",
+      "passed": true
+    },
+    {
+      "test": "untouched_html",
+      "passed": true
+    },
+    {
+      "test": "cover_removal",
+      "passed": true
+    },
+    {
+      "test": "automatic_backup_recovery_protocol",
+      "passed": true,
+      "write_error": "ValueError: Failed to export image as JPEG with error: Image is empty",
+      "damaged_bytes": 0,
+      "pending_retained": true,
+      "backup_retained": true
+    },
+    {
+      "test": "recovery_failure_reporting_protocol",
+      "passed": true,
+      "error": "Injected restoration failure",
+      "injection": "simulated restoration exception, not disk-full"
+    },
+    {
+      "test": "number_validation_protocol",
+      "passed": true,
+      "accepted": [
+        "0",
+        "1",
+        "2.5",
+        "4.1",
+        "12"
+      ],
+      "rejected": [
+        "-1",
+        "-2.5",
+        "abc",
+        "2a",
+        "NaN",
+        "Infinity"
+      ]
+    },
+    {
+      "test": "identity_and_format_integrity",
+      "passed": true
+    }
+  ],
+  "scope": "Calibre API and protocol experiments; no application implementation"
+}

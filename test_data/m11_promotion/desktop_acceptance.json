@@ -1,0 +1,184 @@
+{
+  "build": "0.1.0a1-a3a4679f39f4c255",
+  "baseline": "Owner-approved existing backed-up M11 copy",
+  "status": "complete \u2014 owner acceptance corroborated by persisted results",
+  "checks": {
+    "launcher_restart_workspace": "passed \u2014 stored named workspace verified; owner confirms correct M11 KDE restart and restoration",
+    "import_read_edit": "passed \u2014 M11 Acceptance EPUB imported/read, source unchanged; metadata tag saved and Activity verified on The Time Machine",
+    "bulk_revert": "passed \u2014 completed original/revert journals and original database tags verified",
+    "recovery_history": "passed \u2014 recovered index/tag verified; owner confirms restart/history retention",
+    "persisted_results": "passed \u2014 see final_integrity.json"
+  },
+  "gate": "M11-G PASSED / CLOSED",
+  "workspace_persistence_check": {
+    "expected_name": "M11 Everyday",
+    "found": true,
+    "revision": 8,
+    "matches": [
+      {
+        "id": "989a4a50-6e3d-4f35-90fa-a1637ac2514d",
+        "name": "M11 Everyday",
+        "snapshot": {
+          "modules": [
+            "hub",
+            "bookinator"
+          ],
+          "active": "bookinator",
+          "selection": {
+            "library_uuid": "43d9a765-ab8c-49f1-878e-62fe98bedf24",
+            "book_uuid": "5f5f1561-2e75-46d2-975c-9ecc77c52c07"
+          },
+          "geometry": {
+            "qt": "01d9d0cb0003000000000001000000190000041a0000032200000001000000190000041a000003220000000000000000060000000001000000190000041a00000322",
+            "normal": [
+              1,
+              25,
+              1050,
+              778
+            ],
+            "maximized": false,
+            "screen": "eDP-1",
+            "available": [
+              0,
+              0,
+              1536,
+              960
+            ]
+          }
+        },
+        "saved_at": "2026-09-23T11:28:49.178987+00:00"
+      }
+    ]
+  },
+  "owner_confirmations": [
+    {
+      "response": "yes, M11 Everyday remains listed.",
+      "scope": "Save and Reload in corrected M11 window, not restart acceptance"
+    },
+    {
+      "response": "yes",
+      "scope": "Correct M11 KDE launcher restart, restore M11 Everyday, Book-inator and selected book restored."
+    },
+    {
+      "response": "Test 2 passed",
+      "scope": "M11 import preview/confirmation, EPUB readable, metadata tag saved"
+    },
+    {
+      "response": "Metadata saved and verified",
+      "scope": "M11 Acceptance tag Save"
+    },
+    {
+      "response": "it worked",
+      "scope": "Recovery retry after closing editor and waiting for catalog load"
+    },
+    {
+      "response": "Bulk/revert and restart passed.",
+      "scope": "Owner reports final bulk/revert and restart"
+    },
+    {
+      "response": "completed, hub and bookinator remain open",
+      "scope": "Final explicit Revert Batch confirmation; verified read-only without closing Hub"
+    }
+  ],
+  "import_persistence_check": {
+    "passed": false,
+    "books": [
+      {
+        "book_id": 102,
+        "uuid": "c89645ab-5a96-4be5-a57e-f0f462edf982",
+        "title": "M11 Acceptance",
+        "tags": [],
+        "formats": [
+          {
+            "format": "EPUB",
+            "exists": true
+          }
+        ]
+      }
+    ],
+    "source_file_unchanged": true
+  },
+  "tag_recheck": {
+    "passed": false,
+    "records": [
+      {
+        "book_id": 102,
+        "uuid": "c89645ab-5a96-4be5-a57e-f0f462edf982",
+        "tags": []
+      }
+    ]
+  },
+  "metadata_save_verification": {
+    "passed": true,
+    "book_id": 32,
+    "title": "The Time Machine",
+    "tag": "M11 Verified",
+    "activity_outcome": "success",
+    "deviation": "Tag was saved on The Time Machine, not M11 Acceptance. Import/read and metadata-save acceptance are independently evidenced; no repeat write required."
+  },
+  "recovery_issue": {
+    "message": "Current metadata could not be read; recovery was retained.",
+    "observation": "M11 container has only Hub process; no reader process found in that container.",
+    "possible_cause": "Closing a previous metadata editor starts catalog refresh; immediate recovery editor creation refuses while loader is active. Not yet confirmed as cause of this occurrence.",
+    "next_step": "Close existing metadata editor, allow refresh to finish, then repeat Review / Retry.",
+    "retry_result": "Owner reports success after suggested wait; persisted result recorded separately"
+  },
+  "recovery_persistence_check": {
+    "passed": true,
+    "records": [
+      {
+        "id": "fd35c048-4292-42de-9269-4d316c6868e6",
+        "state": "recovered"
+      }
+    ],
+    "book_tags": [
+      [
+        "Quick Start Guide",
+        "Changed after batch"
+      ],
+      [
+        "Quick Start Guide",
+        "M4 lost ack"
+      ],
+      [
+        "Quick Start Guide",
+        "M4 UI"
+      ],
+      [
+        "Quick Start Guide",
+        "M10 Recovery Acceptance"
+      ]
+    ]
+  },
+  "bulk_persistence_check": {
+    "batches": [
+      {
+        "id": "f6c4e359-326d-4332-854d-04cc03c23717",
+        "kind": "edit",
+        "operation": "Add Tags",
+        "items": [
+          {
+            "book": 5,
+            "state": "complete"
+          },
+          {
+            "book": 55,
+            "state": "complete"
+          }
+        ]
+      }
+    ],
+    "books_still_tagged": [
+      {
+        "book_id": 5,
+        "title": "Persuasion"
+      },
+      {
+        "book_id": 55,
+        "title": "Peter Pan: [Peter and Wendy]"
+      }
+    ],
+    "revert_verified": false
+  },
+  "historical_check_note": "Earlier false checks retain the intermediate observations. Final integrity supersedes them: metadata save occurred on The Time Machine, and the separately confirmed revert is now complete."
+}

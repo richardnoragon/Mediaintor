@@ -1,0 +1,37 @@
+{
+  "artifact_sha256": "4b4d18963a222174526febdfddd6112b29006c659ae1a183fc64d72b5870b969",
+  "root": "/tmp/mediainator-m6-diagnostics-86vo2vq4",
+  "checks": [
+    {
+      "test": "preview_is_exact_export_bytes",
+      "passed": true
+    },
+    {
+      "test": "private_exception_content_omitted",
+      "passed": true
+    },
+    {
+      "test": "installed_versions_and_fixed_error_summary",
+      "passed": true
+    },
+    {
+      "test": "cancel_writes_no_export",
+      "passed": true
+    },
+    {
+      "test": "export_uses_frozen_preview",
+      "passed": true
+    },
+    {
+      "test": "owner_only_permissions",
+      "passed": true
+    },
+    {
+      "test": "hub_close_closes_diagnostics",
+      "passed": true
+    }
+  ],
+  "library_access": false,
+  "uploads": false,
+  "desktop_acceptance": "M6-07 pending; automated offscreen verification"
+}

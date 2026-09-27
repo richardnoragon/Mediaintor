@@ -1,0 +1,51 @@
+QSettings::value: Empty key passed
+test_catalog_failure_is_recorded_and_retry_reloads (test_m18_musicinator.HubIntegrationTests.test_catalog_failure_is_recorded_and_retry_reloads) ... ok
+test_hub_close_reviews_unsaved_album_edits (test_m18_musicinator.HubIntegrationTests.test_hub_close_reviews_unsaved_album_edits) ... ok
+test_live_catalog_and_playlists_live_in_app_data (test_m18_musicinator.HubIntegrationTests.test_live_catalog_and_playlists_live_in_app_data) ... ok
+test_registry_launch_focus_and_close (test_m18_musicinator.HubIntegrationTests.test_registry_launch_focus_and_close) ... ok
+test_reopen_on_restart_and_workspace_snapshot (test_m18_musicinator.HubIntegrationTests.test_reopen_on_restart_and_workspace_snapshot) ... ok
+test_sample_hub_without_catalog_is_read_only (test_m18_musicinator.HubIntegrationTests.test_sample_hub_without_catalog_is_read_only) ... ok
+test_settings_validation (test_m18_musicinator.HubIntegrationTests.test_settings_validation) ... ok
+test_add_edit_review_and_personal_values (test_m18_musicinator.MusicTabTests.test_add_edit_review_and_personal_values) ... ok
+test_browse_by_artist_genre_year (test_m18_musicinator.MusicTabTests.test_browse_by_artist_genre_year) ... ok
+test_edition_dialog_tracks_validation (test_m18_musicinator.MusicTabTests.test_edition_dialog_tracks_validation) ... ok
+test_editions_dialog_add_edition_and_remove_keeps_files (test_m18_musicinator.MusicTabTests.test_editions_dialog_add_edition_and_remove_keeps_files) ... ok
+test_import_preview_groups_discs_and_attaches (test_m18_musicinator.MusicTabTests.test_import_preview_groups_discs_and_attaches) ... ok
+test_list_columns_sort_and_state (test_m18_musicinator.MusicTabTests.test_list_columns_sort_and_state) ... ok
+test_play_writes_playlist_outside_music_and_locate_relocates (test_m18_musicinator.MusicTabTests.test_play_writes_playlist_outside_music_and_locate_relocates) ... ok
+test_sample_mode_is_read_only (test_m18_musicinator.MusicTabTests.test_sample_mode_is_read_only) ... ok
+test_hub_close_reviews_unsaved_drafts (test_m19_paperinator.HubIntegrationTests.test_hub_close_reviews_unsaved_drafts) ... ok
+test_library_failure_is_recorded_and_retry_reloads (test_m19_paperinator.HubIntegrationTests.test_library_failure_is_recorded_and_retry_reloads) ... ok
+test_other_profile_gets_its_own_library (test_m19_paperinator.HubIntegrationTests.test_other_profile_gets_its_own_library) ... ok
+test_registry_launch_focus_close_and_profile_library (test_m19_paperinator.HubIntegrationTests.test_registry_launch_focus_close_and_profile_library) ... ok
+test_restart_reopen_and_workspace_snapshot (test_m19_paperinator.HubIntegrationTests.test_restart_reopen_and_workspace_snapshot) ... ok
+test_sample_hub_creates_nothing (test_m19_paperinator.HubIntegrationTests.test_sample_hub_creates_nothing) ... ok
+test_settings_validation (test_m19_paperinator.HubIntegrationTests.test_settings_validation) ... ok
+test_add_edit_validation_and_conflict (test_m19_paperinator.PaperTabTests.test_add_edit_validation_and_conflict) ... ok
+test_connections_dialog (test_m19_paperinator.PaperTabTests.test_connections_dialog) ... ok
+test_empty_library_starts_on_home_and_creates_profile_library (test_m19_paperinator.PaperTabTests.test_empty_library_starts_on_home_and_creates_profile_library) ... ok
+test_import_preview_requires_choice_and_groups_versions (test_m19_paperinator.PaperTabTests.test_import_preview_requires_choice_and_groups_versions) ... ok
+test_metadata_review_applies_checked_fields_only (test_m19_paperinator.PaperTabTests.test_metadata_review_applies_checked_fields_only) ... ok
+test_notes_links_navigation_and_markdown_export (test_m19_paperinator.PaperTabTests.test_notes_links_navigation_and_markdown_export) ... ok
+test_projects_organize_and_membership (test_m19_paperinator.PaperTabTests.test_projects_organize_and_membership) ... ok
+test_quick_states_apply_to_selection_and_stay_independent (test_m19_paperinator.PaperTabTests.test_quick_states_apply_to_selection_and_stay_independent) ... ok
+test_sample_mode_is_read_only (test_m19_paperinator.PaperTabTests.test_sample_mode_is_read_only) ... ok
+test_search_filters_saved_searches_and_document_text (test_m19_paperinator.PaperTabTests.test_search_filters_saved_searches_and_document_text) ... ok
+test_startup_view_preferences (test_m19_paperinator.PaperTabTests.test_startup_view_preferences) ... ok
+test_trash_restore_and_permanent_deletion (test_m19_paperinator.PaperTabTests.test_trash_restore_and_permanent_deletion) ... ok
+test_versions_files_open_and_locate (test_m19_paperinator.PaperTabTests.test_versions_files_open_and_locate) ... ok
+test_cancelled_copy_keeps_original_and_leaves_no_staging (test_m19_review_fixes.ReviewFixes.test_cancelled_copy_keeps_original_and_leaves_no_staging) ... ok
+test_combined_cancel_preserves_all_drafts (test_m19_review_fixes.ReviewFixes.test_combined_cancel_preserves_all_drafts) ... ok
+test_embedded_tags_win_over_conflicting_paths (test_m19_review_fixes.ReviewFixes.test_embedded_tags_win_over_conflicting_paths) ... ok
+test_foreign_recovery_preserves_staging_and_catalog (test_m19_review_fixes.ReviewFixes.test_foreign_recovery_preserves_staging_and_catalog) ... ok
+test_import_copy_runs_off_ui_thread_and_remains_responsive (test_m19_review_fixes.ReviewFixes.test_import_copy_runs_off_ui_thread_and_remains_responsive) ... ok
+test_recovery_defers_live_file_operation (test_m19_review_fixes.ReviewFixes.test_recovery_defers_live_file_operation) ... ok
+test_suite_cancel_preserves_music_and_paper (test_m19_review_fixes.ReviewFixes.test_suite_cancel_preserves_music_and_paper) ... /run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/mediainator/appearance.py:88: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x76b6079157b0>
+  if isinstance(widget, QTableView):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 36.737s
+
+OK

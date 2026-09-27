@@ -1,0 +1,35 @@
+{
+  "status": "bounded comparison complete; simultaneous-write reliability unresolved",
+  "sequential": [
+    {
+      "format": "epub",
+      "bookmark_matches_before_and_after_close": true,
+      "logged_errors": 0
+    },
+    {
+      "format": "mobi",
+      "bookmark_matches_before_and_after_close": true,
+      "logged_errors": 0
+    },
+    {
+      "format": "pdf",
+      "bookmark_matches_before_and_after_close": true,
+      "logged_errors": 0
+    }
+  ],
+  "multiple_open_viewers": "all three bookmarks persisted before/after close; user writes were staggered",
+  "initial_parallel_launch_busy_errors": {
+    "epub": 1,
+    "mobi": 0,
+    "pdf": 1
+  },
+  "additional_busy_errors_during_manual_bookmark_checks": 0,
+  "source_library_unchanged": true,
+  "limitations": [
+    "No synchronized-write stress test",
+    "No automatic retry guarantee",
+    "No same-book conflict test",
+    "No highlight or restart restoration check",
+    "One sample per format; PDF is converted text"
+  ]
+}

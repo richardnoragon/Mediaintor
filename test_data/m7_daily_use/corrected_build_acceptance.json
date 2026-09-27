@@ -1,0 +1,11 @@
+{
+  "candidate_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "user_confirmed": [
+    "KDE menu launch",
+    "catalog loads",
+    "book opens and page navigation works"
+  ],
+  "status": "passed",
+  "day_1": "awaiting agreed start date",
+  "trial_started": false
+}

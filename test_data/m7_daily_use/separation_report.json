@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-22",
+  "testing_root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M7-Testing",
+  "previous_root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/m7_workspace",
+  "source_copy_unchanged": true,
+  "copied_files_verified": 329,
+  "books": 101,
+  "sqlite_integrity": "ok (immutable inspection)",
+  "artifact_sha256": "30e99d0e6b9659ef43785587a427e8ad05afdfbec81462503652a1a2ad967584",
+  "installation_started": false,
+  "trial_started": false
+}

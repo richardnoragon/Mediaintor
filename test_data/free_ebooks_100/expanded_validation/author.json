@@ -1,0 +1,111 @@
+[
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.mobi"
+    ],
+    "id": 2,
+    "identifiers": {
+      "gutenberg": "1342",
+      "uri": "http://www.gutenberg.org/1342"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Pride and Prejudice",
+    "uuid": "0dc7400a-06e5-409a-bb0e-b228a93fd4a4"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Sense and Sensibility (3)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Sense and Sensibility (3)/Sense and Sensibility - Austen, Jane.epub"
+    ],
+    "id": 3,
+    "identifiers": {
+      "gutenberg": "161",
+      "uri": "http://www.gutenberg.org/161"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Sense and Sensibility",
+    "uuid": "f6aef0b9-b3e8-4b9f-91e2-029b8bf7da64"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Emma (4)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Emma (4)/Emma - Austen, Jane.epub"
+    ],
+    "id": 4,
+    "identifiers": {
+      "gutenberg": "158",
+      "uri": "http://www.gutenberg.org/158"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Emma",
+    "uuid": "445bcbfe-9f94-48c5-860c-ecf12cefbf1a"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Persuasion (5)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Persuasion (5)/Persuasion - Austen, Jane.epub"
+    ],
+    "id": 5,
+    "identifiers": {
+      "gutenberg": "105",
+      "uri": "http://www.gutenberg.org/105"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Persuasion",
+    "uuid": "614bea93-58b0-4033-9909-26191216bef8"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Mansfield Park (6)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Mansfield Park (6)/Mansfield Park - Austen, Jane.epub"
+    ],
+    "id": 6,
+    "identifiers": {
+      "gutenberg": "141",
+      "uri": "http://www.gutenberg.org/141"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Mansfield Park",
+    "uuid": "7c0477e5-d2e9-4e00-b7e3-5ea3c080b596"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Northanger Abbey (7)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Northanger Abbey (7)/Northanger Abbey - Austen, Jane.epub"
+    ],
+    "id": 7,
+    "identifiers": {
+      "gutenberg": "121",
+      "uri": "http://www.gutenberg.org/121"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Northanger Abbey",
+    "uuid": "9835869e-e72f-446a-b7f1-70735214263c"
+  }
+]

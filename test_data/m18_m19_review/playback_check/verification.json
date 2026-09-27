@@ -1,0 +1,14 @@
+[
+  {
+    "file": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m18_m19_review/playback_check/01 - Tone 440 Hz.flac",
+    "duration": 8,
+    "frequency": 440,
+    "decode": "passed"
+  },
+  {
+    "file": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m18_m19_review/playback_check/02 - Tone 660 Hz.flac",
+    "duration": 8,
+    "frequency": 660,
+    "decode": "passed"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "build": "0.1.0a1-db6a7fb8885f9bd9",
+  "gate": "M13-G CLOSED \u2014 accepted",
+  "checks": {
+    "recovery_labels": "PASS: explicit save, local discard retaining the durable copy, reopening the draft, separate preserved-draft discard, resolved guidance and scoped window closing verified through owner checks/screenshots and saved-data review.",
+    "bulk_tabs_and_revert_target": "Owner KDE checks passed on previous build: preview locking, cancel, explicit revert, auto-selection and bidirectional links. Post-restart saved-data review verifies final tags and linked complete journals.",
+    "import_reading_help": "PASS: import and reader navigation/resume verified; paste-and-Enter confirmed on final build, about one second with visible activity feedback; duplicate-only preview skips identical file and disables confirmation. Same-title action feedback passed. Original file and imported copy hashes match.",
+    "workspace_and_layout": "PASS: workspace restore/cancel/delete regression passed without manual reload. Both bulk tabs fit in owner full-window screenshots; Tab and Shift+Tab visibly move focus. Final restart restores Quick Start Guide selection; named workspace retained.",
+    "restart_persisted_results": "PASS: final_saved_data_review.json verifies 104 books, SQLite integrity, resolved recovery, test tag absent, retained import/source hashes, reading position, workspace and unchanged completed batch journals. Owner final restart confirmation and screenshot show 104 books, no recovery warning and Quick Start Guide selected on db6a7fb8885f9bd9."
+  },
+  "promotion": "Authorized and completed 2026-09-24: M13 Everyday running; M12 stopped and retained as Rollback; see promotion.json",
+  "recovery_issue": {
+    "observed": "Earlier discard confirmation cancelled. Subsequent explicit Open recovery draft showed the correct metadata editor with unsaved M13 tag; later save persisted it and resolved recovery.",
+    "cause": "Earlier unexpected discard prompt cause not established; no proven action-routing defect.",
+    "evidence": "recovery_saved_data_review.json; owner screenshots in conversation",
+    "remaining": "Retain original acceptance requirements for close scopes and local-discard preservation."
+  },
+  "previous_build": "0.1.0a1-ffbaa166eaebf2fe",
+  "latest_installation": "installed_recovery_finish_candidate.json",
+  "candidate": {
+    "build": "0.1.0a1-db6a7fb8885f9bd9",
+    "artifact": "dist/m13-recovery-finish/mediainator-0.1.0a1-ubuntu26.04-x86_64.tar.gz",
+    "source_tests": 240,
+    "installed_tests": 92,
+    "report": "recovery_finish_package_verification.json",
+    "installed": true
+  },
+  "accepted_date": "2026-09-24",
+  "acceptance_criteria_changed": false,
+  "resolved_issues": [
+    {
+      "id": "M13-PICKER-01",
+      "status": "resolved: owner explicitly confirms pasting the full path and pressing Enter on db6a7fb8885f9bd9; preview appeared after approximately one second with activity indicator visible; screenshot confirms duplicate skipped and disabled import confirmation",
+      "evidence": "acceptance_fixes.md"
+    },
+    {
+      "id": "M13-IMPORT-FEEDBACK-01",
+      "status": "resolved: owner screenshot on ffbaa166eaebf2fe shows selected Create new book in warning and action, with destination disabled; preview only, no import requested",
+      "evidence": "owner screenshot 2026-09-24; import_finish.md"
+    },
+    {
+      "id": "M13-WORKSPACE-REVISION-01",
+      "status": "resolved: targeted regression tests and owner KDE restore/cancel/delete without reload passed",
+      "evidence": "acceptance_fixes.md"
+    },
+    {
+      "id": "M13-IMPORT-RESPONSIVENESS-01",
+      "status": "resolved: owner explicitly accepts response time for everyday use, 2026-09-24; /data/ preview approximately 2 seconds with visible feedback on ffbaa166eaebf2fe",
+      "evidence": "import_finish.md"
+    },
+    {
+      "id": "M13-IMPORT-PROGRESS-01",
+      "status": "resolved: owner KDE verification 2026-09-24 on ffbaa166eaebf2fe; /data/ preview showed activity indicator and preparation messages throughout reported wait",
+      "evidence": "import_finish.md"
+    },
+    {
+      "id": "M13-IMPORT-DUPLICATE-01",
+      "status": "resolved: owner KDE confirmation on build ffbaa166eaebf2fe, 2026-09-24; nothing-to-import title, skipped-identical-file label and disabled confirmation confirmed (confirmation button outside screenshot crop)",
+      "evidence": "import_finish.md"
+    },
+    {
+      "id": "M13-RECOVERY-GUIDANCE-01",
+      "status": "resolved: owner confirmation and screenshot on db6a7fb8885f9bd9 show Pending No, Recovery required No, Resolved/history retained, correct next steps and disabled recovery/discard actions",
+      "evidence": "recovery_finish.md"
+    },
+    {
+      "id": "M13-RECOVERY-DISCARD-01",
+      "status": "resolved: owner confirms local discard keeps editor open and removes the test tag; subsequent screenshots confirm recovery remains pending and reopening restores M13 Local Discard Check as unsaved on db6a7fb8885f9bd9",
+      "evidence": "recovery_finish.md"
+    }
+  ],
+  "open_issues": []
+}

@@ -1,0 +1,2 @@
+{"checks": ["clean_isolated_install", "installed_launcher_smoke", "installed_modules_only_no_checkout", "installed_catalog_parser_real_101_book_listing_with_series", "reopened_saved_tag_filters_panel_and_matching_results", "installed_nonempty_search_and_filter_restart", "clear_all_persisted_across_restart", "installed_desktop_entry_valid"], "build": "0.1.0a1-184039712b870efd", "restored_match_count": 2, "smoke": {"version": "0.1.0a1", "Qt": "6.10.2", "application_imported": true}}
+This plugin does not support propagateSizeHints()

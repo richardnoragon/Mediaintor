@@ -1,0 +1,15 @@
+{
+  "status": "installed; personal KDE acceptance pending",
+  "build": "0.1.0a1-63a8595f440ca5ac",
+  "sha256": "46f36fd9e8d8022c2e503beb04f14bd47a293c42b221e7cdd5258ac7d579c5ce",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M14-Development/backups/pre-0.1.0a1-63a8595f440ca5ac",
+  "retained_files_verified": 482,
+  "inventory_check": "M14 discovery candidate verified: 0.1.0a1-63a8595f440ca5ac\n",
+  "package_smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "installer_output": "Installed 0.1.0a1-63a8595f440ca5ac for the current user. Calibre remains separately managed.\n",
+  "scope": "M14 only; accepted M13 Everyday and M12 Rollback not mounted or modified"
+}

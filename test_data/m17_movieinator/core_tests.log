@@ -1,0 +1,21 @@
+test_common_file_names (test_movie_core.ParseTests.test_common_file_names) ... ok
+test_normalize_and_sort (test_movie_core.ParseTests.test_normalize_and_sort) ... ok
+test_search_rules (test_movie_core.ParseTests.test_search_rules) ... ok
+test_title_year_folder_layout (test_movie_core.ParseTests.test_title_year_folder_layout) ... ok
+test_apply_and_revalidate (test_movie_core.ScanTests.test_apply_and_revalidate) ... ok
+test_edition_labels_keep_distinct_qualities_and_sources (test_movie_core.ScanTests.test_edition_labels_keep_distinct_qualities_and_sources) ... ok
+test_ffprobe_output_parsing_and_failures (test_movie_core.ScanTests.test_ffprobe_output_parsing_and_failures) ... ok
+test_grouping_parts_hidden_and_known (test_movie_core.ScanTests.test_grouping_parts_hidden_and_known) ... ok
+test_duplicate_file_rejected_atomically (test_movie_core.StoreTests.test_duplicate_file_rejected_atomically) ... ok
+test_edition_and_copy_management (test_movie_core.StoreTests.test_edition_and_copy_management) ... ok
+test_empty_catalog_and_roundtrip (test_movie_core.StoreTests.test_empty_catalog_and_roundtrip) ... ok
+test_foreign_newer_and_damaged_files_are_preserved (test_movie_core.StoreTests.test_foreign_newer_and_damaged_files_are_preserved) ... ok
+test_personal_activity_is_per_profile_and_does_not_bump_revision (test_movie_core.StoreTests.test_personal_activity_is_per_profile_and_does_not_bump_revision) ... ok
+test_remove_movie_keeps_files (test_movie_core.StoreTests.test_remove_movie_keeps_files) ... ok
+test_revision_conflict_and_partial_update (test_movie_core.StoreTests.test_revision_conflict_and_partial_update) ... ok
+test_validation (test_movie_core.StoreTests.test_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.045s
+
+OK

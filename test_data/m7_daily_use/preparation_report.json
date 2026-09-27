@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-22",
+  "workspace": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/m7_workspace",
+  "docker_cli": null,
+  "docker_socket_exists": false,
+  "normal_account_paths": [
+    {
+      "path": "/home/sproket01/.local/share/mediainator-install",
+      "exists": false
+    },
+    {
+      "path": "/home/sproket01/.local/bin/mediainator",
+      "exists": false
+    },
+    {
+      "path": "/home/sproket01/.local/share/applications/mediainator.desktop",
+      "exists": false
+    },
+    {
+      "path": "/home/sproket01/.config/Media-inator",
+      "exists": false
+    },
+    {
+      "path": "/home/sproket01/.local/share/Media-inator",
+      "exists": false
+    }
+  ],
+  "seed": "/tmp/mediainator-m4-acceptance-fu4sqd8e/library",
+  "copy_hashes_match_except_updated_disposable_marker": true,
+  "seed_unchanged_during_copy": true,
+  "file_count": 327,
+  "books": 101,
+  "sqlite_integrity": "ok \u2014 immutable read of copied database; no WAL present",
+  "read_only_probe_note": "ordinary read-only SQLite open returned disk I/O error; immutable inspection passed. Writable library access on this filesystem must be qualified in M7-02.",
+  "artifact_sha256": "30e99d0e6b9659ef43785587a427e8ad05afdfbec81462503652a1a2ad967584",
+  "available_bytes": 60059987968,
+  "installation_started": false,
+  "trial_started": false
+}

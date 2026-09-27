@@ -1,0 +1,442 @@
+[
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Wells, H. G. (Herbert George)\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"Science fiction\",\n      \"mediainator-test-100\"\n    ],\n    \"title\": \"The Time Machine\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "title:M2 Path Test \u2014 Revised",
+      "--field",
+      "authors:Validation Author & Second Author"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 Path Test \u2014 Revised\nTitle sort          : Time Machine, The\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : Science fiction, mediainator-test-100\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"Science fiction\",\n      \"mediainator-test-100\"\n    ],\n    \"title\": \"M2 Path Test \\u2014 Revised\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "tags:M2 validation,Science fiction",
+      "--field",
+      "series:M2 Test Series",
+      "--field",
+      "series_index:2.5",
+      "--field",
+      "comments:<p>M2 <strong>description</strong> &amp; notes.</p>",
+      "--field",
+      "cover:/tmp/mediainator-m2-rgqa949y/new-cover.png"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 Path Test \u2014 Revised\nTitle sort          : Time Machine, The\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : M2 validation, Science fiction\nSeries              : M2 Test Series #2.5\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Path Test -- Revised (32)/M2 Path Test -- Revised - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"M2 validation\",\n      \"Science fiction\"\n    ],\n    \"title\": \"M2 Path Test \\u2014 Revised\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "title:M2 Committed Title",
+      "--field",
+      "tags:Committed tag"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 Committed Title\nTitle sort          : Time Machine, The\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : Committed tag\nSeries              : M2 Test Series #2.5\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 Committed Title\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "series_index:not-a-number"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/usr/bin/calibredb\", line 21, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 255, in main\n    return run_cmd(cmd, opts, args[1:], DBCtx(opts, parser))\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 40, in run_cmd\n    ret = m.main(opts, args, dbctx)\n  File \"/usr/lib/calibre/calibre/db/cli/cmd_set_metadata.py\", line 166, in main\n    val = field_from_string(field, val, fields[field])\n  File \"/usr/lib/calibre/calibre/ebooks/metadata/book/base.py\", line 864, in field_from_string\n    val = int(raw) if dt == 'int' else float(raw)\n                                       ~~~~~^^^^^\nValueError: could not convert string to float: 'not-a-number'\n"
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 Committed Title\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 Committed Title\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "title:Must not be accepted on parse failure",
+      "--field",
+      "series_index:invalid"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/usr/bin/calibredb\", line 21, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 255, in main\n    return run_cmd(cmd, opts, args[1:], DBCtx(opts, parser))\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 40, in run_cmd\n    ret = m.main(opts, args, dbctx)\n  File \"/usr/lib/calibre/calibre/db/cli/cmd_set_metadata.py\", line 166, in main\n    val = field_from_string(field, val, fields[field])\n  File \"/usr/lib/calibre/calibre/ebooks/metadata/book/base.py\", line 864, in field_from_string\n    val = int(raw) if dt == 'int' else float(raw)\n                                       ~~~~~^^^^^\nValueError: could not convert string to float: 'invalid'\n"
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 Committed Title\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 Committed Title (32)/M2 Committed Title - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 Committed Title\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "title:M2 missing_cover",
+      "--field",
+      "cover:/tmp/mediainator-m2-rgqa949y/absent.png"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 missing_cover\nTitle sort          : Time Machine, The\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : Committed tag\nSeries              : M2 Test Series #2.5\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/M2 missing_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/M2 missing_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/M2 missing_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 missing_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/M2 missing_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/M2 missing_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 missing_cover (32)/M2 missing_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 missing_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "title:M2 invalid_cover",
+      "--field",
+      "cover:/tmp/mediainator-m2-rgqa949y/invalid.png"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/usr/bin/calibredb\", line 21, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 255, in main\n    return run_cmd(cmd, opts, args[1:], DBCtx(opts, parser))\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 40, in run_cmd\n    ret = m.main(opts, args, dbctx)\n  File \"/usr/lib/calibre/calibre/db/cli/cmd_set_metadata.py\", line 178, in main\n    final_mi = dbctx.run('set_metadata', 'fields', book_id, fvals)\n  File \"/usr/lib/calibre/calibre/db/cli/main.py\", line 186, in run\n    return m.implementation(self.db.new_api, None, *args)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/cli/cmd_set_metadata.py\", line 51, in implementation\n    changed_ids = db.set_metadata(book_id, mi, force_changes=True, allow_case_change=True)\n  File \"/usr/lib/calibre/calibre/db/cache.py\", line 89, in call_func_with_lock\n    return func(*args, **kwargs)\n  File \"/usr/lib/calibre/calibre/db/cache.py\", line 2063, in set_metadata\n    self._set_cover({book_id: cdata})\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/cache.py\", line 1986, in set_cover\n    self.backend.set_cover(book_id, path, data)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/db/backend.py\", line 1850, in set_cover\n    save_cover_data_to(data, path)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/utils/img.py\", line 309, in save_cover_data_to\n    f.write(image_to_data(img, compression_quality, fmt, compression_quality // 10) if changed else data)\n            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/calibre/calibre/utils/img.py\", line 212, in image_to_data\n    raise ValueError('Failed to export image as ' + fmt + ' with error: ' + w.errorString())\nValueError: Failed to export image as JPEG with error: Image is empty\n"
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "cover:/tmp/mediainator-m2-rgqa949y/new-cover.png"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 invalid_cover\nTitle sort          : M2 invalid_cover\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : Committed tag\nSeries              : M2 Test Series #2.5\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"M2 Test Series\",\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "series:",
+      "--field",
+      "series_index:1"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 invalid_cover\nTitle sort          : M2 invalid_cover\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : Committed tag\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "series_index:3.5"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 invalid_cover\nTitle sort          : M2 invalid_cover\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : Committed tag\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series_index\": 2.5,\n    \"tags\": [\n      \"Committed tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "series:Conflict Series",
+      "--field",
+      "series_index:1",
+      "--field",
+      "tags:Baseline tag"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 invalid_cover\nTitle sort          : M2 invalid_cover\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nTags                : Baseline tag\nSeries              : Conflict Series #1\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"series\": \"Conflict Series\",\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"Baseline tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "tags:External tag",
+      "--field",
+      "publisher:External publisher"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 invalid_cover\nTitle sort          : M2 invalid_cover\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nPublisher           : External publisher\nTags                : External tag\nSeries              : Conflict Series #1\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>M2 <strong>description</strong> &amp; notes.</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>M2 <strong>description</strong> &amp; notes.</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"publisher\": \"External publisher\",\n    \"series\": \"Conflict Series\",\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"External tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "comments:<p>Local description</p>"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 invalid_cover\nTitle sort          : M2 invalid_cover\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nPublisher           : External publisher\nTags                : External tag\nSeries              : Conflict Series #1\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>Local description</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>Local description</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"publisher\": \"External publisher\",\n    \"series\": \"Conflict Series\",\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"External tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>Local description</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"publisher\": \"External publisher\",\n    \"series\": \"Conflict Series\",\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"External tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "set_metadata",
+      "32",
+      "--field",
+      "comments:<p>New external description</p>"
+    ],
+    "exit_code": 0,
+    "stdout": "Title               : M2 invalid_cover\nTitle sort          : M2 invalid_cover\nAuthor(s)           : Validation Author & Second Author [Wells, H. G. (Herbert George)]\nPublisher           : External publisher\nTags                : External tag\nSeries              : Conflict Series #1\nLanguages           : eng\nTimestamp           : 2026-09-20T15:32:29+00:00\nPublished           : 2004-10-01T22:00:00+00:00\nIdentifiers         : gutenberg:35, uri:http://www.gutenberg.org/35\nComments            : <p>New external description</p>\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>New external description</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"publisher\": \"External publisher\",\n    \"series\": \"Conflict Series\",\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"External tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "list",
+      "--for-machine",
+      "--fields",
+      "title,authors,tags,cover,series,series_index,comments,uuid,formats,identifiers,publisher,languages",
+      "--search",
+      "id:32"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"authors\": \"Validation Author & Second Author\",\n    \"comments\": \"<p>New external description</p>\",\n    \"cover\": \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/cover.jpg\",\n    \"formats\": [\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.epub\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.mobi\",\n      \"/tmp/mediainator-m2-rgqa949y/library/Validation Author/M2 invalid_cover (32)/M2 invalid_cover - Validation Author.pdf\"\n    ],\n    \"id\": 32,\n    \"identifiers\": {\n      \"gutenberg\": \"35\",\n      \"uri\": \"http://www.gutenberg.org/35\"\n    },\n    \"languages\": [\n      \"eng\"\n    ],\n    \"publisher\": \"External publisher\",\n    \"series\": \"Conflict Series\",\n    \"series_index\": 1.0,\n    \"tags\": [\n      \"External tag\"\n    ],\n    \"title\": \"M2 invalid_cover\",\n    \"uuid\": \"5f5f1561-2e75-46d2-975c-9ecc77c52c07\"\n  }\n]",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,1834 @@
+[
+  {
+    "authors": "John Schember",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/John Schember/Quick Start Guide (1)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub"
+    ],
+    "id": 1,
+    "identifiers": {},
+    "tags": [],
+    "title": "Quick Start Guide",
+    "uuid": "d145f3a1-2382-4fe7-bc40-26208145311c"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Pride and Prejudice (2)/Pride and Prejudice - Austen, Jane.mobi"
+    ],
+    "id": 2,
+    "identifiers": {
+      "gutenberg": "1342",
+      "uri": "http://www.gutenberg.org/1342"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Pride and Prejudice",
+    "uuid": "0dc7400a-06e5-409a-bb0e-b228a93fd4a4"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Sense and Sensibility (3)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Sense and Sensibility (3)/Sense and Sensibility - Austen, Jane.epub"
+    ],
+    "id": 3,
+    "identifiers": {
+      "gutenberg": "161",
+      "uri": "http://www.gutenberg.org/161"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Sense and Sensibility",
+    "uuid": "f6aef0b9-b3e8-4b9f-91e2-029b8bf7da64"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Emma (4)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Emma (4)/Emma - Austen, Jane.epub"
+    ],
+    "id": 4,
+    "identifiers": {
+      "gutenberg": "158",
+      "uri": "http://www.gutenberg.org/158"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Emma",
+    "uuid": "445bcbfe-9f94-48c5-860c-ecf12cefbf1a"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Persuasion (5)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Persuasion (5)/Persuasion - Austen, Jane.epub"
+    ],
+    "id": 5,
+    "identifiers": {
+      "gutenberg": "105",
+      "uri": "http://www.gutenberg.org/105"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Persuasion",
+    "uuid": "614bea93-58b0-4033-9909-26191216bef8"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Mansfield Park (6)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Mansfield Park (6)/Mansfield Park - Austen, Jane.epub"
+    ],
+    "id": 6,
+    "identifiers": {
+      "gutenberg": "141",
+      "uri": "http://www.gutenberg.org/141"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Mansfield Park",
+    "uuid": "7c0477e5-d2e9-4e00-b7e3-5ea3c080b596"
+  },
+  {
+    "authors": "Austen, Jane",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Northanger Abbey (7)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Austen, Jane/Northanger Abbey (7)/Northanger Abbey - Austen, Jane.epub"
+    ],
+    "id": 7,
+    "identifiers": {
+      "gutenberg": "121",
+      "uri": "http://www.gutenberg.org/121"
+    },
+    "tags": [
+      "Romance",
+      "mediainator-test-100"
+    ],
+    "title": "Northanger Abbey",
+    "uuid": "9835869e-e72f-446a-b7f1-70735214263c"
+  },
+  {
+    "authors": "Brontë, Charlotte",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Bronte, Charlotte/Jane Eyre_ An Autobiography (8)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Bronte, Charlotte/Jane Eyre_ An Autobiography (8)/Jane Eyre_ An Autobiography - Bronte, Charlotte.epub"
+    ],
+    "id": 8,
+    "identifiers": {
+      "gutenberg": "1260",
+      "uri": "http://www.gutenberg.org/1260"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Jane Eyre: An Autobiography",
+    "uuid": "66e73b3b-1abd-47df-be56-526bc15e3394"
+  },
+  {
+    "authors": "Brontë, Emily",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Bronte, Emily/Wuthering Heights (9)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Bronte, Emily/Wuthering Heights (9)/Wuthering Heights - Bronte, Emily.epub"
+    ],
+    "id": 9,
+    "identifiers": {
+      "gutenberg": "768",
+      "uri": "http://www.gutenberg.org/768"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Wuthering Heights",
+    "uuid": "a1f3569c-27fc-4e44-afbb-ea0eea44f26e"
+  },
+  {
+    "authors": "Eliot, George",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Eliot, George/Middlemarch (10)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Eliot, George/Middlemarch (10)/Middlemarch - Eliot, George.epub"
+    ],
+    "id": 10,
+    "identifiers": {
+      "gutenberg": "145",
+      "uri": "http://www.gutenberg.org/145"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Middlemarch",
+    "uuid": "91b736bb-a1d2-4d2c-80b9-624eace44d92"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/Great Expectations (11)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/Great Expectations (11)/Great Expectations - Dickens, Charles.epub"
+    ],
+    "id": 11,
+    "identifiers": {
+      "gutenberg": "1400",
+      "uri": "http://www.gutenberg.org/1400"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Great Expectations",
+    "uuid": "82a4f9b8-fc9e-4655-b223-95fdfa06da99"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/A Tale of Two Cities (12)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/A Tale of Two Cities (12)/A Tale of Two Cities - Dickens, Charles.epub"
+    ],
+    "id": 12,
+    "identifiers": {
+      "gutenberg": "98",
+      "uri": "http://www.gutenberg.org/98"
+    },
+    "tags": [
+      "Historical fiction",
+      "mediainator-test-100"
+    ],
+    "title": "A Tale of Two Cities",
+    "uuid": "b7c6186f-5fab-4c7f-9b70-cb2dbf9a0af6"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/Oliver Twist (13)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/Oliver Twist (13)/Oliver Twist - Dickens, Charles.epub"
+    ],
+    "id": 13,
+    "identifiers": {
+      "gutenberg": "730",
+      "uri": "http://www.gutenberg.org/730"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Oliver Twist",
+    "uuid": "47780d86-3cd3-4f11-b2af-825886d03190"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/David Copperfield (14)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/David Copperfield (14)/David Copperfield - Dickens, Charles.epub"
+    ],
+    "id": 14,
+    "identifiers": {
+      "gutenberg": "766",
+      "uri": "http://www.gutenberg.org/766"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "David Copperfield",
+    "uuid": "6a9190d1-74b4-4517-927d-4eb115f5ec94"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/Bleak House (15)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/Bleak House (15)/Bleak House - Dickens, Charles.epub"
+    ],
+    "id": 15,
+    "identifiers": {
+      "gutenberg": "1023",
+      "uri": "http://www.gutenberg.org/1023"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Bleak House",
+    "uuid": "11d635e0-b7ae-42ec-aa2d-2f941909a239"
+  },
+  {
+    "authors": "Dickens, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/A Christmas Carol in Prose; Being a Ghost Story of Christmas (16)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/A Christmas Carol in Prose; Being a Ghost Story of Christmas (16)/A Christmas Carol in Prose; Being a Ghost - Dickens, Charles.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dickens, Charles/A Christmas Carol in Prose; Being a Ghost Story of Christmas (16)/A Christmas Carol in Prose; Being a Ghost - Dickens, Charles.pdf"
+    ],
+    "id": 16,
+    "identifiers": {
+      "gutenberg": "46",
+      "uri": "http://www.gutenberg.org/46"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+    "uuid": "b649898c-c972-4e92-8ebd-6e688ba59831"
+  },
+  {
+    "authors": "Wilde, Oscar",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Wilde, Oscar/The Picture of Dorian Gray (17)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wilde, Oscar/The Picture of Dorian Gray (17)/The Picture of Dorian Gray - Wilde, Oscar.epub"
+    ],
+    "id": 17,
+    "identifiers": {
+      "gutenberg": "174",
+      "uri": "http://www.gutenberg.org/174"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Picture of Dorian Gray",
+    "uuid": "627308be-d502-4528-9912-e948ac3fae63"
+  },
+  {
+    "authors": "Shelley, Mary Wollstonecraft",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Shelley, Mary Wollstonecraft/Frankenstein; or, the modern prometheus (18)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shelley, Mary Wollstonecraft/Frankenstein; or, the modern prometheus (18)/Frankenstein; or, the modern prometheus - Shelley, Mary Wollstonecraft.epub"
+    ],
+    "id": 18,
+    "identifiers": {
+      "gutenberg": "84",
+      "uri": "http://www.gutenberg.org/84"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Frankenstein; or, the modern prometheus",
+    "uuid": "35a83aa2-ad39-44bb-9220-627ad1acba95"
+  },
+  {
+    "authors": "Stoker, Bram",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Stoker, Bram/Dracula (19)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Stoker, Bram/Dracula (19)/Dracula - Stoker, Bram.epub"
+    ],
+    "id": 19,
+    "identifiers": {
+      "gutenberg": "345",
+      "uri": "http://www.gutenberg.org/345"
+    },
+    "tags": [
+      "Horror",
+      "mediainator-test-100"
+    ],
+    "title": "Dracula",
+    "uuid": "f58f824d-8b99-490d-a85d-be748175d59d"
+  },
+  {
+    "authors": "Stevenson, Robert Louis",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Stevenson, Robert Louis/The strange case of Dr. Jekyll and Mr. Hyde (20)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Stevenson, Robert Louis/The strange case of Dr. Jekyll and Mr. Hyde (20)/The strange case of Dr. Jekyll and Mr. Hyd - Stevenson, Robert Louis.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Stevenson, Robert Louis/The strange case of Dr. Jekyll and Mr. Hyde (20)/The strange case of Dr. Jekyll and Mr. Hyd - Stevenson, Robert Louis.pdf"
+    ],
+    "id": 20,
+    "identifiers": {
+      "gutenberg": "43",
+      "uri": "http://www.gutenberg.org/43"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+    "uuid": "cb79d94a-58a2-41c9-b9d3-5e23f6c521c4"
+  },
+  {
+    "authors": "James, Henry",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/James, Henry/The Turn of the Screw (21)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/James, Henry/The Turn of the Screw (21)/The Turn of the Screw - James, Henry.epub"
+    ],
+    "id": 21,
+    "identifiers": {
+      "gutenberg": "209",
+      "uri": "http://www.gutenberg.org/209"
+    },
+    "tags": [
+      "Gothic fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Turn of the Screw",
+    "uuid": "33f350d8-142c-4ad3-b29b-903888f13768"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Adventures of Sherlock Holmes (22)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Adventures of Sherlock Holmes (22)/The Adventures of Sherlock Holmes - Doyle, Arthur Conan.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Adventures of Sherlock Holmes (22)/The Adventures of Sherlock Holmes - Doyle, Arthur Conan.mobi"
+    ],
+    "id": 22,
+    "identifiers": {
+      "gutenberg": "1661",
+      "uri": "http://www.gutenberg.org/1661"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Adventures of Sherlock Holmes",
+    "uuid": "27921d41-230c-4230-a9e6-ed13ae15372c"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Hound of the Baskervilles (23)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Hound of the Baskervilles (23)/The Hound of the Baskervilles - Doyle, Arthur Conan.epub"
+    ],
+    "id": 23,
+    "identifiers": {
+      "gutenberg": "2852",
+      "uri": "http://www.gutenberg.org/2852"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Hound of the Baskervilles",
+    "uuid": "6c9dbdd2-8bd6-443c-b7e8-51e849376d95"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/A Study in Scarlet (24)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/A Study in Scarlet (24)/A Study in Scarlet - Doyle, Arthur Conan.epub"
+    ],
+    "id": 24,
+    "identifiers": {
+      "gutenberg": "244",
+      "uri": "http://www.gutenberg.org/244"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "A Study in Scarlet",
+    "uuid": "8c49b4cf-d7e2-4751-9e42-452bfb115fe9"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Valley of Fear (25)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Valley of Fear (25)/The Valley of Fear - Doyle, Arthur Conan.epub"
+    ],
+    "id": 25,
+    "identifiers": {
+      "gutenberg": "3289",
+      "uri": "http://www.gutenberg.org/3289"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Valley of Fear",
+    "uuid": "44d51d12-6879-46ae-a32d-cff946bdcb51"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Memoirs of Sherlock Holmes (26)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Memoirs of Sherlock Holmes (26)/The Memoirs of Sherlock Holmes - Doyle, Arthur Conan.epub"
+    ],
+    "id": 26,
+    "identifiers": {
+      "gutenberg": "834",
+      "uri": "http://www.gutenberg.org/834"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Memoirs of Sherlock Holmes",
+    "uuid": "7e237af7-0bb9-44eb-9c48-f008652c72a1"
+  },
+  {
+    "authors": "Collins, Wilkie",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Collins, Wilkie/The Moonstone (27)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Collins, Wilkie/The Moonstone (27)/The Moonstone - Collins, Wilkie.epub"
+    ],
+    "id": 27,
+    "identifiers": {
+      "gutenberg": "155",
+      "uri": "http://www.gutenberg.org/155"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Moonstone",
+    "uuid": "cd35a782-0047-4d86-bbaa-c568b25268e8"
+  },
+  {
+    "authors": "Collins, Wilkie",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Collins, Wilkie/The Woman in White (28)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Collins, Wilkie/The Woman in White (28)/The Woman in White - Collins, Wilkie.epub"
+    ],
+    "id": 28,
+    "identifiers": {
+      "gutenberg": "583",
+      "uri": "http://www.gutenberg.org/583"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Woman in White",
+    "uuid": "a3ea4752-e616-49cd-867e-2b8fb8aa0703"
+  },
+  {
+    "authors": "Chesterton, G. K. (Gilbert Keith)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Chesterton, G. K. (Gilbert Keith)/The Ballad of the White Horse (29)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Chesterton, G. K. (Gilbert Keith)/The Ballad of the White Horse (29)/The Ballad of the White Horse - Chesterton, G. K. (Gilbert Keith).epub"
+    ],
+    "id": 29,
+    "identifiers": {
+      "gutenberg": "1719",
+      "uri": "http://www.gutenberg.org/1719"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Ballad of the White Horse",
+    "uuid": "af6d1c2f-5e5b-4e0c-b35c-0f3809c07eea"
+  },
+  {
+    "authors": "Chesterton, G. K. (Gilbert Keith)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Chesterton, G. K. (Gilbert Keith)/The innocence of Father Brown (30)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Chesterton, G. K. (Gilbert Keith)/The innocence of Father Brown (30)/The innocence of Father Brown - Chesterton, G. K. (Gilbert Keith).epub"
+    ],
+    "id": 30,
+    "identifiers": {
+      "gutenberg": "204",
+      "uri": "http://www.gutenberg.org/204"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The innocence of Father Brown",
+    "uuid": "c3152ca5-838d-4f21-aae2-c436aa34d51f"
+  },
+  {
+    "authors": "Saxo, Grammaticus",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Saxo, Grammaticus/The Danish History, Books I-IX (31)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Saxo, Grammaticus/The Danish History, Books I-IX (31)/The Danish History, Books I-IX - Saxo, Grammaticus.epub"
+    ],
+    "id": 31,
+    "identifiers": {
+      "gutenberg": "1150",
+      "uri": "http://www.gutenberg.org/1150"
+    },
+    "tags": [
+      "History",
+      "mediainator-test-100"
+    ],
+    "title": "The Danish History, Books I-IX",
+    "uuid": "0c03eb1e-258b-4b03-a629-ba64072daa8f"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The Time Machine (32)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).mobi",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).pdf"
+    ],
+    "id": 32,
+    "identifiers": {
+      "gutenberg": "35",
+      "uri": "http://www.gutenberg.org/35"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Time Machine",
+    "uuid": "5f5f1561-2e75-46d2-975c-9ecc77c52c07"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The war of the worlds (33)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The war of the worlds (33)/The war of the worlds - Wells, H. G. (Herbert George).epub"
+    ],
+    "id": 33,
+    "identifiers": {
+      "gutenberg": "36",
+      "uri": "http://www.gutenberg.org/36"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The war of the worlds",
+    "uuid": "5463ee63-ad29-4f35-99ec-c0e50a21503e"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The Invisible Man_ A Grotesque Romance (34)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The Invisible Man_ A Grotesque Romance (34)/The Invisible Man_ A Grotesque Romance - Wells, H. G. (Herbert George).epub"
+    ],
+    "id": 34,
+    "identifiers": {
+      "gutenberg": "5230",
+      "uri": "http://www.gutenberg.org/5230"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Invisible Man: A Grotesque Romance",
+    "uuid": "77df1283-0a04-4cfa-92b0-20efb3aac2a8"
+  },
+  {
+    "authors": "Wells, H. G. (Herbert George)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The island of Doctor Moreau (35)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wells, H. G. (Herbert George)/The island of Doctor Moreau (35)/The island of Doctor Moreau - Wells, H. G. (Herbert George).epub"
+    ],
+    "id": 35,
+    "identifiers": {
+      "gutenberg": "159",
+      "uri": "http://www.gutenberg.org/159"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The island of Doctor Moreau",
+    "uuid": "5e6cf74b-f31b-4a6a-a6d8-32c6b5ef52aa"
+  },
+  {
+    "authors": "Burroughs, Edgar Rice",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Burroughs, Edgar Rice/A princess of Mars (36)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Burroughs, Edgar Rice/A princess of Mars (36)/A princess of Mars - Burroughs, Edgar Rice.epub"
+    ],
+    "id": 36,
+    "identifiers": {
+      "gutenberg": "62",
+      "uri": "http://www.gutenberg.org/62"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "A princess of Mars",
+    "uuid": "9872c218-d4f1-4d1b-a3a3-a57ce8543e44"
+  },
+  {
+    "authors": "Verne, Jules",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Verne, Jules/Twenty Thousand Leagues under the Sea (37)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Verne, Jules/Twenty Thousand Leagues under the Sea (37)/Twenty Thousand Leagues under the Sea - Verne, Jules.epub"
+    ],
+    "id": 37,
+    "identifiers": {
+      "gutenberg": "164",
+      "uri": "http://www.gutenberg.org/164"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Twenty Thousand Leagues under the Sea",
+    "uuid": "3e3d0a8b-3d4f-4bd9-afc7-b81e0e52722e"
+  },
+  {
+    "authors": "Abbott, Edwin Abbott",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Abbott, Edwin Abbott/Flatland_ A Romance of Many Dimensions (38)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Abbott, Edwin Abbott/Flatland_ A Romance of Many Dimensions (38)/Flatland_ A Romance of Many Dimensions - Abbott, Edwin Abbott.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Abbott, Edwin Abbott/Flatland_ A Romance of Many Dimensions (38)/Flatland_ A Romance of Many Dimensions - Abbott, Edwin Abbott.mobi"
+    ],
+    "id": 38,
+    "identifiers": {
+      "gutenberg": "201",
+      "uri": "http://www.gutenberg.org/201"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Flatland: A Romance of Many Dimensions",
+    "uuid": "ecb1c4f2-d534-4c47-9b57-6533cacc2299"
+  },
+  {
+    "authors": "Verne, Jules",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Verne, Jules/A Journey to the Centre of the Earth (39)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Verne, Jules/A Journey to the Centre of the Earth (39)/A Journey to the Centre of the Earth - Verne, Jules.epub"
+    ],
+    "id": 39,
+    "identifiers": {
+      "gutenberg": "18857",
+      "uri": "http://www.gutenberg.org/18857"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "A Journey to the Centre of the Earth",
+    "uuid": "7c884df4-ebf7-4ca2-81c1-15dd90b32c38"
+  },
+  {
+    "authors": "Bellamy, Edward",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Bellamy, Edward/Looking Backward, 2000 to 1887 (40)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Bellamy, Edward/Looking Backward, 2000 to 1887 (40)/Looking Backward, 2000 to 1887 - Bellamy, Edward.epub"
+    ],
+    "id": 40,
+    "identifiers": {
+      "gutenberg": "624",
+      "uri": "http://www.gutenberg.org/624"
+    },
+    "tags": [
+      "Science fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Looking Backward, 2000 to 1887",
+    "uuid": "97a8a4ec-a962-4b26-8264-83622db97f7b"
+  },
+  {
+    "authors": "Burroughs, Edgar Rice",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Burroughs, Edgar Rice/At the Earth's Core (41)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Burroughs, Edgar Rice/At the Earth's Core (41)/At the Earth's Core - Burroughs, Edgar Rice.epub"
+    ],
+    "id": 41,
+    "identifiers": {
+      "gutenberg": "123",
+      "uri": "http://www.gutenberg.org/123"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "At the Earth's Core",
+    "uuid": "a00369d4-a412-453f-a8dc-b68ffcfc3fbb"
+  },
+  {
+    "authors": "Stevenson, Robert Louis",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Stevenson, Robert Louis/Treasure Island (42)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Stevenson, Robert Louis/Treasure Island (42)/Treasure Island - Stevenson, Robert Louis.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Stevenson, Robert Louis/Treasure Island (42)/Treasure Island - Stevenson, Robert Louis.mobi"
+    ],
+    "id": 42,
+    "identifiers": {
+      "gutenberg": "120",
+      "uri": "http://www.gutenberg.org/120"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Treasure Island",
+    "uuid": "0b0060b8-8eaf-44f9-8c5e-9f0f665ac938"
+  },
+  {
+    "authors": "Dumas, Alexandre & Maquet, Auguste",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dumas, Alexandre/The Count of Monte Cristo (43)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dumas, Alexandre/The Count of Monte Cristo (43)/The Count of Monte Cristo - Dumas, Alexandre.epub"
+    ],
+    "id": 43,
+    "identifiers": {
+      "gutenberg": "1184",
+      "uri": "http://www.gutenberg.org/1184"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The Count of Monte Cristo",
+    "uuid": "f794bf77-7e41-4fd7-a95a-02098788f9df"
+  },
+  {
+    "authors": "Dumas, Alexandre & Maquet, Auguste",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Dumas, Alexandre/The three musketeers (44)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Dumas, Alexandre/The three musketeers (44)/The three musketeers - Dumas, Alexandre.epub"
+    ],
+    "id": 44,
+    "identifiers": {
+      "gutenberg": "1257",
+      "uri": "http://www.gutenberg.org/1257"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The three musketeers",
+    "uuid": "111a9342-591a-4c36-8565-55d95939b6f5"
+  },
+  {
+    "authors": "Verne, Jules",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Verne, Jules/Around the World in Eighty Days (45)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Verne, Jules/Around the World in Eighty Days (45)/Around the World in Eighty Days - Verne, Jules.epub"
+    ],
+    "id": 45,
+    "identifiers": {
+      "gutenberg": "103",
+      "uri": "http://www.gutenberg.org/103"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Around the World in Eighty Days",
+    "uuid": "f84f59fb-6b11-452e-9b67-8662b9efc160"
+  },
+  {
+    "authors": "Twain, Mark",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Twain, Mark/Adventures of Huckleberry Finn (46)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Twain, Mark/Adventures of Huckleberry Finn (46)/Adventures of Huckleberry Finn - Twain, Mark.epub"
+    ],
+    "id": 46,
+    "identifiers": {
+      "gutenberg": "76",
+      "uri": "http://www.gutenberg.org/76"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Adventures of Huckleberry Finn",
+    "uuid": "95c8042e-1d3e-41fb-aa06-bba593f25da3"
+  },
+  {
+    "authors": "Twain, Mark",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Twain, Mark/The Adventures of Tom Sawyer, Complete (47)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Twain, Mark/The Adventures of Tom Sawyer, Complete (47)/The Adventures of Tom Sawyer, Complete - Twain, Mark.epub"
+    ],
+    "id": 47,
+    "identifiers": {
+      "gutenberg": "74",
+      "uri": "http://www.gutenberg.org/74"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The Adventures of Tom Sawyer, Complete",
+    "uuid": "52afe504-08ab-4c26-af80-1dfe699cf522"
+  },
+  {
+    "authors": "Wharton, Edith",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Wharton, Edith/Summer (48)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wharton, Edith/Summer (48)/Summer - Wharton, Edith.epub"
+    ],
+    "id": 48,
+    "identifiers": {
+      "gutenberg": "166",
+      "uri": "http://www.gutenberg.org/166"
+    },
+    "tags": [
+      "Literary fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Summer",
+    "uuid": "413a1bca-98eb-424f-a89b-e4bc8cb53114"
+  },
+  {
+    "authors": "Conrad, Joseph",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Conrad, Joseph/Heart of Darkness (49)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Conrad, Joseph/Heart of Darkness (49)/Heart of Darkness - Conrad, Joseph.epub"
+    ],
+    "id": 49,
+    "identifiers": {
+      "gutenberg": "219",
+      "uri": "http://www.gutenberg.org/219"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Heart of Darkness",
+    "uuid": "8a92002b-63c6-4270-ada4-fbe912ccbe93"
+  },
+  {
+    "authors": "London, Jack",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/London, Jack/The call of the wild (50)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/London, Jack/The call of the wild (50)/The call of the wild - London, Jack.epub"
+    ],
+    "id": 50,
+    "identifiers": {
+      "gutenberg": "215",
+      "uri": "http://www.gutenberg.org/215"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The call of the wild",
+    "uuid": "843d43ec-4522-4c9b-a4f1-2401b2e4a6af"
+  },
+  {
+    "authors": "Doyle, Arthur Conan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Sign of the Four (51)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Doyle, Arthur Conan/The Sign of the Four (51)/The Sign of the Four - Doyle, Arthur Conan.epub"
+    ],
+    "id": 51,
+    "identifiers": {
+      "gutenberg": "2097",
+      "uri": "http://www.gutenberg.org/2097"
+    },
+    "tags": [
+      "Mystery",
+      "mediainator-test-100"
+    ],
+    "title": "The Sign of the Four",
+    "uuid": "c2d605ab-1095-46f7-ac55-e5ad16afeb36"
+  },
+  {
+    "authors": "Carroll, Lewis",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/Alice's Adventures in Wonderland - Carroll, Lewis.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/Alice's Adventures in Wonderland - Carroll, Lewis.mobi",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Carroll, Lewis/Alice's Adventures in Wonderland (52)/Alice's Adventures in Wonderland - Carroll, Lewis.pdf"
+    ],
+    "id": 52,
+    "identifiers": {
+      "gutenberg": "11",
+      "uri": "http://www.gutenberg.org/11"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "Alice's Adventures in Wonderland",
+    "uuid": "f2f4aab6-4ac0-47d7-8689-4dbe1dd376d1"
+  },
+  {
+    "authors": "Carroll, Lewis",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Carroll, Lewis/Through the Looking-Glass (53)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Carroll, Lewis/Through the Looking-Glass (53)/Through the Looking-Glass - Carroll, Lewis.epub"
+    ],
+    "id": 53,
+    "identifiers": {
+      "gutenberg": "12",
+      "uri": "http://www.gutenberg.org/12"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "Through the Looking-Glass",
+    "uuid": "53a3fd8e-a94f-43cc-975b-1a4730659833"
+  },
+  {
+    "authors": "Baum, L. Frank (Lyman Frank)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Baum, L. Frank (Lyman Frank)/The Wonderful Wizard of Oz (54)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Baum, L. Frank (Lyman Frank)/The Wonderful Wizard of Oz (54)/The Wonderful Wizard of Oz - Baum, L. Frank (Lyman Frank).epub"
+    ],
+    "id": 54,
+    "identifiers": {
+      "gutenberg": "55",
+      "uri": "http://www.gutenberg.org/55"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "The Wonderful Wizard of Oz",
+    "uuid": "064302b9-1a02-4b34-846c-018f6be8e59f"
+  },
+  {
+    "authors": "Barrie, J. M. (James Matthew)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Barrie, J. M. (James Matthew)/Peter Pan_ [Peter and Wendy] (55)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Barrie, J. M. (James Matthew)/Peter Pan_ [Peter and Wendy] (55)/Peter Pan_ [Peter and Wendy] - Barrie, J. M. (James Matthew).epub"
+    ],
+    "id": 55,
+    "identifiers": {
+      "gutenberg": "16",
+      "uri": "http://www.gutenberg.org/16"
+    },
+    "tags": [
+      "Fantasy",
+      "mediainator-test-100"
+    ],
+    "title": "Peter Pan: [Peter and Wendy]",
+    "uuid": "b1988ad9-0bc2-4644-ad56-2b662c2780d8"
+  },
+  {
+    "authors": "Burnett, Frances Hodgson",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Burnett, Frances Hodgson/The Secret Garden (56)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Burnett, Frances Hodgson/The Secret Garden (56)/The Secret Garden - Burnett, Frances Hodgson.epub"
+    ],
+    "id": 56,
+    "identifiers": {
+      "gutenberg": "113",
+      "uri": "http://www.gutenberg.org/113"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Secret Garden",
+    "uuid": "05219c08-6791-4065-9c75-7e53f4aa48e6"
+  },
+  {
+    "authors": "Montgomery, L. M. (Lucy Maud)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Montgomery, L. M. (Lucy Maud)/Anne of Green Gables (57)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Montgomery, L. M. (Lucy Maud)/Anne of Green Gables (57)/Anne of Green Gables - Montgomery, L. M. (Lucy Maud).epub"
+    ],
+    "id": 57,
+    "identifiers": {
+      "gutenberg": "45",
+      "uri": "http://www.gutenberg.org/45"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Anne of Green Gables",
+    "uuid": "7e95e400-5e77-4345-8cbb-a9e380bbac20"
+  },
+  {
+    "authors": "Alcott, Louisa May",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Alcott, Louisa May/Little Women (58)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Alcott, Louisa May/Little Women (58)/Little Women - Alcott, Louisa May.epub"
+    ],
+    "id": 58,
+    "identifiers": {
+      "gutenberg": "514",
+      "uri": "http://www.gutenberg.org/514"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "Little Women",
+    "uuid": "f7cbd573-04ce-46c7-9b3e-5c6d264d3514"
+  },
+  {
+    "authors": "Cervantes Saavedra, Miguel de",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Cervantes Saavedra, Miguel de/Don Quixote (59)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Cervantes Saavedra, Miguel de/Don Quixote (59)/Don Quixote - Cervantes Saavedra, Miguel de.epub"
+    ],
+    "id": 59,
+    "identifiers": {
+      "gutenberg": "996",
+      "uri": "http://www.gutenberg.org/996"
+    },
+    "tags": [
+      "Satire",
+      "mediainator-test-100"
+    ],
+    "title": "Don Quixote",
+    "uuid": "400bf215-5906-4647-b49a-c59b6652a9b5"
+  },
+  {
+    "authors": "Kipling, Rudyard",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Kipling, Rudyard/The Jungle Book (60)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Kipling, Rudyard/The Jungle Book (60)/The Jungle Book - Kipling, Rudyard.epub"
+    ],
+    "id": 60,
+    "identifiers": {
+      "gutenberg": "236",
+      "uri": "http://www.gutenberg.org/236"
+    },
+    "tags": [
+      "Children's fiction",
+      "mediainator-test-100"
+    ],
+    "title": "The Jungle Book",
+    "uuid": "21d47f6c-c0c5-45d3-a024-a299750eafa9"
+  },
+  {
+    "authors": "Swift, Jonathan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Swift, Jonathan/Gulliver's Travels into Several Remote Nations of the World (61)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Swift, Jonathan/Gulliver's Travels into Several Remote Nations of the World (61)/Gulliver's Travels into Several Remote Nat - Swift, Jonathan.epub"
+    ],
+    "id": 61,
+    "identifiers": {
+      "gutenberg": "829",
+      "uri": "http://www.gutenberg.org/829"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Gulliver's Travels into Several Remote Nations of the World",
+    "uuid": "72f167b1-4282-43dc-a46e-85a5f463ac7e"
+  },
+  {
+    "authors": "Grimm, Jacob & Grimm, Wilhelm",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Grimm, Jacob/Grimms' Fairy Tales (62)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Grimm, Jacob/Grimms' Fairy Tales (62)/Grimms' Fairy Tales - Grimm, Jacob.epub"
+    ],
+    "id": 62,
+    "identifiers": {
+      "gutenberg": "2591",
+      "uri": "http://www.gutenberg.org/2591"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Grimms' Fairy Tales",
+    "uuid": "8648188e-553f-4f46-8f2b-d90f97b0d755"
+  },
+  {
+    "authors": "Aesop",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Aesop/Three hundred Aesop's fables Translated by George Fyler Townsend (63)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Aesop/Three hundred Aesop's fables Translated by George Fyler Townsend (63)/Three hundred Aesop's fables Translated by - Aesop.epub"
+    ],
+    "id": 63,
+    "identifiers": {
+      "gutenberg": "21",
+      "uri": "http://www.gutenberg.org/21"
+    },
+    "tags": [
+      "Fables",
+      "mediainator-test-100"
+    ],
+    "title": "Three hundred Aesop’s fables Translated by George Fyler Townsend",
+    "uuid": "a62dce8a-5e51-4165-a899-3d83ae4f44fc"
+  },
+  {
+    "authors": "Anonymous",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Anonymous/Fairy Tales Every Child Should Know (64)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Anonymous/Fairy Tales Every Child Should Know (64)/Fairy Tales Every Child Should Know - Anonymous.epub"
+    ],
+    "id": 64,
+    "identifiers": {
+      "gutenberg": "14916",
+      "uri": "http://www.gutenberg.org/14916"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Fairy Tales Every Child Should Know",
+    "uuid": "38c84d1c-bfd9-4034-997d-3dd8e6636552"
+  },
+  {
+    "authors": "Andersen, H. C. (Hans Christian)",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Andersen, H. C. (Hans Christian)/Andersen's Fairy Tales (65)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Andersen, H. C. (Hans Christian)/Andersen's Fairy Tales (65)/Andersen's Fairy Tales - Andersen, H. C. (Hans Christian).epub"
+    ],
+    "id": 65,
+    "identifiers": {
+      "gutenberg": "1597",
+      "uri": "http://www.gutenberg.org/1597"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Andersen's Fairy Tales",
+    "uuid": "2336cf13-dcff-4536-a888-ea34948af3fa"
+  },
+  {
+    "authors": "Grimm, Jacob & Grimm, Wilhelm",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Grimm, Jacob/Household Tales by Brothers Grimm (66)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Grimm, Jacob/Household Tales by Brothers Grimm (66)/Household Tales by Brothers Grimm - Grimm, Jacob.epub"
+    ],
+    "id": 66,
+    "identifiers": {
+      "gutenberg": "5314",
+      "uri": "http://www.gutenberg.org/5314"
+    },
+    "tags": [
+      "Folklore",
+      "mediainator-test-100"
+    ],
+    "title": "Household Tales by Brothers Grimm",
+    "uuid": "b755ef1f-2080-4a83-9b01-f215beb4b11f"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/A Midsummer Night's Dream (67)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/A Midsummer Night's Dream (67)/A Midsummer Night's Dream - Shakespeare, William.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/A Midsummer Night's Dream (67)/A Midsummer Night's Dream - Shakespeare, William.mobi",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/A Midsummer Night's Dream (67)/A Midsummer Night's Dream - Shakespeare, William.pdf"
+    ],
+    "id": 67,
+    "identifiers": {
+      "gutenberg": "1514",
+      "uri": "http://www.gutenberg.org/1514"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "A Midsummer Night's Dream",
+    "uuid": "fb052d0f-9df3-497c-92f3-bdb1399f1729"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Romeo and Juliet (68)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Romeo and Juliet (68)/Romeo and Juliet - Shakespeare, William.epub"
+    ],
+    "id": 68,
+    "identifiers": {
+      "gutenberg": "1513",
+      "uri": "http://www.gutenberg.org/1513"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Romeo and Juliet",
+    "uuid": "0a846dbb-e3f0-4135-9ce1-758ad205e758"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Hamlet (69)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Hamlet (69)/Hamlet - Shakespeare, William.epub"
+    ],
+    "id": 69,
+    "identifiers": {
+      "gutenberg": "1524",
+      "uri": "http://www.gutenberg.org/1524"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Hamlet",
+    "uuid": "faa9fbd1-7ad3-4fde-b0c7-3bb9f3bd9a32"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Macbeth (70)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Macbeth (70)/Macbeth - Shakespeare, William.epub"
+    ],
+    "id": 70,
+    "identifiers": {
+      "gutenberg": "1533",
+      "uri": "http://www.gutenberg.org/1533"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Macbeth",
+    "uuid": "d022a011-7222-406a-928e-2ba526928bdb"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Othello (71)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Othello (71)/Othello - Shakespeare, William.epub"
+    ],
+    "id": 71,
+    "identifiers": {
+      "gutenberg": "1531",
+      "uri": "http://www.gutenberg.org/1531"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "Othello",
+    "uuid": "d7bb3f67-90b8-4785-babb-d872d886d814"
+  },
+  {
+    "authors": "Wilde, Oscar",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Wilde, Oscar/The Importance of Being Earnest_ A Trivial Comedy for Serious People (72)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Wilde, Oscar/The Importance of Being Earnest_ A Trivial Comedy for Serious People (72)/The Importance of Being Earnest_ A Trivial - Wilde, Oscar.epub"
+    ],
+    "id": 72,
+    "identifiers": {
+      "gutenberg": "844",
+      "uri": "http://www.gutenberg.org/844"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+    "uuid": "b7833df5-6afc-44c1-afdd-fab1bcf3f660"
+  },
+  {
+    "authors": "Ibsen, Henrik",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Ibsen, Henrik/A Doll's House _ a play (73)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Ibsen, Henrik/A Doll's House _ a play (73)/A Doll's House _ a play - Ibsen, Henrik.epub"
+    ],
+    "id": 73,
+    "identifiers": {
+      "gutenberg": "2542",
+      "uri": "http://www.gutenberg.org/2542"
+    },
+    "tags": [
+      "Drama",
+      "mediainator-test-100"
+    ],
+    "title": "A Doll's House : a play",
+    "uuid": "95c8f41a-9e08-440b-a73f-38657cee1de2"
+  },
+  {
+    "authors": "Shakespeare, William",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Shakespeare's Sonnets (74)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Shakespeare's Sonnets (74)/Shakespeare's Sonnets - Shakespeare, William.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Shakespeare, William/Shakespeare's Sonnets (74)/Shakespeare's Sonnets - Shakespeare, William.pdf"
+    ],
+    "id": 74,
+    "identifiers": {
+      "gutenberg": "1041",
+      "uri": "http://www.gutenberg.org/1041"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Shakespeare's Sonnets",
+    "uuid": "5cfeb051-cfad-436c-806f-fe0d99f3aeeb"
+  },
+  {
+    "authors": "Whitman, Walt",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Whitman, Walt/Leaves of Grass (75)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Whitman, Walt/Leaves of Grass (75)/Leaves of Grass - Whitman, Walt.epub"
+    ],
+    "id": 75,
+    "identifiers": {
+      "gutenberg": "1322",
+      "uri": "http://www.gutenberg.org/1322"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Leaves of Grass",
+    "uuid": "f417c050-7d2c-4271-84a3-241290dfa0a8"
+  },
+  {
+    "authors": "Milton, John",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Milton, John/Paradise Lost (76)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Milton, John/Paradise Lost (76)/Paradise Lost - Milton, John.epub"
+    ],
+    "id": 76,
+    "identifiers": {
+      "gutenberg": "20",
+      "uri": "http://www.gutenberg.org/20"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Paradise Lost",
+    "uuid": "b4bc3276-2f3a-4014-ab26-26da894512f2"
+  },
+  {
+    "authors": "Homer",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Homer/The Iliad (77)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Homer/The Iliad (77)/The Iliad - Homer.epub"
+    ],
+    "id": 77,
+    "identifiers": {
+      "gutenberg": "6130",
+      "uri": "http://www.gutenberg.org/6130"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Iliad",
+    "uuid": "b4cd8bcd-c7f2-4614-8dc6-3cb9c9696c5f"
+  },
+  {
+    "authors": "Homer",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Homer/The Odyssey Rendered into English prose for the use of those who cannot read the original (78)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Homer/The Odyssey Rendered into English prose for the use of those who cannot read the original (78)/The Odyssey Rendered into English prose fo - Homer.epub"
+    ],
+    "id": 78,
+    "identifiers": {
+      "gutenberg": "1727",
+      "uri": "http://www.gutenberg.org/1727"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Odyssey Rendered into English prose for the use of those who cannot read the original",
+    "uuid": "12ec0dde-3f2c-497f-ab58-6a05291af60e"
+  },
+  {
+    "authors": "Anonymous",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Anonymous/Beowulf_ An Anglo-Saxon Epic Poem (79)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Anonymous/Beowulf_ An Anglo-Saxon Epic Poem (79)/Beowulf_ An Anglo-Saxon Epic Poem - Anonymous.epub"
+    ],
+    "id": 79,
+    "identifiers": {
+      "gutenberg": "16328",
+      "uri": "http://www.gutenberg.org/16328"
+    },
+    "tags": [
+      "Epic poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Beowulf: An Anglo-Saxon Epic Poem",
+    "uuid": "907cd920-47e2-4e55-b0cb-5a79b4f1ff16"
+  },
+  {
+    "authors": "Goethe, Johann Wolfgang von",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Goethe, Johann Wolfgang von/Faust [part 1]. Translated Into English in the Original Metres (80)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Goethe, Johann Wolfgang von/Faust [part 1]. Translated Into English in the Original Metres (80)/Faust [part 1]. Translated Into English in - Goethe, Johann Wolfgang von.epub"
+    ],
+    "id": 80,
+    "identifiers": {
+      "gutenberg": "14591",
+      "uri": "http://www.gutenberg.org/14591"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "Faust [part 1]. Translated Into English in the Original Metres",
+    "uuid": "556d4ad9-e645-434a-a1a6-52f94684cd62"
+  },
+  {
+    "authors": "Poe, Edgar Allan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Poe, Edgar Allan/The Raven (81)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Poe, Edgar Allan/The Raven (81)/The Raven - Poe, Edgar Allan.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Poe, Edgar Allan/The Raven (81)/The Raven - Poe, Edgar Allan.pdf"
+    ],
+    "id": 81,
+    "identifiers": {
+      "gutenberg": "1065",
+      "uri": "http://www.gutenberg.org/1065"
+    },
+    "tags": [
+      "Poetry",
+      "mediainator-test-100"
+    ],
+    "title": "The Raven",
+    "uuid": "24bfdefc-5f88-4cf5-af5d-a09ce292c26a"
+  },
+  {
+    "authors": "Machiavelli, Niccolò",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Machiavelli, Niccolo/The Prince (82)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Machiavelli, Niccolo/The Prince (82)/The Prince - Machiavelli, Niccolo.epub"
+    ],
+    "id": 82,
+    "identifiers": {
+      "gutenberg": "1232",
+      "uri": "http://www.gutenberg.org/1232"
+    },
+    "tags": [
+      "Political philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "The Prince",
+    "uuid": "1cab78a9-fd7f-4d77-9c78-fa3310545757"
+  },
+  {
+    "authors": "Plato",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Plato/The Republic (83)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Plato/The Republic (83)/The Republic - Plato.epub"
+    ],
+    "id": 83,
+    "identifiers": {
+      "gutenberg": "1497",
+      "uri": "http://www.gutenberg.org/1497"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "The Republic",
+    "uuid": "c0c739c3-418e-4a04-8919-b3e0876d18d8"
+  },
+  {
+    "authors": "Marcus Aurelius, Emperor of Rome",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Marcus Aurelius, Emperor of Rome/Meditations (84)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Marcus Aurelius, Emperor of Rome/Meditations (84)/Meditations - Marcus Aurelius, Emperor of Rome.epub"
+    ],
+    "id": 84,
+    "identifiers": {
+      "gutenberg": "2680",
+      "uri": "http://www.gutenberg.org/2680"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Meditations",
+    "uuid": "92c0337d-343f-4832-aebb-a0ed6adb8000"
+  },
+  {
+    "authors": "Melville, Herman",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Melville, Herman/Moby Dick; Or, The Whale (85)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Melville, Herman/Moby Dick; Or, The Whale (85)/Moby Dick; Or, The Whale - Melville, Herman.epub"
+    ],
+    "id": 85,
+    "identifiers": {
+      "gutenberg": "2701",
+      "uri": "http://www.gutenberg.org/2701"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Moby Dick; Or, The Whale",
+    "uuid": "261e4710-621e-4053-a580-f6684b111999"
+  },
+  {
+    "authors": "Hobbes, Thomas",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Hobbes, Thomas/Leviathan (86)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Hobbes, Thomas/Leviathan (86)/Leviathan - Hobbes, Thomas.epub"
+    ],
+    "id": 86,
+    "identifiers": {
+      "gutenberg": "3207",
+      "uri": "http://www.gutenberg.org/3207"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Leviathan",
+    "uuid": "f0ec379c-e5c0-41f5-bc9f-33cf99d25157"
+  },
+  {
+    "authors": "Montaigne, Michel de",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Montaigne, Michel de/Essays of Michel de Montaigne -- Complete (87)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Montaigne, Michel de/Essays of Michel de Montaigne -- Complete (87)/Essays of Michel de Montaigne -- Complete - Montaigne, Michel de.epub"
+    ],
+    "id": 87,
+    "identifiers": {
+      "gutenberg": "3600",
+      "uri": "http://www.gutenberg.org/3600"
+    },
+    "tags": [
+      "Essays",
+      "mediainator-test-100"
+    ],
+    "title": "Essays of Michel de Montaigne — Complete",
+    "uuid": "55c67095-7c1a-4265-9c08-1bb6f585a939"
+  },
+  {
+    "authors": "Nietzsche, Friedrich Wilhelm",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Nietzsche, Friedrich Wilhelm/Thus Spake Zarathustra_ A Book for All and None (88)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Nietzsche, Friedrich Wilhelm/Thus Spake Zarathustra_ A Book for All and None (88)/Thus Spake Zarathustra_ A Book for All and - Nietzsche, Friedrich Wilhelm.epub"
+    ],
+    "id": 88,
+    "identifiers": {
+      "gutenberg": "1998",
+      "uri": "http://www.gutenberg.org/1998"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Thus Spake Zarathustra: A Book for All and None",
+    "uuid": "9abc2bc5-34dc-4c44-bb9c-a1c57d908985"
+  },
+  {
+    "authors": "Joyce, James",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Joyce, James/Dubliners (89)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Joyce, James/Dubliners (89)/Dubliners - Joyce, James.epub"
+    ],
+    "id": 89,
+    "identifiers": {
+      "gutenberg": "2814",
+      "uri": "http://www.gutenberg.org/2814"
+    },
+    "tags": [
+      "Short stories",
+      "mediainator-test-100"
+    ],
+    "title": "Dubliners",
+    "uuid": "89c0f43d-e7e5-4c7a-973d-91fc3b8e8f45"
+  },
+  {
+    "authors": "Plato",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Plato/Apology (90)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Plato/Apology (90)/Apology - Plato.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Plato/Apology (90)/Apology - Plato.pdf"
+    ],
+    "id": 90,
+    "identifiers": {
+      "gutenberg": "1656",
+      "uri": "http://www.gutenberg.org/1656"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Apology",
+    "uuid": "a866d376-2e46-4ae4-9293-4e23ab71938e"
+  },
+  {
+    "authors": "Swift, Jonathan",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Swift, Jonathan/A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on (91)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Swift, Jonathan/A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on (91)/A Modest Proposal For preventing the child - Swift, Jonathan.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Swift, Jonathan/A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on (91)/A Modest Proposal For preventing the child - Swift, Jonathan.mobi",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Swift, Jonathan/A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on (91)/A Modest Proposal For preventing the child - Swift, Jonathan.pdf"
+    ],
+    "id": 91,
+    "identifiers": {
+      "gutenberg": "1080",
+      "uri": "http://www.gutenberg.org/1080"
+    },
+    "tags": [
+      "Satire",
+      "mediainator-test-100"
+    ],
+    "title": "A Modest Proposal For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+    "uuid": "ac39824c-7cb5-4e75-8570-a55cd08d8dbf"
+  },
+  {
+    "authors": "Darwin, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Darwin, Charles/The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in th (92)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Darwin, Charles/The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in th (92)/The Origin of Species by Means of Natural - Darwin, Charles.epub"
+    ],
+    "id": 92,
+    "identifiers": {
+      "gutenberg": "2009",
+      "uri": "http://www.gutenberg.org/2009"
+    },
+    "tags": [
+      "Natural history",
+      "mediainator-test-100"
+    ],
+    "title": "The Origin of Species by Means of Natural Selection Or, the Preservation of Favoured Races in the Struggle for Life, 6th Edition",
+    "uuid": "87936240-1f36-4800-a359-264a9b4f685f"
+  },
+  {
+    "authors": "Darwin, Charles",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Darwin, Charles/The Voyage of the Beagle (93)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Darwin, Charles/The Voyage of the Beagle (93)/The Voyage of the Beagle - Darwin, Charles.epub"
+    ],
+    "id": 93,
+    "identifiers": {
+      "gutenberg": "944",
+      "uri": "http://www.gutenberg.org/944"
+    },
+    "tags": [
+      "Travel",
+      "mediainator-test-100"
+    ],
+    "title": "The Voyage of the Beagle",
+    "uuid": "73bf7a90-65b9-4340-825c-e77328732975"
+  },
+  {
+    "authors": "Thoreau, Henry David",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Thoreau, Henry David/Walden, and On The Duty Of Civil Disobedience (94)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Thoreau, Henry David/Walden, and On The Duty Of Civil Disobedience (94)/Walden, and On The Duty Of Civil Disobedie - Thoreau, Henry David.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Thoreau, Henry David/Walden, and On The Duty Of Civil Disobedience (94)/Walden, and On The Duty Of Civil Disobedie - Thoreau, Henry David.mobi"
+    ],
+    "id": 94,
+    "identifiers": {
+      "gutenberg": "205",
+      "uri": "http://www.gutenberg.org/205"
+    },
+    "tags": [
+      "Nature",
+      "mediainator-test-100"
+    ],
+    "title": "Walden, and On The Duty Of Civil Disobedience",
+    "uuid": "bc8132de-9a34-4986-986c-52a60bfad857"
+  },
+  {
+    "authors": "Franklin, Benjamin",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Franklin, Benjamin/Autobiography of Benjamin Franklin (95)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Franklin, Benjamin/Autobiography of Benjamin Franklin (95)/Autobiography of Benjamin Franklin - Franklin, Benjamin.epub"
+    ],
+    "id": 95,
+    "identifiers": {
+      "gutenberg": "20203",
+      "uri": "http://www.gutenberg.org/20203"
+    },
+    "tags": [
+      "Autobiography",
+      "mediainator-test-100"
+    ],
+    "title": "Autobiography of Benjamin Franklin",
+    "uuid": "662d2e66-f5a5-444a-ba50-ad33fe18dccd"
+  },
+  {
+    "authors": "Douglass, Frederick",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Douglass, Frederick/Narrative of the Life of Frederick Douglass, an American Slave (96)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Douglass, Frederick/Narrative of the Life of Frederick Douglass, an American Slave (96)/Narrative of the Life of Frederick Douglas - Douglass, Frederick.epub",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Douglass, Frederick/Narrative of the Life of Frederick Douglass, an American Slave (96)/Narrative of the Life of Frederick Douglas - Douglass, Frederick.mobi",
+      "/tmp/mediainator-expanded-n2b0gj31/library/Douglass, Frederick/Narrative of the Life of Frederick Douglass, an American Slave (96)/Narrative of the Life of Frederick Douglas - Douglass, Frederick.pdf"
+    ],
+    "id": 96,
+    "identifiers": {
+      "gutenberg": "23",
+      "uri": "http://www.gutenberg.org/23"
+    },
+    "tags": [
+      "Autobiography",
+      "mediainator-test-100"
+    ],
+    "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "uuid": "134da659-c847-4f9a-886b-2723740237a0"
+  },
+  {
+    "authors": "Burroughs, Edgar Rice",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Burroughs, Edgar Rice/Tarzan the Terrible (97)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Burroughs, Edgar Rice/Tarzan the Terrible (97)/Tarzan the Terrible - Burroughs, Edgar Rice.epub"
+    ],
+    "id": 97,
+    "identifiers": {
+      "gutenberg": "2020",
+      "uri": "http://www.gutenberg.org/2020"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "Tarzan the Terrible",
+    "uuid": "dfd2a020-7c30-48cd-b587-c60ad54854e8"
+  },
+  {
+    "authors": "Defoe, Daniel",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Defoe, Daniel/The Life and Adventures of Robinson Crusoe (98)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Defoe, Daniel/The Life and Adventures of Robinson Crusoe (98)/The Life and Adventures of Robinson Crusoe - Defoe, Daniel.epub"
+    ],
+    "id": 98,
+    "identifiers": {
+      "gutenberg": "521",
+      "uri": "http://www.gutenberg.org/521"
+    },
+    "tags": [
+      "Adventure",
+      "mediainator-test-100"
+    ],
+    "title": "The Life and Adventures of Robinson Crusoe",
+    "uuid": "c576a5cb-7b88-4bf8-935f-2184eada2df7"
+  },
+  {
+    "authors": "Roget, Peter Mark",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Roget, Peter Mark/Roget's Thesaurus of English Words and Phrases (99)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Roget, Peter Mark/Roget's Thesaurus of English Words and Phrases (99)/Roget's Thesaurus of English Words and Phr - Roget, Peter Mark.epub"
+    ],
+    "id": 99,
+    "identifiers": {
+      "gutenberg": "10681",
+      "uri": "http://www.gutenberg.org/10681"
+    },
+    "tags": [
+      "Reference",
+      "mediainator-test-100"
+    ],
+    "title": "Roget's Thesaurus of English Words and Phrases",
+    "uuid": "33132c7e-787f-4f6c-876d-e94873e52163"
+  },
+  {
+    "authors": "Tocqueville, Alexis de",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Tocqueville, Alexis de/Democracy in America -- Volume 1 (100)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Tocqueville, Alexis de/Democracy in America -- Volume 1 (100)/Democracy in America -- Volume 1 - Tocqueville, Alexis de.epub"
+    ],
+    "id": 100,
+    "identifiers": {
+      "gutenberg": "815",
+      "uri": "http://www.gutenberg.org/815"
+    },
+    "tags": [
+      "History",
+      "mediainator-test-100"
+    ],
+    "title": "Democracy in America — Volume 1",
+    "uuid": "ec194f6d-7fcb-423c-a652-43d38c248800"
+  },
+  {
+    "authors": "Nietzsche, Friedrich Wilhelm",
+    "cover": "/tmp/mediainator-expanded-n2b0gj31/library/Nietzsche, Friedrich Wilhelm/Beyond Good and Evil (101)/cover.jpg",
+    "formats": [
+      "/tmp/mediainator-expanded-n2b0gj31/library/Nietzsche, Friedrich Wilhelm/Beyond Good and Evil (101)/Beyond Good and Evil - Nietzsche, Friedrich Wilhelm.epub"
+    ],
+    "id": 101,
+    "identifiers": {
+      "gutenberg": "4363",
+      "uri": "http://www.gutenberg.org/4363"
+    },
+    "tags": [
+      "Philosophy",
+      "mediainator-test-100"
+    ],
+    "title": "Beyond Good and Evil",
+    "uuid": "92be54f6-783b-4b86-9974-7369fa16e983"
+  }
+]

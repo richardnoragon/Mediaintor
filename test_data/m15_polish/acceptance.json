@@ -1,0 +1,60 @@
+{
+  "build": "0.1.0a1-47d071de892ca535",
+  "gate": "PASSED",
+  "source_tests": 260,
+  "installed_tests": 115,
+  "retained_files_verified": 490,
+  "implemented": [
+    "Return to batch history label distinct from Close bulk editor",
+    "Completed result dismissal preserves completed wording and stored history",
+    "Persistent saved-search/text-search/filter labels",
+    "Duplicate filter condition prevented with feedback",
+    "Exact hidden-selection count",
+    "Review action completion feedback explains factual missing metadata retention"
+  ],
+  "owner_checks_pending": [],
+  "scope": "Accepted M15 Everyday; M14 retained independently as Rollback",
+  "packaging": "Existing package workflow verified; no demonstrated packaging defect required new distribution changes",
+  "trial": "Obsolete historical artifact, retired by explicit owner instruction. Not an outstanding condition; no claim of a completed seven-day trial.",
+  "owner_checks": {
+    "opening_and_labels": {
+      "status": "passed",
+      "evidence": "Owner confirms build 0.1.0a1-47d071de892ca535 and clear, fully visible new labels. Screenshot shows M15 Development, 104 of 104 books, Saved search, Text search, Filters and Value labels."
+    },
+    "duplicate_condition_feedback": {
+      "status": "passed",
+      "evidence": "Owner confirms; screenshot shows one reading status = Unknown condition after two Add condition clicks, This condition is already applied message, and 104 of 104 books."
+    },
+    "hidden_selection_count": {
+      "status": "passed",
+      "evidence": "Owner confirms partial title search Christm returns A Christmas Carol; screenshot shows 1 of 104 books, 2 selected (1 hidden by current filters), with the visible book checked."
+    },
+    "flag_review_feedback": {
+      "status": "passed",
+      "evidence": "Owner confirms; screenshot shows 2 selected books flagged Needs Review, 2 selected (1 hidden by current filters), and Manually flagged on the visible A Christmas Carol row."
+    },
+    "mark_reviewed_feedback": {
+      "status": "passed",
+      "evidence": "Owner confirms and screenshot shows 2 selected books marked reviewed. Missing metadata still appears in the review queue.; visible Christmas Carol review reason is blank, with 2 selected and 1 hidden."
+    },
+    "completed_bulk_results_dismissal": {
+      "status": "passed",
+      "evidence": "Owner confirms Return to batch history dismisses completed revert rows while keeping editor open. Screenshot shows Bulk metadata \u2014 Ready and Results dismissed. Completed changes remain saved in Batch History.; selected history still reports 2 completed, 0 failed, 0 pending. No Preview cancelled wording."
+    },
+    "close_bulk_editor": {
+      "status": "passed",
+      "evidence": "Owner confirms one click closes the entire bulk editor while Hub stays open; screenshot shows M15 Hub and 104 of 104 books."
+    },
+    "window_sizing": {
+      "status": "passed",
+      "evidence": "Owner explicitly confirms new labels and bottom buttons remain accessible when shrinking/enlarging, with table scrollbars when needed; both screenshots corroborate."
+    },
+    "normal_restart": {
+      "status": "passed",
+      "evidence": "Owner explicitly confirms normal M15 restart restores 104 of 104 books without recovery warnings."
+    }
+  },
+  "saved_state_readback": "passed; saved_state_readback.json",
+  "updated_utc": "2026-09-24T21:33:17.394000+00:00",
+  "promotion": "M15 promoted to Everyday; M14 retained as stopped Rollback. See promotion.json."
+}

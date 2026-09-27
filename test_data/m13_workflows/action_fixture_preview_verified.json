@@ -1,0 +1,10 @@
+{
+  "source": "/data/import-sources/M13 Action Feedback.epub",
+  "state": "pending",
+  "warning": "Similar existing title: choose an action.",
+  "similar_book_ids": [
+    103,
+    104
+  ],
+  "no_execution_requested": true
+}

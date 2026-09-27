@@ -1,0 +1,223 @@
+{
+  "version": "9.2.1",
+  "run_root": "/tmp/mediainator-m3-validation-puabdpci/run-74uarn00",
+  "source_unchanged": true,
+  "checks": [
+    {
+      "case": "V01",
+      "passed": true,
+      "parsed": {
+        "different-content-same-metadata.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "invalid.epub": {
+          "error": "BadZipFile: File is not a zip file"
+        },
+        "missing-author.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "Unknown"
+          ]
+        },
+        "missing-both.epub": {
+          "title": "missing-both",
+          "authors": [
+            "Unknown"
+          ]
+        },
+        "missing-title.epub": {
+          "title": "missing-title",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "nested/deeper/renamed-identical.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "time-machine.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "time-machine.mobi": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "time-machine.pdf": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "unsupported.txt": {
+          "error": "ValueError: Unsupported format"
+        }
+      }
+    },
+    {
+      "case": "V02",
+      "passed": true,
+      "ids": {
+        "epub": 1,
+        "mobi": 2,
+        "pdf": 3
+      },
+      "scope": "Calibre API copy with import hooks disabled"
+    },
+    {
+      "case": "V03",
+      "passed": true,
+      "decisions": [
+        {
+          "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/time-machine.epub",
+          "skip_duplicate": true
+        },
+        {
+          "source": "/tmp/mediainator-m3-validation-puabdpci/fixtures/nested/deeper/renamed-identical.epub",
+          "skip_duplicate": true
+        }
+      ],
+      "scope": "hash-policy harness, not application duplicate UI"
+    },
+    {
+      "case": "V04",
+      "passed": true,
+      "similar_title_candidates": [
+        "32"
+      ],
+      "explicit_harness_action": "create distinct record, no merge",
+      "new_id": 102
+    },
+    {
+      "case": "V05",
+      "passed": true,
+      "results": [
+        {
+          "fixture": "missing-title",
+          "parsed": {
+            "title": "missing-title",
+            "authors": [
+              "H. G. Wells"
+            ]
+          },
+          "effective_title": "missing-title",
+          "effective_authors": [
+            "H. G. Wells"
+          ],
+          "missing": [
+            "title"
+          ]
+        },
+        {
+          "fixture": "missing-author",
+          "parsed": {
+            "title": "The Time Machine",
+            "authors": [
+              "Unknown"
+            ]
+          },
+          "effective_title": "The Time Machine",
+          "effective_authors": [
+            "Unknown"
+          ],
+          "missing": [
+            "authors"
+          ]
+        },
+        {
+          "fixture": "missing-both",
+          "parsed": {
+            "title": "missing-both",
+            "authors": [
+              "Unknown"
+            ]
+          },
+          "effective_title": "missing-both",
+          "effective_authors": [
+            "Unknown"
+          ],
+          "missing": [
+            "title",
+            "authors"
+          ]
+        }
+      ],
+      "scope": "provenance/sidecar protocol only; marker UI not implemented",
+      "filename_convention": "stem without extension in this experiment"
+    },
+    {
+      "case": "V06",
+      "passed": true,
+      "book": 102,
+      "uuid": "2b0ad501-3fa1-4742-8d30-41e191937644"
+    },
+    {
+      "case": "V07",
+      "passed": true,
+      "collision_return": false,
+      "post_preview_collision_return": false
+    },
+    {
+      "case": "V08",
+      "passed": true,
+      "scope": "cancel/stale-plan protocol; UI pending",
+      "invalid_inputs": {
+        "error": "BadZipFile: File is not a zip file"
+      }
+    },
+    {
+      "case": "V09",
+      "passed": true,
+      "failure": "FileNotFoundError: [Errno 2] No such file or directory: '/tmp/mediainator-m3-validation-puabdpci/run-74uarn00/vanished.epub'",
+      "partial_record_ids": [
+        103
+      ],
+      "partial_record_formats": {
+        "103": []
+      },
+      "lock_result": "False"
+    },
+    {
+      "case": "V10",
+      "passed": true,
+      "scope": "stop-after-current-item harness; durable journal, no next item started"
+    },
+    {
+      "case": "V11",
+      "passed": true,
+      "exit_code": 23,
+      "reconciled_ids": [
+        104
+      ],
+      "scope": "real child process exit after commit before acknowledgement",
+      "stderr": ""
+    },
+    {
+      "case": "V12",
+      "passed": true,
+      "scope": "persisted Review/Retry/Discard protocol; no automatic resumption or writes without preview confirmation"
+    },
+    {
+      "case": "V13",
+      "passed": true,
+      "counts": {
+        "imports": 102,
+        "clean": 6,
+        "attachments": 103,
+        "recovery": 104
+      },
+      "original_records_preserved": true
+    }
+  ],
+  "gate": "M3-G OPEN; application acceptance not run",
+  "scope": "Calibre capability and recovery-protocol validation, not production M3 implementation"
+}

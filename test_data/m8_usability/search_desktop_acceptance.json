@@ -1,0 +1,32 @@
+{
+  "status": "Owner search/filter/Clear All checks passed; restart restoration verified automatically in isolated installed UI",
+  "user_confirmation": "steps one and two performed successfully, hub and reader is now closed",
+  "checks": {
+    "combined_filters_grid_list": true,
+    "clear_all_preserves_bulk_selection": true,
+    "hub_reader_closed_by_user": true
+  },
+  "saved_search_before_restart": {
+    "text": "",
+    "tags": [
+      "Essays",
+      "External edit"
+    ],
+    "formats": [],
+    "statuses": [],
+    "expanded": true,
+    "needs_review": false
+  },
+  "limitation": "No new owner visual confirmation of reopened filters or installed-package KDE interaction was inferred.",
+  "automated_restart_verification": {
+    "evidence": "installed_verification.json",
+    "restored_tags": [
+      "Essays",
+      "External edit"
+    ],
+    "expanded": true,
+    "matching_books": 2,
+    "nonempty_search_restart": true,
+    "clear_all_restart": true
+  }
+}

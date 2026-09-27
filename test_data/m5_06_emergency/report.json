@@ -1,0 +1,64 @@
+{
+  "kind": "M5-06 automatic preservation/close verification; not M5-G acceptance",
+  "root": "/tmp/mediainator-m5-06-aqjglsau",
+  "library": "/tmp/mediainator-m5-06-aqjglsau/library",
+  "seed_unchanged": true,
+  "checks": [
+    {
+      "test": "real_editor_reads_current_library_identity",
+      "passed": true
+    },
+    {
+      "test": "first_real_save_reports_partial_failure",
+      "passed": true
+    },
+    {
+      "test": "successful_title_remains_committed",
+      "passed": true
+    },
+    {
+      "test": "failed_cover_restores_original",
+      "passed": true
+    },
+    {
+      "test": "first_failure_does_not_preserve_automatically",
+      "passed": true
+    },
+    {
+      "test": "second_real_save_fails_but_protects_draft",
+      "passed": true
+    },
+    {
+      "test": "emergency_copy_contains_only_failed_cover",
+      "passed": true
+    },
+    {
+      "test": "ordinary_editor_stays_open_and_dirty",
+      "passed": true
+    },
+    {
+      "test": "hub_displays_truthful_preservation_notice",
+      "passed": true
+    },
+    {
+      "test": "requested_hub_close_completes_automatically",
+      "passed": true
+    },
+    {
+      "test": "hub_shutdown_keeps_saved_module_selection",
+      "passed": true
+    },
+    {
+      "test": "restart_discovers_preserved_cover",
+      "passed": true
+    },
+    {
+      "test": "restart_summary_without_auto_recovery_dialog",
+      "passed": true
+    },
+    {
+      "test": "restart_does_not_apply_failed_cover",
+      "passed": true
+    }
+  ]
+}

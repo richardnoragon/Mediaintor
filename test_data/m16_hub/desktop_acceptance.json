@@ -1,0 +1,22 @@
+{
+  "build": "0.1.0a1-aa4b5beea8a54d5c",
+  "status": "M16-G PASSED; promoted to Everyday following final audit",
+  "owner_confirmed": [
+    "Hub tiles, collapsed Activity and Settings",
+    "Dark theme immediate and readable ordinary text",
+    "Extra Large and Comfortable controls reachable",
+    "Find/review inherits appearance",
+    "appearance retained across restart; 104 books restored",
+    "reset Cancel preserves appearance",
+    "reset Confirm restores four defaults and retains library",
+    "Green accent highlight readable",
+    "repeat launch focuses existing tab",
+    "module tab close leaves Hub and Settings",
+    "Activity expands and collapses",
+    "Book-inator reopens single tab with 104 books",
+    "Dark search placeholder readable on build c663cfd06375b1f1; screenshot shows 104 of 104 books"
+  ],
+  "observed_issue": "Resolved: owner confirms dark search placeholder readable in Find / review on corrected build.",
+  "contrast_fix_build": "0.1.0a1-c663cfd06375b1f1",
+  "contrast_fix_verified_by_owner": true
+}

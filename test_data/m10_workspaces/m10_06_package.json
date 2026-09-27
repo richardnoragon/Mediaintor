@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "test": "clean_user_install",
+      "passed": true
+    },
+    {
+      "test": "installed_hub_offscreen_smoke_without_checkout",
+      "passed": true
+    },
+    {
+      "test": "desktop_entry_valid",
+      "passed": true
+    },
+    {
+      "test": "same_artifact_reinstall",
+      "passed": true
+    },
+    {
+      "test": "uninstall_retains_data",
+      "passed": true
+    },
+    {
+      "test": "reinstall_retains_data",
+      "passed": true
+    },
+    {
+      "test": "installed_workspace_tests_30",
+      "passed": true
+    },
+    {
+      "test": "checkout_and_original_library_not_mounted",
+      "passed": true
+    }
+  ],
+  "runtime": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  },
+  "artifact": "mediainator-0.1.0a1-ubuntu26.04-x86_64.tar.gz",
+  "sha256": "edc96793ca09a37db7a15bbd1036db96f2c771cff43b16563796590a8805b1f4",
+  "fixture": "/tmp/mediainator-m10-package-f6ikna25",
+  "isolation": "private mount/user/network namespace; host /usr and /etc read-only; clean user; no project or original home mounted",
+  "limitations": "Not a freshly installed OS; uses host system packages. Personal KDE workspace/monitor acceptance and the durable M10 upgrade remain M10-07. Installed workspace tests use generated disposable sample data, not the active M10 library.",
+  "build_id": "a3a4679f39f4c255",
+  "manifest_files_verified": 42
+}

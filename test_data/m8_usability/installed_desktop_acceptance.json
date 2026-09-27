@@ -1,0 +1,17 @@
+{
+  "status": "PASSED \u2014 owner-confirmed installed KDE acceptance",
+  "root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M8-Installed-Acceptance",
+  "launcher": "/home/sproket01/.local/share/applications/mediainator-m8-installed-acceptance.desktop",
+  "build": "0.1.0a1-184039712b870efd",
+  "package_sha256": "a649ebab6fe334929cc2e42e15ab998710cf5bdcc776d24242de4bccd3d96b14",
+  "installed_files_verified": true,
+  "copied_viewer_records": 3,
+  "isolation": "private namespace; installed code only; separate writable home/library; native Wayland socket; no RC1/active M8/checkout mounts",
+  "user_confirmation": "all three issues pass",
+  "checks": {
+    "kde_menu_launch_catalog_filters_clear_all": true,
+    "rename_save_refresh_epub_resume_navigation": true,
+    "kde_restart_restores_nonempty_search_filters_panel": true
+  },
+  "gate": "M8-G PASSED / CLOSED"
+}

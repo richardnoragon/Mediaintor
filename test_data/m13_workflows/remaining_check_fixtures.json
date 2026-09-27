@@ -1,0 +1,12 @@
+{
+  "build": "0.1.0a1-ffbaa166eaebf2fe",
+  "source": "/data/import-sources/M13 Action Feedback.epub",
+  "source_sha256": "fc02beaf298df23fdf30bcaba39f2b7686d50283f6d8c79ba14e77a05ab229fd",
+  "original_source_sha256": "6672a7b1551f44ca45a44c1d45d674024c78585ec371cfa56ecf5a454ee50818",
+  "recovery_id": "aadae5a0-27a2-4816-8ebc-5e10af97a50d",
+  "recovery_book": "Quick Start Guide",
+  "recovery_tag": "M13 Local Discard Check",
+  "recovery_operation": "m13-local-discard-check",
+  "library_database_unchanged": true,
+  "usage": "Preview action feedback without import; discard local recovered edits then separately discard preserved test draft after review."
+}

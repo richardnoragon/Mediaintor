@@ -1,0 +1,40 @@
+test_hub_close_reviews_unsaved_movie_edits (test_m17_movieinator.HubIntegrationTests.test_hub_close_reviews_unsaved_movie_edits) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_registry_launch_focus_and_close (test_m17_movieinator.HubIntegrationTests.test_registry_launch_focus_and_close) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_reopen_on_restart_and_workspace_snapshot (test_m17_movieinator.HubIntegrationTests.test_reopen_on_restart_and_workspace_snapshot) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_sample_hub_without_catalog_is_read_only (test_m17_movieinator.HubIntegrationTests.test_sample_hub_without_catalog_is_read_only) ... This plugin does not support propagateSizeHints()
+ok
+test_settings_validation (test_m17_movieinator.HubIntegrationTests.test_settings_validation) ... ok
+test_add_edit_review_and_personal_status (test_m17_movieinator.MovieTabTests.test_add_edit_review_and_personal_status) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_import_preview_groups_and_attaches (test_m17_movieinator.MovieTabTests.test_import_preview_groups_and_attaches) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_list_rating_updates_and_survives_reload (test_m17_movieinator.MovieTabTests.test_list_rating_updates_and_survives_reload) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_remove_keeps_files (test_m17_movieinator.MovieTabTests.test_remove_keeps_files) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_sample_mode_is_read_only (test_m17_movieinator.MovieTabTests.test_sample_mode_is_read_only) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_search_filters_and_view_persist_in_state (test_m17_movieinator.MovieTabTests.test_search_filters_and_view_persist_in_state) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 11.591s
+
+OK

@@ -1,0 +1,72 @@
+{
+  "version": "9.2.1",
+  "run_root": "/tmp/mediainator-m3-validation-puabdpci/run-n33opzoo",
+  "source_unchanged": true,
+  "checks": [
+    {
+      "case": "V01",
+      "passed": false,
+      "parsed": {
+        "different-content-same-metadata.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "invalid.epub": {
+          "title": "invalid",
+          "authors": [
+            "Unknown"
+          ]
+        },
+        "missing-author.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "Unknown"
+          ]
+        },
+        "missing-both.epub": {
+          "title": "missing-both",
+          "authors": [
+            "Unknown"
+          ]
+        },
+        "missing-title.epub": {
+          "title": "missing-title",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "nested/deeper/renamed-identical.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "time-machine.epub": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "time-machine.mobi": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "time-machine.pdf": {
+          "title": "The Time Machine",
+          "authors": [
+            "H. G. Wells"
+          ]
+        },
+        "unsupported.txt": {
+          "error": "ValueError: Unsupported format"
+        }
+      }
+    }
+  ],
+  "gate": "M3-G OPEN; application acceptance not run",
+  "scope": "Calibre capability and recovery-protocol validation, not production M3 implementation"
+}

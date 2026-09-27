@@ -1,0 +1,17 @@
+{
+  "status": "isolated baseline copied and smoke verified; M12 implementation not installed",
+  "root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M12-Test",
+  "source": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M11-Everyday",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M12-Test/backups/m11-source",
+  "launcher": "/home/sproket01/.local/share/applications/mediainator-m12-test.desktop",
+  "compose_project": "mediainator-m12",
+  "baseline_build": "0.1.0a1-a3a4679f39f4c255",
+  "source_unchanged": true,
+  "copy_matches_source": true,
+  "installed_inventory": "M12 workspace candidate verified: 0.1.0a1-a3a4679f39f4c255\n",
+  "smoke": {
+    "version": "0.1.0a1",
+    "Qt": "6.10.2",
+    "application_imported": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "task": "M7 Day 3 backup, restore and upgrade focus",
+  "date": "2026-09-22",
+  "timezone": "Europe/Berlin",
+  "candidate_sha256": "3252cc4b6d8a04e696d7b1449347920e6fd42982d0453ec5d88f72635cde2702",
+  "note": "Focused evidence for the Day 3 task set; this does not advance the seven-day trial clock.",
+  "evidence": [
+    "test_data/m7_daily_use/manual_restore.md",
+    "test_data/m7_daily_use/m7_03_report.json",
+    "test_data/m7_daily_use/cache_fix_promotion.json"
+  ],
+  "validation_commands": [
+    "QT_QPA_PLATFORM=offscreen python3 -m unittest tests.test_helper_install_integrity tests.test_packaging -v",
+    "PYTHONPATH=tests QT_QPA_PLATFORM=offscreen python3 -m unittest test_install_transactions -v"
+  ],
+  "validation_result": {
+    "passed": true,
+    "tests_run": 10,
+    "summary": "Manual backup/restore, install smoke, package integrity, uninstall and reinstall retention checks passed"
+  },
+  "checks": [
+    {
+      "name": "manual_backup_exact_library_home_and_sources",
+      "passed": true
+    },
+    {
+      "name": "restore_exact_before_open",
+      "passed": true
+    },
+    {
+      "name": "restored_catalog_settings_identity_and_integrity_usable",
+      "passed": true
+    },
+    {
+      "name": "upgrade_to_candidate_retains_all_data",
+      "passed": true
+    },
+    {
+      "name": "uninstall_preserves_library_settings_history_recovery",
+      "passed": true
+    },
+    {
+      "name": "reinstall_preserves_retained_bytes",
+      "passed": true
+    },
+    {
+      "name": "reinstalled_state_usable_and_not_resumed",
+      "passed": true
+    },
+    {
+      "name": "helper_imports_preserve_release_inventory",
+      "passed": true
+    },
+    {
+      "name": "install_smoke_reinstall_uninstall_preserves_data",
+      "passed": true
+    },
+    {
+      "name": "install_interruptions_repair_and_repeat",
+      "passed": true
+    },
+    {
+      "name": "uninstall_interrupt_repair_retains_data",
+      "passed": true
+    }
+  ]
+}

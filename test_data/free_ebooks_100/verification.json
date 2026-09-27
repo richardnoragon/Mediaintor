@@ -1,0 +1,14 @@
+{
+  "new_books": 100,
+  "before_books": 1,
+  "after_books": 101,
+  "imported_formats": {
+    "epub": 100,
+    "mobi": 10,
+    "pdf": 10
+  },
+  "verified_file_hashes": 120,
+  "original_ebook_files_unchanged": true,
+  "database_integrity": "ok",
+  "library": "/home/sproket01/Calibre Library"
+}

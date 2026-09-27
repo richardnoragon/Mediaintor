@@ -1,0 +1,66 @@
+[
+  {
+    "test": "seven_fields_and_cover_removal",
+    "passed": true
+  },
+  {
+    "test": "cover_replacement",
+    "passed": true
+  },
+  {
+    "test": "series_clear_accepts_internal_index",
+    "passed": true
+  },
+  {
+    "test": "new_series_default",
+    "passed": true
+  },
+  {
+    "test": "conflict_no_write",
+    "passed": true
+  },
+  {
+    "test": "choose_external_preserves_other_changes",
+    "passed": true
+  },
+  {
+    "test": "real_adapter_partial_save",
+    "passed": true
+  },
+  {
+    "test": "retry_rechecks_conflict",
+    "passed": true
+  },
+  {
+    "test": "damaged_cover_restored",
+    "passed": true
+  },
+  {
+    "test": "failed_recovery_keeps_backup",
+    "passed": true
+  },
+  {
+    "test": "retry_valid_cover",
+    "passed": true
+  },
+  {
+    "test": "invalid_tag_no_mutation",
+    "passed": true
+  },
+  {
+    "test": "invalid_cover_prevalidated",
+    "passed": true
+  },
+  {
+    "test": "lock_denial",
+    "passed": true
+  },
+  {
+    "test": "catalog_101_and_formats_unchanged",
+    "passed": true
+  },
+  {
+    "test": "uuid_preserved",
+    "passed": true
+  }
+]

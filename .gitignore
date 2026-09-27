@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Local M7 library, persistent container state and manual copies
+m7_workspace/
+
+# Rebuildable M14 disposable scale library
+test_data/m14_discovery/scale/
+
+# Generated deployments, user state and copied libraries (keep verification scripts/reports)
+.env
+*.tar.gz
+*.tar
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm
+test_data/**/releases/
+test_data/**/installation/
+test_data/**/backups/
+test_data/**/profile/
+test_data/**/desktop_m18/
+test_data/**/desktop_m19/
+test_data/**/artifact/
+test_data/**/artifacts/
+test_data/free_ebooks_100/library_before_import/
+test_data/m18_m19_review/**/config/
+test_data/m18_m19_review/**/cache/
+test_data/m18_m19_review/**/data/
+test_data/m18_m19_review/**/bin/
+test_data/m18_m19_review/**/applications/
+test_data/m18_m19_review/real_media/*-*-*-*-*/
+
+# Rebuildable synthetic performance catalog
+test_data/m14_discovery/catalog.json

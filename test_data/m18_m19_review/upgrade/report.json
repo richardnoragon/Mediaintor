@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "install prior preserves populated data bytes",
+    "upgrade candidate preserves populated data bytes",
+    "rollback prior preserves populated data bytes",
+    "upgrade again preserves populated data bytes",
+    "uninstall preserves populated data",
+    "reinstall preserves populated data"
+  ],
+  "profile": "8bbe7b43-88b9-4a60-b908-5051bc1b96ac",
+  "paper_note_retained": true
+}

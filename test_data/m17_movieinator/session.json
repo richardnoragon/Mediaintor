@@ -1,0 +1,6 @@
+{
+  "build": "0.1.0a1-ee51058d31d22d87",
+  "pid": 1940965,
+  "catalog": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor/test_data/m17_movieinator/profile/data/Movies/catalog.sqlite",
+  "scope": "Frozen M17 test build; independent profile and movie catalog; sample books only; no Everyday data mounted or configured"
+}

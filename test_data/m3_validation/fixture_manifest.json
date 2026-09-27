@@ -1,0 +1,42 @@
+{
+  "different-content-same-metadata.epub": {
+    "bytes": 163050,
+    "sha256": "c4edf481857780ba5aee9f9fb1a99b573fbc2a85ef19645aa245627d4804adcf"
+  },
+  "invalid.epub": {
+    "bytes": 55,
+    "sha256": "388e6e1e77e4e0d6ca9673e0f0e16e923023f16a56b8a26f20c17411d264158b"
+  },
+  "missing-author.epub": {
+    "bytes": 162840,
+    "sha256": "83b4e42ea7c791727faaeeaf63aa4c5b21760c9c13d8033225a5774abe9e1154"
+  },
+  "missing-both.epub": {
+    "bytes": 162821,
+    "sha256": "0b0aed4e7f47bd996fb8df8b52c60c32ed48993871ab0d4b3afdbc8ff722346a"
+  },
+  "missing-title.epub": {
+    "bytes": 162866,
+    "sha256": "664308aa1e146e415f0847a53b1f5b43a21e597d0902a877d8f00fd564f2e3cc"
+  },
+  "nested/deeper/renamed-identical.epub": {
+    "bytes": 162394,
+    "sha256": "773dd70e5aa8067a5319b83c50015f9733838056e8bc72d9543566b62a288c4b"
+  },
+  "time-machine.epub": {
+    "bytes": 162394,
+    "sha256": "773dd70e5aa8067a5319b83c50015f9733838056e8bc72d9543566b62a288c4b"
+  },
+  "time-machine.mobi": {
+    "bytes": 202313,
+    "sha256": "fad96fa8e39dfc516242fe5a14067149f5dad1d9be8576341293ddc39a1b183c"
+  },
+  "time-machine.pdf": {
+    "bytes": 568549,
+    "sha256": "a84e15e8504e4e387201a811ddac994638da9ac538a36c1aaee35f90b0a31383"
+  },
+  "unsupported.txt": {
+    "bytes": 80,
+    "sha256": "2b1e9352abe4be911c1c94b47ab271654d08cc622a421449e25b92e0763735cf"
+  }
+}

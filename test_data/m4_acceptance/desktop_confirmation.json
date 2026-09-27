@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-21",
+  "source": "User confirmation in project conversation",
+  "statement": "i can confirm  the items on chcklist wrok pleae close  4 and M4-G",
+  "checklist": "test_data/m4_acceptance/README.md",
+  "confirmed_groups": [
+    "Selection, mandatory preview, confirmation and exclusions",
+    "Batch revert and sequential numbering with gaps",
+    "Module restart, selection reset, retained history and deletion confirmation"
+  ],
+  "milestone": "M4 COMPLETE",
+  "gate": "M4-G PASSED/CLOSED"
+}

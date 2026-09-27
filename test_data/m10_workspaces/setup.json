@@ -1,0 +1,14 @@
+{
+  "status": "isolated baseline prepared and smoke verified; workspace implementation pending",
+  "root": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M10-Development",
+  "backup": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M10-Development/backups/m9-baseline-184039712b870efd",
+  "source": "/run/media/sproket01/10d68e7c-8147-49ad-a503-3949560ffcbe/sproket01/Projects/Mediaintor-M9-Validation/active",
+  "compose_project": "mediainator-m10",
+  "launcher": "/home/sproket01/.local/share/applications/mediainator-m10-development.desktop",
+  "baseline_build": "0.1.0a1-184039712b870efd",
+  "source_unchanged": true,
+  "copy_matches_source": true,
+  "installed_inventory_passed": true,
+  "package_smoke_passed": true,
+  "application_code_changed": false
+}

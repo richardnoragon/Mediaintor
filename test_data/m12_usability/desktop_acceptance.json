@@ -1,0 +1,45 @@
+{
+  "build": "0.1.0a1-f59e8af9b043f304",
+  "status": "M12 acceptance complete; final saved-data and evidence review passed",
+  "checks": {
+    "installation_identity": "passed: owner screenshots confirm M12 Test 0.1.0a1-f59e8af9b043f304",
+    "recovery_first_review": "passed: owner confirms editor appears in front after one Review / Retry; screenshot shows preserved M12 Recovery Acceptance tag in unsaved Quick Start Guide draft",
+    "save_feedback": "passed: owner screenshot shows Saved metadata for Quick Start Guide. Fields changed: Tags.; Modified removed",
+    "bulk_revert_clarity": "passed on current build: preview confirmation, cancellation before writes, Add Tags 1 complete and Revert 1 complete/0 failed/0 pending; owner screenshots corroborated by saved journals",
+    "existing_workflow_regression": "passed: 223 source tests; 64 isolated installed targeted tests; owner current-build import, readable EPUB, window controls, search, bulk/revert, workspace and restart checks",
+    "restart_persisted_results": "passed: owner KDE relaunch and screenshot; read-only final_saved_data.json confirms imported book, saved position, recovery tag/state, original reverted tags, journals and workspaces",
+    "workspace_restore_feedback": "passed: owner confirmation and screenshot on build 0.1.0a1-f59e8af9b043f304 show Workspace restored. after restoring copied M11 Everyday workspace",
+    "installed_import_reading": "passed: owner preview/confirmation, Imported and verified result, readable EPUB and reader close leaves Hub open; single-page fixture does not establish page navigation"
+  },
+  "gate": "M12-G PASSED / CLOSED",
+  "promotion": "Separate decision; M11 unchanged",
+  "reported_issue": {
+    "response": "draft appears on second atempt",
+    "first_attempt_message": "awaiting owner detail",
+    "running_environment": "M12 container confirmed; runtime logs contained no error output",
+    "action": "Keep preserved draft unsaved; distinguish read failure, waiting refresh and hidden/focus behavior before changing candidate",
+    "clarification": "Owner says draft appeared after clicking the Hub background, without a second Review / Retry click.",
+    "classification": "Desktop visibility/focus handoff; initial second-review description clarified.",
+    "fix": "After successful recovery reconstruction hide matching Activity details/history, then show/raise/activate the ready editor and focus its title field. No automatic save.",
+    "status": "resolved: owner first-click focus retest passed; unchanged recovery components verified in final archive"
+  },
+  "previous_build": "0.1.0a1-254fe2288bf7b39a",
+  "recovery_resolution": "Owner screenshot after explicit Save and editor close shows 0 pending, 0 failed, 0 requiring recovery; Single-book recovery Last success retained.",
+  "workspace_feedback_issue": {
+    "status": "resolved: source regression, isolated installed tests and personal KDE retest passed",
+    "evidence": "Owner sees busy warning persist after Restore and workspace dialog close; catalog loaded.",
+    "source_finding": "WorkspaceController.flush reports transient check_idle failure through fail(); successful flush/finish do not clear the old status message.",
+    "limitation": "Initial screenshot alone could not prove restore failure; corrected feedback passed automated and KDE tests."
+  },
+  "prior_desktop_evidence_build": "0.1.0a1-254fe2288bf7b39a",
+  "bulk_evidence": {
+    "edit": "8ba72817-efa2-4217-b26e-c241928c7089",
+    "revert": "fe0da942-bf4c-4392-aa04-1b9659a28573",
+    "book": "Persuasion",
+    "temporary_tag": "M12 Revert Check",
+    "result": "both journals complete; revert restored original tags"
+  },
+  "recovery_disk_evidence": "Record b598c2bc-79cf-4ca4-9e71-e559a720e398 is recovered, durable history retained",
+  "final_evidence": "final_saved_data.json",
+  "closure_date": "2026-09-23"
+}

@@ -1,0 +1,66 @@
+{
+  "format": "epub",
+  "user_confirmed_readable_page_change_and_bookmark": true,
+  "before_close": {
+    "local_annotations": [
+      {
+        "title": "TEST-SIMULTANEOUS",
+        "pos_type": "epubcfi",
+        "pos": "epubcfi(/4/2/4/12[pgepubid00001]/1:32)",
+        "timestamp": "2026-09-20T16:04:22.406562+00:00",
+        "type": "bookmark"
+      },
+      {
+        "pos": "epubcfi(/4/2/4/12[pgepubid00001]/1:32)",
+        "pos_type": "epubcfi",
+        "timestamp": "2026-09-20T16:04:08.826236+00:00",
+        "type": "last-read"
+      }
+    ],
+    "library_annotations": [
+      {
+        "title": "TEST-SIMULTANEOUS",
+        "pos_type": "epubcfi",
+        "pos": "epubcfi(/4/2/4/12[pgepubid00001]/1:32)",
+        "timestamp": "2026-09-20T16:04:22.406562+00:00",
+        "type": "bookmark"
+      }
+    ],
+    "matching_bookmark": true,
+    "integrity": "ok",
+    "stderr": "",
+    "busy_errors": 0
+  },
+  "after_close": {
+    "local_annotations": [
+      {
+        "title": "TEST-SIMULTANEOUS",
+        "pos_type": "epubcfi",
+        "pos": "epubcfi(/4/2/4/12[pgepubid00001]/1:32)",
+        "timestamp": "2026-09-20T16:04:22.406562+00:00",
+        "type": "bookmark"
+      },
+      {
+        "pos": "epubcfi(/4/2/4/12[pgepubid00001]/1:32)",
+        "pos_type": "epubcfi",
+        "timestamp": "2026-09-20T16:06:45.199939+00:00",
+        "type": "last-read"
+      }
+    ],
+    "library_annotations": [
+      {
+        "title": "TEST-SIMULTANEOUS",
+        "pos_type": "epubcfi",
+        "pos": "epubcfi(/4/2/4/12[pgepubid00001]/1:32)",
+        "timestamp": "2026-09-20T16:04:22.406562+00:00",
+        "type": "bookmark"
+      }
+    ],
+    "matching_bookmark": true,
+    "integrity": "ok",
+    "stderr": "",
+    "busy_errors": 0
+  },
+  "handled_close_exited": true,
+  "source_unchanged": true
+}

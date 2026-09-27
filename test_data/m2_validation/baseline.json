@@ -1,0 +1,30 @@
+{
+  "authors": "Wells, H. G. (Herbert George)",
+  "cover": "/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/cover.jpg",
+  "formats": [
+    "/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).epub",
+    "/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).mobi",
+    "/tmp/mediainator-m2-rgqa949y/library/Wells, H. G. (Herbert George)/The Time Machine (32)/The Time Machine - Wells, H. G. (Herbert George).pdf"
+  ],
+  "id": 32,
+  "identifiers": {
+    "gutenberg": "35",
+    "uri": "http://www.gutenberg.org/35"
+  },
+  "languages": [
+    "eng"
+  ],
+  "series_index": 1.0,
+  "tags": [
+    "Science fiction",
+    "mediainator-test-100"
+  ],
+  "title": "The Time Machine",
+  "uuid": "5f5f1561-2e75-46d2-975c-9ecc77c52c07",
+  "format_hashes": {
+    ".epub": "773dd70e5aa8067a5319b83c50015f9733838056e8bc72d9543566b62a288c4b",
+    ".mobi": "fad96fa8e39dfc516242fe5a14067149f5dad1d9be8576341293ddc39a1b183c",
+    ".pdf": "a84e15e8504e4e387201a811ddac994638da9ac538a36c1aaee35f90b0a31383"
+  },
+  "cover_hash": "3d9b536cd4890ae29b32e93b34b1d7d67e700ab154c05c61866772a391e25158"
+}

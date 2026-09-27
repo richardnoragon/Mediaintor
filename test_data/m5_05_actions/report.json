@@ -1,0 +1,60 @@
+{
+  "kind": "M5-05 production actions, not M5-G acceptance",
+  "root": "/tmp/mediainator-m5-05-6crrgted",
+  "library": "/tmp/mediainator-m5-05-6crrgted/library",
+  "seed_unchanged": true,
+  "checks": [
+    {
+      "test": "real_current_values_detect_recovery_conflict",
+      "passed": true
+    },
+    {
+      "test": "review_opens_draft_without_catalog_write",
+      "passed": true
+    },
+    {
+      "test": "explicit_recovered_save_verified",
+      "passed": true
+    },
+    {
+      "test": "successful_save_resolves_durable_recovery",
+      "passed": true
+    },
+    {
+      "test": "resolved_recovery_cleanup_removes_owned_payload",
+      "passed": true
+    },
+    {
+      "test": "real_bulk_review_does_not_write",
+      "passed": true
+    },
+    {
+      "test": "reviewed_bulk_discard_keeps_catalog",
+      "passed": true
+    },
+    {
+      "test": "bulk_cleanup_retains_library_book",
+      "passed": true
+    },
+    {
+      "test": "real_import_preview_available",
+      "passed": true
+    },
+    {
+      "test": "specific_import_journal_review",
+      "passed": true
+    },
+    {
+      "test": "retry_builds_preview_without_running",
+      "passed": true
+    },
+    {
+      "test": "import_cleanup_preserves_source_ebook",
+      "passed": true
+    },
+    {
+      "test": "cleanup_tombstones_survive_projection",
+      "passed": true
+    }
+  ]
+}

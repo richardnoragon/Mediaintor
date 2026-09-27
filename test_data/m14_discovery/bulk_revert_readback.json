@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "M14 copied library, read-only verification",
+  "book_count": 104,
+  "temporary_tag_associations": 0,
+  "books": [
+    {
+      "uuid": "b649898c-c972-4e92-8ebd-6e688ba59831",
+      "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "tags": [
+        "Fantasy",
+        "mediainator-test-100"
+      ]
+    },
+    {
+      "uuid": "95c8f41a-9e08-440b-a73f-38657cee1de2",
+      "title": "A Doll's House : a play",
+      "tags": [
+        "Drama",
+        "mediainator-test-100"
+      ]
+    }
+  ]
+}
